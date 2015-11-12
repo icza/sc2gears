@@ -1,0 +1,35 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.3: Batch uploads/sharing, W-L coloring
+
+
+[hr]
+
+[b]Sc2gears 8.3: Batch uploading and sharing, Win-Loss coloring, Record order to support map vetoing[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh6.googleusercontent.com/-UHNRSxfPGAg/Tp1lrWOn-1I/AAAAAAAAgws/UagKVd7a9t4/s590/replay_list_color_win-loss.png[/img][/url]
+
+[b]Changes and new features in 8.3:[/b]
+--------------------------------------------------------
+
+-[b]The replay sharing feature now supports batch uploads: you can select multiple replays and share all at once![/b]
+When you open the Replay share dialog with multiple replays selected, you can upload all selected replays one-by-one, providing different description for each, or you can choose the "Upload all remaining" button which will upload all selected replays one by one automatically.
+
+-[b]New option in the replay list table: Color Win-Loss[/b]
+If this is checked, the rows in the replay list table will be colored based on the match result: wins will be colored green, losses will be colored red.
+Every replay has winners and losers, [i]the favored player list is the reference[/i]: the players from the favored player list are checked for win-loss.
+
+-[b]Record columns in the Multi-replay analysis now sort by (wins-losses) (the difference).[/b]
+This logic takes the number of played games into consideration contrary to the Win % column.
+You can use the result order to decide which maps to veto down for example. Worst maps (that cause you more loss points) will be at the end of the list (or if you click again to reverse the order: at the top of the list).
+[i]Example:[/i] a record of 4-36-0 (win rate = 11%) will be after a record of 1-10-0 (win rate = 10%) reflecting that a map of 4-36 record gives you more lost points than a map with a record of 1-10.
+[i]Another example:[/i] a record of 10-100-0 will be after a record of 1-10-0 even though having the same 10% win rate reflecting that 10-100 record would give you a lot more lost points.
+
+-New setting on the User interface tab of the Misc settings dialog: "Display info balloon when started minimized"
+You can disable the info balloon that says "Sc2gears has been started minimized." if you enabled Sc2gears to start minimized (in the Window menu) but you don't want this info message to pop up every time you start Sc2gears.
+
+-Fixed a bug where the navigation bar appeared on startup even when it was disabled.
+
+-Fixed a bug which caused some replays with too long chat messages fail to parse.
+
+-Other minor changes and improvements.

@@ -1,0 +1,33 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.1: EAPM, Multi CPU core search/analysis
+
+
+[hr]
+
+[b]Sc2gears 8.1: EAPM, Multi CPU core search and analysis support, Translation updates[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-Ki6vR6goRsc/ToQZlfbOBCI/AAAAAAAAgt0/8zuB_Qbs6Mo/s590/apm_types.png[/img][/url]
+
+[b]Changes and new features in 8.1:[/b]
+--------------------------------------------------------
+
+-[b]Added multi CPU core replay search and analysis support.[/b]
+On the Internal tab of the Misc settings dialog, there's a new setting: "Utilized CPU cores (set 0 to use all)".
+You can set how many CPU cores you'd like Sc2gears to utilize when performing a replay search or a multi-rep analysis.
+Replay search and analysis are at least 1.5x faster when you enable more than 1 cores. 0 is the default value which means Sc2gears will use all cores that are available on your computer.
+
+-[b]Added EAPM support.[/b]
+EAPM stands for Effective APM. EAPM measures the amount of useful/effective commands that would be given by a player in 1 minute.
+The APM chart of the Replay analyzer can now display APM, EAPM and Micro/Macro APM graphs all on the same chart. You can show/hide EAPM and Micro/Macro APMs.
+Details of the EAPM algorithm: [url=https://sites.google.com/site/sc2gears/features/replay-analyzer/apm-types]APM Types[/url]
+You can run tests as to what actions are effective or considered micro if you enter the actions in the Build order import window (available from the File menu). Details about the build order import: [url=https://sites.google.com/site/sc2gears/features/build-order-import]Build order import[/url]
+
+-[b]New option for the Main building control chart: "Calculate until time marker"[/b]
+The larva injections are mostly important in the early-mid game, late game when you are nearly maxed they are somewhat less important.
+If "Calculate until time marker" check box is enabled, spawning ratios and injection gaps will be calculated only until the time marker (click anywhere on the chart to set/change the time marker).
+
+-[b]Complete Chinese and Chinese Traditional translations (for version 8.0) by Hao "digmouse" Wu.[/b]
+
+-[b]Complete German translation (for version 8.0) by Wolfram "Wisgurd" Püchert.[/b]
+

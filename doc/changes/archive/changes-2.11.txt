@@ -1,0 +1,7 @@
+
+
+[b]Changes and new features in 2.11:[/b]
+--------------------------------------------------------
+-The "SC2 auto reps" static replay source was not pointing to the right folder in case of user home relative folders. It is fixed.
+
+-A small bugfix in the multi-replay analysis.

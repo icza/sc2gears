@@ -1,0 +1,16 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.0.1: 
+Sc2gears 5.0.1: 
+
+
+[b]Changes and new features in 5.0.1:[/b]
+--------------------------------------------------------
+
+-Fixed an error which prevented Ladder season granularity to work.

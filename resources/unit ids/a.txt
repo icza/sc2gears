@@ -1,0 +1,59 @@
+   368  Local Player  Select Female Ursadak (Exotic) (1089c)
+   516  Local Player  Select Automaton 2000 (108a0), Deselect all
+  1020  Local Player  Select The Wolves of Korhal (Wolf Statue) (108f8), Deselect all
+  2012  Local Player  Select Female Ursadak (Exotic) (1089c), Deselect all
+  2100  Local Player  Select Automaton 2000 (108a0), Deselect all
+  2212  Local Player  Select Marine (1047c), Deselect all
+  2276  Local Player  Attack; target: Automaton 2000 (2280)
+  2424  Local Player  Attack; target: Female Ursadak (Exotic) (2270)
+  2624  Local Player  Attack; target: x=117.3,y=202.1
+  2688  Local Player  Attack; target: x=116.9,y=202.1
+  2728  Local Player  Attack; target: x=116.4,y=203.2
+  2840  Local Player  Attack; target: x=119.9,y=202.1
+  3048  Local Player  Attack; target: x=120.9,y=201.8
+  3136  Local Player  Right click; target: x=117.6,y=193.4
+  3176  Local Player  Select Beacon (Zerg Large) (10098), Deselect all
+  3376  Local Player  Select Marine (1047c), Deselect all
+  3472  Local Player  Select Xel'Naga Tower (10908), Deselect all
+
+
+Unit ID Automaton 2000          = 0x00ea
+Unit ID Female Ursadak (Exotic) = 0x00e9
+
+^uti^ = unit type id, unit id= ( (1st byte - 1 ) * 0x40 + 2nd byte)
+
+
+ 516  Local Player  Select Automaton 2000 (108a0), Deselect all
+2276  Local Player  Attack; target: Automaton 2000 (2280)
+08 20 00 29 20 37 00 22 80 00 01 03 6a 70 0a 98 9a 82 83 00 10 00 00
+      ^ab.cod^                   ^uti^
+
+
+2012  Local Player  Select Female Ursadak (Exotic) (1089c), Deselect all
+2424  Local Player  Attack; target: Female Ursadak (Exotic) (2270)
+08 20 00 29 20 37 00 22 70 00 01 03 69 68 e7 e5 8a 9e 85 00 10 00 00
+      ^ab.cod^                   ^uti^
+
+                     ^----ID---^
+
+
+
+ab cd ef gh
+22 70 00 01 => 0001089c
+
+0010 0010 0111 0000 0000 0000 0000 0001
+
+0000 0000 0000 0001 0000 1000 1001 1100
+
+
+
+
+22 80 00 01 => 000108a0
+
+0010 0010 1000 0000 0000 0000 0000 0001
+
+0000 0000 0000 0001 0000 1000 1010 0000
+
+
+
+ef gh dx xx

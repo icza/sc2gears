@@ -1,0 +1,32 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.1: League match-up in the Sc2gears DB
+
+[hr]
+
+[big][b]Sc2gears 14.1: League match-up and league match-up filter in the Sc2gears Database[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.1:[/b]
+--------------------------------------------------------
+
+-[b]League match-up and league match-up filter in the Sc2gears Database.[/b]
+In the Replays page of the [url=https://sciigears.appspot.com/User.html]Sc2gears Database User page[/url] there is now a [b]Leagues[/b] column which contains the 1v1 league match-up info of the replay at the time of the game.
+There is also a new filter field above the table: [b]League MU[/b]. This is a league match-up filter similar to the existing race match-up filter. Tool tip shows examples.
+This league match-up info is only available for replays uploaded with Sc2gears 14.1+.
+[i]Tip: Re-upload all your 2.0+ replays and you will see the league info and will be able to search by league match-up.[/i]
+
+-Mouse print (SMPD) version 1.1.
+Smpd files now contain the name (and version) of the application that created them.
+The Sc2gears Database handles both 1.0 and 1.1 versions of Smpd.
+
+-Shortened URLs (addresses) in the Sc2gears Database.
+User page is now available here: https://sciigears.appspot.com/User.html
+API Use page is now available here: https://sciigears.appspot.com/ApiUser.html
+
+-The On-top APM display dialog no longer converts APM values to real-time because from 2.0 SC2 outputs real-time APM (instead of game-time APM).
+
+-Fixed a bug where extended profile info was parsed wrongly for players having both HotS and Wol ladders.
+
+-Other minor changes and improvements.

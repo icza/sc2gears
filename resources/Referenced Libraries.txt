@@ -1,0 +1,14 @@
+
+Java MP3 player:
+	JLayer 1.0.1 library
+	http://www.javazoom.net/javalayer/javalayer.html
+	
+	http://www.javazoom.net/mp3spi/mp3spi.html
+	MP3SPI - MP3 plugin for J2SE
+
+
+Sound samples:
+http://www.soundjay.com
+
+Bzip implementation:
+Taken from Apache Ant

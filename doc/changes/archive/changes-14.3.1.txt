@@ -1,0 +1,34 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.3.1: 
+
+[hr]
+
+[big][b]Sc2gears 14.3.1: [/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.3.1:[/b]
+--------------------------------------------------------
+
+-Declaration of trademark in preparation of what's coming next...
+
+-Corrected the Season #14 start date, added Season #15 start date.
+
+-Other minor optimization.
+
+
+
+
+-TODO Add League development (changing) over time (chart).
+
+-TODO starcraft:// protocol: http://www.teamliquid.net/forum/viewpost.php?post_id=17860182
+
+-TODO separate hots and wol, have 2 distinct ability codes (repository)
+
+-TODO Use Java 7's WatchService, also available on all OS (still have to check if supported).
+
+-TODO add a new tab to the multi-rep analysis: Seasons (Ladder Seasons).
+Another for expansion?
+
+-TODO Add MAC OS-X starter app.

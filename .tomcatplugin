@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/webapp/webapp-root</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>false</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation>w:\sc2gearsdb.war</warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/sc2gearsdb</webPath>
+</tomcatProjectProperties>

@@ -1,0 +1,50 @@
+To translators:
+Changed the translation of the following keys:
+-navigationTree.popup.deleteItem (notice the 3 dots at the end: ... )
+-module.repSearch.tab.results.header.fileDate (translation now says it's Game date not File date)
+-replayops.renameDialog.symbol.date (translation now says only "date of the replay" not "date of the replay file")
+-replayops.renameDialog.symbol.dateTime (translation now says only "date and time of the replay" not "date and time of the replay file")
+
+Sc2gears 2.10: Speed up analysis and search!
+
+
+[b]Changes and new features in 2.10:[/b]
+--------------------------------------------------------
+-[b]A new, automated, internal preprocessed replay caching mechanism.[/b]
+I know that if you have many replays, running multi-rep analysis over and over again can be slow and frustrating.
+From now on Sc2gears manages an internal replay cache system: it's automated, you don't have to do anything, you won't see anything different in the user interface.
+Pre-processed information from each replay participating in a Multi-rep analysis or in replay searches will be cached for further use. This cached information will be available even if you move or rename the original replays (and perform a Multi-rep analysis on them).
+The cache is managed automatically by Sc2gears: it will be created and accessed on-demand, and if it becomes obsolete or invalid, it will be automatically recalculated/updated on demand.
+The first Multi-rep analysis or replay search might run with the "same old speed", but if you repeat the operation, you will get the results really-really fast.
+This internal replay cache is also used for replay searches and for renaming replays.
+You can enable/disable the replay cache in the Misc settings dialog: "Enable internal preprocessed replay cache". You can empty the cache at any time with the "Empty cache..." button.
+If you abort a search or a multi-rep analysis, replays that have been parsed are already cached and will be used if you repeat the operation.
+[i]Approximated performance gain due to the internal cache:[/i] Multi-replay analysis: [b]10x faster![/b], replay search: [b]2x faster[/b] (even though more info is parsed and displayed), replay renaming: [b]2x faster[/b]. The size of cache is [b]by far less than 1%[/b] of the replays.
+
+-Added 2 default, auto-created replay sources: [b]"SC2 auto reps"[/b] and [b]"Auto-saved reps"[/b].
+These 2 replay sources always point to the folders set in the Settings=>Folder settings menu.
+
+-New menu items in the context menu of replay sources and replay lists (right click on the replay sources and lists in the navigation tree):
+[b]Open in Multi-rep analysis:[/b] opens all replays of the replay source/list directly in the Multi-rep analysis (skips the replay search step)
+[b]List all replays:[/b] Lists all replays, just like double clicking on it.
+[b]Open in Replay search for further filtering:[/b] Opens the replay source/list in a replay search, but does not peform a search on it. The filter tab will be selected.
+[b]Rename item...:[/b] Renames the replay source/list.
+The Delete item now asks for confirmation.
+
+-New column in the results of a replay search: [b]APMs[/b]. This column will show the players APM in the replays.
+
+-A new item in the name template engine: [b]<> Player info block[/b].
+You can use the player specific symbols inside this without indices (/p, /r, /R, /P), and all players grouped by teams will be substituted.
+Example: "</p(/r)>" in 2v2 where players are NameA, NameB, NameC, NameD and match-up is PTvsZP will result in: "NameA(P), NameB(T) vs NameC(Z), NameD(P)"
+
+-A new tab in the details of a player in the Multi-rep analysis: [b]Game type records[/b]. This will show the "usual" statistics broken down to game types.
+
+-[b]Added hotkeys to tables:[/b]
+In the results tab of a replay search: pressing Enter or Shift+Enter opens the selected replay in replay analyzer, or if multiple replays are selected, they will be opened in multi-replay analysis; pressing delete will delete the selected replays (asks for confirmation).
+In the Players and Playmates tab in the multi-rep analysis pressing Enter or Shift+Enter opens the selected player.
+
+-Updated the Updater to only patch/replace files that are part of Sc2gears. 
+
+-The template engine still inserted random for races where the player chose Random instead of the final race. This is fixed now.
+
+-Other minor fixes and improvements.

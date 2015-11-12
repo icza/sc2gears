@@ -1,0 +1,30 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 10.6: 1.4.4 support and small changes
+
+[hr]
+
+[big][b]Sc2gears 10.6: 1.4.4 version support and small changes[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh5.googleusercontent.com/--LSeqmsSgh8/T9rXFkzUSiI/AAAAAAAApVg/lu5c_gj7W4I/s730/main_building_control_2.png[/img][/url]
+
+[b]Changes and new features in 10.6:[/b]
+--------------------------------------------------------
+
+-1.4.4 replays are now supported.
+
+-Restructured some tabs in the Multi-replay analysis to avoid confusion/misinterpretation.
+The Maps, Build orders, Chats tab which show global statistics for all players/replays are now put under a "Global Stats" tab indicating that these stats are not your or a specific player's stats.
+
+-The manual replay renaming now skips replays whose new name equals to the old one (and therefore will not wrongly append something like [i]" (2)"[/i]).
+
+-The Game info tab of the Replay analyzer now displays the ladder season for AutoMM (ladder) games.
+This info has also been added to output of the "print-game-info" action of the [url=https://sites.google.com/site/sc2gears/features/command-line-interface]Command Line Interface[/url].
+
+-Slightly changed the order of the chart types in the Replay analyzer due to shifted importance...
+
+-Added some new (not-yet-included) icons (for name template symbols and actions).
+
+-The Coreplays.net replay site has been shut down and therefore removed from the replay sharing dialog.
+
+-Other minor changes and improvements.

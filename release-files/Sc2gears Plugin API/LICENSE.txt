@@ -1,0 +1,21 @@
+LICENSE version 1.0 2011-07-12
+
+Project Sc2gears
+Home page: https://sites.google.com/site/sc2gears/
+
+More info about the Sc2gears Plugin API:
+https://sites.google.com/site/sc2gears/features/plugin-interface
+
+
+Copyright (c) 2010-2014 Andras Belicza <iczaaa@gmail.com>
+
+This software is the property of Andras Belicza.
+The software is distributed freely from the home page.
+The software is provided "as is" with no warranty. The author cannot be held responsible for damages caused by the software. 
+Copying, modifying, distributing, refactoring without the author's permission
+is prohibited and protected by Law.
+
+You should have received a copy of this license along with the product.
+If not or you found that someone violated the terms, please contact the author.
+
+I reserve the right to change the license at any time without any warrant.

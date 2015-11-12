@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Sc2gears Builder" default="createRelease" basedir=".">
+	
+	<description>
+		Sc2gears Builder. Can create releases and build the Plugin API.
+	</description>
+	
+	<!-- Folder properties -->
+	
+	<property name="appF"          value="app-folder"/>
+	<property name="rootRF"        value="release"/>
+	<property name="sc2gearsRF"    value="${rootRF}/Sc2gears"/>
+	<property name="userContentRF" value="${sc2gearsRF}/User content"/>
+	
+	<!-- Targets -->
+	
+	<target name="init" description="Clears the release (target) folders">
+		<delete dir="${sc2gearsRF}"/>
+		<mkdir  dir="${sc2gearsRF}"/>
+	</target>
+	
+	<target name="createRelease" depends="init" description="Creates an Sc2gears release">
+		<!-- Create folders-->
+		<mkdir dir="${userContentRF}/Logs"/>
+		<mkdir dir="${userContentRF}/Replay sources"/>
+		<mkdir dir="${userContentRF}/Plugin settings"/>
+		<mkdir dir="${userContentRF}/Replay lists"/>
+		<mkdir dir="${userContentRF}/Replay cache"/>
+		<mkdir dir="${userContentRF}/Profile cache"/>
+		<mkdir dir="${sc2gearsRF}/lib-updater"/>
+		
+		<!-- Copy static files -->
+		<copy todir="${sc2gearsRF}/Languages" preservelastmodified="true">
+			<fileset dir="${appF}/Languages"/>
+		</copy>
+		<copy todir="${sc2gearsRF}/lib" preservelastmodified="true">
+			<fileset dir="${appF}/lib"/>
+		</copy>
+		<copy todir="${sc2gearsRF}" preservelastmodified="true">
+			<fileset dir="release-files/Sc2gears"/>
+		</copy>
+		
+		<!-- Create sc2gears-updater.jar -->
+		<!-- jar cvfm release\Sc2gears\lib-updater\Sc2gearsUpdater.jar release-files\updater-manifest.mf -C bin-shared hu/belicza/andras/sc2gears/shared -C bin-updater . -->
+		<jar>
+		</jar>
+		
+		<!-- Create sc2gears.jar -->
+		<!-- jar cvfm release\Sc2gears\lib\Sc2gears.jar release-files\Sc2gears-manifest.mf -C release-files org.apache_LICENSE.txt -C bin-shared hu/belicza/andras/sc2gears/shared -C bin . -C bin-sc2gearspluginapi hu/belicza/andras/sc2gearspluginapi -C war/WEB-INF/classes hu/belicza/andras/sc2gearsdbapi -->
+		<jar>
+		</jar>
+		
+		<!-- Index jars -->
+		
+	</target>
+	
+	<target name="createPluginAPIRelease" depends="init" description="TODO">
+	</target>
+	
+	<target name="createProjectBackup" description="TODO">
+	</target>
+	
+</project>

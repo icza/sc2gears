@@ -1,0 +1,27 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.9: Map attributes, Plugin API 2.7
+
+
+[hr]
+
+[b]Sc2gears 8.9: Map attributes, Plugin API 2.7[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-d5keFQ2wK9I/TuhyhnzNRwI/AAAAAAAAhZQ/1K_xuk2DHYY/s730/spawn_larva_development.png[/img][/url]
+
+[b]Changes and new features in 8.9:[/b]
+--------------------------------------------------------
+
+-[b]Map attributes are now parsed and displayed on the Map preview tab in the Replay analyzer.[/b]
+Map attributes include Map name, Author, short and long description. You can choose to display map attributes from all the available languages/locales.
+
+-If a replay cannot be parsed fully due to errors, a [b]"Parsing error!"[/b] text is displayed above the action list in the Replay analyzer.
+
+-[b]Plugin API 2.7. Changes and additions:[/b]
+ * NewReplayListener is replaced by ReplayAutosaveListener (the new one also passes the auto-saved replay file; the old one has been deprecated).
+ * New enum value: ReplayFactoryApi.ReplayContent.MAP_ATTRIBUTES
+ * Several new methods in IMapInfo to access map attributes of a replay.
+ * New methods in InfoApi to get player alias and map alias info.
+ * New method in IReplay to get the origin of the replay (where/how the replay was assembled).
+ * New method: IGameEvents.isErrorParsing() which tells if there were errors parsing the game events.
+

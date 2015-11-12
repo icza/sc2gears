@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<title>Battle.net Profile Loader - Sc2gears Database</title>
+	
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-4884955-25']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	
+</head>
+
+<body><center>
+
+<img src="images/sc2gears_logo.png" width=351 height=48 border=0>
+
+<p><img src="images/loading.gif" width=16 height=16 border=0> <i><span id="player">Player</span>'s Battle.net profile page is being loaded...</i></p>
+
+<script type="text/javascript">
+qs = document.location.search.split( "+" ).join( " " );
+var tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+while ( tokens = re.exec( qs ) ) {
+	if ( decodeURIComponent( tokens[ 1 ] ) == "player" ) {
+		document.getElementById( "player" ).innerHTML = decodeURIComponent( tokens[ 2 ] );
+		break;
+	}
+}
+</script>
+
+</center></body>
+
+</html>

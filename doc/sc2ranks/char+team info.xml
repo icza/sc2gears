@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <bnet-id type="integer">206154</bnet-id>
+  <updated-at type="datetime">2011-05-10T07:28:24Z</updated-at>
+  <achievement-points type="integer">1025</achievement-points>
+  <region>eu</region>
+  <portrait>
+    <icon-id type="integer">2</icon-id>
+    <column type="integer">2</column>
+    <row type="integer">3</row>
+  </portrait>
+  <name>SCIIGears</name>
+  <teams type="array">
+    <team>
+      <world-rank type="integer">18889</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">49</division-rank>
+      <division>Division Duke Epsilon</division>
+      <fav-race>random</fav-race>
+      <league>platinum</league>
+      <updated-at type="datetime">2011-05-09T21:50:40Z</updated-at>
+      <region-rank type="integer">5740</region-rank>
+      <wins type="integer">2</wins>
+      <bracket type="integer">3</bracket>
+      <is-random type="boolean">false</is-random>
+      <points type="integer">20</points>
+      <losses type="integer">0</losses>
+    </team>
+    <team>
+      <world-rank type="integer">37436</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">95</division-rank>
+      <division>Division Void Ray Lambda</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-10T07:13:14Z</updated-at>
+      <region-rank type="integer">12097</region-rank>
+      <wins type="integer">3</wins>
+      <bracket type="integer">2</bracket>
+      <is-random type="boolean">false</is-random>
+      <points type="integer">0</points>
+      <losses type="integer">0</losses>
+    </team>
+    <team>
+      <world-rank type="integer">11637</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">26</division-rank>
+      <division>Division Khaydarin Charlie</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-10T07:28:17Z</updated-at>
+      <region-rank type="integer">3295</region-rank>
+      <wins type="integer">25</wins>
+      <bracket type="integer">2</bracket>
+      <is-random type="boolean">true</is-random>
+      <points type="integer">189</points>
+      <losses type="integer">0</losses>
+    </team>
+    <team>
+      <world-rank type="integer">37436</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">89</division-rank>
+      <division>Division Zeratul Gravity</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-10T11:48:06Z</updated-at>
+      <region-rank type="integer">12097</region-rank>
+      <wins type="integer">1</wins>
+      <bracket type="integer">2</bracket>
+      <is-random type="boolean">false</is-random>
+      <points type="integer">0</points>
+      <losses type="integer">0</losses>
+    </team>
+    <team>
+      <world-rank type="integer">5512</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">42</division-rank>
+      <division>Division Corsair Upsilon</division>
+      <fav-race>random</fav-race>
+      <league>master</league>
+      <updated-at type="datetime">2011-05-10T01:36:17Z</updated-at>
+      <region-rank type="integer">1658</region-rank>
+      <wins type="integer">9</wins>
+      <bracket type="integer">4</bracket>
+      <is-random type="boolean">true</is-random>
+      <points type="integer">139</points>
+      <losses type="integer">0</losses>
+    </team>
+    <team>
+      <world-rank type="integer">77416</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">87</division-rank>
+      <division>Division Hanson Psi</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-10T04:49:23Z</updated-at>
+      <region-rank type="integer">22437</region-rank>
+      <wins type="integer">3</wins>
+      <bracket type="integer">1</bracket>
+      <is-random type="boolean">false</is-random>
+      <points type="integer">0</points>
+      <losses type="integer">0</losses>
+    </team>
+    <team>
+      <world-rank type="integer">2678</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">1</division-rank>
+      <division>Division Gantrithor Upsilon</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-08T02:16:31Z</updated-at>
+      <region-rank type="integer">725</region-rank>
+      <wins type="integer">46</wins>
+      <bracket type="integer">3</bracket>
+      <is-random type="boolean">true</is-random>
+      <points type="integer">586</points>
+      <losses type="integer">0</losses>
+    </team>
+    <team>
+      <world-rank type="integer">37436</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">90</division-rank>
+      <division>Division Pylon Mars</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-09T17:47:50Z</updated-at>
+      <region-rank type="integer">12097</region-rank>
+      <wins type="integer">1</wins>
+      <bracket type="integer">2</bracket>
+      <is-random type="boolean">false</is-random>
+      <points type="integer">0</points>
+      <losses type="integer">0</losses>
+    </team>
+  </teams>
+  <id type="integer">221850</id>
+  <character-code type="integer">387</character-code>
+</hash>

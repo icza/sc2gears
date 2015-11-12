@@ -1,0 +1,18 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 4.4.1: 
+Sc2gears 4.4.1: 
+
+
+[b]Changes and new features in 4.4.1:[/b]
+--------------------------------------------------------
+
+-Switched to a new back-end server which seems much faster, reliable and now everything is done over a secure connection (HTTPS).
+
+-Replaced the linux and OS-X starter scripts which contain proper OS dependent line terminator characters.

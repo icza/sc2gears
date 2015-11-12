@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="src" path="src-common"/>
+	<classpathentry kind="src" path="src-sc2gearsdb"/>
+	<classpathentry kind="src" output="bin-util" path="src-util"/>
+	<classpathentry kind="src" output="bin-updater" path="src-updater"/>
+	<classpathentry kind="src" output="bin-shared" path="src-shared"/>
+	<classpathentry kind="src" output="bin-sc2gearspluginapi" path="src-sc2gearspluginapi"/>
+	<classpathentry kind="src" output="bin-plugins" path="src-plugins"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="app-folder/lib/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="app-folder/lib/jna.jar"/>
+	<classpathentry kind="lib" path="app-folder/lib/mp3spi1.9.4.jar"/>
+	<classpathentry kind="lib" path="app-folder/lib/OfficeLnFs_2.7.jar"/>
+	<classpathentry kind="lib" path="app-folder/lib/platform.jar"/>
+	<classpathentry kind="lib" path="app-folder/lib/squareness.jar"/>
+	<classpathentry kind="lib" path="app-folder/lib/tritonus_share.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/v2"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

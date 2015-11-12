@@ -1,0 +1,18 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 6.0.1: 
+Sc2gears 6.0.1: 
+
+[b]Changes and new features in 6.0.1:[/b]
+--------------------------------------------------------
+
+-Player full names have been added to the game info tab in the Replay analyzer and to the command line export.
+
+-Removed a debug line that was left in accidentally and which periodically logged file modification dates therefore increasing and cluttering the logs.

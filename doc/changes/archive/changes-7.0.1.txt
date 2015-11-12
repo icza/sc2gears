@@ -1,0 +1,27 @@
+To translators:
+
+Removed keys:
+-module.startPage.channel.latestSc2gearsDatabaseNews
+-module.startPage.channel.allSc2gearsDatabaseNews
+
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.0.1: 
+Sc2gears 7.0.1: 
+
+[b]Changes and new features in 7.0.1:[/b]
+--------------------------------------------------------
+
+-Fixed a bug which caused incorrect values in the [i]"Replays"[/i] and [i]"Replays %"[/i] columns in the overall [i]"Chat words"[/i] tab in the Multi-rep analysis.
+
+-Removed the Sc2gears Database News Start page channels ([i]"Latest"[/i] and [i]"All"[/i]).
+
+-Plugin API 1.0.1:
+ * Fixed a few typos in method names, the old methods are still in the API but are marked as deprecated (will be removed in the future)
+ * Added a new info method: InfoApi.isRealTimeConversionEnabled()
+ * Added VERSION field to all API interfaces
+ * The API Javadoc is now available on the web: [url=http://sc2gearsdb.appspot.com/sc2gears-plugin-api/index.html]Sc2gears Plugin API Javadoc[/url]

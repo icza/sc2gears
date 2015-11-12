@@ -1,0 +1,72 @@
+To translators:
+
+Changed the translation of text keys:
+-module.multiRepAnal.tab.players.info
+-module.multiRepAnal.tab.player.tab.charts.chartType.raceDistribution.yAxisLabel (the last letter was the letter of Random, now it is the letter of the race Unknown) 
+
+Removed keys:
+-module.multiRepAnal.tab.maps.header.1v1RWinRatio
+-module.multiRepAnal.tab.player.tab.1v1MatchupRecords.title
+-module.multiRepAnal.tab.player.tab.1v1MatchupRecords.header.matchup (transformed into key: module.multiRepAnal.tab.player.tab.matchupRecords.header.matchup)
+
+It was recommended to leave the race letters unchanged. Now it's safe to change it to the letters in your language:
+-sc2.race.protoss.letter
+-sc2.race.terran.letter
+-sc2.race.zerg.letter
+
+
+Sc2gears 2.00: Favored player list, eliminated random and more...
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh4.ggpht.com/_jDMClHrENz8/TISUwKuzEbI/AAAAAAAAV_I/CTEX-yKjbE8/s400/apm2_chart.png.jpg[/img][/url]
+
+
+[b]Changes and new features in 2.00:[/b]
+--------------------------------------------------------
+-[b]The Match-up records feature of the Multi-replay analysis has been extended to all game formats: 1v1, 2v2, 3v3, 4v4, FFA.[/b]
+The 1v1 match-up records tab transformed to another tabbed pane called "Match-up records", each format has its own tab inside of it.
+Now the match-up records also show the summarized statistics with all of your team race combo vs each specific opponent race combo.
+For example in 1v1 not just Pv* but *vP too. 
+
+-New option in the Misc settings dialog: [b]Favored player list[/b]: a comma separated list of player names to put ahead of other players when applying name templates or when displaying search results. Case sensitive!
+If there are player names provided here, they and their team will be put ahead of other players and teams. The order of players will define their precedence.
+If multiple favored players are part of the same team, they will be rearranged inside the team too.
+
+-New option in the Misc settings dialog: [b]Rearrange players in replay analyzer too[/b].
+If this is enabled (by default it is), the favored player list will also be applied in the replay analyzer, so the favored players and teams will be put ahead of others.
+
+-New option in the Misc settings dialog: [b]Build order length in Multi-rep analysis[/b].
+Now you can change how many buildings you want to see in the build orders. The default is 6 buildings. Increasing this value will increase the detected build orders.
+
+-[b]Random has been eliminated.[/b] The Multi-replay analysis now shows summarized statistics for the final races of players (the chosen concrete race or the race that random turned out to be).
+The race letters and race match-ups in case of name templates now substitutes the final race too instead of R (for Random).
+The Game info tab and the race icon next to the player names still shows if the chosen race was random.
+
+-New columns in the 1v1 build order tabs in the Multi-rep analysis: [b]Record vs P[/b], [b]Record vs T[/b], [b]Record vs Z[/b].
+Obviously a build order is not effective vs all races. These new columns will show you the record of the build orders vs each of the races.
+
+-New option in the Misc settings dialog: [b]Initial time to exclude from APM calculation (in game-time)[/b].
+Defaults to 110 seconds game-time (which is 79.4 seconds in real-time on faster game speed).
+
+-New option in the Misc settings dialog: [b]Delete successfully auto-saved replays[/b].
+
+-New menu items in the Player menu: [b]Add to the favored player list[/b], [b]Remove from the favored player list[/b], [b]Insert to the favored player list before player[/b].
+In the last menu you will see the current favored players, and you can choose where to insert the player in the favored player list. 
+
+-[b]The player menu is now available in the Multi-replay analysis too[/b]: if you right click on a player in the Players table or in the Playmates table, the player menu of the player will appear and you can view his/her character profile for example.
+You can now also double-click on a player in the Playmates table to open the details of the player.
+An "Open player" menu item is also added to the player menu in the Multi-rep analysis. 
+
+-New option in the Misc settings dialog: [b]Auto-open new replays[/b].
+This option comes really handy for those who have dual monitor and leave Sc2gears open on the other monitor. Whenever they finish a game, the replay will be opened on the other monitor, so you can see the stats you're interested in without having to minimize StarCraft 2.
+
+-New option in the Misc settings dialog: [b]Charts-action list partitioning in replay analyzer[/b].
+With this setting you can control the initial space distribution amongst the charts and the action list when opening a replay in the replay analyzer. It's a percent value between 0..100. A value of 0% will hide the chart by default, a value of 100% will hide the action list by default.
+Of course you can resize them by dragging the splitter with the mouse. This can be useful for those who only look at the charts and do not care about the action list.
+
+-New menu item in the player context menu: Show only this player.
+
+-Added a voice selection combo box to the Welcome frame.
+
+-Removed the InfoNode Look and Feel due to licensing problems.
+
+-Other minor improvements and bug fixes.

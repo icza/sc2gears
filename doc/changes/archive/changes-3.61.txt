@@ -1,0 +1,17 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+Sc2gears 3.61: 
+Sc2gears 3.61: 
+
+
+[b]Changes and new features in 3.61:[/b]
+--------------------------------------------------------
+
+-Fixed a bug where sub-folders were not applied properly in the auto-saved name template.
+
+-Updated the Spanish language file (still incomplete).

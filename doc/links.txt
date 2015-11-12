@@ -1,0 +1,89 @@
+
+https://github.com/GraylinKim/sc2reader/wiki
+
+Sc2replay parsers:
+http://code.google.com/p/phpsc2replay/
+https://github.com/GraylinKim/sc2reader
+	https://github.com/GraylinKim/sc2reader/wiki
+https://github.com/ascendedguard/sc2replay-csharp
+
+
+Match-up icon base:
+http://www.sc2kaki.com/images/sc2race/Random.png
+
+
+
+SC2Replay format:
+http://code.google.com/p/starcraft2replay/w/list
+http://trac.erichseifert.de/warp/
+	http://trac.erichseifert.de/warp/wiki/SC2ReplayFormat
+	http://trac.erichseifert.de/warp/browser/trunk/src/main/java/de/erichseifert/warp
+http://topic.csdn.net/u/20100301/23/4004C7C6-3927-4845-8254-0A07938D09AB.html
+http://projects.coderbasement.com/projects/sc2replay/documents
+	http://projects.coderbasement.com/repositories/browse/sc2replay/trunk/src
+http://code.google.com/p/vgce/source/browse/trunk/docs/Blizzard/Starcraft+II/
+	http://code.google.com/p/vgce/source/browse/trunk/docs/Blizzard/Starcraft%20II/replays.txt
+	http://code.google.com/p/vgce/source/browse/trunk/docs/Blizzard/Starcraft%20II/gameActions.txt
+	http://code.google.com/p/vgce/source/browse/trunk/docs/Blizzard/Starcraft+II/MapInfo.txt
+http://darkblizz.org/Forum2/starcraft-ii-beta/anyone-working-on-decode-the-replay-file-format/
+	http://darkblizz.org/Forum2/profile/?area=showposts;u=2287
+http://www.sc2armory.com/forums/topic/12431/page:3
+http://phpmpq.codeplex.com/wikipage?title=SC2Replay&referringTitle=Documentation
+http://sc2replayparser.codeplex.com/
+	http://sc2replayparser.codeplex.com/SourceControl/list/changesets
+http://github.com/dcramer/nibbits-shared
+	http://github.com/dcramer/nibbits-shared/blob/master/sc2/parsers/replays.py
+http://wowbox.yatta.com.tw/bbs/viewtopic.php?f=108&t=20359
+http://www.sourcepeek.com/wiki/Category:SC2Replay_Files
+http://sc2.nibbits.com/forums/17/view/425/replay-event-parsing
+Prometheus2010's project:
+	http://sourceforge.net/projects/replaylib/
+	http://sc2.nibbits.com/community/u/Prometheus/posts/?&p=1
+
+Example replays:
+http://www.sc2rc.com
+	(has metainfo about reps)
+http://www.sc2topreplays.com/UserReplays.aspx
+	(has metainfo and chat)
+
+
+Look And Feels:
+http://www.javootoo.com/plaf/notskinnable.html
+
+Office 2003 LAF
+2.7, BSD-style license
+http://fifesoft.com/officelnfs/
+
+EaSynth LAF
+1.06 version, Apache License 2.0
+http://www.easynth.com/
+http://www.easynth.com/freewares/EaSynthLookAndFeel.html
+
+InfoNode LAF
+1.6.1, GPL License
+http://www.infonode.net/index.html?ilf
+
+
+MPQ format:
+http://wiki.devklog.net/index.php?title=The_MoPaQ_Archive_Format
+http://en.wikipedia.org/wiki/MPQ
+http://www.zezula.net/mpq.html
+https://libmpq.org/
+http://qstuff.blogspot.com/2007/12/musings-on-mopaq-format.html
+http://wapedia.mobi/en/MPQ
+
+
+MPQ utils:
+http://www.zezula.net/mpq.html
+http://shadowflare.samods.org/dwnload.html
+
+
+Resizing components in Swing Nimbus LAF
+http://java.sun.com/docs/books/tutorial/uiswing/lookandfeel/size.html
+
+Favicon generator:
+http://tools.dynamicdrive.com/favicon/
+
+Online image slicer (cut images to small ones, used for slicing high-res portrait images):
+http://www.htmlkit.com/services/is/
+http://www.htmlkit.com/services/

@@ -1,0 +1,46 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar></jar>
+  <outfile>W:\Sc2gears\Sc2gears.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl>https://sites.google.com/site/sc2gears/</supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>W:\Sc2gears\Sc2gears.ico</icon>
+  <classPath>
+    <mainClass>hu/belicza/andras/sc2gears/Sc2gears</mainClass>
+    <cp>lib/Sc2gears.jar</cp>
+    <cp>lib/jna.jar</cp>
+    <cp>lib/platform.jar</cp>
+    <cp>lib/jl1.0.1.jar</cp>
+    <cp>lib/mp3spi1.9.4.jar</cp>
+    <cp>lib/tritonus_share.jar</cp>
+    <cp>lib/squareness.jar</cp>
+    <cp>lib/OfficeLnFs_2.7.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <opt>-Xmx512m</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0</txtFileVersion>
+    <fileDescription>Sc2gears</fileDescription>
+    <copyright>András Belicza</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0</txtProductVersion>
+    <productName>Sc2gears home: https://sites.google.com/site/sc2gears/</productName>
+    <companyName>Andr�s Belicza</companyName>
+    <internalName>Sc2gears</internalName>
+    <originalFilename>Sc2gears.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

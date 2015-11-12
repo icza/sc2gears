@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<language subversion="1" translatorFirstName="Pavel" translatorLastName="GOTTADOFAST" version="12.4">
+<dateFormat>yyyy-MM-dd</dateFormat>
+<timeFormat>HH:mm:ss</timeFormat>
+<dateTimeFormat>yyyy-MM-dd HH:mm:ss</dateTimeFormat>
+<personNameFormat>firstName lastName</personNameFormat>
+<g k="translationTool">
+<g k="tab.texts">
+<g k="table.header">
+<t k="originalText">Оригинальный текст</t>
+</g>
+<t k="comments">Комментарии:</t>
+<t k="nextButtonToolTip">Перейти на следующий не переведенный текст</t>
+<t k="showOnlyUntranslated">Показать только непереведённое</t>
+<t k="previousButtonToolTip">Перейти на предыдущий не переведенный текст</t>
+<t k="originalTextPreview">Просмотр оригинального текста</t>
+</g>
+<g k="tab.generalInfo">
+<t k="timeFormat">Формат времени:</t>
+<t k="title">Главная информация</t>
+<t k="dateFormat">Формат даты:</t>
+<t k="dateTimeFormat">Формат даты+времени:</t>
+</g>
+<t k="chooseLanguageToEdit">Выберите язык для редактирования</t>
+<t k="orCreateNewTranslationWithName">Или создайте превод с именем:</t>
+<t k="changesSavedSuccessfully">Изменения были успешно сохранены.</t>
+</g>
+<g k="button">
+<t k="restoreDefaults">_Восстановить значения по умолчанию</t>
+<t k="ok">_ОК</t>
+<t k="no">Н_ет</t>
+<t k="close">Закр_ыть</t>
+<t k="cancel">От_мена</t>
+<t k="yes">Д_а</t>
+</g>
+<g k="overlayCharts"/>
+<g k="mousePracticeGame">
+<t k="startButton">_Старт</t>
+</g>
+<g k="diagnosticTool">
+<g k="header"/>
+<g k="test">
+<g k="checkMousePrintAutoStoreSetting"/>
+<g k="checkPlugins"/>
+<g k="checkMousePrintAutoSave"/>
+<g k="checkSc2AutoRepFolder"/>
+<g k="checkMemory"/>
+<g k="checkJavaVersion"/>
+<g k="checkAuthorizationKey"/>
+<g k="checkReplayAutoStoreSetting"/>
+</g>
+<g k="result"/>
+</g>
+<g k="menu">
+<g k="window">
+<t k="cascadeAllWindows">Расположить все окна _каскадом</t>
+<t k="fullscreen">_Во весь экран</t>
+<t k="tileVisibleWindows">Расположить видимые окна маза_йкой</t>
+<t k="tileAllWindows">Расположить все окна _мазайкой</t>
+<t k="cascadeVisibleWindows">Расположить видимые окна к_аскадом</t>
+<t k="useVerticalTileStrategy">Располагать новые окна_ вертикальной мазайкой</t>
+<t k="closeAll">Закр_ыть все окна</t>
+<t k="mimimizeToTray">_Свернуть в трей</t>
+<t k="minimizeAll">Св_ернуть все окна</t>
+</g>
+<g k="help">
+<t k="visitHomePage">Посетить _сайт программы</t>
+<t k="viewVersionHistory">Прос_мотреть историю изменений</t>
+<t k="viewFaq">Посмотреть FA_Q</t>
+<t k="viewSystemMessages">Посмотреть с_истемные сообщения</t>
+<t k="visitForum">Посетить _форум</t>
+<t k="about">О прог_рамме $0</t>
+<t k="checkUpdates">Про_верить наличие обновлений</t>
+</g>
+<g k="navigation">
+<t k="expandAll">_Развернуть всё</t>
+<t k="navbarPosition">Р_асположение панели навигации</t>
+<t k="useSmallFont">_Использовать мелкий шрифт</t>
+<t k="refreshTree">_Обновить деревео навигации</t>
+<t k="showNavbar">_Показать панель навигации</t>
+<t k="collapseAll">_Свернуть всё</t>
+<t k="navbarPosition.left">_Слева</t>
+<t k="navbarPosition.right">Спр_ава</t>
+</g>
+<g k="tools">
+<t k="gameTimeRealTimeConverter">_Игровое время - Реальное время конвертер</t>
+<t k="translationTool">Инструменты _перевода</t>
+<t k="pluginManager">Мереджер _плагинов</t>
+<t k="diagnosticTool">Инструменты _диагностики</t>
+</g>
+<g k="settings">
+<g k="language.leetTranslation.leetnessLevel"/>
+<t k="voice">Го_лос</t>
+<t k="enableVoiceNotifications">Включ_ить уведомления голосом</t>
+<t k="language">_Язык (необходим перезапуск)</t>
+<t k="checkUpdatesOnStartup">_Проверка обновлений при запуске...</t>
+<t k="enableReplayAutoSave">_Включить автосохранение реплеев</t>
+<t k="miscellaneous">Дополнительные _настройки...</t>
+<t k="saveOnExit">Сохранить настройки при в_ыходе</t>
+<t k="laf">_Скин интерфейса</t>
+<t k="saveNow">Сохранить настройки сей_час</t>
+</g>
+<g k="file">
+<t k="startStarCraft2Editor">Запуск _редактор StarCraft II</t>
+<t k="openReplay">От_крыть реплей...</t>
+<t k="exit">В_ыход</t>
+<t k="startStarCraft2">_Запуск StarCraft II</t>
+<t k="recentReplays">_Последние реплеи</t>
+<t k="openLastReplay">Открыть _последний реплей</t>
+</g>
+<t k="file">_Файл</t>
+<t k="plugins">_Плагины</t>
+<t k="plugins.info">Вещи добавленные плагинами:</t>
+<t k="settings">На_стройки</t>
+<t k="help">По_мощь</t>
+<t k="navigation">_Навигация</t>
+<t k="window">_Окно</t>
+<t k="tools">Инс_трументы</t>
+</g>
+<g k="sc2">
+<g k="gameType">
+<t k="singlePlayer">Одиночная игра</t>
+<t k="private">Закрытая</t>
+<t k="public">Общедоступная</t>
+<t k="amm">АММ</t>
+</g>
+<g k="unitTier"/>
+<g k="difficulty">
+<t k="medium">Средний</t>
+<t k="veryHard">Очень сложный</t>
+<t k="veryEasy">Очень легкий</t>
+<t k="easy">Легкий</t>
+<t k="hard">Сложный</t>
+<t k="insane">Безумный</t>
+</g>
+<g k="gateway">
+<t k="asia">Азия</t>
+<t k="america">Америка</t>
+<t k="southeastAsia">Юго-восточная азия</t>
+<t k="europe">Европа</t>
+<t k="china">Китай</t>
+</g>
+<g k="gameSpeed">
+<t k="slow">Медленная</t>
+<t k="fast">Быстрая</t>
+<t k="faster">Очень быстрая</t>
+<t k="normal">Средняя</t>
+<t k="slower">Очень медленная</t>
+</g>
+<g k="color">
+<t k="blue">Синий</t>
+<t k="orange">Оранжевый</t>
+<t k="darkGray">Темно-серый</t>
+<t k="teal">Бирюзовый</t>
+<t k="red">Красный</t>
+<t k="purple">Фиолетовый</t>
+<t k="violet">Фиолетовый</t>
+<t k="yellow">Желтый</t>
+<t k="pink">Розовый</t>
+<t k="darkGreen">Темно-зеленый</t>
+<t k="green">Зелёный</t>
+<t k="lightGray">Светло-серый</t>
+<t k="lightGreen">Светло-зеленый</t>
+<t k="brown">Коричневый</t>
+<t k="lightPink">Светло-розовый</t>
+</g>
+<g k="playerType">
+<t k="human">Человек</t>
+<t k="computer">Компьютер</t>
+</g>
+<g k="region">
+<t k="taiwan">Тайвань</t>
+<t k="southeastAsia">Юго-Восточная Азия</t>
+<t k="china">Китай</t>
+<t k="europe">Европа</t>
+<t k="russia">Россия</t>
+<t k="latinAmerica">Латинская Америка</t>
+<t k="korea">Корея</t>
+<t k="northAmerica">Северная Америка</t>
+</g>
+<g k="actionType">
+<t k="other">Другое</t>
+<t k="build">Строительство</t>
+<t k="select">Выбор</t>
+<t k="inaction">Бездействие</t>
+<t k="research">Исследование</t>
+<t k="train">Обучение</t>
+<t k="upgrade">Апгрейд</t>
+</g>
+<g k="matchResult"/>
+<g k="race">
+<t k="random.letter">R</t>
+<t k="zerg">Зерг</t>
+<t k="random">Случайная</t>
+<t k="terran.letter">T</t>
+<t k="protoss">Протосс</t>
+<t k="zerg.letter">Z</t>
+<t k="terran">Терран</t>
+<t k="protoss.letter">P</t>
+<t k="any.letter">*</t>
+</g>
+</g>
+<g k="pluginManager">
+<g k="details">
+<t k="apiVersion">Версия API</t>
+<t k="configurePluginButton">Настроить плагин:</t>
+<t k="releaseDate">Дата релиза:</t>
+<t k="name">Имя:</t>
+<t k="version">Версия:</t>
+<t k="enablePluginButton">Включить плагин</t>
+<t k="email">Почта:</t>
+<t k="pluginIsIncompatible">Плагин несовместим!</t>
+<t k="disablePluginButton">Отключить плагин</t>
+<t k="author">Автор:</t>
+<t k="homePage">Домашняя страница:</t>
+<t k="selectPlugin">&lt;выберите плагин&gt;</t>
+<t k="pluginIsCompatible">Плагин совместим.</t>
+</g>
+<g k="status">
+<t k="enabledFailedToStart">Не удалось запустить плагин!</t>
+<t k="enabledStopped">Плагин остановлен</t>
+<t k="disabled">Плагин отключен.</t>
+<t k="enabledRunning">Плагин запущен</t>
+</g>
+<t k="title">Менеджер плагинов</t>
+<t k="disableAllPluginsButton">Отключить все плагины</t>
+<t k="enableAllPluginsButton">Включить все плагины</t>
+<t k="installedPlugins">Установить плагины</t>
+</g>
+<g k="fileChooser">
+<t k="saveDialogTitle">Сохранить</t>
+<t k="acceptAllFileFilter">Все файлы (*.*)</t>
+<t k="detailsViewButtonToolTip">Таблица</t>
+<t k="updateButtonToolTip">Обновить листинг папок</t>
+<t k="listViewButtonToolTip">Список</t>
+<t k="filesOfTypeLabel">Типы файлов:</t>
+<t k="updateButton">Обновить</t>
+<t k="sc2ReplayLists">Списки реплеев SC2 (*.csv)</t>
+<t k="saveButton">Сохранить</t>
+<t k="failedToParseRepaly">Ошибка при парсировании реплея!</t>
+<t k="fileNameLabel">Имя файла:</t>
+<t k="lookInLabel">Переход в:</t>
+<t k="helpButtonToolTip">Помощь</t>
+<t k="sc2ReplaySources">Источники реплеев SC2 (*.sc2repsrc)</t>
+<t k="newFolderToolTip">Создать новую папку</t>
+<t k="cancelButtonToolTip">Закрыть окно выбора файлов</t>
+<t k="sc2ReplayFiles">Файлы реплеев SC2 (*.SC2Replay)</t>
+<t k="homeFolderToolTip">Рабочий стол</t>
+<t k="saveButtonToolTip">Сохранить выбранный файл</t>
+<t k="helpButton">Помощь</t>
+<t k="zipFiles">Файлы архивов Zip (*.zip)</t>
+<t k="openButton">Открыть</t>
+<t k="cancelButton">Отмена</t>
+<t k="openButtonToolTip">Открыть выбранный файл</t>
+<t k="upFolderToolTip">На уровень вверх</t>
+<t k="openDialogTitle">Открыть</t>
+</g>
+<g k="privateVideoStreaming">
+<g k="errors">
+<t k="general">Не удалось запустить приватный стрим!</t>
+<t k="robotCreation">Could not create Robot!.</t>
+</g>
+<g k="params">
+<g k="screenCaptureMethod"/>
+<g k="outputVideoSize"/>
+<g k="screenAreaToStream">
+<t k="fullScreen">Во весь экран</t>
+</g>
+</g>
+<g k="stats">
+<g k="viewers"/>
+</g>
+</g>
+<g k="importBuildOrders">
+<t k="gameSpeed">Игровая скорость:</t>
+<t k="team">Команда:</t>
+<t k="clearButton">Очистьть</t>
+</g>
+<g k="findDuplicates"/>
+<g k="newToSc2gears"/>
+<g k="colorChooser"/>
+<g k="gameTimeRealTimeConverter">
+<t k="apmConverter">APM конвертер:</t>
+<t k="realApm">Реальный APM:</t>
+<t k="toGameApmButton">В _игровое APM</t>
+<t k="timeConverter">Конвертер времени:</t>
+<t k="toGameTimeButton">В и_гровое время</t>
+<t k="toRealTimeButton">В р_еальное время</t>
+<t k="toRealApmButton">В _реальное APM</t>
+<t k="ingameTime">Игровое время:</t>
+<t k="gameSpeed">Игровая скорость:</t>
+<t k="ingameApm">Игровой APM:</t>
+<t k="title">Игровое время - Реальное время конвертер</t>
+<t k="realTime">Реальное время:</t>
+</g>
+<g k="mySharedReplays">
+<g k="header"/>
+</g>
+<g k="gridSettings">
+<g k="autoConfigure"/>
+</g>
+<g k="module">
+<g k="repSearch">
+<g k="tab">
+<g k="filters">
+<g k="name">
+<t k="mapName">Имя карты:</t>
+<t k="fileName">Имя файла:</t>
+<t k="result">Результат:</t>
+<t k="building">Постройка:</t>
+<t k="chatMessage">Сообщение в чате:</t>
+<t k="matchupToolTip">Введите шаблон для поиска используя символы: $0 - $1, $2 - $3, $4 - $5, $6 - $7, * для любой расы, v - разделитель комманд. Примеры: $8</t>
+<t k="buildOrder">Билд-ордер:</t>
+<t k="dateToolTip">Введите дату либо дату+время. Пример: $0 или $1</t>
+<t k="gameType">Тип игры:</t>
+<t k="research">Исследование:</t>
+<t k="version">Версия:</t>
+<t k="date">Дата:</t>
+<t k="buildOrderTextToolTip">Введите список построек с запятой в качестве разделителя (регистр не учитывается). Используйте звездочку (*) когда тип постройки неважен</t>
+<t k="format">Формат:</t>
+<t k="apm">APM:</t>
+<t k="playerNameToolTip">Используйте запятую в качестве разделителя при поиске по именам нескольких игроков</t>
+<t k="gateway">Шлюз:</t>
+<t k="race">Расса:</t>
+<t k="playerName">Имя игрока:</t>
+<t k="ladderSeason">Ладдерный сезон:</t>
+<t k="upgrade">Апгрейд:</t>
+<t k="buildOrderAnyBuilding">любая постройка</t>
+<t k="gameLength">Продолжительность игры:</t>
+<t k="unitAbility">Способность боевой единицы:</t>
+<t k="raceMatchup">Расы матч-апа:</t>
+<t k="unit">Боевая единица:</t>
+<t k="buildOrderAddToolTip">Добавить выбранную постройку в Билд-ордер</t>
+<t k="minOccurrenceText">Мин. совпадений:</t>
+</g>
+<t k="performSearchButton">_Произвести поиск</t>
+<t k="title">Фильтры поиска</t>
+<t k="invalidFieldsError">Отмеченные поля содержат неверные значения!</t>
+<t k="max">Макс.:</t>
+<t k="removeFieldToolTip">Удалить поле</t>
+<t k="resetFieldsButton">Сброс_ить поля</t>
+<t k="exactMatch">Точное соответствие</t>
+<t k="saveFiltersButton">Сохранить фильтры...</t>
+<t k="min">Мин.:</t>
+<t k="timeFormatToolTip">Формат: секунды или мин:сек или часы:мин:сек</t>
+<t k="addNewFieldToolTip">Добавить новое поле</t>
+</g>
+<g k="results">
+<g k="header">
+<t k="map">Map</t>
+<t k="comment">Комментарий</t>
+<t k="gateway">Шлюз</t>
+<t k="type">Тип</t>
+<t k="players">Игроки</t>
+<t k="fileDate">Дата файла</t>
+<t k="file">Файл</t>
+<t k="length">Продолжительность</t>
+<t k="version">Версия</t>
+<t k="winners">Победитель</t>
+<t k="raceMatchup">Расы матч-апа</t>
+</g>
+<t k="abortButton">_Отменить поиск</t>
+<t k="removeSelectedMenuItem">Удалить выбранное из таблицы</t>
+<t k="selectLoadReplayList">Выбрать список реплеев для загрузки</t>
+<t k="title">Результаты #$0</t>
+<t k="multiRepAnalysisToolTip">Открыть все реплеи в мульти-реплей анализаторе</t>
+<t k="countingReplays">Подсчет реплеев...</t>
+<t k="loadResult">Загружено реплеев - $0.</t>
+<t k="multiRepAnalysisButton">Мульти-реплей анализ</t>
+<t k="stretchToWindow">Растянуть на всё окно</t>
+<t k="searchAborted">Поиск остановлен!</t>
+<t k="searchStatus">Найдено: $0, Просмотренно: $1, Пропущено: $2, Всего: $3 ($4%)</t>
+<t k="loadButton">Заг_рузить список...</t>
+<t k="saveButton">Сохран_ить список...</t>
+<t k="repListSaved">Список реплеев успешно сохранен.</t>
+<t k="loadingReplayList">Загрузка списка реплеев: $0</t>
+<t k="failedToLoadRepList">Не удалось загрузить список реплеев!</t>
+<t k="failedToSaveRepList">Не удалось сохранить список реплеев!</t>
+<t k="setAsSourceButton">Установить в качестве истоника</t>
+<t k="setSelectedAsSourceMenuItem">Установить выбранное в качестве источника</t>
+<t k="setAsSourceToolTip">Установить все реплеи в качестве источника для последующего поиска</t>
+<t k="selectSaveReplayList">Выбрать список реплеев для сохранения</t>
+</g>
+<g k="source">
+<t k="sortButton">Сортировать</t>
+<t k="purgeButton">_Чистка</t>
+<t k="addFoldersButton">Добавить _папки...</t>
+<t k="removeSelectedButton">_Удалить выбранное</t>
+<t k="purgeButtonToopTip">Удаляет дупликаты и несуществующие пути, а также пути находящиеся в уже добавленных путях.</t>
+<t k="selectFoldersToAdd">Нажмите, чтобы указать папку для добавления</t>
+<t k="listAllReplays">Просмотреть список всех реплеев данного источника</t>
+<t k="loadReplaySourceButton">Загрузить источник реплеев...</t>
+<t k="failedToSaveRepSource">Неудалось сохранить источник реплеев!</t>
+<t k="repSourceSaved">Источник реплеев успешно сохранен.</t>
+<t k="autoSort">Сортировать автоматически</t>
+<t k="addFilesButton">Добавить _файлы...</t>
+<t k="saveReplaySourceButton">Сохранить как источник реплеев...</t>
+<t k="selectReplaysToAdd">Нажмите, чтобы указать реплеи для добавления</t>
+<t k="title">Пути поиска</t>
+<t k="failedToLoadRepSource">Неудалось загрузить источник реплеев!</t>
+<t k="selectSaveReplaySource">Нажмите, чтобы указать источник реплеев для сохранения</t>
+<t k="selectLoadReplaySource">Нажмите, чтобы указать источник реплеев для загрузки</t>
+</g>
+</g>
+<t k="title">Поиск реплеев #$0</t>
+<t k="name">Поиск реплеев</t>
+</g>
+<g k="multiRepAnal">
+<g k="tab">
+<g k="maps">
+<g k="header">
+<t k="1v1ZWinRatio">1v1 Z победы %</t>
+<t k="firstPlayed">Первая игра</t>
+<t k="lastPlayed">Последняя игра</t>
+<t k="replays">Реплеи</t>
+<t k="1v1TWinRatio">1v1 T победы %</t>
+<t k="1v1PWinRatio">1v1 P победы %</t>
+<t k="mapName">Имя карты</t>
+<t k="replaysRatio">Реплеев %</t>
+</g>
+<t k="title">Карты</t>
+<t k="info">Всего карт: $0</t>
+</g>
+<g k="chatWords"/>
+<g k="players">
+<g k="header">
+<t k="replays">Реплеи</t>
+<t k="presence">Присутствие (дни)</t>
+<t k="playerName">Имя игрока</t>
+<t k="avgGameLength">Средняя продолжительность игры</t>
+<t k="lastGame">Последняя игра</t>
+<t k="firstGame">Первая игра</t>
+<t k="record">Счет В-П-Н</t>
+<t k="avgApm">Средний APM</t>
+<t k="totalTimeInGames">Общее время проведенное в игре</t>
+<t k="avgEapm">Средний EAPM</t>
+<t k="raceDistribution">Расы %</t>
+<t k="winRatio">Выйгранно %</t>
+<t k="avgGamesPerDay">В среднем игр в день</t>
+</g>
+<t k="info">Всего игроков: $0. Подсказка: двойной щелчок на игроке откроет детализированную статистику и графики эволюции игрока.</t>
+<t k="title">Игроки</t>
+</g>
+<g k="player">
+<g k="tab">
+<g k="playmates">
+<g k="header">
+<t k="lastCommonGame">Последняя общая игра</t>
+<t k="firstCommonGame">Первая общая игра</t>
+<t k="winRatioAsOpponents">Побед против</t>
+<t k="recordAsOpponents">Счет против</t>
+<t k="gamesAsOpponents">Игр против</t>
+<t k="playmate">Игрок</t>
+<t k="winRatioAsAllies">Побед в комманде</t>
+<t k="gamesAsAllies">Игр в комманде</t>
+<t k="recordAsAllies">Счет в комманде</t>
+<t k="commonGames">Общих игр</t>
+<t k="totalTimeTogether">Общее игровое время</t>
+</g>
+<t k="title">Соперники\Напарники</t>
+</g>
+<g k="trends"/>
+<g k="gameLengthRecords"/>
+<g k="charts">
+<g k="chartType">
+<g k="spawnLarvaDevelopment"/>
+<g k="apmDevelopment">
+<t k="yAxisLabel">Средневзвешенный APM</t>
+<t k="apm">APM</t>
+<t k="eapm">EAPM</t>
+</g>
+<t k="raceDistribution">Распределение рас по времени</t>
+<t k="activity">Активность</t>
+<t k="activity.yAxisLabel">Игры/$0</t>
+<t k="winRatioDevelopment.yAxisLabel">Победы %</t>
+<t k="gameTypeDistribution.yAxisLabel">Типы игры %</t>
+<t k="winRatioDevelopment">Эволюция результативности</t>
+<t k="apmDevelopment">Эволюция APM</t>
+</g>
+<g k="granularity">
+<t k="ladderSeason">Ладдерный сезон</t>
+<t k="month">Месяц</t>
+<t k="week">Неделя</t>
+<t k="day">День</t>
+<t k="ladderSeason.beta">Бета</t>
+<t k="year">Год</t>
+</g>
+<t k="granularity">Степень детализации:</t>
+<t k="averageMarker">В среднем: $0</t>
+<t k="title">Графики развития</t>
+</g>
+<t k="formatRecords.header.format">Формат</t>
+<t k="formatRecords.title">Статистика по игровым форматам</t>
+</g>
+<t k="info">Анализ игрока $0, основанный на реплеях ($1 шт.):</t>
+</g>
+<g k="buildOrders"/>
+<g k="1v1BuildOrders.header">
+<t k="record">Счет В-П-Н</t>
+<t k="winRatio">Победы %</t>
+<t k="race">Раса</t>
+<t k="lastUsed">Использовано в последний раз</t>
+<t k="buildOrder">Билд ордер</t>
+<t k="occurrences">Всего найдено</t>
+<t k="firstUsed">Впервые использовано</t>
+</g>
+</g>
+<t k="analysisStatus">Обработано: $0, пропущено: $1, всего: $2 ($3%)</t>
+<t k="stretchToWindow">Растянуть на всё окно</t>
+<t k="name">Мульти-реплей анализатор</t>
+<t k="abortAnalysisButton">_Отменить анализ</t>
+<t k="analysisAborted">Анализ отменён!</t>
+<t k="countingReplays">Подсчет реплеев...</t>
+<t k="openTitle">Выберите файлы и папки для анализа</t>
+<t k="title">Мульти-реплей анализатор #$0</t>
+<t k="opening">Открывается...</t>
+</g>
+<g k="startPage">
+<g k="tip"/>
+<g k="channel"/>
+<t k="channel">Канал:</t>
+<t k="title">Стартовая страница</t>
+<t k="refresh">Обновить</t>
+<t k="startStarCraft2Editor">Запустить редактор StarCraft II</t>
+<t k="startStarCraft2">Запустить StarCraft II</t>
+</g>
+<g k="repAnalyzer">
+<g k="tab">
+<g k="publicComments">
+<t k="refresh">Обновить</t>
+<t k="badGame">Плохая Игра</t>
+<t k="newComment">Новый комментарий</t>
+<t k="goodGame">Хорошая Игра</t>
+</g>
+<g k="mapPreview">
+<g k="attributes">
+<t k="author">Автор:</t>
+</g>
+<t k="mapDownloaded">Карта загружена!</t>
+<t k="downloadMapButton">Загрузить _карту</t>
+<t k="downloadFromGateway">Загрузить через шлюз:</t>
+<t k="previewNotAvailable">Превью карты недоступно.</t>
+<t k="mapFileNotExists">Файл карты не существует.</t>
+<t k="reopenReplayButton">_Перезагрузить реплей</t>
+<t k="title">Превью карты</t>
+<t k="mapDownloadFailed">Не удалось загрузить карту!</t>
+<t k="downloadingMap">Загрузка карты...</t>
+<t k="zoom">Увеличение:</t>
+</g>
+<g k="charts">
+<g k="mainBuildingControl"/>
+<g k="chartText">
+<t k="researches">исследований: $0</t>
+<t k="assign">назначений: $0</t>
+<t k="select">выборов: $0</t>
+<t k="workers">рабочих: $0</t>
+<t k="upgrades">апгрейдов: $0</t>
+<t k="hotkeysAssign">назначений хоткеев: $0</t>
+<t k="hotkeys">хоткеев: $0</t>
+<t k="trains">обучений: $0</t>
+<t k="actions">действий: $0</t>
+<t k="mapViewZoomTip">Подсказка: увеличьте масштаб графика и используйте мышь для перемещения!</t>
+<t k="apm">APM: $0</t>
+<t k="builds">строительств: $0</t>
+<t k="team">Комманда $0</t>
+<t k="mapViewChartNotAvailable2">Перейдите на вкладку предпросмотра карты и загрузите карту.</t>
+<t k="mapViewChartNotAvailable1">Файл карты реплея необходимый для графика просмотра карты не может быть найден.</t>
+</g>
+<g k="timeUnit"/>
+<g k="apmRedundancyDistribution">
+<g k="ineffectiveReason"/>
+</g>
+<g k="animate">
+<t k="speed">Скорость:</t>
+</g>
+<g k="apm">
+<t k="pixels">пикселей.</t>
+</g>
+<g k="actions">
+<g k="iconSize">
+<t k="small">Маленькие</t>
+<t k="medium">Средние</t>
+<t k="big">Большие</t>
+<t k="hidden">Спрятать</t>
+</g>
+<t k="listedActionsCount">Количество перечисленных действий: $0</t>
+<t k="useListedActionsAsInput">Использовать перечисленные действия как входные данные графика</t>
+<t k="invertColors">Инвертировать цвета</t>
+<t k="iconSizes">Размер иконок:</t>
+</g>
+<g k="buildsTechStat">
+<t k="barSize">Размер столбцов:</t>
+<t k="showUnits">Отображать боевые единицы</t>
+<t k="showBuildings">Отображать постройки</t>
+<t k="showUpgrades">Отображать апгрейды</t>
+<t k="showAbilityGroups">Отображать группы умений</t>
+<t k="showResearches">Отображать исследования</t>
+</g>
+<g k="playerMenu"/>
+<g k="players">
+<g k="league">
+<t k="silver">СЕРЕБРО</t>
+<t k="platinum">ПЛАТИНА</t>
+<t k="unranked">БЕЗ РАНГА</t>
+<t k="diamond">АЛМАЗ</t>
+<t k="bronze">БРОНЗА</t>
+<t k="master">МАСТЕР</t>
+<t k="gold">ЗОЛОТО</t>
+<t k="grandmaster">ГРАНДМАСТЕР</t>
+</g>
+<g k="portraitToolTip">
+<t k="rank">Ранг</t>
+</g>
+<t k="winnerToolTip">Этот игрок победитель в данном матче</t>
+<t k="handicapToolTip">Этот игрок играл с гандикапом = $0.</t>
+</g>
+<g k="mapView">
+<g k="background"/>
+<t k="quality.high">Высокое</t>
+<t k="quality.low">Низкое</t>
+<t k="hideOverlappedBuildings">Спрятать перекрывающиеся строения</t>
+<t k="quality">Качество:</t>
+<t k="fillBuildingIcons">Заполнить иконки строений</t>
+<t k="quality.medium">Среднее</t>
+</g>
+<g k="chartType">
+<t k="buildsTechStat">Статистика Билд-ордеров</t>
+<t k="mapView">Просмотр карты</t>
+<t k="buildsTech">Билд-ордеры</t>
+<t k="apm">APM</t>
+<t k="hotkeys">Хоткеи</t>
+</g>
+<g k="buildsTech">
+<t k="showBuilds">Отображать строительства</t>
+<t k="showTrains">Отображать обучения</t>
+<t k="showUpgrades">Отображать апгрейды</t>
+<t k="showWorkers">Отображать рабочих</t>
+<t k="showResearches">Отображать исследования</t>
+</g>
+<g k="actionOps">
+<t k="filterActions">Фильтр действий:</t>
+<t k="searchText">Найти:</t>
+<t k="searchTextToolTip">CTRL+S</t>
+<t k="clearFiltersButton">_Очистить фильтры</t>
+<t k="filterOutActionsToolTip">Введите действия для исключения из фильтра. Вы можете использовать OR между словами. (CTRL+T)</t>
+<t k="filterOutActions">Фильтр исключенных дейстий:</t>
+<t k="jumpToFrame">Переход к фрейму:</t>
+<t k="filterActionsToolTip">Введите действия для фильтрования. Вы можете использовать OR между словами. (CTRL+F)</t>
+<t k="jumpToFrameToolTip">CTRL+J</t>
+</g>
+<t k="displayInSecondsToolTip">Использовать секунды вместо фреймов при отображении времени</t>
+<t k="hotkeys.showSelectHotkeys">Отображать используемые хоткеи</t>
+<t k="groupByTeams">Сгруппировать по коммандам</t>
+<t k="displayActionTypes">Показать типы действий:</t>
+<t k="zoom">Увеличение:</t>
+<t k="players">Игроки:</t>
+<t k="displayInSeconds">Время в секундах</t>
+<t k="zoomToolTip">Меняет уровень увеличения. Используйте CTRL+I для приближения, CTRL+U для отдаления</t>
+<t k="allPlayersOn1Chart">На одном графике</t>
+<t k="usePlayersColorsToolTip">Использовать цвета использованные в игре при рисовании графиков</t>
+<t k="allPlayersOn1ChartToolTip">Отображать всех игроков на одном графике</t>
+<t k="groupByTeamToolTip">Показывает единый график для каждой комманды с суммарными значениями членов комманды</t>
+<t k="usePlayersColors">Использовать цвета игроков</t>
+<t k="chartTooltip.frameTime">Фрейм: $0, Время: $1</t>
+<t k="title">Графики</t>
+</g>
+<g k="inGameChat">
+<t k="chatMessageFull">$0 - $1 [$2]: $3</t>
+<t k="messageTargetObservers">НАБЛЮДАТЕЛЯМ</t>
+<t k="title">Игровой чат</t>
+<t k="hideMessageTarget">Не показывать адресата сообщения</t>
+<t k="formatIntoParagraphs">Разбить на параграфы</t>
+<t k="messageTargetAll">ВСЕМ</t>
+<t k="blinkMessage">$0 - $1 подал сигнал на позицию: x=$2,y=$3</t>
+<t k="chatMessageNoTarget">$0 - $1: $2</t>
+<t k="showBlinks">Показывать сигналы миникарты</t>
+<t k="messageTargetUnknown">НЕИЗВЕСТНО</t>
+<t k="messageTargetAllies">СОЮЗНИКАМ</t>
+</g>
+<g k="gameInfo">
+<t k="version">Версия: $0</t>
+<t k="gateway">Шлюз: $0</t>
+<t k="players">Игроки:</t>
+<t k="handicap">Гандикап: $0</t>
+<t k="team">Комманда $0:</t>
+<t k="mapFile">Имя файла карты: $0</t>
+<t k="mapSize">Размер карты: $0</t>
+<t k="gameLength">Продолжительность игры: $0</t>
+<t k="winners">Победители: $0</t>
+<t k="title">Информация об игре</t>
+<t k="date">Дата: $0</t>
+<t k="mapName">Имя карты: $0</t>
+<t k="mapPlayableSize">Размер играбельной зоны карты: $0</t>
+<t k="gameType">Тип игры: $0</t>
+<t k="clients">Клиенты: $0</t>
+<t k="gameSpeed">Скорость игры: $0</t>
+<t k="format">Формат: $0</t>
+<t k="fileName">Имя файла: $0</t>
+</g>
+<g k="privateData">
+<g k="errors"/>
+</g>
+</g>
+<g k="dbaseErrors"/>
+<t k="openTitle">Выберите реплей</t>
+<t k="name">Анализатор реплеев</t>
+<t k="opening">Открываю...</t>
+<t k="openError">Невозможно открыть реплей!</t>
+</g>
+</g>
+<g k="replayops">
+<g k="renameDialog">
+<g k="templateEngineError"/>
+<g k="symbol">
+<t k="playerRace">раса игрока x (x - номер игрока начиная с 1)</t>
+<t k="playerName">имя игрока x (x - номер игрока начиная с 1)</t>
+<t k="dateTime">время и дата файла реплея</t>
+<t k="format">Формат (для примера 2v2)</t>
+<t k="raceMatchup">матч-ап по расам (для примера TZvPP)</t>
+<t k="mapName">имя карты</t>
+<t k="extension">расширение ('SC2Replay')</t>
+<t k="playerApm">APM игрока х (x - номер игрока начиная с 1)</t>
+<t k="playerEapm">EAPM игрока х (x - номер игрока начиная с 1)</t>
+<t k="playerRaceFirstLetter">начальная буква расы игрока x (x - номер игрока начиная с 1)</t>
+<t k="gameType">тип игры</t>
+<t k="name">Изначальное название</t>
+<t k="counter">порядковый номер начиная с 1, возрастающий на 1 по мере использования </t>
+<t k="allPlayerNames">список игроков с запятой в качестве разделителя</t>
+<t k="date">дата файла реплея</t>
+</g>
+<g k="symbolExplained"/>
+<g k="tab">
+<t k="replayInfo">Информация реплея:</t>
+<t k="map">Карта</t>
+</g>
+<t k="failedToRename">Не удалось переименовать реплеи ($0 шт.)</t>
+<t k="successfullyRenamed">Переименование прошло успешно (переименовано $0 шт.)</t>
+<t k="invalidTemplate">Введен неверный шаблон!</t>
+<t k="title">Переименовать реплеи</t>
+<t k="description1">Введите шаблон для переименования.</t>
+<t k="description2">Вы можете использовать любой текст и символы подстановки.</t>
+<t k="description3">Символы подстановки будут заменены соответстующими значениями.</t>
+<t k="description4">Могут быть использованы следующие символы:</t>
+<t k="previewButton">Пр_евью новых имен</t>
+<t k="renameButton">_Переименовать</t>
+</g>
+<t k="openInAnalyzer">Открыть в анализаторе</t>
+<t k="openReplaysFolder">Открыть папку с реплеями</t>
+<t k="copyReplays">Скопировать реплеи...</t>
+<t k="moveReplays">Переместить реплеи...</t>
+<t k="selectMoveTargetFolder">Выберите путь для перемещения</t>
+<t k="watchReplay">Смотреть реплей</t>
+<t k="packReplays">Запаковать реплеи (ZIP)...</t>
+<t k="deleteConfirmation">Вы действительно хотите удалить реплеи ($0 шт.)?</t>
+<t k="selectFileToPackTo">Выберить файл для архивирования</t>
+<t k="deleteReplays">Удалить реплеи...</t>
+<t k="includePathInZip">Добавить пути в архив Zip</t>
+<t k="openInMultiRepAnal">Открыть в мульти-реплей анализаторе</t>
+<t k="selectCopyTargetFolder">Выберите путь для копирования</t>
+<t k="renameReplays">Переименовать реплеи...</t>
+</g>
+<g k="folderSettings">
+<t k="sc2AutoReplay">Путь к авто-реплеям SC2 (относительно домашней папки пользователя):</t>
+<t k="replayAutoSaveFolder">Sc2gears Папка для автосохранения реплеев:</t>
+<t k="chooseFolder">Указать путь...</t>
+<t k="restoreDefaultFolder">Восстановить по-умолчанию</t>
+<t k="sc2InstallationFolder">Путь к StarCraft 2:</t>
+<t k="sc2Maps">Путь к картам SC2:</t>
+<t k="defaultFolder">Путь по-умолчанию при открытии реплеев:</t>
+</g>
+<g k="charts">
+<t k="granularity">степень детализации:</t>
+<t k="graphApproximation">Аппроксимация:</t>
+<t k="chartTypeToolTip">Меняет тип отображаемого графика. Используйте CTRL+Число для быстрого переключения между графиками</t>
+<t k="chartType">Тип графика:</t>
+<t k="graphApproximation.cubic">кубическая</t>
+<t k="graphApproximation.linear">линейная</t>
+</g>
+<g k="tsovplugin">
+<g k="diagnosticTest"/>
+<t k="testButton">Тест</t>
+<t k="selectAudioFile">Выберите аудио файл</t>
+<t k="selectFileButton">Выберите файл...</t>
+</g>
+<g k="mousePrintRecorder">
+<g k="tab.info"/>
+</g>
+<g k="keyboardShortcuts">
+<g k="function">
+<t k="closeTab">Закрыть вкладку</t>
+<t k="showStartPage">Показать стартовую страницу</t>
+<t k="closeInternalWindow">Закрыть окно</t>
+<t k="openLastReplay">Открыть последний реплей</t>
+<t k="zoomOut">Уменьшить</t>
+<t k="zoomIn">Увеличить</t>
+<t k="exit">Выход</t>
+<t k="openReplay">Открыть реплей</t>
+</g>
+<g k="context">
+<t k="multiRepAnalysis"> Мульти-реплей анализатор</t>
+<t k="startPage">Стартовая страница</t>
+</g>
+<g k="key">
+<t k="alt">ALT</t>
+<t k="ctrl">CTRL</t>
+<t k="shift">SHIFT</t>
+</g>
+<g k="table.header"/>
+</g>
+<g k="sc2gearsDatabaseDownloader">
+<t k="failedToCreateTargetFolder">Не удалось создать папку!</t>
+</g>
+<g k="wordCloud"/>
+<g k="trayIcon">
+<t k="running">Программа $0 запущена.</t>
+</g>
+<g k="pluginSettings"/>
+<g k="botplugin">
+<t k="time">Время</t>
+</g>
+<g k="welcome">
+<t k="voice">Голос:</t>
+<t k="firstRun">Это первый запуск $0.</t>
+<t k="thankYou">Спасибо за выбор $0.</t>
+<t k="language">Язык:</t>
+<t k="selectLanguage">Внизу вы можете выбрать язык программы.</t>
+<t k="welcome">Добро пожаловать!</t>
+</g>
+<g k="playerProfile">
+<t k="region">Регион:</t>
+<t k="allLeagues">Все лиги</t>
+<t k="allGames">Все Игры</t>
+</g>
+<g k="progressDialog">
+<g k="progressBar"/>
+</g>
+<g k="tray">
+<t k="restore">Восстановить окно программы</t>
+<t k="startStarCraft2">Запустить StarCraft II</t>
+<t k="exit">Выход</t>
+<t k="openLastReplay">Открыть последний реплей</t>
+<t k="startStarCraft2Editor">Запустить редактор StarCraft II </t>
+<t k="hide">Спрятать окно программы</t>
+</g>
+<g k="internalFrame">
+<g k="menu">
+<t k="size">Размер</t>
+<t k="restore">Восстановить</t>
+<t k="move">Переместить</t>
+<t k="minimize">Свернуть</t>
+<t k="close">Закрыть</t>
+<t k="maximize">Развернуть</t>
+</g>
+<g k="toolTip">
+<t k="maximize">Развернуть окно</t>
+<t k="close">Закрыть окно</t>
+<t k="minimize">Свернуть окно</t>
+<t k="restore">Восстановить окно</t>
+</g>
+</g>
+<g k="miscSettings">
+<g k="editKeyDialog"/>
+<g k="predefinedList"/>
+<g k="templateDialog"/>
+<g k="binaryDataCompressionAlgorithm"/>
+<g k="tab"/>
+<g k="mousePrintWhatToSave"/>
+<t k="useRealTimeMeasurement">Использовать реальное время в расчетах:</t>
+<t k="newRepCheckIntervalSec">Интервал проверки наличия новых реплеев:</t>
+<t k="navBarInitialWidth">Исходная ширина панели навигация:</t>
+<t k="toolTipInitialDelay">Задержка появления подсказок:</t>
+<t k="repAutoSaveNameTemplateToolTip">При создании шаблона вы можете использовать тот же формат что и для переименования</t>
+<t k="days">дн.</t>
+<t k="testSoundButton">_Тест</t>
+<t k="repAutoSaveNameTemplate">Шаблон для авто-сохранения реплеев:</t>
+<t k="seconds">сек.</t>
+<t k="soundVolume">Громкость звука:</t>
+<t k="title">Дополнительные настройки</t>
+<t k="restoreDefault">Восстановить по-умолчанию</t>
+<t k="ms">мкс.</t>
+<t k="pixels">пикс.</t>
+<t k="apm">APM</t>
+<t k="convertGameTimeToRealTime">Конвертировать игровое время в реальное</t>
+<t k="showWinners">Показывать победителей в анализаторе реплеев:</t>
+<t k="timeToKeepLogFiles">Хранение файлов лога:</t>
+<t k="fps">FPS.</t>
+<t k="toolTipDismissDelay">Задержка угасания подсказок:</t>
+</g>
+<g k="onTopGameInfo"/>
+<g k="about">
+<t k="authorOfCurrentVoice">Автор данного голоса:</t>
+<t k="replayParserVersion">Версия парсера реплеев:</t>
+<t k="currentLanguage">Используемый язык:</t>
+<t k="usedIcons">$0 использует набор иконок Fugue и FamFamFam.</t>
+<t k="currentTranslator">Перевод выполнил:</t>
+<t k="releasedOn">Дата релиза:</t>
+<t k="version">Версия:</t>
+<t k="replayCacheVersion">Версия кэша реплеев:</t>
+<t k="currentVoice">Используемый голос:</t>
+<t k="email">Почта:</t>
+<t k="languageFileVersion">Версия перевода:</t>
+<t k="author">Автор:</t>
+<t k="title">О программе $0</t>
+</g>
+<g k="navigationTree">
+<g k="popup">
+<t k="openInMultiRepAnalysis">Открыть в мульти-реплей анализаторе</t>
+<t k="replaySourceComment">Источники реплеев</t>
+<t k="replayListComment">Списки реплеев</t>
+<t k="deleteItem">Удалить объект</t>
+</g>
+<g k="repSources">
+<t k="name">Источники реплеев</t>
+</g>
+<t k="plugins.name">Плагины</t>
+<t k="info.newRepSource">Вы можете создавать и сохранять источники реплеев на вкладке "Пути поиска" окна поиска реплеев.</t>
+<t k="new">новый</t>
+<t k="empty">пусто</t>
+<t k="repLists.name">Списки реплеев</t>
+<t k="info.newRepList">Вы можете сохранять списки реплеев на вкладке "Результаты" окна поиска реплеев.</t>
+</g>
+<g k="shareReplay">
+<g k="uploadProcess"/>
+</g>
+<g k="replayListColumnSetup"/>
+<g k="general">
+<g k="tableFilter"/>
+<g k="statusIndicator">
+<t k="sc2GameEnded">SC2: игра ОКОНЧЕНА</t>
+<t k="sc2GameStarted">SC2: игра НАЧАЛАСЬ</t>
+<t k="sc2NoGame">SC2: нет игры</t>
+</g>
+<g k="language">
+<t k="russian">Русский</t>
+<t k="english">Английский</t>
+<t k="french">Французский</t>
+<t k="polish">Польский</t>
+<t k="italian">Итальянский</t>
+<t k="korean">Корейский</t>
+<t k="german">Немецкий</t>
+</g>
+<g k="day">
+<t k="saturday">Суббота</t>
+<t k="sunday">Воскресенье</t>
+<t k="wednesday">Среда</t>
+<t k="monday">Понедельник</t>
+<t k="thursday">Четверг</t>
+<t k="friday">Пятница</t>
+<t k="tuesday">Вторник</t>
+</g>
+<g k="month">
+<t k="january">Январь</t>
+<t k="october">Октябрь</t>
+<t k="august">Август</t>
+<t k="april">Апрель</t>
+<t k="may">Май</t>
+<t k="february">Февраль</t>
+<t k="december">Декабрь</t>
+<t k="september">Сентябрь</t>
+<t k="june">Июнь</t>
+<t k="july">Июль</t>
+<t k="november">Ноябрь</t>
+<t k="march">Март</t>
+</g>
+<t k="no">нет</t>
+<t k="unknown">Неизвестно</t>
+<t k="errorTitle">Ошибка!</t>
+<t k="confirmationTitle">Подтверждение</t>
+<t k="noButton">Нет</t>
+<t k="memoryUsage">Использование памяти:</t>
+<t k="cancelButton">Отмена</t>
+<t k="okButton">ОК</t>
+<t k="yes">да</t>
+<t k="yesButton">Да</t>
+<t k="errorDetails">Детали...</t>
+<t k="infoTitle">Информация</t>
+<t k="downloadingSizeUnknown">Загрузка... (размер неизвестен)</t>
+<t k="colorChooser.title">Выберите цвет</t>
+<t k="close">Закрыть</t>
+</g>
+<g k="misc">
+<t k="autorepFolderEmpty">Папка с авто-реплеями не содержит реплеев.</t>
+<t k="autorepFolderNotExists">Папка с авто-реплеями не существует.</t>
+</g>
+<g k="tips"/>
+<g k="updatesAvailable">
+<t k="dontUpdateButton">Не обновлять</t>
+<t k="newVersionAvailable">Доступна более новая версия: $0</t>
+<t k="updaterCannotBeStarted">$0 не может быть запущен поскольку предыдущий пост-апдейт не удался!</t>
+<t k="restart">Перезапустите $0 и попробуйте снова.</t>
+<t k="viewVersionHistory">Просмотр истории изменений</t>
+<t k="whatToDo">Хотите ли вы приступить к обновлению?</t>
+<t k="title">Обновления найдены</t>
+<t k="updateButton">Обновить</t>
+</g>
+<g k="proxyConfig"/>
+<g k="dialog.systemMessages">
+<t k="title">Системные сообщения</t>
+</g>
+<t k="icon.close.toolTip">Закрыть</t>
+<t k="tab.close.toolTip">Закрыть вкладку (CTRL+W)</t>
+</language>

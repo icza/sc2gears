@@ -1,0 +1,46 @@
+To translators:
+-Removed key: miscSettings.checkButton (transformed to: miscSettings.templateDialog.checkButton)
+
+
+Sc2gears 1.70: Trend charts + Template Editor
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh5.ggpht.com/_jDMClHrENz8/TGz8GP5YQbI/AAAAAAAAVVI/_Kiifynyo0E/s400/activity_trend_hourly.png.jpg[/img][/url]
+
+
+[b]Changes and new features in 1.70:[/b]
+--------------------------------------------------------
+-A new tab in the details of a player in the mulit-rep analysis: [b]Activity trend charts[/b].
+On this tab you can see your activity (the games played) at different hours of the day, on different days of the week and in different months of the year. 
+
+-[b]A new name template editor component.[/b] This component is added to the replay rename dialog and to the auto-save name template in the miscellaneous settings.
+There is a button for each symbol, clicking on it will insert the symbol to the current position in the template text field.
+The editor component hides inappropriate symbols (for example /Fx [i](see below)[/i] is hidden in the replay rename dialog, /c and /Cx [i](see below)[/i] are hidden in the replay auto-save name template editor).
+
+-A new name template symbol: [b]/Cx[/b]. This is a new counter where you can specify the number of digits. Leading zeros will be inserted if necessary.
+This (along with the /c symbol) is designed to the replay rename dialog.
+
+-A new name template symbol: [b]/Fx[/b]. Replay counter with fixed x digits, its value is always the number of replays in the target folder +1.
+This is designed to the replay auto-save feature.
+
+-A new name template symbol: [b]/Mx[/b]. This symbol can be used to insert the first x words of the map name (instead of the full map name).
+
+-Changed the template mechanism: symbols that require a player index will be silently disregarded if the current replay does not have players in it (for example you refer to the name of the 3rd player in case of a 1v1 replay).
+
+-[b]Improved the winner detection algorithm.[/b] In team games where the winner cannot be told for certain, the largest remaining team will be declared winner (which is most likely to be).
+This setting can be changed to leave the winners unknown in these situations in the miscellaneous settings.
+Also winner detection has been significantly improved for AI matches (taking into consideration that AI players do not leave).
+
+-A new option in the Multi-replay analysis module: [b]Auto-open first player[/b].
+If checked, automatically opens the player with the most games when the analysis is done.
+
+-The results table of a replay search is now default [b]sorted by date[/b] (descending). When the table is rebuilt (replays were renamed, moved deleted etc), the [b]sorting keys are restored[/b].
+
+-A new menu item in Window menu: [b]Start minimized to tray[/b]. If this is enabled, the main window will not appear on startup, only the system tray icon.
+The background works will operate of course (replay auto-save for example). You can bring the main window up by double clicking on the system tray icon, or right click on it and "Restore main window".
+
+-A new option in the Miscellaneous settings: [b]Time limit to be included in Multi-rep analysis[/b].
+Games shorter and players having less time in a replay than this value will be excluded from the multi-replay analysis.
+
+-Updated the application [b]icon and logo[/b] (thanks to roddds).
+
+-Bug fixes and code optimization.

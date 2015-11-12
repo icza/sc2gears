@@ -1,0 +1,36 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 12.2: Introducing XAPM, Parser engine fix
+
+[hr]
+
+[big][b]Sc2gears 12.2: Introducing XAPM, Replay parser engine fixes[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh6.googleusercontent.com/-qudb_mCoRs0/UDTf6yluE7I/AAAAAAAAr6Q/T4KwnwIzEG8/s730/APM_Types.png[/img][/url]
+
+[b]Changes and new features in 12.2:[/b]
+--------------------------------------------------------
+
+-[b]Introducing XAPM[/b]
+Many questioned why camera hotkeys are not included in APM and have asked for it. Well, it never had been, and including screen movements in APM would just make the [i]APM chaos[/i] even more complicated. ("Is it SC2 APM or EPM?", "Is it Sc2gears APM?", "Is it real-time or game-time?")
+On the other hand moving the screen by clicking on the mini map or pressing a camera hotkey has the same value and function just like double pressing a hotkey to center the assigned units which is included in APM (and even in EAPM).
+To leave APM (and its concept) as it is but still provide a way to measure these screen movements, the APM chart of the Replay analyzer introduces the [b]XAPM[/b] (eXtended APM).
+XAPM is turned off by default and can be made visible by selecting the "Show XAPM" check box. When selected, the XAPM chart will be drawn with a dotted line, and the calculated XAPM for the whole game (excluding the first x seconds) will be displayed in the player headers.
+XAPM includes all actions that are included in APM [b]plus[/b] move screen actions which move the screen on the horizontal plane with at least a certain distance (delta>=15).
+[b]Therefore -beyond actions included in APM- XAPM includes (assumed you looked elsewhere) :[/b]
+ * camera hotkey usage
+ * (left) clicking on the mini map to move your screen
+ * clicking on the portrait of the selected unit to center the unit on the screen
+ * pressing the space key to center the location of the latest event
+[b]XAPM does not include:[/b]
+ * scrolling your screen with the cursor keys (keyboard)
+ * scrolling your screen by moving your mouse cursor to the side of the screen (side scrolling)
+ * spamming the same camera hotkey or (left) clicking on the mini map to approximately the same location
+
+-Improved the replay parser engine.
+Implemented some changes so many 1.5 replays that gave a "Parsing error!" should now be parsed properly.
+Also fixed a bug where "Build Armory" and "Build Starport" were mixed up in 1.5 replays.
+
+-Fixed the "Watch replay" function in the replay operations popup menu.
+Replays are now launched by calling SC2Switcher.exe instead of "StarCraft II.exe".
+Didn't have a chance to test this yet...

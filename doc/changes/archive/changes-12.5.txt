@@ -1,0 +1,36 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 12.5: Patch 2.0.4 (and partial HotS) supp
+
+[hr]
+
+[big][b]Sc2gears 12.5: Patch 2.0.4 (and partial HotS) support[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 12.5:[/b]
+--------------------------------------------------------
+
+-[b]Updated the replay parser engine to handle replay versions 2.0.4.[/b]
+The new engine is NOT HotS ready, but it is able to handle HotS replays to a good extent (including most player actions too).
+
+-[b]Updated the Player profile engine to reflect the new data available on the Battle.net pages.[/b]
+This involves: player profile dialog, player tool tip in the Replay analyzer and in the On-top last game info dialog.
+
+-New portrait images have been added.
+
+-Added 2 new name template symbols.
+[b]/v[/b] will insert the short replay version (e.g. "2.0.4").
+[b]/b[/b] will insert the replay version build number (e.g. 24944).
+Concatenating the 2 will yield the whole version: "/v./b" => "2.0.4.24944"
+
+-Fixed ladder season start dates (season #11 and #12).
+
+-Player names in the Player profile dialog are now links to the Battle.net profile page (in the preferred language set in the User interface tab of the Misc settings dialog).
+
+-The [url=https://sites.google.com/site/sc2gears/parsing-service]Parsing Service[/url] has also been updated with the new replay parser engine and with the new player profile engine to reflect the new data available on the battle.net profile pages.
+
+-Plugin API 3.1: backward incompatible changes!
+ *Changed the IProfile and related interfaces to reflect the new data available on the battle.net profile pages.
+
+-Other minor changes, improvements and fixes.

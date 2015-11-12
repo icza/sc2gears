@@ -1,0 +1,35 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 10.4: APM redundancy distribution chart
+
+[hr]
+
+[big][b]Sc2gears 10.4: APM redundancy distribution chart[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-W0Zr8U58AbM/T7swv_xFogI/AAAAAAAAoVw/qVnSsFpELzk/s730/apm_red_dist_chart.png[/img][/url]
+
+[b]Changes and new features in 10.4:[/b]
+--------------------------------------------------------
+
+-[b]New chart in the Replay analyzer: APM redundancy distribution[/b]
+This chart is similar to the Action distribution, but this one visualizes the distribution of the ineffective actions. Very useful for those who want to reduce their redundancy.
+This chart visualizes APM redundancy distribution up to the selected action, therefore you can also use this chart to tell from each action whether they are ineffective. To do this: uncheck "Show percent", then click on the preceding action, then "step" to the action in question. If the ineffective action count changes, then that action is (or some other actions if there are more in the same frame) is ineffective!
+Like any other chart, you can group players by teams, show all on one chart, and you can animate the chart to see how the redundancy distribution changes over time.
+
+-Added icons to other action types in the action list of the Replay analyzer (like Select, Hotkey, Right click etc.).
+
+-[b]A new replay site has implemented the [url=https://sites.google.com/site/sc2gears/features/replay-sharing]replay upload specification[/url] and is available for replay sharing: ggtracker.com[/b]
+
+-[b]Complete Italian translation by Paolo Baesso (for version 10.3).[/b]
+
+-Injection count has been added to the player description and to each individual Hatchery on the Main Building Control chart of the Replay Analyzer.
+
+-"Failed to store file!" recording is now included in the Smix and Smix Korean voices too.
+
+-Observer build time has been decreased to 30 sec (in-game) to reflect recent balance changes.
+
+-Plugin API 2.8:
+-New method: LadderSeason.getByDate() which now takes the gateway along with the date for which to return the proper ladder season.
+-Removed the deprecated NewReplayListener interface, CallbackApi.addNewReplayListener() and CallbackApi.removeNewReplayListener() methods. (NewReplayListener was replaced by ReplayAutosaveListener in version 2.7.)
+
+-Other minor fixes, changes and improvements.

@@ -1,0 +1,98 @@
+
+<script>
+	title = "Sc2gears Private Video Stream" + ( streamName.length > 0 ? " \"" + streamName + "\"" : "" );
+	document.title = title;
+	document.getElementById( "title" ).innerHTML = title.replace( /</g, "&lt;" ).replace( />/g, "&gt;" );
+</script>
+
+<div id="streamDescription" style="visibility:hidden;margin:5px;padding:5px;background:#ccffcc"></div>
+<script>
+	if ( streamDescription.length > 0 ) {
+		document.getElementById( "streamDescription" ).style.visibility = "visible";
+		document.getElementById( "streamDescription" ).innerHTML = streamDescription.replace( /</g, "&lt;" ).replace( />/g, "&gt;" ).replace( /\n/g, "<br/>" );
+	}
+</script>
+
+<div style="margin:4px;padding:3px;background:#ddddff">
+	<input id="prButton" type=button onclick="javascript:pauseResume();"/>
+	Zoom: <select id="zoom" onchange="javascript:setZoom();">
+		<option value="0.5">x1/2</option>
+		<option value="1" selected>x1</option>
+		<option value="2">x2</option>
+		<option value="4">x4</option>
+		<option value="F">Full Window</option>
+	</select>
+</div>
+
+<div style="position:relative;width:100%;">
+	<a href="#stream">
+		<img id="stream" style="background:#000000;border:1px solid black;"
+			onload="javascript:streamErrorTag.style.visibility='hidden';frameLoaded=true"
+			onerror="streamErrorTag.style.visibility='visible';setTimeout('frameLoaded=true',1000)"/>
+	</a>
+	<span id="streamError" style="visibility:hidden;position:absolute;top:10px;left:0px;width:100%;color:#ff3030;font-weight:bold;">Connection error, stream is offline or<br/> stream URL (password, port) has changed!</span>
+</div>
+
+<script>
+	var zoomTag = document.getElementById( "zoom" ),
+		streamTag = document.getElementById( "stream" ),
+		streamErrorTag = document.getElementById( "streamError" ),
+		playing = false, frameLoaded = true;
+	
+	setZoom();
+	pauseResume();
+
+	window.onresize = setZoom;
+	
+	function pauseResume() {
+		playing =! playing;
+		frameLoaded = true;
+		document.getElementById( "prButton" ).value = playing ? "PLAYING... Pause!" : "PAUSED - Resume playing!";
+	}
+	
+	function setZoom() {
+		if ( zoomTag.value == "F" ) {
+			if ( window.innerWidth / origWidth > window.innerHeight / origHeight ) {
+				streamTag.style.width  = "auto";
+				streamTag.style.height = "99%";
+			}
+			else {
+				streamTag.style.width  = "99%";
+				streamTag.style.height = "auto";
+			}
+			window.location.href = "#stream";
+		}
+		else {
+			streamTag.style.width  = ( origWidth  * zoomTag.value ) + "px";
+			streamTag.style.height = ( origHeight * zoomTag.value ) + "px";
+		}
+	}
+	
+	function refresh() {
+		if ( playing && frameLoaded ) {
+			frameLoaded = false;
+			streamTag.src = videoUrl + new Date().getTime();
+		}
+		setTimeout( "refresh()", delayTime );
+	}
+	
+	refresh();
+</script>
+
+<iframe id="cycle" style="visibility:hidden;width:0px;height:0px;"></iframe>
+<script>
+	cycleTag = document.getElementById( "cycle" );
+	
+	function getNewCycle() {
+		if ( playing )
+			cycleTag.src = cycleCheckUrl + new Date().getTime();
+		setTimeout( "getNewCycle()", 10000 );
+	}
+	
+	function checkCycle( newCycle ) {
+		if( cycle != newCycle )
+			window.location.reload()
+	}
+	
+	getNewCycle();
+</script>

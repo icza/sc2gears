@@ -1,0 +1,27 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 10.5: Chrono Boost usage graph
+
+[hr]
+
+[big][b]Sc2gears 10.5: Main building control chart for Protoss, Polish translation, Plugin API 2.9[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh5.googleusercontent.com/--LSeqmsSgh8/T9rXFkzUSiI/AAAAAAAApVg/lu5c_gj7W4I/s730/main_building_control_2.png[/img][/url]
+
+[b]Changes and new features in 10.5:[/b]
+--------------------------------------------------------
+
+-[b]Main building control chart for Protoss: Chrono Boost usage[/b]
+The Main building control chart is now implemented for Protoss, and it visualizes the Chrono Boost usage.
+Each Chrono Boosted building has its own row similar to the Zerg injection graph (where each Hatchery has its row visualizing the injections).
+The Chrono Boosts are displayed as bars filled with transparent colors, because Chrono Boosts can be "overlapped" (unlike the Spawn Larva). Where 2 or more Chrono Boosts overlap because the player Chrono Boosted a building again before the previous one would have ended, you will see the bar with stronger color indicating the overlap ("waste").
+
+-[b]Complete Polish translation by Marcin "Smuf" Stępniak (for version 10.4).[/b]
+
+-Some drop down lists on the Filters tab of the Replay analyzer now display all possible values.
+Previously they were displayed in a scrollable list, but many did not realize it is a scrollable list and believed items were missing (Ladder season filter is a good example).
+
+-Plugin API 2.9:
+ *A plugin can now have internal frames as its GUI (similar to the Replay analyzer, Replay search and Multi-replay analysis). These can be created with the CallbackApi.createAndAddInternalFrame() method.
+
+-Other minor changes and improvements.

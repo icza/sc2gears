@@ -1,0 +1,80 @@
+To translators:
+On the Builds/Tech chart and on the Builds/Tech stat chart renamed the checkboxes to be shorter (for example: "Show Builds" => "Builds", "Show Trains" => "Trains").
+
+Removed keys:
+-menu.settings.allowOnlyOneInstance
+-module.repAnalyzer.tab.charts.buildsTech.useIcons
+
+
+Sc2gears 3.20: New charts, chat translation, tips 
+Sc2gears 3.20: NEW+Improved charts, chat translation, enlarge charts, tips, APM alert repetition 
+
+
+[b]Changes and new features in 3.20:[/b]
+--------------------------------------------------------
+
+-[b]New chart in the Replay analyzer: Resources spent[/b]
+Shows the amount of minerals and gas spent over the time by the players.
+[i]Limitation:[/i] Only the costs of issued commands are counted. Some cancel commands and repair costs are not taken into account.
+
+-[b]New chart in the Replay analyzer: Produced Army/Supply[/b]
+Shows the size of produced armies (in supply) and the produced supply count over the time of players. You have an option to include the initial units (workers, main building and overlord).
+You have also an option to add units and buildings to the chart after they are completed (default) or right when they are started.
+[i]Limitation:[/i] Only results of build/train actions are visualized. Unit and deaths and building destructions are not recorded in replays.
+
+-[b]New setting on the Builds/Tech chart: Show duration[/b]
+If enabled, this option will indicate how long the actions took in time; for example how long it took to train a unit, how long it took to build a building, how long it took to research or upgrade.
+You have 3 choices: None, Lines, Bars. In case of [i]Lines[/i] a horizontal line is drawn with a length of the duration. In case of [i]Bars[/i], a transparent bar is filled with the width of the duration.
+Changes of durations in different patches are handled (for example if you open a 1.0 replay, u'll see the Zealot training time is 23 sec, if u open a 1.1 replay, u'll see the zealot training time is 27 sec - in real time).
+[i]Limitation:[/i] The chart only shows how long the actions take once they started. The time that is needed for a worker to start the building is not recorded and therefore taken into account. Transformation of Warp gates when cooldown is active varies on what unit was warped in; this is not taken into account. Also Chrono boosts are not taken into account.
+
+-New setting on the Builds/Tech chart: [b]Show ability groups[/b]
+If enabled, unit and building abilities will be displayed on the chart. General ability groups such as attack are not displayed (unnecessary and would clutter the chart), but everything else u'd be interested in are (like spells, morphings, transformations like Warpgate-Gateway, Siege-Tank, Phasing-Transport, Fighter-Assault etc., building abilities like Sscan, Calldown, creep tumors etc.).
+If too many objects are displayed, decrease the icon sizes (see later), zoom the chart or filter the chart input data.
+
+-New setting on the Builds/Tech chart: [b]Icon sizes[/b]
+From now on you can change the icon sizes displayed on this chart. Removed the "Use icons" option. You can still display text labels if you set the "Hidden" icon size.
+
+-New setting on the Builds/Tech stat chart: [b]Show after completed[/b]
+If this is checked (default), units, buildings, researches and upgrades will only appear on the charts if they are completed at the time of the selected action (else they are shown right away when the commands are issued).
+
+-New background option on the Map view chart: [b]Map image+Hot areas[/b]
+If this is selected, the map image will be displayed, and the hot areas will be drawn onto it with 50% transparency.
+
+-[b]Middle click (net scroll)[/b] on the charts in the Replay analyzer [b]enlarges the charts[/b]!
+If a chart is enlarged, chart controls and the action list is hidden, the chart will take the whole space (of its window). Middle click again restores the original.
+Combine it with the Full screen (F11) option (and hide the navigation bar) to get real full screen charts! Of course animate works when enlarged.
+This Chart enlarge function is also available in the context menu displayed when you right click on the charts ([b]"Enlarge chart"[/b]).
+
+-[b]Added a translation bar to the In-game chat tab of the Replay analyzer.[/b]
+Now you can translate the in-game chat from and to more than 100 languages. The translator bar uses Google translate. Might not work all languages, but Google lists them.
+You can set a specific source language, or you can let it auto-detect the chat language (each line will be auto-detected separately since they can be in different languages).
+The translation isn't high quality but it's one click away and requires zero effort (the quality of Google translate improves by time).
+
+-[b]Added tips to the Start page.[/b]
+
+-Added a new APM alert option: [b]Alert repetition if APM stays low.[/b]
+Normally you only hear the "Low APM!" alert once until your APM goes back to normal. Here you can set a time interval to repeat the "Low APM!" alert if your APM stays below the alert level.
+
+-New option in the Internal tab of the misc settings dialog: [b]Pre-load SC2 icons on startup.[/b]
+If you enable it, SC2 icons will be pre-loaded on startup, which results in faster replay opening or faster replay search open at the first time. If you disable it, it will result in a slightly faster startup and smaller initial memory usage (this is useful if you just want to start Sc2gears to run in the background).
+
+-Added color icons to the player check boxes in the Replay analyzer to indicate the colors of the players.
+
+-The replay rename template engine now checks if new names end with the proper extension (.SC2Replay), and if not, it will be appended automatically. 
+
+-New menu item in the Player menu: Show all players
+
+-The Allow only one instance menu item has been moved to the Internal tab of Misc settings.
+
+-Comments were not properly saved with replay lists, this is fixed now.
+
+-Added hotkeys to the tile and cascade windows menu items.
+
+-Added some missing ability codes, unit IDs; bugfix in the 1.1 replay parser (some replays were not parsed till the end).
+
+-The Game time - Real time converter dialog has been changed to non-modal, so you can leave it open while you browse or analyze replays.
+
+-Fixed an error in the component focus system which prevented some hotkeys to work when switching between tabs.
+
+-Other minor changes and improvements.

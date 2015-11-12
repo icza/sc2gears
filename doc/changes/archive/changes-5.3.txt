@@ -1,0 +1,37 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.3: Profile integration, 1.3.3 support
+Sc2gears 5.3: Profile integration, 1.3.3 version support, Improved winner detection
+
+http://lh3.googleusercontent.com/_jDMClHrENz8/TdTkAkkEVzI/AAAAAAAAbgE/jzgWOW9Gbto/s400/profile%20integration.png.jpg
+
+[b]Changes and new features in 5.3:[/b]
+--------------------------------------------------------
+
+-[b]1.3.3 replays are now fully supported.[/b]
+Also improved the replay parser of the previous versions.
+
+-[b]Profile integration[/b]
+The replay analyzer now automatically downloads profile info from Sc2ranks.com, and displays the portrait and icons the best leagues for each ranked match-up.
+The profile info is downloaded asynchronously in the background. The replay analyzer is opened right away, and profile info will be displayed right when they are ready.
+If a player is a computer, a computer icon is displayed as the portrait and the difficulty level is displayed instead of the best leagues.
+If you move your mouse over a player's portrait or league icons, a tool tip text will list advanced profile info like achievement points and all ranked team info (without members).
+You can change and disable the profile info: on the Analyzer tab of the Misc settings dialog you can set how to show profile info: [i]"Portrait and Leagues"[/i], [i]"Leagues only"[/i], [i]"None"[/i].
+A Profile cache is managed automatically by Sc2gears to minimize the Profile info queries. You can set the profile info validity time on the Internal tab of the Misc settings dialog.
+If your profile is not in the Sc2ranks.com database, you will see [i]"NA"[/i] icons instead of your profile data. To display your profile info, add yourself to the Sc2ranks.com database.
+
+-[b]Winner detection has been improved! Match results, records and win ratio values are now more accurate![/b]
+Most of the unknown results should be gone now.
+
+-Fixed a bug which caused incorrect overlay map view if the main chart was zoomed.
+
+-Fixed a bug which caused an error when Hot areas or Camera areas was selected as the background in the Map view chart.
+
+-Other minor changes and improvements.

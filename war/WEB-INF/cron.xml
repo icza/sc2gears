@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+	
+	<cron>
+		<url>/ping</url>
+		<description>Check/recalculate some statistics.</description>
+		<schedule>every 1 minutes</schedule>
+	</cron>
+	
+<!-- 	<cron>-->
+<!--		<url>/file?protVer=1&amp;op=procFilesWithContent</url>-->
+<!--		<description>Process files with content (save the content in the Blobstore).</description>-->
+<!--		<schedule>every 20 minutes</schedule>-->
+<!--	</cron>-->
+	
+</cronentries>

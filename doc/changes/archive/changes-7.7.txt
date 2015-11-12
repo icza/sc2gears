@@ -1,0 +1,47 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.7: Match-ups by Maps, Mouse game, Proxy
+
+[hr]
+
+[b]Sc2gears 7.7: Match-ups records by Maps, Mouse practice game, Network proxy setting[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh3.googleusercontent.com/-a5Z1xSPTFZw/TmjIKStJy3I/AAAAAAAAgsY/B4Ef-ooeawE/s590/mouse_practice_game.png[/img][/url]
+
+[b]Changes and new features in 7.7:[/b]
+--------------------------------------------------------
+
+-[b]By popular demand: Match-up records by Maps[/b]
+A new tab has been added to the player details in the Multi-rep analysis: "Match-ups by Maps".
+This tab contains 1v1 match-up records categorized by match-ups and maps at the same time. The map name and the match-up are in 2 separate columns which allows you to sort by both of them separately.
+
+-[b]New setting on the Internal tab of the Misc settings dialog: Enable Proxy configuration[/b]
+If you enable this, you can tell Sc2gears to access the internet through proxy servers.
+There is a "Proxy config" button here which opens a Proxy config dialog where you can set different proxy servers: HTTP proxy, HTTPS proxy, SOCKS proxy. You can also tell whether the Updater should use these proxy settings (or else use direct connection).
+[i]The proxy is useful[/i] if you use Sc2gears from a network which has internet access only through a proxy server.
+[b]Also this is the solution to the China problem:[/b] Servers that serve info for Sc2gears (latest version info, Start page content, custom portraits, Sc2gears Database etc.) are on Google servers which is blocked by the Chinese government. Setting a proxy will allow Sc2gears to access these servers from China. Since new versions (updates) are not served from Google servers, the "Also use Proxy when downloading updates" option can be disabled on the "Proxy config" dialog.
+
+-[b]A new game in the Tools menu: Mouse practice game[/b]
+This game tests your mouse speed and accuracy. Your goal is to click on the discs as they appear. Use the LEFT button for Green discs and the RIGHT button for Red discs. The closer you click to their center point the more points you get.
+The game counts your score and calculates your mouse accuracy. There is a built-in Top Score table which is stored on the Sc2gears Database server. Those who entered an Authorization key can submit their scores to the server.
+The Top Scores table is restricted to Sc2gears Database users (to prevent abuse).
+
+-New settings in the Internal tab of the Misc settings dialog: Max replays to open for "Open in analyzer" menu item
+Sc2gears will now open multiple replays in the Replay analyzer if you select multiple replays in the replays list table, right click and choose "Open in analyzer".
+This setting controls the maximum replays to be opened at once.
+
+-All links that opens a page in an external browser now have the same icon indicating that clicking on the link will open a browser.
+Also tool tip shows the URL of the page that will be opened.
+
+-Fixed a bug which in some cases caused incorrect player order (and team) in the replay names when applying a name template.
+It is advised to rename your replays if you used the player block in your template.
+
+-Other minor changes and improvements.
+

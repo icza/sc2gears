@@ -1,0 +1,81 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 12.0: SC2 1.5 compliant, Save Stream AVI
+
+[hr]
+
+[big][b]Sc2gears 12.0: Fully SC2 1.5 compliant, Updated and Improved Replay parser engine, Save stream video as AVI file, Improved Updater, Plugin API 3.0[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 12.0:[/b]
+--------------------------------------------------------
+
+-[b]Updated (for 1.5 replays) and Improved Replay parser engine.[/b]
+[b]Replays with version 1.5 (and 1.5.1) are now fully supported.[/b]
+[b]Moreover the following extra data is now extracted/displayed (for all versions starting from 1.1) :[/b]
+ * [b]Invaluable new info:[/b] Different flags are displayed for abilities like build, train, right click etc. if applicable. These include: "Queued", "WireframeClick", "Toggle", "Autocast", "WireframeUnload", "WireframeCancel", "MinimapClick", "Failed" (only available from 1.3.3).
+ * Actions that have a unit target now also display the location of the unit target (unit location at the time of issuing the command).
+ * Built Assimilators, Extractors and Refineries are now displayed on top of geysers on the Map view chart of the Replay analyzer.
+ * Map coordinates parsed with the previous engine were not always precise. They are now.
+ * Move screen actions now display distance, pitch, yaw and height offset if applicable.
+ * Changed the displayed precision of all coordinate values from 1 fraction digit to 2 (instead of "x=38.6" you'll see "x=38.63" for example).
+ * In-game chat messages now properly display message target if sent to observers.
+The new replay parser engine now also parses many old replays which failed to parse before (with the previous engine).
+You wish you had all your replays? Start using the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url] today to not lose any replays: [url=https://sciigears.appspot.com/user/User.html]User Page[/url]
+The [url=https://sites.google.com/site/sc2gears/parsing-service]Parsing Service[/url] has also been updated accordingly with the new parsing engine.
+[i]Thanks to Furlqt (TL) for his contribution to the sc2replay-csharp project (which has helped me to cut some of the reverse engineering process).[/i]
+
+-[b]The Player Profile dialog and player tool tips have been redesigned to reflect the info available on the new Battle.net profile pages.[/b]
+League wins have been removed and added new info: Games This Season, All Games, Most Played Mode, Most Played Race, Highest Solo Finish League plus times achieved, Highest Team Finish League plus times achieved.
+Unlike Battle.net profile pages, current best leagues are still acquired and displayed.
+The On-Top Game info panel now displays AG (All Games) instead of LW (League Wins).
+The current best league icons in the profile dialog now displays the team members in a tool tip.
+
+-[b]EAPM algorithm improvement.[/b]
+Actions which are reported to have failed are now considered ineffective.
+
+-[b]Replay analyzer charts improvement.[/b]
+Actions which are reported to have failed are now [b]excluded[/b] from certain charts which result in more accurate data and statistics.
+These include: EAPM graph (APM still includes failed abilities), Builds/Tech chart, Builds/Tech stat chart, Map view chart, Main building control chart, Unit tiers chart, Resource spending rate chart, Resources spent chart, Produced Army/Supply chart, Action sequences chart, Production chart.
+The failed actions are specifically [b]included[/b] on the APM redundancy distribution chart, shown as a separate category.
+[i]The difference is huge in some cases.[/i]
+
+-[b]Replay search improvement.[/b]
+Filtering replays by build order, building, unit, research, upgrade, unit ability or building ability now excludes actions which are reported to have failed.
+Also fixed a bug where filtering by unit ability or building ability the min occurrence parameter were not taken into account.
+
+-[b]Private Video Streaming improvements[/b]
+[b]You can now save the streaming video as an AVI file![/b]
+The saved video file can be opened with any movie players or can be uploaded to YouTube. Saved AVI size limit: 4GB (due to AVI format; if the AVI file reaches 4GB, further video data will not be written to prevent video file corruption).
+New streaming statistics on the server: Saved AVI file size (in case you're saving the stream video), [b]Viewers table[/b]
+The server now displays a table of all stream viewers. The table includes all viewers since the start of streaming including those who are not viewing anymore. The table lists the viewer's IP address, frames sent, outgoing bandwidth and the number of bad password attempts.
+Added many predefined values to the output video size combo box (like Full HD, HD, DVD, VGA etc.).
+
+-[b]Updater improvements[/b]
+The Sc2gears Updater now tries different mirror archives if one download source is not available. This will fix the UK update problem.
+This new Updater will only run at the next release.
+
+-A new "Start page" item has been added to the top of the navigation bar which when clicked selects (or opens if closed) the Start page internal window.
+
+-Greatly improved French translation included, thanks to Sébastien "Zepiii" Mathu and Julien "Furlisht" Halet.
+
+-Fixed a bug which caused the content of the Private Video Streaming window to be too wide if the Stream description contained long lines.
+
+-Fixed a bug which in some cases prevented Sc2gears to shut down correctly on non-windows operating systems.
+
+-[b]Plugin API 3.0: backward incompatible changes![/b]
+Plugins below version 3.0 are now considered incompatible (and denied running by default!).
+Existing plugins that do not use the changed interfaces can simply change the Plugin API version in their plugin descriptor to make it compatible with the new Sc2gears and plugin API.
+Incompatible API changes:
+	* IProfile changed to reflect the info available on the new Battle.net profile pages, some unavailable info has been removed.
+	* Removed from IBaseUseAbilityAction: isTargetUnit(), getTargetP1(), getTargetP2()
+	* Removed from IMoveScreenAction: isZooming(), isRotating()
+	* ISelectAction.getUnitsOfTypeCounts() now returns a short[] instead of byte[]!
+API changes:
+    * Many classes have been extended to provide interface to new data available from the new Battle.net profile pages, and new data provided by the new replay parser engine (the interface internal versions are properly labeled as "3.0").
+
+-Other minor changes, fixes and improvements.
+
+[b]Those who use the Sc2gears Database it is recommended to re-upload all your 1.5 replays.[/b]
+Just list all your replays, select the ones with version 1.5 (should be at the top), right click and choose store replays.

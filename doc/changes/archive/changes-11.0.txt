@@ -1,0 +1,39 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 11.0: Private Video Streaming Server
+
+[hr]
+
+[big][b]Sc2gears 11.0: Integrated Private Video Streaming server[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-SPJM-yqv1OE/UA_kBHDwqBI/AAAAAAAArO8/_8J3Q1X4S7w/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 11.0:[/b]
+--------------------------------------------------------
+
+-[b]Integrated Private Video Streaming Server.[/b]
+There is a new tool in the Tools menu: [b]Private Video Streaming[/b]. This opens the Private Video Streaming window where you can start your own private video stream with 1 click!
+The private streaming does not require registration to any server, and it does not require clients to download and install any software (not even Sc2gears).
+When Private streaming is started, your computer will broadcast the stream to all clients. I've implemented a specialized HTTP server for this purpose. Clients can view the video stream from any browser. The client interface (which is a web page) does not require any plugins (not even Flash plugin), which means clients can start viewing the stream from ANY platform, even from [b]CELL PHONES[/b]!
+On the Private Video Streaming window you can customize the video stream. You can give a name and a description which will appear on the streaming web page. You can set a password to protect your stream from those who know you stream but you don't want them to give access. You can stream your full screen or just a custom area. As the output you can stream with the original size or you can resize it to the size of your choice (either keeping the aspect ratio or distorted). You can specify the video refresh rate (FPS), and you can specify the server port to stream on. And finally you can specify the video image quality from very low quality to maximum (where you will see no difference from the original picture). This image quality has great impact on the video size (outgoing bandwidth).
+The Private Video Streaming window also calculates and shows you streaming statistics while streaming. These include streaming time, frames captured, average refresh rate, average frame size, total frame size and total outgoing bandwidth.
+On the client web page you can pause/resume playing and zoom the video stream. The client web page listens to the video stream parameters and automatically reloads if stream parameters are changed.
+The stream is video only, no sound is broadcasted.
+More about the Private Video Streaming: [url=https://sites.google.com/site/sc2gears/features/private-video-streaming]Sc2gears Private Video Streaming[/url]
+
+-[b]Status indicators at the bottom of the navigation bar.[/b]
+3 status indicators have been added to the navigation bar. These indicate if a game is started in StarCraft II, a mouse print is being recorded or private video streaming is on.
+This SC2 game status indicator and the game start and game end voice alerts now work even if APM Alert is not enabled (but still only on Windows).
+The Mouse print recorder and Private Video Streaming indicators are links which when clicked open the Mouse print recorder or Private Video Streaming windows.
+
+-A new help icon on the Main Building Control chart which takes you right to the [url=https://sites.google.com/site/sc2gears/features/replay-analyzer/main-building-control-chart]Main Building Control Chart help page[/url].
+
+-Added a "View Glossary" menu item to the Help menu pointing to the [url=https://sites.google.com/site/sc2gears/glossary]Glossary page[/url].
+
+-The replay info panel of the "Share replays" dialog now displays a scroll bar if the window is too small to display all of its content.
+This change fixes rendering issues on computers with low screen resolution (the initial height of the window is bigger than 800 pixel!). 
+
+-Plugin API implementation change:
+Previously GameStatusListeners registered at the CallbackApi were only called if APM Alert was enabled. This is no longer the case, APM alert does not need to be enabled in order to detect game status changes.
+
+-Other minor changes, fixes and optimization.

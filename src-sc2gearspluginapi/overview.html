@@ -1,0 +1,79 @@
+<html>
+<body>
+
+This API documentation is about the Sc2gears plugin interface.
+
+<p>Contains the interface that a plugin must implement, a base implementation of this plugin interface,
+the APIs and services that are provided for the plugins to use including many utilities (so there's a good chance
+you will not need any external libraries/jars), and some small examples to show how to use various methods and components.</p>
+
+<p>You can find Sc2gears here: <a href="https://sites.google.com/site/sc2gears/" target="_blank">Sc2gears home page</a></p>
+<hr/>
+
+<p>Plugins are written using the Java language. There are no restrictions, everything can be used from the public Java API.
+Since the Java requirement of Sc2gears is 7.0, for the sake of portability it is highly recommended to use only the Java API 7.0
+(and not newer versions).
+Plugins can write to the standard output (<code>System.out</code>) or to the standard error (<code>System.err</code>),
+they will appear in the application Log (<code>"User Content/Logs"</code> folder).</p>
+
+<p>A plugin is a set of files within a folder. It must contain a <i>plugin descriptor</i> file
+and java libraries (*.jar files) that contain the code of the plugin - in simple cases it can be one jar file.
+All Java libraries (*.jar) in the plugin folder will be loaded and will be available for the plugin.
+Classes may only be loaded once, keep that in mind if you plan to use static attributes and initializers
+(static initializers may only run once and static attributes may only be initialized once).<br>
+The Plugin API library must not be included in the plugin jars, because it is contained in Sc2gears!</p>
+
+<p>The plugin descriptor is an XML file which must be in the root of the plugin folder and must be named <code>"Sc2gears-plugin.xml"</code>,
+and contains meta-data about the plugin including the plugin name, author, description and main class.</p>
+
+Here is an example of <code>"Sc2gears-plugin.xml"</code>:
+<blockquote><pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+&lt;!-- Plugin descriptor, contains plugin meta-data. --&gt;
+&lt;plugin docVersion="1.0"&gt;
+	
+	&lt;name&gt;Test plugin&lt;/name&gt;
+	
+	&lt;authorFirstName&gt;Andr&aacute;s&lt;/authorFirstName&gt;
+	&lt;authorLastName&gt;Belicza&lt;/authorLastName&gt;
+	&lt;authorEmail&gt;someemail@somesite.com&lt;/authorEmail&gt;
+	
+	&lt;version&gt;1.0&lt;/version&gt;
+	&lt;releaseDate&gt;2011-07-21&lt;/releaseDate&gt; &lt;!-- Format: "yyyy-MM-dd" --&gt;
+	
+	&lt;apiVersion&gt;2.0&lt;/apiVersion&gt; &lt;!-- Plugin API version implemented/used by the plugin. --&gt;
+	
+	&lt;homePage&gt;https://sites.google.com/site/sc2gears/&lt;/homePage&gt;
+	
+	&lt;!-- Description can be plain text or HTML text, can contain multiple lines. --&gt;
+	&lt;description isHtml="true"&gt;&lt;![CDATA[&lt;h2&gt;Hi!&lt;/h2&gt;This is a test plugin with &lt;b&gt;HTML&lt;/b&gt; description. It has no special meaning or function.]]&gt;&lt;/description&gt;
+	
+	&lt;!--
+		The main class must implement the "hu.belicza.andras.sc2gearspluginapi.Plugin" interface,
+		and must have a public no-arg constructor (a constructor that takes no arguments).
+		
+		The main class must also be unique: cannot be added 2 plugins with the same main class!
+	--&gt;
+	&lt;mainClass&gt;hu.belicza.andras.testplugin.TestPlugin&lt;/mainClass&gt;
+	
+&lt;/plugin&gt;
+</pre></blockquote>
+
+<p>The main class must implement the {@link hu.belicza.andras.sc2gearspluginapi.Plugin} interface or extend a class that implements it
+(for example {@link hu.belicza.andras.sc2gearspluginapi.impl.BasePlugin}).
+Moreover the main class must provide a public no-arg constructor (a constructor that takes no arguments).
+</p>
+
+<p>To Sc2gears a plugin is identified by its main class. This means that the main class must be unique: cannot be added 2 plugins
+with the same main class. Plugins may store settings and persistent files which will be saved in the plugin's own context.
+This plugin context is bound to the main class of the plugin, so the main class cannot be changed.
+If the main class of the plugin is changed (the package name and/or the class name), a new context will be assigned to the plugin.
+</p>
+
+
+@author Andras Belicza
+@version {@value hu.belicza.andras.sc2gearspluginapi.Plugin#API_VERSION}
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <bnet-id type="integer">206154</bnet-id>
+  <updated-at type="datetime">2011-05-10T07:28:24Z</updated-at>
+  <achievement-points type="integer">1025</achievement-points>
+  <region>eu</region>
+  <portrait>
+    <icon-id type="integer">2</icon-id>
+    <column type="integer">2</column>
+    <row type="integer">3</row>
+  </portrait>
+  <name>SCIIGears</name>
+  <id type="integer">221850</id>
+  <character-code type="integer">387</character-code>
+</hash>

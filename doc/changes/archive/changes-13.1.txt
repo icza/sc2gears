@@ -1,0 +1,37 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 13.1: Further HotS support
+
+[hr]
+
+[big][b]Sc2gears 13.1: Further HotS support[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 13.1:[/b]
+--------------------------------------------------------
+
+-[b]Improved replay parser engine.[/b]
+[b]Expansion level (WoL or HotS) is now parsed[/b], and exposed in the Replay search, on the Game info tab in the Replay analyzer, in the command line interface and in the plugin interface.
+[b]Map hash[/b] for HotS replays and custom games (including old ones) [b]is now parsed correctly.[/b]
+Added missing ability codes and missing ability and upgrade icons. The map view chart will now for HotS replays too.
+Slightly modified the EAPM algorithm to include the Thor's transformations and the Widow Mine's activate actions as ineffective if repeated without time restriction.
+The [url=https://sites.google.com/site/sc2gears/parsing-service]Parsing service[/url] has also been updated with these improvements.
+Due to previous incorrect map parsing it is strongly recommended to re-upload all HotS and old custom replays to the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url].
+Easiest way is to just re-upload all your replays (the database detects if a replay is already stored and will only update it, not store it duplicated).
+Just list all your replays, right click and choose "Store replays".
+
+-Added new portrait images.
+
+-The Replay analyzer now also displays the XAPM as percent growth (if XAPM is enabled above the chart).
+
+-Code optimization (using Java 7 new features).
+
+-The Map preview tab of the Replay analyzer now automatically tries the replay's gateway for map download if the map is not available on the selected gateway.
+
+-Fixed a bug where the profile engine failed to get profile info of GM ranked players with no games played.
+
+-Plugin API 4.1.
+Contains the added new abilities, and also exposes the expansion level (IReplay.getExpansion()).
+
+-Other minor changes, fixes and improvements.

@@ -1,0 +1,62 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 10.0: Improved charts -search -DB integr.
+
+[hr]
+
+[b]Sc2gears 10.0: Improved charts, Full player name search, Enhanced Sc2gears Database integration[/b]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh6.googleusercontent.com/-q3aN-quBlDI/T13zAjPKIgI/AAAAAAAAjBs/Ksp6BVvdkdg/s730/rs_non_cumulative_chart.png[/img][/url]
+
+[b]Changes and new features in 10.0:[/b]
+--------------------------------------------------------
+
+-[b]Improved Resources spent chart and Produced Army/Supply chart[/b]
+These 2 charts have been improved with the option to show spent resources and produced army/supply [i]non-cumulative[/i].
+2 new options have been added to both of these charts: [i]"Cumulative"[/i] and [i]"Granularity"[/i]. If cumulative is not checked, values will be calculated for periods specified by the granularity, and these values will be displayed as horizontal lines.
+
+-[b]Added a new replay search field: "Full player name"[/b]
+You can use this search field to find exact players (full name can be acquired by right clicking on a player name in the Replay analyzer, and choose "Copy full name...").
+You can list multiple full names separated with commas, and then only replays containing all listed players will be included in the results.
+There is also a check box for this field: "Include aliases". If the entered players are part of alias groups (defined on the Aliases tab of the Misc settings dialog), all occurrences of the aliases will be accepted.
+This search field is a predefined list which means you can edit the list, so you can add frequently used values, and you can select them from the drop-down list. To edit the list, simply open the drop down, and click on the "Edit list" link at the bottom. Or go to the Predefined lists tab on the Misc settings dialog.
+
+-[b]A new "Other Files" tab on the [url=https://sc2gearsdb.appspot.com/user/User.html]Sc2gears Database User page[/url][/b]
+You can manage your other files on this tab like your stored Sc2gears settings, replay lists and replay sources.
+Space used by your other files counts toward your Sc2gears Database storage quota.
+
+-[b]The Misc settings dialog now has a new button: "OK and Store settings"[/b]
+This button will store your settings file (settings.xml) in the Sc2gears Database. Be assured your settings are safe in case you'd lose or accidentally overwrite your settings.
+This is especially useful if you maintain huge lists of map and player aliases and your own predefined lists.
+You'll find your stored settings on the "Other Files" tab on the [url=https://sc2gearsdb.appspot.com/user/User.html]Sc2gears Database User page[/url].
+You can store multiple versions of your settings file, it is not overwritten if you store a new version.
+
+-[b]A new menu item if you right click on replay sources and replay lists in the navigation bar: "Store item"[/b]
+You can store replay sources and replay lists in the sc2gears Database if you select this.
+You'll find these files on the "Other Files" tab on the [url=https://sc2gearsdb.appspot.com/user/User.html]Sc2gears Database User page[/url].
+
+-The "Sc2gears Database downloader" tool now supports downloading files of "Other" type.
+
+-New portrait images have been added.
+
+-Added icons to the main menus.
+
+-Shortcuts of the chart types (Ctrl+number) are now displayed in the name of the chart in the combo box.
+
+-Redesigned the About dialog.
+
+-New ability codes have been added (which previously were displayed as "Use ability" in the action list).
+
+-Fixed a typo (Zerg Research "Metalic Boost" => "Metabolic Boost").
+
+-Used and allocated memory are now always displayed in the memory bar (at the bottom of the navigation bar).
+
+-File size is added to the Info tab of the Mouse print recorder, also other numbers are now formatted nicely.
+
+-Many improvements made to the Updater (you will see this when it is launched for the release after this).
+The Updater log is now also saved in the "User Content/Logs" folder.
+
+-Plugin API 2.7.1
+Constants and enumerations have been updated to contain new values.
+
+-Other minor changes and improvements.

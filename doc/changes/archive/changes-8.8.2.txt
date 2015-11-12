@@ -1,0 +1,25 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.8.2: 
+
+
+[hr]
+
+[b]Sc2gears 8.8.2: [/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-d5keFQ2wK9I/TuhyhnzNRwI/AAAAAAAAhZQ/1K_xuk2DHYY/s730/spawn_larva_development.png[/img][/url]
+
+[b]Changes and new features in 8.8.2:[/b]
+--------------------------------------------------------
+
+-Added Season #5 start date (Multi-rep analysis => Development charts => granularity=Ladder season).
+
+-The SC-Replay.com transferred/transformed into [b]SCTemple[/b]. The Replay sharing dialog now lists SCTemple instead of SC-Replay.com.
+
+-In the Sc2gears Database Downloader you can now specify a maximum date for the downloadable files ("Only files before date").
+
+-Average values of the secondary charts in the development charts tab of the multi-rep analysis are now displayed below the avg. line.
+
+-Slightly brighter win-loss colors in the replay list table.
+
+-Fixed a bug where packing multiple replays (ZIP) operation with "Include paths" option disabled did not pack all replays (that have the same name).

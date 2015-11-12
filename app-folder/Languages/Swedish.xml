@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?><language subversion="1" translatorFirstName="Marcus" translatorLastName="Östergren" version="2.10">
+<dateFormat>yyyy-MM-dd</dateFormat>
+<timeFormat>HH:mm:ss</timeFormat>
+<dateTimeFormat>yyyy-MM-dd HH:mm:ss</dateTimeFormat>
+<personNameFormat>firstName lastName</personNameFormat>
+<g k="translationTool">
+<g k="tab.texts"/>
+<g k="tab.generalInfo"/>
+</g>
+<g k="button">
+<t k="close">_Stäng</t>
+<t k="cancel">_Avbryt</t>
+<t k="yes">_Ja</t>
+<t k="ok">_OK</t>
+<t k="no">_Nej</t>
+</g>
+<g k="overlayCharts"/>
+<g k="mousePracticeGame"/>
+<g k="diagnosticTool">
+<g k="test"/>
+</g>
+<g k="menu">
+<g k="window">
+<t k="cascadeAllWindows">_Visa alla fönster överlappande</t>
+<t k="fullscreen">_Fullskärm</t>
+<t k="tileVisibleWindows">O_rdna synliga fönster sida vid sida</t>
+<t k="tileAllWindows">_Ordna alla fönster sida vid sida</t>
+<t k="mimimizeToTray">Mi_nimera till aktivitetsfältet</t>
+<t k="startMinimimizedToTray">_Starta minimerad till aktivitetsfältet</t>
+<t k="minimizeToTrayOnMinimize">Minim_era till aktivitetsfältet vid minimering</t>
+<t k="cascadeVisibleWindows">V_isa synliga fönster överlappande</t>
+<t k="useVerticalTileStrategy">Ordna fönster vertikalt</t>
+<t k="minimizeAll">_Minimera alla</t>
+<t k="minimizeToTrayOnClose">Minimer_a till aktivitetsfältet vid stängning</t>
+<t k="closeAll">S_täng alla</t>
+</g>
+<g k="help">
+<t k="viewSystemMessages">Visa _systemmedellanden</t>
+<t k="donate">_Donera</t>
+<t k="visitHomePage">Öppna _hemsida</t>
+<t k="viewVersionHistory">_Visa versionshistorik</t>
+<t k="visitForum">Öppna _forum</t>
+<t k="about">_Om $0</t>
+<t k="viewFaq">Visa FA_Q</t>
+<t k="checkUpdates">S_ök efter uppdateringar</t>
+</g>
+<g k="navigation">
+<t k="expandAll">_Öppna alla</t>
+<t k="showNavbar">Vi_sa navigeringsfält</t>
+<t k="navbarPosition">Navigeringsfältets _position</t>
+<t k="useSmallFont">_Använd litet teckensnitt</t>
+<t k="collapseAll">S_täng alla</t>
+<t k="navbarPosition.left">_Vänster</t>
+<t k="refreshTree">_Uppdatera trädvy</t>
+<t k="navbarPosition.right">_Höger</t>
+</g>
+<g k="tools"/>
+<g k="settings">
+<t k="enableReplayAutoSave">_Aktivera autosparning av Replays</t>
+<t k="miscellaneous">_Blandade inställningar...</t>
+<t k="voice">_Röst</t>
+<t k="enableVoiceNotifications">Aktivera röstm_edellanden</t>
+<t k="language">_Språk (kräver omstart)</t>
+<t k="checkUpdatesOnStartup">S_ök efter uppdateringar vid uppstart</t>
+<t k="laf">_Utseende</t>
+<t k="saveOnExit">Sp_ara inställningar vid stängning</t>
+<t k="saveNow">S_para inställningar nu</t>
+</g>
+<g k="file">
+<t k="recentReplays">_Nyligen öppnade Replays</t>
+<t k="openLastReplay">Öppna _senaste Replay</t>
+<t k="openReplay">_Öppna Replay...</t>
+<t k="exit">_Avsluta</t>
+</g>
+<t k="file">_Arkiv</t>
+<t k="navigation">_Navigering</t>
+<t k="window">_Fönster</t>
+<t k="settings">_Inställningar</t>
+<t k="help">_Hjälp</t>
+</g>
+<g k="sc2">
+<g k="gameType">
+<t k="singlePlayer">Single player</t>
+<t k="public">Publik</t>
+<t k="amm">AutoMM</t>
+<t k="private">Privat</t>
+</g>
+<g k="unitTier"/>
+<g k="difficulty">
+<t k="medium">Medium</t>
+<t k="veryEasy">Väldigt lätt</t>
+<t k="easy">Lätt</t>
+<t k="hard">Svår</t>
+<t k="insane">Vansinnig</t>
+<t k="veryHard">Väldigt svår</t>
+</g>
+<g k="gateway">
+<t k="southeastAsia">Sydostasien</t>
+<t k="europe">Europa</t>
+<t k="asia">Asien</t>
+<t k="america">Amerika</t>
+</g>
+<g k="gameSpeed">
+<t k="fast">Snabb</t>
+<t k="faster">Snabbare</t>
+<t k="normal">Normal</t>
+<t k="slower">Saktare</t>
+<t k="slow">Sakta</t>
+</g>
+<g k="color">
+<t k="yellow">Gul</t>
+<t k="blue">Blå</t>
+<t k="orange">Orange</t>
+<t k="pink">Rosa</t>
+<t k="darkGreen">Mörkgrön</t>
+<t k="darkGray">Mörkgrå</t>
+<t k="teal">Grönblå</t>
+<t k="green">Grön</t>
+<t k="red">Röd</t>
+<t k="lightGray">Ljusgrå</t>
+<t k="lightGreen">Ljusgrön</t>
+<t k="brown">Brun</t>
+<t k="lightPink">Ljusrosa</t>
+<t k="purple">Lila</t>
+<t k="violet">Violett</t>
+</g>
+<g k="playerType">
+<t k="human">Människa</t>
+<t k="computer">Dator</t>
+</g>
+<g k="region"/>
+<g k="actionType">
+<t k="other">Annat</t>
+<t k="inaction">Overksamhet</t>
+<t k="research">Forska</t>
+<t k="train">Träna</t>
+<t k="upgrade">Uppgradera</t>
+<t k="build">Bygg</t>
+<t k="select">Välj</t>
+</g>
+<g k="matchResult"/>
+<g k="race">
+<t k="random.letter">R</t>
+<t k="zerg">Zerg</t>
+<t k="terran.letter">T</t>
+<t k="unknown.letter">O</t>
+<t k="random">Slumpmässig</t>
+<t k="protoss">Protoss</t>
+<t k="zerg.letter">Z</t>
+<t k="terran">Terran</t>
+<t k="protoss.letter">P</t>
+<t k="any.letter">*</t>
+</g>
+</g>
+<g k="pluginManager">
+<g k="details"/>
+<g k="status"/>
+</g>
+<g k="fileChooser">
+<t k="lookInLabel">Leta i:</t>
+<t k="helpButtonToolTip">Hjälp för filväljaren</t>
+<t k="saveDialogTitle">Spara</t>
+<t k="sc2ReplaySources">SC2 Replaykällor (*.sc2repsrc)</t>
+<t k="newFolderToolTip">Skapa ny mapp</t>
+<t k="acceptAllFileFilter">Alla filer (*.*)</t>
+<t k="cancelButtonToolTip">Stäng filväljardialogen</t>
+<t k="sc2ReplayFiles">SC2 Replayfiler (*.SC2Replay)</t>
+<t k="detailsViewButtonToolTip">Detaljerad lista</t>
+<t k="homeFolderToolTip">Skrivbord</t>
+<t k="saveButtonToolTip">Spara markerad fil</t>
+<t k="updateButtonToolTip">Uppdatera mapplistan</t>
+<t k="listViewButtonToolTip">Lista</t>
+<t k="helpButton">Hjälp</t>
+<t k="zipFiles">Zipfiler (*.zip)</t>
+<t k="openButton">Öppna</t>
+<t k="cancelButton">Avbryt</t>
+<t k="filesOfTypeLabel">Filer av typen:</t>
+<t k="openButtonToolTip">Öppna markerad fil</t>
+<t k="upFolderToolTip">Upp en nivå</t>
+<t k="openDialogTitle">Öppna</t>
+<t k="updateButton">Uppdatera</t>
+<t k="sc2ReplayLists">SC2 Replaylistor (*.csv)</t>
+<t k="saveButton">Spara</t>
+<t k="failedToParseRepaly">Misslyckades med att analysera replay!</t>
+<t k="fileNameLabel">Filnamn:</t>
+</g>
+<g k="importBuildOrders"/>
+<g k="findDuplicates"/>
+<g k="newToSc2gears"/>
+<g k="colorChooser"/>
+<g k="gameTimeRealTimeConverter"/>
+<g k="mySharedReplays">
+<g k="header"/>
+</g>
+<g k="gridSettings">
+<g k="autoConfigure"/>
+</g>
+<g k="module">
+<g k="repSearch">
+<g k="tab">
+<g k="filters">
+<g k="name">
+<t k="gateway">Gateway:</t>
+<t k="mapName">Mapnamn:</t>
+<t k="playerName">Spelarnamn:</t>
+<t k="fileName">Filnamn:</t>
+<t k="upgrade">Uppgradering:</t>
+<t k="buildOrderAnyBuilding">någon byggnad</t>
+<t k="gameLength">Matchlängd:</t>
+<t k="building">Byggnation:</t>
+<t k="chatMessage">Chattmedellande:</t>
+<t k="unitAbility">Enhetsförmåga:</t>
+<t k="matchupToolTip">Skriv in den första bokstaven av raser som du letar efter. Symboler: $0 - $1, $2 - $3, $4 - $5, $6 - $7, * för att matcha alla raser, v - för att separera lag. Exempel: $8</t>
+<t k="raceMatchup">Rasmatchning:</t>
+<t k="buildingAbility">Byggnadsförmåga:</t>
+<t k="buildOrder">Byggnadsordning:</t>
+<t k="dateToolTip">Skriv in antingen ett datum eller ett fullt datum+tid. Exempel: $0 or $1</t>
+<t k="gameType">Speltyp:</t>
+<t k="research">Forskning:</t>
+<t k="unit">Enhet:</t>
+<t k="version">Version:</t>
+<t k="buildOrderAddToolTip">Lägg till vald byggnad till byggnadsordning.</t>
+<t k="date">Datum:</t>
+<t k="buildOrderTextToolTip">Skriv in en kommaseparerad byggnadslista här (icke skiftlägeskänslig). Använd asterisk (*) för att matcha alla byggnader.</t>
+<t k="format">Format:</t>
+<t k="playerNameToolTip">Du kan ge en kommaseparerad lista där alla namnen måste vara i en replay.</t>
+<t k="minOccurrenceText">Min. förekomst:</t>
+</g>
+<t k="performSearchButton">_Utför sökning</t>
+<t k="min">Min:</t>
+<t k="title">Sökfilter</t>
+<t k="timeFormatToolTip">Format: sekunder eller min:sek eller tim:min:sek</t>
+<t k="invalidFieldsError">De markerade fälten innehåller ogiltiga värden!</t>
+<t k="addNewFieldToolTip">Lägg till nytt fält</t>
+<t k="max">Max:</t>
+<t k="removeFieldToolTip">Ta bort fält</t>
+<t k="resetFieldsButton">_Återställ fält</t>
+<t k="exactMatch">Exakt match</t>
+</g>
+<g k="results">
+<g k="header">
+<t k="map">Map</t>
+<t k="players">Spelare</t>
+<t k="comment">Kommentar</t>
+<t k="fileDate">Matchdatum</t>
+<t k="file">Fil</t>
+<t k="gateway">Gateway</t>
+<t k="length">Längd</t>
+<t k="version">Version</t>
+<t k="type">Typ</t>
+<t k="raceMatchup">Rasmatchning</t>
+<t k="apms">APM</t>
+</g>
+<t k="searchStatus">Hittade: $0, genomsökta: $1, skippade: $2, totalt: $3 ($4%)</t>
+<t k="loadButton">_Ladda lista...</t>
+<t k="abortButton">_Avbryt sökning</t>
+<t k="removeSelectedMenuItem">Ta bort markerade från tabellen</t>
+<t k="selectLoadReplayList">Välj replaylista att ladda</t>
+<t k="saveButton">_Spara lista...</t>
+<t k="title">Resultat #$0</t>
+<t k="multiRepAnalysisToolTip">Öppnar alla replays i multi-replayanalyseraren.</t>
+<t k="countingReplays">Räknar replays...</t>
+<t k="repListSaved">Lyckades att spara Replaylista.</t>
+<t k="loadResult">Laddade $0 replay(s).</t>
+<t k="loadingReplayList">Laddar replaylista: $0</t>
+<t k="multiRepAnalysisButton">Multi-repanalysering</t>
+<t k="failedToLoadRepList">Misslyckades med att ladda replaylista!</t>
+<t k="failedToSaveRepList">Misslyckades med att spara replaylista!</t>
+<t k="setAsSourceButton">Sätt som källa</t>
+<t k="stretchToWindow">Anpassa till fönster</t>
+<t k="setSelectedAsSourceMenuItem">Sätt markerade som källa</t>
+<t k="setAsSourceToolTip">Sätt alla replays som källa för ytterligare sökning.</t>
+<t k="searchAborted">Sökning avbruten!</t>
+<t k="selectSaveReplayList">Välj replaylista att spara</t>
+</g>
+<g k="source">
+<t k="sortButton">Sortera</t>
+<t k="repSourceSaved">Lyckades att spara replaykälla.</t>
+<t k="autoSort">Sortera automatiskt</t>
+<t k="purgeButton">_Rensa</t>
+<t k="addFoldersButton">Lägg till _mappar...</t>
+<t k="removeSelectedButton">_Ta bort markerade</t>
+<t k="addFilesButton">Lägg till fi_ler...</t>
+<t k="saveReplaySourceButton">Spara replaykälla...</t>
+<t k="purgeButtonToopTip">Tar bort kopior och icke-existerande källor, och källor som finns i andra källor.</t>
+<t k="selectReplaysToAdd">Välj replays att lägga till</t>
+<t k="selectFoldersToAdd">Välj mappar att lägga till</t>
+<t k="listAllReplays">Li_sta alla replays i den här källan</t>
+<t k="title">Sök källa</t>
+<t k="loadReplaySourceButton">Ladda replaykälla...</t>
+<t k="failedToSaveRepSource">Misslyckades med att spara replaykälla!</t>
+<t k="failedToLoadRepSource">Misslyckades med att ladda replaykälla!</t>
+<t k="selectSaveReplaySource">Välj replaykälla att spara</t>
+<t k="selectLoadReplaySource">Välj replaykälla att ladda</t>
+</g>
+</g>
+<t k="name">Replaysökning</t>
+<t k="title">Replaysökning #$0</t>
+</g>
+<g k="multiRepAnal">
+<g k="tab">
+<g k="maps">
+<g k="header">
+<t k="1v1ZWinRatio">1v1 Z vinst %</t>
+<t k="firstPlayed">Först spelad</t>
+<t k="lastPlayed">Sist spelad</t>
+<t k="winRatio">Vinst %</t>
+<t k="record">Statistik V-F-O</t>
+<t k="replays">Replays</t>
+<t k="1v1TWinRatio">1v1 T vinst %</t>
+<t k="1v1PWinRatio">1v1 P vinst %</t>
+<t k="mapName">Mapnamn</t>
+<t k="replaysRatio">Replays %</t>
+</g>
+<t k="info">Maps totalt: $0</t>
+<t k="title">Maps</t>
+</g>
+<g k="chatWords"/>
+<g k="players">
+<g k="header">
+<t k="lastGame">Sista match</t>
+<t k="firstGame">Första match</t>
+<t k="replays">Replays</t>
+<t k="record">Statistik V-F-O</t>
+<t k="presence">Närvaro (dagar)</t>
+<t k="avgApm">Mdl APM</t>
+<t k="totalTimeInGames">Total tid i matcher</t>
+<t k="playerName">Spelarnamn</t>
+<t k="avgGameLength">Mdl matchtid</t>
+<t k="raceDistribution">Raser %</t>
+<t k="winRatio">Vinst %</t>
+<t k="avgGamesPerDay">Mdl matcher/dag</t>
+</g>
+<t k="info">Spelare totalt: $0. Tips: dubbelklicka på en spelare för att se detaljerad statistik och utvecklingsdiagram med tiden; högerklicka för att komma åt spelarmenyn.</t>
+<t k="title">Spelare</t>
+</g>
+<g k="player">
+<g k="tab">
+<g k="playmates">
+<g k="header">
+<t k="lastCommonGame">Sista gemensamma match</t>
+<t k="firstCommonGame">Första gemensamma match</t>
+<t k="winRatioAsOpponents">Vinst % Mot</t>
+<t k="recordAsOpponents">Statistik Mot</t>
+<t k="gamesAsOpponents">Matcher Mot</t>
+<t k="winRatioAsAllies">Vinst % Med</t>
+<t k="gamesAsAllies">Matcher Med</t>
+<t k="recordAsAllies">Statistik Med</t>
+<t k="commonGames">Gemensamma matcher</t>
+<t k="totalTimeTogether">Total speltid tillsammans</t>
+<t k="playmate">Spelkompis</t>
+</g>
+<t k="title">Spelkompisar</t>
+</g>
+<g k="trends">
+<t k="hourly">Varje timme</t>
+<t k="daily">Dagligt</t>
+<t k="type">Lägestyp:</t>
+<t k="monthly">Månatligt</t>
+<t k="title">Aktivitetsägesrapporter</t>
+</g>
+<g k="charts">
+<g k="chartType">
+<t k="activity.yAxisLabel">Matcher/$0</t>
+<t k="winRatioDevelopment.yAxisLabel">Vinst %</t>
+<t k="apmDevelopment.yAxisLabel">Tyngd Mdl APM</t>
+<t k="winRatioDevelopment">Vinstkvotsutveckling</t>
+<t k="raceDistribution">Rasdistribution med tiden</t>
+<t k="apmDevelopment">APM-utveckling</t>
+<t k="activity">Aktivitet</t>
+</g>
+<g k="granularity">
+<t k="month">Månad</t>
+<t k="week">Vecka</t>
+<t k="day">Dag</t>
+<t k="year">År</t>
+</g>
+<t k="title">Utvecklingsdiagram</t>
+<t k="granularity">Kornighet:</t>
+<t k="averageMarker">Mdl: $0</t>
+</g>
+<t k="matchupRecords.title">Matchningsstatistik</t>
+<t k="typeRecords.title">Speltypsstatistik</t>
+<t k="formatRecords.header.format">Format</t>
+<t k="matchupRecords.header.matchup">Matchning</t>
+<t k="formatRecords.title">Matchformatsstatistik</t>
+<t k="typeRecords.header.type">Typ</t>
+</g>
+<t k="info">Analysering av spelare $0 baserat på $1 replays:</t>
+</g>
+<g k="buildOrders"/>
+<g k="1v1BuildOrders.header">
+<t k="occurrences">Förekomster</t>
+<t k="record">Statistik V-F-O</t>
+<t k="winRatio">Vinst %</t>
+<t k="race">Ras</t>
+<t k="lastUsed">Sist använd</t>
+<t k="recordVsT">Statistik mot T</t>
+<t k="recordVsZ">Statistik mot Z</t>
+<t k="recordVsP">Statistik mot P</t>
+<t k="buildOrder">Byggnadsordning</t>
+<t k="firstUsed">Först använd</t>
+</g>
+</g>
+<t k="autoOpenFirstPlayerToolTip">Öppnar spelaren med flest spel när analyseringen är klar automatiskt.</t>
+<t k="analysisStatus">Analyserade: $0, skippade: $1, totalt: $2 ($3%)</t>
+<t k="abortAnalysisButton">_Avbryt analysering</t>
+<t k="stretchToWindow">Fyll fönster</t>
+<t k="analysisAborted">Analysering avbruten!</t>
+<t k="name">Multi-replayanalysering</t>
+<t k="countingReplays">Räknar replays...</t>
+<t k="openTitle">Välj filer och mappar att analysera</t>
+<t k="autoOpenFirstPlayer">Öppna första spelaren automatiskt</t>
+<t k="title">Multi-replayanalysering #$0</t>
+<t k="opening">Öppnar...</t>
+<t k="playerMenu.openPlayer">Öpnna spelare</t>
+</g>
+<g k="startPage">
+<g k="tip"/>
+<g k="channel"/>
+</g>
+<g k="repAnalyzer">
+<g k="tab">
+<g k="mapPreview">
+<t k="mapFileNotExists">Mapfilen finns inte.</t>
+<t k="mapDownloaded">Map nerladdad!</t>
+<t k="reopenReplayButton">_Öppna replay igen</t>
+<t k="downloadMapButton">_Ladda ner map</t>
+<t k="title">Kartförhandsgranskare</t>
+<t k="mapDownloadFailed">Nerladdning av map misslyckades!</t>
+<t k="downloadingMap">Laddar ner map...</t>
+<t k="downloadFromGateway">Ladda ner från gateway:</t>
+<t k="zoom">Zoom:</t>
+<t k="previewNotAvailable">En map-förhandsgranskning är inte tillgänglig.</t>
+</g>
+<g k="charts">
+<g k="chartText">
+<t k="upgrades">uppgraderingar: $0</t>
+<t k="hotkeysAssign">hotkeys tilldelade: $0</t>
+<t k="researches">forskningar: $0</t>
+<t k="assign">tilldelade: $0</t>
+<t k="hotkeys">hotkeys: $0</t>
+<t k="trains">träningar: $0</t>
+<t k="select">valda: $0</t>
+<t k="actions">handlingar: $0</t>
+<t k="mapViewZoomTip">Tips: zooma det här diagrammet och drag med musen!</t>
+<t k="apm">APM: $0</t>
+<t k="workers">arbetare: $0</t>
+<t k="builds">byggnader: $0</t>
+<t k="team">LAG $0</t>
+<t k="mapViewChartNotAvailable2">Gå till Kartförhandsgranskarfliken och ladda ner mapfilen först.</t>
+<t k="mapViewChartNotAvailable1">Kartvydiagrammet kräver replayens mapfil som inte är närvarande.</t>
+</g>
+<g k="animate"/>
+<g k="actions">
+<g k="iconSize">
+<t k="medium">Medium</t>
+<t k="big">Stor</t>
+<t k="small">Liten</t>
+<t k="hidden">Gömd</t>
+</g>
+<t k="invertColors">Invertera färger</t>
+<t k="iconSizes">Ikonstorlekar:</t>
+<t k="listedActionsCount">Antalet listade handlingar: $0</t>
+<t k="useListedActionsAsInput">Använd listade handlingar som indata</t>
+</g>
+<g k="buildsTechStat">
+<t k="barSize">Stapelstorlek:</t>
+<t k="showUnits">Visa enheter</t>
+<t k="showBuildings">Visa byggnader</t>
+<t k="showUpgrades">Visa uppgraderingar</t>
+<t k="showResearches">Visa forskningar</t>
+<t k="showAbilityGroups">Visa förmågsgrupper</t>
+</g>
+<g k="playerMenu">
+<t k="viewCharacterProfile">Visa karaktärsprofil</t>
+<t k="addToFavoredPlayerList">Lägg till i favoriserade spelarlistan</t>
+<t k="showOnlyThisPlayer">Visa endast denna spelare</t>
+<t k="removeFromFavoredPlayerList">Ta bort från favoriserade spelarlistan</t>
+<t k="viewCharacterProfileInLanguage">Visa karaktärsprofil på språk</t>
+<t k="insertToFavoredPlayerList">Sätt in i favoriserade spelarlistan innan spelare</t>
+</g>
+<g k="players">
+<g k="league"/>
+<g k="portraitToolTip"/>
+<t k="winnerToolTip">Den här spelaren är en vinnare i den här matchen.</t>
+<t k="handicapToolTip">Den här spelaren spelade med handikapp=$0</t>
+</g>
+<g k="mapView">
+<g k="background"/>
+<t k="hideOverlappedBuildings">Göm överlappande byggnader</t>
+<t k="fillBuildingIcons">Fyll byggnadsikoner</t>
+</g>
+<g k="chartType">
+<t k="buildsTech">Byggnader/Teknologi</t>
+<t k="buildsTechStat">Byggnader/Teknologi Statistik</t>
+<t k="apm">APM</t>
+<t k="hotkeys">Hotkeys</t>
+<t k="mapView">Kartvy</t>
+</g>
+<g k="buildsTech">
+<t k="showTrains">Visa träningar</t>
+<t k="showUpgrades">Visa uppgraderingar</t>
+<t k="showWorkers">Visa arbetare</t>
+<t k="showResearches">Visa forskningar</t>
+<t k="showBuilds">Visa byggnader</t>
+</g>
+<g k="actionOps">
+<t k="clearFiltersButton">_Rensa filter</t>
+<t k="filterActions">Filtrera handlingar:</t>
+<t k="filterOutActionsToolTip">Skriv in ord för att filtrera UT handlingar. Du kan använda OR mellan ord. (CTRL+T)</t>
+<t k="filterOutActions">Filtrera ut handlingar:</t>
+<t k="jumpToFrame">Hoppa till bildruta:</t>
+<t k="filterActionsToolTip">Skriv in ord för att filtrera handlingar. Du kan använda OR mellan ord. (CTRL+F)</t>
+<t k="searchText">Sök text:</t>
+<t k="searchTextToolTip">CTRL+S</t>
+<t k="jumpToFrameToolTip">CTRL+J</t>
+</g>
+<t k="displayInSeconds">I sekunder</t>
+<t k="zoomToolTip">Välj zoomnivån. Använd CTRL+I för att zooma in, CTRL+U för att zooma ut.</t>
+<t k="allPlayersOn1Chart">Alla på 1 diagram</t>
+<t k="displayInSecondsToolTip">Visa tidsinformation i sekunder istället för bildrutor.</t>
+<t k="hotkeys.showSelectHotkeys">Visa valda hotkeys</t>
+<t k="usePlayersColorsToolTip">Använd spelarnas in-gamefärger för diagramritning</t>
+<t k="groupByTeams">Gruppera efter lag</t>
+<t k="allPlayersOn1ChartToolTip">Visar alla spelare på samma diagram.</t>
+<t k="groupByTeamToolTip">Visar ett diagram för varje lag med summerade värden av lagmedlemmarna.</t>
+<t k="usePlayersColors">Använd spelarnas färger</t>
+<t k="chartTooltip.frameTime">Bildruta: $0, Tid: $1</t>
+<t k="displayActionTypes">Visa handlingstyper:</t>
+<t k="apm.pixels">pixlar.</t>
+<t k="zoom">Zoom:</t>
+<t k="players">Spelare:</t>
+<t k="title">Diagram</t>
+</g>
+<g k="inGameChat">
+<t k="chatMessageFull">$0 - $1 till $2: $3</t>
+<t k="blinkMessage">$0 - $1 pingade positionen: x=$2,y=$3</t>
+<t k="title">In-gamechatt</t>
+<t k="chatMessageNoTarget">$0 - $1: $2</t>
+<t k="hideMessageTarget">Göm chattmedellandets mål</t>
+<t k="showBlinks">Visa mapblinks</t>
+<t k="formatIntoParagraphs">Formatera i paragrafer</t>
+<t k="messageTargetAll">ALLA</t>
+<t k="messageTargetAllies">ALLIERADE</t>
+</g>
+<g k="gameInfo">
+<t k="clients">Klienter: $0</t>
+<t k="version">Version: $0</t>
+<t k="gateway">Gateway: $0</t>
+<t k="players">Spelare:</t>
+<t k="handicap">Handikapp: $0</t>
+<t k="team">Lag $0:</t>
+<t k="gameSpeed">Matchhastighet: $0</t>
+<t k="mapFile">Mapfil: $0</t>
+<t k="mapSize">Mapstorlek: $0</t>
+<t k="format">Format: $0</t>
+<t k="gameLength">Matchlängd: $0</t>
+<t k="winners">Vinnare: $0</t>
+<t k="title">Matchinfo</t>
+<t k="date">Datum: $0</t>
+<t k="mapName">Mapnamn: $0</t>
+<t k="mapPlayableSize">Spelbar mapstorlek: $0</t>
+<t k="gameType">Matchtyp: $0</t>
+<t k="fileName">Filnamn: $0</t>
+</g>
+</g>
+<t k="opening">Öppnar...</t>
+<t k="openError">Kunde inte öppna replay!</t>
+<t k="openTitle">Välj repaly att öppna</t>
+<t k="name">Replayanalyseraren</t>
+</g>
+</g>
+<g k="folderSettings">
+<t k="sc2AutoReplay">SC2 autoreplay-mapp (relativ till användarmappen):</t>
+<t k="replayAutoSaveFolder">Sc2gears Replay autosparningsmapp:</t>
+<t k="chooseFolder">Välj mapp...</t>
+<t k="restoreDefaultFolder">Återställ standardvärden</t>
+<t k="sc2Maps">SC2 maps-mapp:</t>
+<t k="defaultFolder">Standardmapp för öppning av replays:</t>
+<t k="sc2InstallationFolder">StarCraft 2 installationsmapp:</t>
+</g>
+<g k="replayops">
+<g k="renameDialog">
+<g k="symbol">
+<t k="firstLettersOfMapName">första xy bokstäverna i mapnamnet (2 siffror!)</t>
+<t k="playerRaceFirstLetter">första bokstaven på den ras som spelare x använder (x är spelarens nummer och börjar från 1)</t>
+<t k="playerRace">ras som spelare x använder (x är spelarens nummer och börjar från 1)</t>
+<t k="replayCounter">replayräknare med bestämt x siffror, dess värde är alltid mänged replays i målmappen +1</t>
+<t k="allPlayerNamesGrouped">kommaseparerad lista på alla spelarnamn grupperade enligt lag</t>
+<t k="playerName">namn på spelare x (x är spelarens nummer och börjar från 1)</t>
+<t k="dateTime">replayens datum och tid</t>
+<t k="name">det ursprungliga namnet</t>
+<t k="format">Format (till exempel 2v2)</t>
+<t k="counter">räknare som börjar från 1 och som ökar med ett för varje användning</t>
+<t k="playerInfoBlock">Spelarinfoblock. Använd $0-symbolerna inuti den här utan index så kommer alla spelare grupperade enligt lag att bytas ut. Exempel: &lt;/p(/r)&gt;</t>
+<t k="raceMatchup">rasmatchning (till exempel TZvPP)</t>
+<t k="firstWordsOfMapName">första x orden i mapnamnet</t>
+<t k="mapName">mapnamn</t>
+<t k="extension">filändelse ('SC2Replay')</t>
+<t k="counter2">räknare med bestämt x siffror som börjar från 1 och som ökar med ett för varje användning.</t>
+<t k="allPlayerNames">kommaseparerad lista på alla spelarnamn</t>
+<t k="date">replayens datum</t>
+</g>
+<g k="tab"/>
+<t k="failedToRename">Misslyckades med att döpa om $0 replay(s).</t>
+<t k="successfullyRenamed">Lyckades att döpa om $0 replay(s).</t>
+<t k="invalidTemplate">Den angivna mallen är ogiltig!</t>
+<t k="title">Döp om replays</t>
+<t k="previewButton">_Förhandsgranska nya namn</t>
+<t k="renameButton">_Döp om replays</t>
+<t k="description1">Ange en mall för omdöpning av replays.</t>
+<t k="description2">Du kan skriva in vilken text du vill samt använda symboler för dynamiska värden.</t>
+<t k="description3">Symboler kommer att bli utbytta mot de riktiga värdena för alla replays.</t>
+<t k="description4">Följande symboler kan användas:</t>
+</g>
+<t k="openInAnalyzer">Öppna i analyseraren</t>
+<t k="deleteReplays">Ta bort replays...</t>
+<t k="openReplaysFolder">Öppna replayens mapp</t>
+<t k="includePathInZip">Inkludera sökväg i Zip</t>
+<t k="copyReplays">Kopiera replays...</t>
+<t k="moveReplays">Flytta replays...</t>
+<t k="selectMoveTargetFolder">Välj målmapp för flyttning</t>
+<t k="watchReplay">Titta på replay</t>
+<t k="openInMultiRepAnal">Öppna i multi-replayanalyseraren</t>
+<t k="selectCopyTargetFolder">Välj målmapp för kopiering</t>
+<t k="packReplays">Packa replays (ZIP)...</t>
+<t k="deleteConfirmation">Är du säker på att du vill radera $0 replay(s)?</t>
+<t k="renameReplays">Döp om replays...</t>
+<t k="selectFileToPackTo">Välj fil att packa till</t>
+</g>
+<g k="tsovplugin"/>
+<g k="charts">
+<t k="chartType">Diagramtyp:</t>
+<t k="granularity">Kornighet:</t>
+<t k="graphApproximation.cubic">kubisk</t>
+<t k="graphApproximation">Approximation:</t>
+<t k="graphApproximation.linear">linjär</t>
+<t k="chartTypeToolTip">Välj diagramtypen som du vill se. Använd CTRL+nummer för att byta snabbt mellan dem.</t>
+</g>
+<g k="mousePrintRecorder">
+<g k="tab.info"/>
+</g>
+<g k="sc2gearsDatabaseDownloader"/>
+<g k="keyboardShortcuts">
+<g k="function"/>
+<g k="context"/>
+<g k="key"/>
+</g>
+<g k="wordCloud"/>
+<g k="trayIcon">
+<t k="startedMinimized">$0 har startats minimerat.</t>
+<t k="running">$0 körs.</t>
+</g>
+<g k="pluginSettings"/>
+<g k="botplugin"/>
+<g k="welcome">
+<t k="selectLanguage">Du kan välja ditt språk nedan.</t>
+<t k="voice">Röst:</t>
+<t k="firstRun">Det här är första körningen av $0.</t>
+<t k="welcome">Välkommen</t>
+<t k="thankYou">Tack för att du valde $0.</t>
+<t k="language">Språk:</t>
+</g>
+<g k="playerProfile"/>
+<g k="progressDialog">
+<g k="progressBar"/>
+</g>
+<g k="tray">
+<t k="restore">Återställ huvudfönster</t>
+<t k="exit">Avsluta</t>
+<t k="hide">Minimera huvudfönster</t>
+<t k="openLastReplay">Öppna senaste replay</t>
+<t k="enableReplayAutoSave">Aktivera autosparning av replays</t>
+</g>
+<g k="internalFrame">
+<g k="menu">
+<t k="size">Ändra storlek</t>
+<t k="restore">Återställ</t>
+<t k="move">Flytta</t>
+<t k="close">Stäng</t>
+<t k="minimize">Minimera</t>
+<t k="maximize">Maximera</t>
+</g>
+<g k="toolTip">
+<t k="maximize">Maximera</t>
+<t k="restore">Återställ</t>
+<t k="close">Stäng</t>
+<t k="minimize">Minimera</t>
+</g>
+</g>
+<g k="miscSettings">
+<g k="predefinedList"/>
+<t k="preferredBnetLanguage">Föredraget Battle.net-språk:</t>
+<t k="useRealTimeMeasurement">Använd realtid för tidsmätning:</t>
+<t k="templateDialog.title">Redigera autosparningens namnmall</t>
+<t k="cachePreprocessedReplays">Cache-förprocesserade replays</t>
+<t k="confirmEmptyReplayCache">Är du säker på att du vill tömma replaycachen?</t>
+<t k="validRangeToolTip">Tillåten omfattning: $0..$1</t>
+<t k="enableInternalPreprocessedReplayCache">Aktivera intern förprocesserad cache:</t>
+<t k="autoOpenNewReplaysInAnalyzer">Öppna nya replays i replayanalyseraren automatiskt:</t>
+<t k="emptyReplayCacheButton">Töm cache...</t>
+<t k="buildOrderLength">Byggnadsordningslängder i Multireplayanalyseraren:</t>
+<t k="soundVolume">Ljudvolym:</t>
+<t k="newRepCheckIntervalSec">Intervall för kontrollering av nya replays:</t>
+<t k="title">Blandade inställningar</t>
+<t k="restoreDefault">Återställ standardvärden</t>
+<t k="buildings">byggnader.</t>
+<t k="navBarInitialWidth">Ursprunglig bredd för navigationsbandet:</t>
+<t k="largestRemainingTeamWins">Laget med flest återstående spelare vinner</t>
+<t k="showWinners2">Visa vinnare</t>
+<t k="favoredPlayerList">Favoriserad spelarlista:</t>
+<t k="ms">ms.</t>
+<t k="declareLargestWinner">Bestäm laget med flest återstående spelare vinnare i lagspel:</t>
+<t k="pixels">pixlar.</t>
+<t k="templateDialog.checkButton">_Kontrollera</t>
+<t k="convertGameTimeToRealTime">Konvertera speltid till realtid</t>
+<t k="favoredPlayerListToolTip">En kommaseparerad lista av spelarnamn att placera framför andra spelare vid användande av namnmallar. Shiftlägeskänslig!</t>
+<t k="initialTimeToExcludeFromApm">Inledande tid att utesluta från APM-uträkning (in-game tid):</t>
+<t k="showWinners">Visa vinnare i Replayanalyseraren:</t>
+<t k="editTemplateButton">_Redigera...</t>
+<t k="timeToKeepLogFiles">Tid att spara loggfiler i:</t>
+<t k="toolTipInitialDelay">Inledande fördröjning av tooltips:</t>
+<t k="templateValid">Mallen är grammatiskt korrekt.</t>
+<t k="templateDialog.testOnLastReplayButton">_Testa på senaste replay</t>
+<t k="timeLimitForMultiRepAnalysis">Inkludera tidsgräns i Multireplayanalyseraren:</t>
+<t k="repAutoSaveNameTemplateToolTip">Du kan ange en mall med samma format som du kan använda för att byta namn på replays.</t>
+<t k="days">dagar.</t>
+<t k="testSoundButton">_Testa</t>
+<t k="repAutoSaveNameTemplate">Namnmall för autosparning av replays:</t>
+<t k="preferredBnetLanguageToolTip">Karaktärsprofiler kommer att öppnas på det här språket om det är tillgängligt på spelarens Battle.net-server.</t>
+<t k="chartsActionListPartition">Listpartitionering av diagramhandlingar i replayanalyseraren:</t>
+<t k="percent">%.</t>
+<t k="applyFavoredListInRepAnalyzer">Använd favoriserad spelarlista i replayanalyseraren också</t>
+<t k="seconds">sekunder.</t>
+<t k="autoOpenNewReplays">Öppna nya replays automatiskt</t>
+<t k="rearrangePlayersInRepAnalyzer">Ordna om spelare i replayanalyseraren också:</t>
+<t k="deleteAutoSavedReplays">Ta bort autosparade replays</t>
+<t k="deleteSuccessfullyAutoSavedReplays">Ta bort lyckade autosparade replays:</t>
+<t k="toolTipDismissDelay">Upplösande fördröjning av tooltips:</t>
+</g>
+<g k="onTopGameInfo"/>
+<g k="about">
+<t k="currentTranslator">Översättare till nuvarande språk:</t>
+<t k="releasedOn">Släppt:</t>
+<t k="version">Version:</t>
+<t k="currentVoice">Nuvarande röst:</t>
+<t k="email">E-mail:</t>
+<t k="authorOfCurrentVoice">Skapare av nuvarande röst:</t>
+<t k="replayParserVersion">Replayparserversion:</t>
+<t k="currentLanguage">Nuvarande språk:</t>
+<t k="languageFileVersion">Nuvarande språkversion:</t>
+<t k="usedIcons">$0 använder Fugue- och FamFamFam ikoner.</t>
+<t k="author">Skapare:</t>
+<t k="title">Om $0</t>
+</g>
+<g k="navigationTree">
+<g k="popup">
+<t k="renameItem">Byt namn på föremål...</t>
+<t k="openInRepSearchForFiltering">Öppna i Replaysökning för ytterligare filtrering</t>
+<t k="renameDialog.renameButton">_Byt namn</t>
+<t k="deleteItem">Radera föremål...</t>
+<t k="areYouSureToDelete">Är du säker på att du vill radera "$0"?</t>
+<t k="listAllReplays">Lista alla replays</t>
+<t k="renameDialog.failedToRename">Misslyckades att byta namn på "$0" till "$1"!</t>
+<t k="openInMultiRepAnalysis">Öppna i Multi-replayanalyseraren</t>
+<t k="renameDialog.enterNewNameFor">Skriv in ett nytt namn för "$0":</t>
+<t k="renameDialog.title">Byt namn på föremål</t>
+</g>
+<t k="repSources.name">Replaykällor</t>
+<t k="repLists.name">Replaylistor</t>
+<t k="info.newRepList">Du kan spara replaylistor på "Resultat"-fliken under Replaysökning.</t>
+<t k="repSources.sc2AutoReps.name">SC2 autoreplays</t>
+<t k="repSources.autoSavedReps.name">Autosparade replays</t>
+<t k="info.newRepSource">Du kan skapa och radera replaykällor på "Sök källa"-fliken under Replaysökning.</t>
+<t k="new">ny</t>
+<t k="empty">tom</t>
+</g>
+<g k="shareReplay">
+<g k="uploadProcess"/>
+</g>
+<g k="replayListColumnSetup"/>
+<g k="general">
+<g k="tableFilter"/>
+<g k="language">
+<t k="portugueseBr">Portugisiska-BR</t>
+<t k="french">Franska</t>
+<t k="chineseTw">Kinesiska-TW</t>
+<t k="polish">Polska</t>
+<t k="russian">Ryska</t>
+<t k="spanishMx">Spanska-MX</t>
+<t k="english">Engelska</t>
+<t k="italian">Italienska</t>
+<t k="korean">Koreanska</t>
+<t k="german">Tyska</t>
+</g>
+<g k="day">
+<t k="thursday">Torsdag</t>
+<t k="saturday">Lördag</t>
+<t k="sunday">Söndag</t>
+<t k="wednesday">Onsdag</t>
+<t k="monday">Måndag</t>
+<t k="friday">Fredag</t>
+<t k="tuesday">Tisdag</t>
+</g>
+<g k="month">
+<t k="may">Maj</t>
+<t k="february">Februari</t>
+<t k="january">Januari</t>
+<t k="december">December</t>
+<t k="september">September</t>
+<t k="june">Juni</t>
+<t k="july">Juli</t>
+<t k="november">November</t>
+<t k="october">Oktober</t>
+<t k="august">Augusti</t>
+<t k="march">Mars</t>
+<t k="april">April</t>
+</g>
+<t k="no">nej</t>
+<t k="errorDetails">Detaljer...</t>
+<t k="infoTitle">Information</t>
+<t k="unknown">Okänt</t>
+<t k="errorTitle">Fel!</t>
+<t k="confirmationTitle">Bekräftelse</t>
+<t k="noButton">Nej</t>
+<t k="cancelButton">Avbryt</t>
+<t k="okButton">OK</t>
+<t k="yes">ja</t>
+<t k="yesButton">Ja</t>
+</g>
+<g k="misc">
+<t k="autorepFolderEmpty">Autoreplaymappen innehåller inga replays.</t>
+<t k="autorepFolderNotExists">Autoreplaymappen existerar inte.</t>
+</g>
+<g k="updatesAvailable">
+<t k="dontUpdateButton">Uppdatera inte</t>
+<t k="whatToDo">Vad vill du göra?</t>
+<t k="title">Uppdateringar tillgängliga</t>
+<t k="newVersionAvailable">En nyare version är tillgänglig: $0</t>
+<t k="updateButton">Uppdatera</t>
+<t k="updaterCannotBeStarted">$0 kan inte startas eftersom den förra uppdateringen misslyckades!</t>
+<t k="restart">Starta om $0 och försök igen.</t>
+<t k="viewVersionHistory">Visa versionshistorik</t>
+</g>
+<g k="tips"/>
+<g k="proxyConfig"/>
+<g k="dialog.systemMessages">
+<t k="title">Systemmedellanden</t>
+</g>
+<t k="tab.close.toolTip">Stäng flik (CTRL+W)</t>
+</language>

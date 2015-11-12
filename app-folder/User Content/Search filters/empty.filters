@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<filters version="1.0">
+<filterGroup id="PLAYER">
+<filter>
+<not>false</not>
+<text/>
+<exactMatch>false</exactMatch>
+<raceCombo>0</raceCombo>
+<matchResultCombo>0</matchResultCombo>
+<minApm>0</minApm>
+<maxApm>9999</maxApm>
+</filter>
+</filterGroup>
+<filterGroup id="MAP">
+<filter>
+<not>false</not>
+<text/>
+<exactMatch>false</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="RACE_MATCHUP">
+<filter>
+<not>false</not>
+<text/>
+<exactMatch>false</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="FILE">
+<filter>
+<not>false</not>
+<text/>
+<exactMatch>false</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="CHAT_MESSAGE">
+<filter>
+<not>false</not>
+<text/>
+<exactMatch>false</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="FORMAT">
+<filter>
+<not>false</not>
+<combo>0</combo>
+</filter>
+</filterGroup>
+<filterGroup id="GAME_TYPE">
+<filter>
+<not>false</not>
+<combo>0</combo>
+</filter>
+</filterGroup>
+<filterGroup id="GATEWAY">
+<filter>
+<not>false</not>
+<combo>0</combo>
+</filter>
+</filterGroup>
+<filterGroup id="DATE">
+<filter>
+<not>false</not>
+<min/>
+<max/>
+</filter>
+</filterGroup>
+<filterGroup id="GAME_LENGTH">
+<filter>
+<not>false</not>
+<min/>
+<max/>
+</filter>
+</filterGroup>
+<filterGroup id="VERSION">
+<filter>
+<not>false</not>
+<min/>
+<max/>
+</filter>
+</filterGroup>
+<filterGroup id="BUILD_ORDER">
+<filter>
+<not>false</not>
+<text/>
+</filter>
+</filterGroup>
+<filterGroup id="BUILDING">
+<filter>
+<not>false</not>
+<combo>0</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="UNIT">
+<filter>
+<not>false</not>
+<combo>0</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="RESEARCH">
+<filter>
+<not>false</not>
+<combo>0</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="UPGRADE">
+<filter>
+<not>false</not>
+<combo>0</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="UNIT_ABILITY">
+<filter>
+<not>false</not>
+<combo>0</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="BUILDING_ABILITY">
+<filter>
+<not>false</not>
+<combo>0</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+</filters>

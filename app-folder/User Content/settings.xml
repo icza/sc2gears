@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>This settings file is managed by Sc2gears automatically. Do not edit it unless you know what you're doing!</comment>
+<entry key="module.repAnalyzer.charts.buildsTechStat.showUpgrades">true</entry>
+<entry key="shareRep.userName">tetet</entry>
+<entry key="onTopGameInfo.locked">false</entry>
+<entry key="module.repAnalyzer.mapPreview.zoom">3</entry>
+<entry key="module.repAnalyzer.charts.resourcesSpent.cumulative">false</entry>
+<entry key="settings.laf">Nimbus</entry>
+<entry key="onTopApmDisplay.fontSize">19</entry>
+<entry key="settings.misc.mousePrintIdleInkFlowRate">200</entry>
+<entry key="settings.misc.playerAliases">SCIIGears/EU/1/206154, SCIIGears/US/1/2797613</entry>
+<entry key="module.repAnalyzer.charts.productions.groupSameProductions">false</entry>
+<entry key="settings.misc.alertWhenApmIsBackToNormal">true</entry>
+<entry key="navigation.position">0</entry>
+<entry key="module.repAnalyzer.charts.mapView.quality">1</entry>
+<entry key="settings.misc.predefinedList.repSearchRaceMatchup">
+*vP
+*vT
+*vZ
+*vR
+Pv*
+Tv*
+Zv*
+Rv*</entry>
+<entry key="settings.folders.mousePrintOutput">C:/Sc2gears Mouse prints</entry>
+<entry key="settings.misc.maxGamingSessionBreak">60</entry>
+<entry key="settings.misc.predefinedList.repSearchPlayerName"/>
+<entry key="settings.misc.apmWarmupTime">0</entry>
+<entry key="settings.misc.useProxyWhenDownloadingUpdates">true</entry>
+<entry key="module.repAnalyzer.charts.mapView.iconSizesCS">1</entry>
+<entry key="settings.misc.predefinedList.repSearchFileName"/>
+<entry key="module.repAnalyzer.charts.mapView.hideOverlappedBuildings">true</entry>
+<entry key="settings.misc.predefinedList.repSearchChatMessage">
+gg
+gl hf</entry>
+<entry key="module.repAnalyzer.charts.redundancyDistribution.barSize">1</entry>
+<entry key="module.repAnalyzer.charts.producedArmySupply.granularity">7</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.showBuilds">true</entry>
+<entry key="settings.misc.initialTimeToExcludeFromApm">110</entry>
+<entry key="module.repAnalyzer.mapPreview.locale">US-en</entry>
+<entry key="module.repAnalyzer.charts.mainBuildingControl.calculateUntilTimeMarker">true</entry>
+<entry key="wordCloud.maxWords">800</entry>
+<entry key="privateStreaming.imageQuality">50</entry>
+<entry key="settings.misc.mousePrintSamplingTime">1</entry>
+<entry key="settings.misc.enableProxyConfig">true</entry>
+<entry key="onTopApmDisplay.location">712,51</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.showDuration">2</entry>
+<entry key="settings.misc.showHideApmDisplayOnStartEnd">false</entry>
+<entry key="settings.misc.useMd5HashFromFileName">true</entry>
+<entry key="settings.misc.preloadSc2IconsOnStartup">true</entry>
+<entry key="settings.misc.toolTipDismissDelay">50000</entry>
+<entry key="module.repAnalyzer.charts.grid.firstMarker">175,0</entry>
+<entry key="privateStreaming.refreshRateFps">20</entry>
+<entry key="module.multiRepAnal.autoOpenFirstPlayer">false</entry>
+<entry key="settings.folders.sc2Maps">w:/sc2/map</entry>
+<entry key="settings.misc.mouseGameInitialDelayForNewDisc">800</entry>
+<entry key="settings.misc.predefinedList.repAnalFilterOut">
+right click</entry>
+<entry key="wordCloud.font">SansSerif</entry>
+<entry key="settings.folders.enableExtraSc2AutoReplay5">false</entry>
+<entry key="settings.folders.enableExtraSc2AutoReplay4">false</entry>
+<entry key="settings.folders.enableExtraSc2AutoReplay3">false</entry>
+<entry key="settings.folders.enableExtraSc2AutoReplay2">false</entry>
+<entry key="progressDialog.alertWhenDone">true</entry>
+<entry key="settings.misc.customReplaySitesAcknowledged">true</entry>
+<entry key="settings.misc.mouseGameMaxDiscAge">2500</entry>
+<entry key="settings.misc.predefinedList.customTimeFormat">
+HH:mm:ss
+HH-mm-ss</entry>
+<entry key="privateStreaming.customResizeWidth">720</entry>
+<entry key="recentReplays.entry.9">C:\icza\s2r\my\2013-12-28 20-16-30  MD5_HqzEb17ZajUwkEPg6MTP73.SC2Replay</entry>
+<entry key="recentReplays.entry.8">C:\icza\s2r\my\2013-12-28 19-49-04  MD5_CWVhJ5m6XAFwVjybUCdtQJ.SC2Replay</entry>
+<entry key="settings.misc.predefinedList.customDateTimeFormat">
+yyyy-MM-dd HH:mm:ss
+yyyy.MM.dd HH:mm:ss
+yyyy/MM/dd HH:mm:ss
+yy-MM-dd HH:mm:ss
+yy.MM.dd HH:mm:ss
+yy/MM/dd HH:mm:ss</entry>
+<entry key="recentReplays.entry.7">C:\icza\s2r\my\2013-12-28 16-27-04  MD5_RbxkQcuu6o0J75U$6#XpQ9.SC2Replay</entry>
+<entry key="recentReplays.entry.6">C:\icza\s2r\my\2013-12-28 16-10-26  MD5_QYAN5vZYflfTmJpXUHA52B.SC2Replay</entry>
+<entry key="recentReplays.entry.5">C:\icza\s2r\my\2013-12-28 14-34-46  MD5_t4YN#E5CAVM7rSPI045HOX.SC2Replay</entry>
+<entry key="recentReplays.entry.4">C:\icza\s2r\my\2013-12-28 14-10-24  MD5_ZGpnTEX6XaDEQmjRbVe0MM.SC2Replay</entry>
+<entry key="recentReplays.entry.3">C:\icza\s2r\my\2013-12-28 11-47-09  MD5_H#QAMEWvYnMJmLeMZyra1a.SC2Replay</entry>
+<entry key="showNewToSc2gearsDialogOnStartup">false</entry>
+<entry key="recentReplays.entry.2">C:\icza\s2r\my\2013-12-28 10-38-27  MD5_LIN50#zPMKwEZscN4dN6cC.SC2Replay</entry>
+<entry key="recentReplays.entry.1">C:\icza\s2r\my\2013-12-28 12-26-41  MD5_vcl2yEpzV0HCWlrOOyU7On.SC2Replay</entry>
+<entry key="recentReplays.entry.0">C:\icza\s2r\my\2013-12-27 21-51-19  MD5_#mN4Z7cfE$j7Y5DaBlY3i3.SC2Replay</entry>
+<entry key="module.repAnalyzer.charts.buildsTechStat.showUnits">true</entry>
+<entry key="module.repAnalyzer.charts.hotkeys.showSelectHotkeys">true</entry>
+<entry key="settings.misc.maxRowsInProfileToolTip">16</entry>
+<entry key="navigation.showNavbar">true</entry>
+<entry key="settings.misc.apmAlertLevel">100</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.showWorkers">true</entry>
+<entry key="settings.folders.sc2Installation">C:/Program Files (x86)/StarCraft II</entry>
+<entry key="module.repAnalyzer.charts.actionDistribution.showPercent">false</entry>
+<entry key="settings.misc.httpsProxyHost">10.10.10.1</entry>
+<entry key="settings.misc.alertOnGameStart">true</entry>
+<entry key="settings.misc.animatorFps">16</entry>
+<entry key="module.repAnalyzer.charts.grid.predefined">0</entry>
+<entry key="window.verticalTileStrategy">true</entry>
+<entry key="settings.misc.storeMousePrints">false</entry>
+<entry key="pluginManager.enabledPlugins">hu.belicza.andras.buildorderstableplugin.BuildOrdersTablePlugin,hu.belicza.andras.fileinfoplugin.FileInfoPlugin,hu.belicza.andras.thesoundofvictoryplugin.TheSoundOfVictoryPlugin</entry>
+<entry key="privateStreaming.serverPort">80</entry>
+<entry key="settings.misc.socksProxyHost"/>
+<entry key="settings.misc.mousePrintDataCompression">2</entry>
+<entry key="module.repAnalyzer.inGameChat.hideMessageTargets">false</entry>
+<entry key="settings.misc.predefinedList.repSearchMapName">
+Agria Valley
+Arakan Citadel
+Arid Wastes
+Blistering Sands
+Coalition
+Colony 426
+Decena
+Delta Quadrant
+Desert Oasis
+Dig Site
+Discord IV
+Extinction
+Frontier
+High Ground
+High Orbit
+Incineration Zone
+Jungle Basin
+Kulas Ravine
+Lava Flow
+Lost Temple
+Megaton
+Metalopolis
+Monlyth Ridge
+Monsoon
+Outpost
+Quicksand
+Sand Canyon
+Scorched Haven
+Scrap Station
+Shakuras Plateau
+Steppes of War
+Tarsonis Assault
+Tempest
+The Bio Lab
+Toxic Slums
+Twilight Fortress
+Typhon
+Ulaan Deeps
+War Zone
+Xel'Naga Caverns</entry>
+<entry key="settings.misc.buildOrderLength">6</entry>
+<entry key="privateStreaming.streamPassword">youwontguessme</entry>
+<entry key="settings.misc.mousePrintUseAntialiasing">false</entry>
+<entry key="module.repAnalyzer.charts.apm.granularity">5</entry>
+<entry key="settings.misc.repAutoSaveNameTemplate">/D  /h./e</entry>
+<entry key="module.repAnalyzer.charts.actions.useListedAsInput">false</entry>
+<entry key="settings.misc.cachePreprocessedReplays">true</entry>
+<entry key="module.multiRepAnal.charts.graphApproximation">0</entry>
+<entry key="module.repAnalyzer.charts.zoom">0</entry>
+<entry key="privateStreaming.streamName">Dakota_Fanning</entry>
+<entry key="mousePractice.checkUserScore">true</entry>
+<entry key="privateStreaming.customAreaTop">200</entry>
+<entry key="settings.misc.mousePrintImageOutputFormat">0</entry>
+<entry key="settings.misc.mouseGameFriendlyDiscProbability">83</entry>
+<entry key="settings.misc.apmAlertRepetitionIntervalSec">0</entry>
+<entry key="module.repAnalyzer.charts.apm.graphApproximation">1</entry>
+<entry key="module.repAnalyzer.charts.actions.iconSize">1</entry>
+<entry key="settings.enableApmAlert">false</entry>
+<entry key="settings.misc.alertOnGameEnd">true</entry>
+<entry key="settings.misc.navBarInitialWidth">250</entry>
+<entry key="module.repAnalyzer.charts.buildsTechStat.showResearches">true</entry>
+<entry key="module.repAnalyzer.inGameChat.sourceLanguage">0</entry>
+<entry key="module.repAnalyzer.charts.mapView.areaGranularity">6</entry>
+<entry key="settings.voice">smix</entry>
+<entry key="window.startMaximized">true</entry>
+<entry key="settings.misc.customDateFormat"/>
+<entry key="settings.misc.predefinedList.repSearchFullPlayerName">
+SCIIGears/EU/1/206154
+SCIIGears/US/1/2797613</entry>
+<entry key="module.repAnalyzer.charts.mapView.background">0</entry>
+<entry key="settings.misc.utilizedCpuCores">0</entry>
+<entry key="settings.misc.mouseGameMaxDiscsMissed">10</entry>
+<entry key="settings.misc.predefinedList.repShareUserName">
+icza
+Sc2gears</entry>
+<entry key="module.repAnalyzer.publicComments.userName">Tankado Ganfin</entry>
+<entry key="settings.misc.animatorJumpTime">60</entry>
+<entry key="module.repAnalyzer.charts.resourcesSpent.granularity">7</entry>
+<entry key="settings.misc.mouseGameMaxDiscRadius">30</entry>
+<entry key="settings.misc.useRealTimeMeasurement">true</entry>
+<entry key="settings.misc.httpProxyHost">10.10.10.1</entry>
+<entry key="module.repAnalyzer.charts.playerSelections.iconSizes">1</entry>
+<entry key="module.repAnalyzer.charts.mapView.showMapObjects">true</entry>
+<entry key="window.minimizeToTrayOnMinimize">false</entry>
+<entry key="module.repAnalyzer.charts.apm.showEapm">true</entry>
+<entry key="settings.misc.mouseGamePaintMaxDiscOutline">false</entry>
+<entry key="module.multiRepAnal.charts.chartType">0</entry>
+<entry key="module.repAnalyzer.charts.actionSequences.maxFrameBreak">14</entry>
+<entry key="privateStreaming.customAreaRight">1680</entry>
+<entry key="settings.misc.predefinedList.repAnalFilter">
+[WORKERS]     OR train probe OR train scv OR train drone OR calldown mule
+[SUPPLY]     OR build pylon OR build supply depot OR train overlord OR calldown extra supplies
+[EXPAND]     OR build nexus OR build command center OR build hatchery
+[DEFENSE]     OR build cannon OR build bunker OR build missile turret OR build spine crawler OR build spore crawler
+[TRADE]     OR resources
+[TIER 1]     OR train zergling OR train marine OR train zealot
+[TIER 1.5]     OR train roach OR morph baneling OR train marauder OR train reaper OR train stalker OR train sentry
+[TIER 2]     OR train hydralisk OR train infestor OR train mutalisk OR train corruptor OR morph overseer OR train ghost OR train hellion OR train immortal OR train phoenix OR train void ray OR train observer OR train warp prism
+[TIER 2.5]     OR train siege tank OR train medivac OR train viking OR train banshee
+[TIER 3]     OR train ultralisk OR morph brood lord OR train raven OR train battlecuriser OR train thor OR train colossus OR train mothership OR train carrier OR train high templar OR train dark templar</entry>
+<entry key="navigation.useSmallFont">false</entry>
+<entry key="module.repAnalyzer.charts.apm.showXapm">true</entry>
+<entry key="settings.misc.timeLimitForMultiRepAnalysis">120</entry>
+<entry key="module.repAnalyzer.charts.showAfterCompleted">true</entry>
+<entry key="settings.misc.timeToKeepLogFiles">14</entry>
+<entry key="wordCloud.minFontSize">11</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.iconSizes">1</entry>
+<entry key="privateStreaming.fixAviFps">10</entry>
+<entry key="settings.misc.mouseGameMaxDiscScore">100</entry>
+<entry key="settings.misc.chartsActionListPartitioning">70</entry>
+<entry key="settings.misc.saveMousePrints">false</entry>
+<entry key="privateStreaming.outputVideoSize">6</entry>
+<entry key="recentReplays.count">15</entry>
+<entry key="window.minimizeToTrayOnClose">false</entry>
+<entry key="settings.misc.showProfileInfo">0</entry>
+<entry key="settings.misc.customReplaySites">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;customReplaySites version="1.0"/&gt;</entry>
+<entry key="module.repSearch.results.stretchToWindow">false</entry>
+<entry key="settings.misc.mousePrintWhatToSave">0</entry>
+<entry key="module.repAnalyzer.charts.apm.showMicroMacroApm">false</entry>
+<entry key="settings.misc.soundVolume">20</entry>
+<entry key="settings.misc.animatorSpeed">6</entry>
+<entry key="settings.misc.authorizationKey">1N5TS-AU6I5-DGQER-6BRYR-KPWKJ</entry>
+<entry key="module.repAnalyzer.charts.actionDistribution.barSize">1</entry>
+<entry key="settings.misc.mousePrintBackgroundColor">255,255,255</entry>
+<entry key="module.repSearch.results.visibleReplayListColumnkeys">module.repSearch.tab.results.header.version,module.repSearch.tab.results.header.type,module.repSearch.tab.results.header.gateway,module.repSearch.tab.results.header.fileDate,module.repSearch.tab.results.header.map,module.repSearch.tab.results.header.races,module.repSearch.tab.results.header.leagues,module.repSearch.tab.results.header.apms,module.repSearch.tab.results.header.length,module.repSearch.tab.results.header.players,module.repSearch.tab.results.header.format,module.repSearch.tab.results.header.winners,module.repSearch.tab.results.header.eapms,module.repSearch.tab.results.header.file</entry>
+<entry key="module.repAnalyzer.charts.productions.iconSizes">1</entry>
+<entry key="settings.misc.httpsProxyPort">8080</entry>
+<entry key="settings.misc.deleteAutoSavedReplays">false</entry>
+<entry key="module.repAnalyzer.mapPreview.downloadFromGateway">3</entry>
+<entry key="settings.misc.playReplaySavedVoice">true</entry>
+<entry key="importBO.latestImportFolder">W:\sc2\BO</entry>
+<entry key="module.repAnalyzer.charts.allPlayersOn1Chart">false</entry>
+<entry key="module.repAnalyzer.charts.groupByTeams">false</entry>
+<entry key="settings.misc.socksProxyPort">1080</entry>
+<entry key="settings.misc.mouseGamePaintDiscCenterCross">false</entry>
+<entry key="settings.misc.apmCheckIntervalSec">1</entry>
+<entry key="privateStreaming.customResizeHeight">450</entry>
+<entry key="module.repSearch.source.autoSort">false</entry>
+<entry key="settings.misc.autoOpenNewReplays">false</entry>
+<entry key="module.multiRepAnal.stretchToWindow">true</entry>
+<entry key="recentReplays.entry.14">C:\icza\s2r\my\2013-12-28 09-29-13  MD5_nJv#L0ZuXoinDlt5xtFVhF.SC2Replay</entry>
+<entry key="recentReplays.entry.13">C:\icza\s2r\v2_1_sample_replays\ggtracker_4639247.SC2Replay</entry>
+<entry key="window.rememberWindowPosition">true</entry>
+<entry key="recentReplays.entry.12">C:\icza\s2r\v2_1_sample_replays\ggtracker_4639244.SC2Replay</entry>
+<entry key="recentReplays.entry.11">C:\icza\s2r\my\2013-12-28 22-14-16  MD5_QEDkppeHlX65ZW7Y6gwtPt.SC2Replay</entry>
+<entry key="mousePrint.imageZoom">1</entry>
+<entry key="recentReplays.entry.10">C:\icza\s2r\my\2013-12-28 21-46-35  MD5_py7sYKmU$74R1GnOFe0IzY.SC2Replay</entry>
+<entry key="module.repAnalyzer.inGameChat.formatIntoParagraphs">true</entry>
+<entry key="settings.misc.showGameInfoForNewReplays">true</entry>
+<entry key="module.repAnalyzer.charts.actions.invertColors">false</entry>
+<entry key="module.repAnalyzer.charts.unitTiersGranularity">8</entry>
+<entry key="module.repAnalyzer.charts.displayInSeconds">true</entry>
+<entry key="module.repAnalyzer.charts.mapView.fillBuildingIcons">false</entry>
+<entry key="settings.language.leetnessLevel">0</entry>
+<entry key="settings.misc.predefinedList.repSearchBuildOrder">
+Pylon, Gateway, Assimilator, Pylon, Cybernetics Core
+Pylon, Gateway, Pylon, Gateway
+Pylon, Forge
+Pylon, Gateway, Pylon, Nexus
+Pylon, Nexus
+Supply Depot, Barracks, Refinery, Supply Depot, Tech Lab (Barracks)
+Supply Depot, Barracks, Barracks, Supply Depot
+Supply Depot, Barracks, Refinery, Supply Depot, Factory
+Supply Depot, Barracks, Supply Depot, Command Center
+Supply Depot, Refinery, Barracks, Supply Depot
+Spawning Pool, Extractor, Lair
+Spawning Pool, Extractor, Roach Warren
+Spawning Pool, Extractor, Baneling Nest
+Spawning Pool, Hatchery, Extractor
+Spawning Pool, Extractor, Hatchery</entry>
+<entry key="module.repAnalyzer.charts.resourceSpendingRate.graphApproximation">1</entry>
+<entry key="settings.language">English</entry>
+<entry key="module.multiRepAnal.charts.chartGranularity">2</entry>
+<entry key="settings.misc.newRepCheckIntervalSec">3</entry>
+<entry key="mousePractice.colorBlind">false</entry>
+<entry key="settings.misc.mousePrintColor">0,0,0</entry>
+<entry key="settings.misc.mapAliases"/>
+<entry key="module.repAnalyzer.charts.grid.repeatMarker">25,2</entry>
+<entry key="settings.folders.replayAutoSave">C:/SC2Replay Archive</entry>
+<entry key="module.repAnalyzer.charts.stretchBars">false</entry>
+<entry key="settings.allowOnlyOneInstance">false</entry>
+<entry key="mousePractice.userName">icza</entry>
+<entry key="settings.misc.profileInfoValidityTime">10</entry>
+<entry key="settings.enableReplayAutoSave">false</entry>
+<entry key="sc2gearsDatabaseDownloader.targetFolder">w:\bbb</entry>
+<entry key="settings.enableVoiceNotifications">true</entry>
+<entry key="settings.misc.declareLargestAsWinner">true</entry>
+<entry key="module.repAnalyzer.charts.buildsTechStat.barSize">1</entry>
+<entry key="settings.misc.predefinedList.repAnalSearch">
+leave game
+resources
+activate/deactivate</entry>
+<entry key="window.restoreLastPositionOnStartup">true</entry>
+<entry key="settings.misc.predefinedList.repAutoSaveTemplate">
+/D./e
+/F4 &lt;/p (/r)&gt;./e
+/f\/F4 &lt;/p (/r)&gt;./e
+/Y\/F4 &lt;/p (/r)&gt;./e
+/m\/F4 &lt;/p (/r)&gt;./e
+/G\&lt;/p (/r)&gt;./e
+/D &lt;/p&gt;./e
+/D [/m] &lt;/p&gt;./e
+/m - &lt;/p (/r)&gt;./e
+/m - /T - &lt;/p (/r)&gt;./e
+/m\/T - &lt;/p (/r)&gt;./e</entry>
+<entry key="startPageChannel">0</entry>
+<entry key="mousePractice.enableCustomRules">false</entry>
+<entry key="privateStreaming.customAreaBottom">1050</entry>
+<entry key="settings.misc.predefinedList.repRenameTemplate">
+/D./e
+/D - /m./e
+/T - /m - /q./e
+/C4 - /m./e
+/C4 - &lt;/p (/r)&gt;./e
+/G\&lt;/p (/r)&gt;./e</entry>
+<entry key="settings.misc.httpProxyPort">8080</entry>
+<entry key="module.repAnalyzer.charts.usePlayersColors">true</entry>
+<entry key="module.repAnalyzer.charts.chartType">0</entry>
+<entry key="wordCloud.maxFontSize">60</entry>
+<entry key="settings.folders.defaultReplay"/>
+<entry key="settings.misc.overrideFormatBasedOnMatchup">true</entry>
+<entry key="settings.enableGlobalHotkeys">true</entry>
+<entry key="settings.misc.rearrangePlayersInRepAnalyzer">true</entry>
+<entry key="settings.misc.mouseGameFps">20</entry>
+<entry key="settings.showStartPageOnStartup">true</entry>
+<entry key="module.repAnalyzer.charts.buildsTechStat.showBuildings">true</entry>
+<entry key="module.repAnalyzer.charts.redundancyDistribution.showPercent">false</entry>
+<entry key="privateStreaming.screenCaptureMethod">1</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.showTrains">false</entry>
+<entry key="module.repAnalyzer.charts.grid">false</entry>
+<entry key="settings.misc.displayInfoWhenStartedMinimized">true</entry>
+<entry key="mousePrint.refreshRate">1</entry>
+<entry key="settings.misc.useInMemoryReplayCache">true</entry>
+<entry key="settings.folders.sc2AutoReplay5">/Documents/StarCraft II/Accounts</entry>
+<entry key="settings.folders.sc2AutoReplay4">/Documents/StarCraft II/Accounts</entry>
+<entry key="settings.folders.sc2AutoReplay3">/Documents/StarCraft II/Accounts</entry>
+<entry key="sc2gearsDatabaseDownloader.fileType">0</entry>
+<entry key="settings.folders.sc2AutoReplay2">/Documents/StarCraft II/Accounts</entry>
+<entry key="settings.saveOnExit">true</entry>
+<entry key="module.repAnalyzer.charts.producedArmySupply.includeInitialUnits">false</entry>
+<entry key="privateStreaming.streamDescription">Playing ladder games and showcasing game analysis with Sc2gears...</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.showUpgrades">true</entry>
+<entry key="shareRep.replaySite">1</entry>
+<entry key="settings.misc.customDateTimeFormat"/>
+<entry key="window.startMinimizedToTray">false</entry>
+<entry key="module.repAnalyzer.charts.actions.actionType.6">false</entry>
+<entry key="module.repAnalyzer.charts.actions.actionType.5">true</entry>
+<entry key="module.repAnalyzer.charts.actions.actionType.4">true</entry>
+<entry key="module.repAnalyzer.charts.actions.actionType.3">true</entry>
+<entry key="module.repAnalyzer.charts.actions.actionType.2">true</entry>
+<entry key="module.repAnalyzer.charts.actions.actionType.1">true</entry>
+<entry key="settings.misc.mouseGameNewDiscDelayDecrement">3</entry>
+<entry key="module.repAnalyzer.charts.actions.actionType.0">true</entry>
+<entry key="settings.misc.newReplayDetectionMethod">1</entry>
+<entry key="settings.misc.mouseGameDiscSpeed">50</entry>
+<entry key="settings.misc.autoRetrieveExtProfileInfo">true</entry>
+<entry key="settings.misc.gameLengthRecordsGranularity">5</entry>
+<entry key="module.multiRepAnal.trends.trendType">0</entry>
+<entry key="settings.folders.sc2AutoReplay">w:/sc2/</entry>
+<entry key="module.repAnalyzer.inGameChat.showBlinks">true</entry>
+<entry key="settings.checkUpdatesOnStartup">false</entry>
+<entry key="onTopApmDisplay.locked">false</entry>
+<entry key="settings.misc.autoStoreNewReplays">true</entry>
+<entry key="module.repSearch.results.colorWinLoss">true</entry>
+<entry key="pluginManager.allowIncompatiblePlugins">false</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.showResearches">true</entry>
+<entry key="module.repAnalyzer.charts.producedArmySupply.cumulative">true</entry>
+<entry key="onTopGameInfo.location">165,473</entry>
+<entry key="settings.misc.customTimeFormat"/>
+<entry key="module.repSearch.results.renameTemplate">/s</entry>
+<entry key="settings.misc.toolTipInitialDelay">200</entry>
+<entry key="window.position">6,68,1274,944</entry>
+<entry key="privateStreaming.customAreaLeft">200</entry>
+<entry key="module.repAnalyzer.charts.buildsTech.showAbilityGroups">true</entry>
+<entry key="privateStreaming.saveVideoFolder">C:\Sc2gears Stream videos</entry>
+<entry key="metaData.saveTime">1444692059013</entry>
+<entry key="settings.misc.preferredBnetLanguage">0</entry>
+<entry key="module.repAnalyzer.charts.mapView.hotAreasCount">5</entry>
+<entry key="module.repAnalyzer.inGameChat.targetLanguage">0</entry>
+<entry key="module.repAnalyzer.charts.buildsTechStat.showAbilityGroups">true</entry>
+<entry key="settings.misc.mousePrintPourInkIdleTime">3</entry>
+<entry key="metaData.savedWithVersion">14.3.3</entry>
+<entry key="privateStreaming.saveVideoAsAvi">false</entry>
+<entry key="settings.misc.mouseGameRandomSeed"/>
+<entry key="module.repAnalyzer.charts.resourceSpendingRate.granularity">7</entry>
+<entry key="module.repSearch.results.includePathInZip">true</entry>
+<entry key="settings.misc.showWinners">true</entry>
+<entry key="privateStreaming.screenAreaToStream">0</entry>
+<entry key="settings.misc.mouseWarmupTime">50</entry>
+<entry key="settings.misc.favoredPlayerList">DakotaFannin, SCIIGears</entry>
+<entry key="settings.misc.predefinedList.repSearchLeagueMatchup">
+*vR
+*vM
+*vD
+*vP
+*vG
+*vS
+*vB
+Rv*
+Mv*
+Dv*
+Pv*
+Gv*
+Sv*
+Bv*</entry>
+<entry key="wordCloud.useColors">true</entry>
+<entry key="settings.misc.predefinedList.customDateFormat">
+yyyy-MM-dd
+yyyy.MM.dd
+yyyy/MM/dd
+yy-MM-dd
+yy.MM.dd
+yy/MM/dd</entry>
+<entry key="settings.maxReplaysToOpenForOpenInAnalyzer">5</entry>
+</properties>

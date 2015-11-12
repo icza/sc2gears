@@ -1,0 +1,36 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 9.2: RSR chart, Action sequences chart
+
+[hr]
+
+[b]Sc2gears 9.2: Resource Spending Rate (RSR) chart, Action sequences chart, 1.4.3 Patch implementation[/b]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-7n1OQ7dLLs0/T0ZGGw2qULI/AAAAAAAAiPU/FYi1Jyw_jc4/s730/action_sequences_chart.png[/img][/url]
+
+[b]Changes and new features in 9.2:[/b]
+--------------------------------------------------------
+
+-[b]Patch 1.4.3 changes have been implemented.[/b]
+
+-[b]New chart: Resource Spending Rate (RSR)[/b]
+This chart is similar to the APM chart, but this one visualizes the resource spending rate (RSR) of the players.
+You can choose the granularity and the graph approximation. 2 separate graphs are drawn for each player: Mineral RSR and Gas RSR.
+The displayed RSR values are per minute values (e.g. actual mineral or gas spending averaged to 1 minute).
+Like any other chart, it can be zoomed, grouped by teams, or show everyone on one chart for easy comparison.
+
+-[b]New chart: Action Sequences[/b]
+This chart measures and visualizes how fast players execute different action sequences (common, repeatable tasks like attack or move with multiple hotkeyed groups). It is measured in pairs/sec (action pairs in one second).
+[i]Action sequences[/i] are subsequent select+command pairs without being interrupted by other commands or by a specific time break, and consists of at least 2 select+command pairs. For example: select+move+select+move+..., another: hotkey select+attack+hotkey select+attack+...
+These sequences are presented as bars, where the width of the bar is the duration of the sequence, the height of the bar is the average execution speed of the sequence in pairs/sec.
+The max allowed frame delay in sequences is a parameter and can be changed. Hotkey sequences are drawn with brighter color.
+The chart headers include info about sequences count, pairs count and average execution speed in Pairs/sec.
+Like any other chart, it can be zoomed, grouped by teams, show everyone on one chart.
+
+-On the APM chart if the last chart segment is smaller than the other ones, its APM value is now properly calculated taking this (its smaller size) into account.
+This may result in proper, higher end-game (meaning the last chart segment) APM values.
+
+-If charts are zoomed in the Replay analyzer, the text displaying the marker time is now always visible at fixed position at the top right corner (even if you don't scroll to the end of the chart).
+
+-New line strings ("<n/>") in map attributes (Map preview tab in the Replay analyzer) are now handled properly (replaced by new line characters).
+

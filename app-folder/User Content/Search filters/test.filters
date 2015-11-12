@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><filters version="1.0">
+<filterGroup id="PLAYER">
+<filter>
+<not>false</not>
+<text>SCIIGears</text>
+<exactMatch>true</exactMatch>
+<raceCombo>1</raceCombo>
+<matchResultCombo>2</matchResultCombo>
+<minApm>66</minApm>
+<maxApm>666</maxApm>
+</filter>
+</filterGroup>
+<filterGroup id="FULL_PLAYER">
+<filter>
+<not>false</not>
+<text>SCIIGears/EU/1/206154</text>
+<includeAliases>false</includeAliases>
+</filter>
+</filterGroup>
+<filterGroup id="MAP">
+<filter>
+<not>true</not>
+<text>Lost Temple</text>
+<exactMatch>true</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="RACE_MATCHUP">
+<filter>
+<not>false</not>
+<text>PZv*</text>
+<exactMatch>true</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="FILE">
+<filter>
+<not>true</not>
+<text>some file</text>
+<exactMatch>false</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="CHAT_MESSAGE">
+<filter>
+<not>false</not>
+<text>gl hf</text>
+<exactMatch>false</exactMatch>
+</filter>
+<filter>
+<not>true</not>
+<text>gg</text>
+<exactMatch>false</exactMatch>
+</filter>
+</filterGroup>
+<filterGroup id="FORMAT">
+<filter>
+<not>false</not>
+<combo>1</combo>
+</filter>
+</filterGroup>
+<filterGroup id="GAME_TYPE">
+<filter>
+<not>false</not>
+<combo>2</combo>
+</filter>
+</filterGroup>
+<filterGroup id="GATEWAY">
+<filter>
+<not>false</not>
+<combo>3</combo>
+</filter>
+</filterGroup>
+<filterGroup id="DATE">
+<filter>
+<not>false</not>
+<min>2011-01-31</min>
+<max>2011-02-05</max>
+</filter>
+</filterGroup>
+<filterGroup id="GAME_LENGTH">
+<filter>
+<not>false</not>
+<min>1:0</min>
+<max>1:0:0</max>
+</filter>
+</filterGroup>
+<filterGroup id="VERSION">
+<filter>
+<not>false</not>
+<min>1.0</min>
+<max>1.2</max>
+</filter>
+</filterGroup>
+<filterGroup id="BUILD_ORDER">
+<filter>
+<not>false</not>
+<text>Pylon, Gateway, Assimilator, Pylon, Cybernetics Core</text>
+</filter>
+</filterGroup>
+<filterGroup id="BUILDING">
+<filter>
+<not>false</not>
+<combo>1</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="UNIT">
+<filter>
+<not>false</not>
+<combo>2</combo>
+<minOccurance>2</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="RESEARCH">
+<filter>
+<not>false</not>
+<combo>3</combo>
+<minOccurance>3</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="UPGRADE">
+<filter>
+<not>false</not>
+<combo>4</combo>
+<minOccurance>4</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="UNIT_ABILITY">
+<filter>
+<not>false</not>
+<combo>3</combo>
+<minOccurance>5</minOccurance>
+</filter>
+</filterGroup>
+<filterGroup id="BUILDING_ABILITY">
+<filter>
+<not>false</not>
+<combo>3</combo>
+<minOccurance>1</minOccurance>
+</filter>
+</filterGroup>
+</filters>

@@ -1,0 +1,14 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.1.1: 
+
+[hr]
+
+[big][b]Sc2gears 14.1.1: [/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.1.1:[/b]
+--------------------------------------------------------
+
+-Rebuilt Sc2gears version 14.1 because previous build left out some refactored code.

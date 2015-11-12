@@ -1,0 +1,32 @@
+To translators:
+-changed the translation text of the following keys:
+	about.usedIcons
+	folderSettings.sc2AutoReplay
+When translating please use the language files from the latest official release (1.41) because I might have edited the translation files you sent me last time.
+
+
+--------------------------------------------
+
+By default Starcraft II only saves your last 25 replays (after that it will delete older replays unless you archive them manually either from the game or outside of it with a file manager).
+
+
+--------------------------------------------
+
+Sc2gears 1.50: Rep auto-save and Playmates
+
+[b]Changes since version 1.41:[/b]
+--------------------------------------------
+-A new [b]Playmates[/b] tab in the details of a player in the Multi-replay analysis module.
+Statistics provided: common games, games as allies, games as opponents, records and win ratios as allies and as opponents, total time together, date of first and last common game.
+With this new tab you can see who did you play the most, who are you the most successful with, who are you the weakest against.
+
+-A new menu item in the Settings menu: [b]Enable replay auto-save[/b].
+If this is enabled, Sc2gears will backup all your new replays automatically. You just need to run Sc2gears while you play (you can hide it to the notification area if you want).
+If you want to change the replay auto-save folder, go to the Settings/Folder settings menu.
+
+-New info is parsed out and added to the game info tab: [b]handicap[/b]. Since most of the time it is 100 (default value), it is only displayed if it is less than 100.
+If handicap<100, a handicap icon is displayed next to the player name on the charts tab to draw attention to it. The tool tip value shows the handicap value.
+
+-Added Southeast Asia to the gateway list.
+
+-Added race icons on the charts tab, adjusted some colors for better readability.

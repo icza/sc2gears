@@ -1,0 +1,41 @@
+To translators:
+
+Removed keys:
+-replayops.renameDialog.symbol.fullPlayerName
+-replayops.renameDialog.symbol.allFullPlayerNames
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.6: "Instant" search and analysis!
+Sc2gears 5.6: "Instant" search and analysis!
+
+[b]Changes and new features in 5.6:[/b]
+--------------------------------------------------------
+
+[b]The internal replay cache management has been significantly improved.[/b]
+With 2 new additions, replay search and multi-replay analysis [b]take almost ZERO time[/b] even with thousands of replays!
+This applies to replays which are already cached - so the first search/analysis will run with approximately the same speed.
+
+-[b]In-memory replay cache management[/b]
+There is a setting on the Internal tab of the Misc settings dialog: "Use in-memory replay cache".
+If it is enabled (it is by default), Sc2gears will also manage the replay cache in-memory to speed up replay searches, multi-replay analysis and batch-renaming.
+
+-[b]A new name template symbol: /h[/b]
+This symbol inserts the MD5 hash of the replay. This might make your file names look a little uglier, but it will EXTREMELY speed up replay searches and multi-replay analysis.
+[b]It is recommended to rename all your current replays to add the MD5 hash to the name if you frequently use the search or the multi-rep analysis feature.[/b]
+To do that, list all your replays, and rename all with the template "/n  /h./e". This template simply adds the MD5 hash to the end of the current names.
+[b]Also add the /h symbol to your replay auto-save name template.[/b]
+
+-A new setting on the Internal tab of the Misc settings dialog: "Use MD5 hash from file name"
+You can tell Sc2gears whether to use the MD5 hash info if found in the file names.
+
+-Player aliases now have to be provided as full names: name-gateway-region-bnet_id, for example: "SCIIGears/EU/1/206154".
+[b]This is aided by a new player popup menu item: "Copy full name".[/b]
+This will allow you to specify your different accounts as aliases across all gateways even if they have the same name.
+
+-Removed the /P and /Q template symbols.
+
+-Code refactoring; other minor changes and improvements.

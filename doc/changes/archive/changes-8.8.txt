@@ -1,0 +1,29 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.8: Spawn Larva developm., Action distr.
+
+
+[hr]
+
+[b]Sc2gears 8.8: Spawn Larva development chart, Action distribution chart, Plugin API 2.6[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-d5keFQ2wK9I/TuhyhnzNRwI/AAAAAAAAhZQ/1K_xuk2DHYY/s730/spawn_larva_development.png[/img][/url]
+
+[b]Changes and new features in 8.8:[/b]
+--------------------------------------------------------
+
+-[b]New development chart in the Multi-rep analysis: Spawn Larva development[/b]
+This new development chart shows your weighted average spawning ratio and weighted average injection gap calculated from all selected replays.
+
+-[b]A new chart type in the Replay analyzer: Action distribution[/b]
+This chart visualizes the action distribution of players up until the selected action, or if no action is selected (by default) for the whole game.
+The following action categories are used: Select, Hotkey, Train, Build, Research, Upgrade, Right click, Stop, Hold position, Move, Patrol, Attack, Set rally point, Cancel, Other
+
+-The marker time is displayed at the top right corner of the charts in the Replay analyzer.
+
+-Plugin API 2.6:
+ * New methods in IPlayer to get info regarding to average spawning ratio and average injection gap 
+ * Added the Format.CUSTOM enumeration value introduced in Sc2gears version 8.7
+ * New method: IconsApi.getCustomEnlargedIcon()
+
+-Other minor changes and improvements.

@@ -1,0 +1,86 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.4: Profile dialog, Custom portraits
+Sc2gears 5.4: Player profile dialog, Custom portraits, Improved multi-rep analysis, Max table size in Profile tool tip
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh5.googleusercontent.com/-KDemoZcX1o8/TeS2XX_nlVI/AAAAAAAAbkc/IJiBiqyTSik/s400/player_profile_dialog.png.jpg[/img][/url]
+
+[b]Changes and new features in 5.4:[/b]
+--------------------------------------------------------
+
+-A new menu item in the player pop-up menu: [b]"Show profile info in pop-up"[/b]
+This will open a dialog window with the profile info of the player.
+Basically it shows the profile info that is already available in the tool tip of the players with some extras, but the league info is displayed in a table which can be scrolled if the list is too long, sorted, selected/copied, and the table always shows the full list.
+Clicking on the League column header for example will sort the table by Leagues regardless of the game type.
+This is also available in the players table of the Multi-replay analysis (Players and Playmates).
+
+-[b]Custom portraits[/b]
+By default your battle.net portrait is displayed as the portrait next to your name in the in the Replay analyzer and in the Player Profile dialog.
+For a small fee, [b]you can change your portrait picture to anything you like[/b], and everyone who opens a replay in Sc2gears with you in it will see the picture of your choice as your portrait.
+All you have to do is provide an image file in a size of 90x90 that you want to be your portrait. You can even set any battle.net portraits that you have not earned in StarCraft II! You can also set your own photo or even animated GIFs!
+This can be very useful especially for top players and progamers because their replays are downloaded and checked by thousands or tens of thousands of people.
+[i]Example:[/i] open the [url=http://www.mediafire.com/file/fycnus4dcstza7v/custom_portrait.SC2Replay]following replay[/url] in Sc2gears. You will see a custom animated GIF portrait next to the player [b]SCIIGears[/b].
+Read more about this feature: [url=https://sites.google.com/site/sc2gears/custom-portraits]Custom portraits[/url]
+
+-The Multi-replay analysis now distinguishes between different players having the same name.
+If multiple players are found with the same name, subsequent occurrences will be renamed by appending a counter, for example: "someName", "someName (#2)", "someName (#3)" etc.
+
+-New setting in the Analyzer tab of the Misc settings dialog: [b]Max table size in Profile tool tip[/b]
+If a player has too many leagues, it will be trimmed and a message will be appended indicating that there are more rows which can be viewed in the Player profile dialog.
+The best leagues of all types are always displayed in the tool tip.
+You can disable the profile tool tip if you set the max table size to 0.
+
+-The Napkin Look and Feel has been removed to reduced the download size of Sc2gears.
+
+-Other minor changes and improvements.
+
+
+
+
+===============================================================================================================================================
+
+Custom portraits
+
+Sc2gears automatically retrieves and displays the profile info of all players in the Replay analyzer. By default your battle.net portrait image is displayed as the portrait next to your name in the in the Replay analyzer and in the Player Profile dialog.
+
+For a small fee, [b]you can change your portrait picture to anything you like[/b], and everyone who opens a replay with you in it will see the picture of your choice as the player profile.
+All you have to do is provide an image file in a size of 90x90 that you want to be your portrait. You can even set any battle.net portraits that you have not earned in StarCraft II! You can also set your own photo or even animated GIFs!
+Offending, racist or pornography pictures might be denied (tasty erotic pictures are allowed), so if you want something nasty, it's better to first check if your desired portrait picture is allowed (by sending it to me).
+
+This can be very useful especially for top players and progamers because their replays are downloaded and checked by thousands or tens of thousands of people.
+
+
+How to get a custom portrait?
+1. Transfer the 5 USD fee to my PayPal account (you can find my email address on the About dialog in Sc2gears), in the comment indicate that you want a custom portrait.
+2. Send me an email with the following info:
+	-the email address you sent the money from.
+	-your desired custom portrait image; in the size of 90x90, accepted image formats: JPG, PNG, GIF (including animated GIF)
+	-if your custom portrait is an animated GIF, also provide it in the size of 45x45 (image editors like [url=http://www.gimp.org/]GIMP[/url] can resize it for you)
+	-your battle.net player profile URL (the portrait will be associated with this player)
+
+Pricing
+A custom portrait costs a one-time 5 USD, there are no recurring monthly costs.
+For the price you can request a portrait image change 5 times, or you can request to remove it at any time (to revert to your battle.net portrait image).
+If you want to change it again after the five free changes, you have to pay another 5 USD (and you get 5 more free changes).
+
+Limitation
+The maximum allowed animated GIF size is 200 KB, no limitation for non-animated images.
+
+Example
+Open the [url=http://www.mediafire.com/file/fycnus4dcstza7v/custom_portrait.SC2Replay]following replay[/url] in Sc2gears. You will see a custom animated GIF portrait next to the player [b]SCIIGears[/b]. 
+
+Terms of Service
+    Last updated: 2011-05-31
+
+1) The payment is not refundable. You cannot change your mind and request the money back.
+2) If the service is terminated in the future, you can claim the proportional amount of your payment projected to 2 years. For example if you register today and the service gets shut down a year from now, you can claim half of your payment.
+3) Price changes do not affect already paid custom portraits.
+4) If you pay to change someone else's portrait, the owner of that account can request to remove the custom portrait and you will not get your money back.
+5) I reserve the right to change the terms.

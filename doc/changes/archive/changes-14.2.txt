@@ -1,0 +1,22 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.2: Sc2gears Turns 3! Birthday release
+
+[hr]
+
+[big][b]Sc2gears 14.2: Sc2gears Turns 3! (Birthday release)[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.2:[/b]
+--------------------------------------------------------
+
+-The name template engine now removes not allowed characters from the generated file name.
+This is required because map names may contain characters that are not allowed to be used in file names.
+If such characters are encountered, the template engine will substitute them with an underscore (_).
+
+-Added new portrait images.
+
+-Fixed a synchronization issue which sometimes caused incorrect displayed data in the replay search result when the search was performed using multiple CPU cores.
+
+-Other minor changes and improvements.

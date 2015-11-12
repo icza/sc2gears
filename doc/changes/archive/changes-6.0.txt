@@ -1,0 +1,35 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 6.0: Global hotkeys, Event based detect.
+Sc2gears 6.0: Global hotkeys, Event based new replay detection
+
+[b]Changes and new features in 6.0:[/b]
+--------------------------------------------------------
+
+-[b]Global hotkeys[/b]
+Global hotkeys can now be enabled from the Settings menu.
+With global hotkeys you can do the followings from SC2 (or from any other applications):
+   [b]CTRL+ALT+R[/b] enable/disable replay auto-save
+   [b]CTRL+ALT+A[/b] enable/disable APM alert
+   [b]CTRL+ALT+M[/b] start/stop mouse print recording
+   [b]CTRL+ALT+T[/b] bring Sc2gears to front
+You can find the global hotkey list on the Keyboard shortcuts dialog (in the Help menu).
+The global hotkeys are only available on Windows.
+
+-[b]A new setting on the Replay auto-save tab: "New replay detection method"[/b]
+You can choose a method for the Replay auto-saver how to detect new replays.
+The [i]"Polling"[/i] is the method that was used before: the auto-replay folders are periodically scanned for new replays.
+On Windows there is another method available: [i]"Event based"[/i]. This method does not scan periodically the auto-replay folders, it uses OS services to be notified when a new replay is saved therefore it uses no CPU resource. This is the default now.
+
+-New sounds when replay auto-save and APM alert is turned on/off or when mouse print recording is started/stopped with global hotkeys.
+
+-APM Alert has been re-written using native system calls which results in less CPU usage.
+
+-Map aliases did not work correctly. This is fixed now.

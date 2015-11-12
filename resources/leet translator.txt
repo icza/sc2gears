@@ -1,0 +1,581 @@
+Leet translator algorithm:
+
+http://www.albinoblacksheep.com/text/leet
+
+
+document.myform.alternate.checked: "Alternate l33t characters"
+document.myform.procent1.value: "l33tness", example: 50%
+
+---------------------------------
+
+
+
+
+function l33t()
+{
+procent2 = "0"+ document.myform.procent1.value
+procent = parseFloat(procent2)
+text = document.myform.oldd.value
+t3xt = "" 
+
+for(i = 0; i < text.length; i++)
+{
+if (procent == 0)
+{
+switch(text.substring(i,i+1))
+{
+default: t3xt = t3xt + text.substring(i,i+1);
+}
+}
+if (document.myform.alternate.checked)
+{
+if (procent < 17 && procent > 0)
+{
+switch(text.substring(i,i+1))
+{
+case 'e': t3xt = t3xt + "€"; break;
+case 'E': t3xt = t3xt + "€"; break;
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent < 33 && procent > 16)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "@"; break;
+case 'e': t3xt = t3xt + "€"; break;
+case 'i': t3xt = t3xt + "¡"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "@"; break;
+case 'E': t3xt = t3xt + "€"; break;
+case 'I': t3xt = t3xt + "¡"; break;
+case 'O': t3xt = t3xt + "0"; break;
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent < 49 && procent > 32)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "@"; break;
+case 'e': t3xt = t3xt + "€"; break;
+case 'i': t3xt = t3xt + "¡"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "@"; break;
+case 'E': t3xt = t3xt + "€"; break;
+case 'I': t3xt = t3xt + "¡"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "§"; break;
+case 'S': t3xt = t3xt + "§"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "ç"; break;
+case 'C': t3xt = t3xt + "ç"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'd': t3xt = t3xt + "þ"; break;
+case 'D': t3xt = t3xt + "þ"; break;
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent < 65 && procent > 48)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "@"; break;
+case 'e': t3xt = t3xt + "€"; break;
+case 'i': t3xt = t3xt + "¡"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "@"; break;
+case 'E': t3xt = t3xt + "€"; break;
+case 'I': t3xt = t3xt + "¡"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "§"; break;
+case 'S': t3xt = t3xt + "§"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "ç"; break;
+case 'C': t3xt = t3xt + "ç"; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "þ"; break;
+case 'D': t3xt = t3xt + "þ"; break;
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent  < 81 && procent > 64)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "@"; break;
+case 'e': t3xt = t3xt + "€"; break;
+case 'i': t3xt = t3xt + "¡"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "@"; break;
+case 'E': t3xt = t3xt + "€"; break;
+case 'I': t3xt = t3xt + "¡"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "§"; break;
+case 'S': t3xt = t3xt + "§"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "ç"; break;
+case 'C': t3xt = t3xt + "ç"; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "þ"; break;
+case 'D': t3xt = t3xt + "þ"; break;
+
+case 'n': t3xt = t3xt + "|\\|"; break;
+case 'N': t3xt = t3xt + "|\\|"; break;
+case 'w': t3xt = t3xt + "\\/\\/"; break;
+case 'W': t3xt = t3xt + "\\/\\/"; break;
+case 'h': t3xt = t3xt + "|-|"; break;
+case 'H': t3xt = t3xt + "|-|"; break;
+case 'v': t3xt = t3xt + "\\/"; break;
+case 'V': t3xt = t3xt + "\\/"; break;
+case 'm': t3xt = t3xt + "|\\/|"; break;
+case 'M': t3xt = t3xt + "|\\/|"; break;
+
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent  > 80 && procent < 100)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "@"; break;
+case 'e': t3xt = t3xt + "€"; break;
+case 'i': t3xt = t3xt + "¡"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "@"; break;
+case 'E': t3xt = t3xt + "€"; break;
+case 'I': t3xt = t3xt + "¡"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "§"; break;
+case 'S': t3xt = t3xt + "§"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "ç"; break;
+case 'C': t3xt = t3xt + "ç"; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "þ"; break;
+case 'D': t3xt = t3xt + "þ"; break;
+
+case 'n': t3xt = t3xt + "|\\|"; break;
+case 'N': t3xt = t3xt + "|\\|"; break;
+case 'w': t3xt = t3xt + "\\/\\/"; break;
+case 'W': t3xt = t3xt + "\\/\\/"; break;
+case 'h': t3xt = t3xt + "|-|"; break;
+case 'H': t3xt = t3xt + "|-|"; break;
+case 'v': t3xt = t3xt + "\\/"; break;
+case 'V': t3xt = t3xt + "\\/"; break;
+case 'k': t3xt = t3xt + "|<"; break;
+case 'K': t3xt = t3xt + "|<"; break;
+case 'r': t3xt = t3xt + "|2"; break;
+case 'R': t3xt = t3xt + "|2"; break;
+case 'm': t3xt = t3xt + "|\\/|"; break;
+case 'M': t3xt = t3xt + "|\\/|"; break;
+case 'b': t3xt = t3xt + "ß"; break;
+case 'B': t3xt = t3xt + "ß"; break;
+case 'q': t3xt = t3xt + "¶"; break;
+case 'Q': t3xt = t3xt + "¶"; break;
+case 'x': t3xt = t3xt + "><"; break;
+case 'X': t3xt = t3xt + "><"; break;
+
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent  > 99)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "@"; break;
+case 'e': t3xt = t3xt + "€"; break;
+case 'i': t3xt = t3xt + "¡"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "@"; break;
+case 'E': t3xt = t3xt + "€"; break;
+case 'I': t3xt = t3xt + "¡"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "§"; break;
+case 'S': t3xt = t3xt + "§"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "ç"; break;
+case 'C': t3xt = t3xt + "ç"; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "þ"; break;
+case 'D': t3xt = t3xt + "þ"; break;
+
+case 'n': t3xt = t3xt + "|\\|"; break;
+case 'N': t3xt = t3xt + "|\\|"; break;
+case 'w': t3xt = t3xt + "\\/\\/"; break;
+case 'W': t3xt = t3xt + "\\/\\/"; break;
+case 'h': t3xt = t3xt + "|-|"; break;
+case 'H': t3xt = t3xt + "|-|"; break;
+case 'v': t3xt = t3xt + "\\/"; break;
+case 'V': t3xt = t3xt + "\\/"; break;
+case 'k': t3xt = t3xt + "|<"; break;
+case 'K': t3xt = t3xt + "|<"; break;
+case 'r': t3xt = t3xt + "|2"; break;
+case 'R': t3xt = t3xt + "|2"; break;
+case 'm': t3xt = t3xt + "|\\/|"; break;
+case 'M': t3xt = t3xt + "|\\/|"; break;
+case 'b': t3xt = t3xt + "ß"; break;
+case 'B': t3xt = t3xt + "ß"; break;
+case 'j': t3xt = t3xt + "_|"; break;
+case 'J': t3xt = t3xt + "_|"; break;
+case 'P': t3xt = t3xt + "|*"; break;
+case 'P': t3xt = t3xt + "|*"; break;
+case 'q': t3xt = t3xt + "¶"; break;
+case 'Q': t3xt = t3xt + "¶"; break;
+case 'x': t3xt = t3xt + "><"; break;
+case 'X': t3xt = t3xt + "><"; break;
+
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+}
+//=======================================================================
+else
+{
+if (procent < 17 && procent > 0)
+{
+switch(text.substring(i,i+1))
+{
+case 'e': t3xt = t3xt + "3"; break;
+case 'E': t3xt = t3xt + "3"; break;
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent < 33 && procent > 16)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "4"; break;
+case 'e': t3xt = t3xt + "3"; break;
+case 'i': t3xt = t3xt + "1"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "4"; break;
+case 'E': t3xt = t3xt + "3"; break;
+case 'I': t3xt = t3xt + "1"; break;
+case 'O': t3xt = t3xt + "0"; break;
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent < 49 && procent > 32)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "4"; break;
+case 'e': t3xt = t3xt + "3"; break;
+case 'i': t3xt = t3xt + "1"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "4"; break;
+case 'E': t3xt = t3xt + "3"; break;
+case 'I': t3xt = t3xt + "1"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "$"; break;
+case 'S': t3xt = t3xt + "$"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "("; break;
+case 'C': t3xt = t3xt + "("; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'd': t3xt = t3xt + "Ð"; break;
+case 'D': t3xt = t3xt + "Ð"; break;
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent < 65 && procent > 48)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "4"; break;
+case 'e': t3xt = t3xt + "3"; break;
+case 'i': t3xt = t3xt + "1"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "4"; break;
+case 'E': t3xt = t3xt + "3"; break;
+case 'I': t3xt = t3xt + "1"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 'k': t3xt = t3xt + "|{"; break;
+case 'K': t3xt = t3xt + "|{"; break;
+case 's': t3xt = t3xt + "$"; break;
+case 'S': t3xt = t3xt + "$"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "("; break;
+case 'C': t3xt = t3xt + "("; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "Ð"; break;
+case 'D': t3xt = t3xt + "Ð"; break;
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent  < 81 && procent > 64)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "4"; break;
+case 'e': t3xt = t3xt + "3"; break;
+case 'i': t3xt = t3xt + "1"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "4"; break;
+case 'E': t3xt = t3xt + "3"; break;
+case 'I': t3xt = t3xt + "1"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 'k': t3xt = t3xt + "|{"; break;
+case 'K': t3xt = t3xt + "|{"; break;
+case 's': t3xt = t3xt + "$"; break;
+case 'S': t3xt = t3xt + "$"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "("; break;
+case 'C': t3xt = t3xt + "("; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "Ð"; break;
+case 'D': t3xt = t3xt + "Ð"; break;
+
+case 'n': t3xt = t3xt + "|\\|"; break;
+case 'N': t3xt = t3xt + "|\\|"; break;
+case 'w': t3xt = t3xt + "\\/\\/"; break;
+case 'W': t3xt = t3xt + "\\/\\/"; break;
+case 'h': t3xt = t3xt + "|-|"; break;
+case 'H': t3xt = t3xt + "|-|"; break;
+case 'v': t3xt = t3xt + "\\/"; break;
+case 'V': t3xt = t3xt + "\\/"; break;
+case 'm': t3xt = t3xt + "|\\/|"; break;
+case 'M': t3xt = t3xt + "|\\/|"; break;
+
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent  > 80 && procent < 100)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "4"; break;
+case 'e': t3xt = t3xt + "3"; break;
+case 'i': t3xt = t3xt + "1"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "4"; break;
+case 'E': t3xt = t3xt + "3"; break;
+case 'I': t3xt = t3xt + "1"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "$"; break;
+case 'S': t3xt = t3xt + "$"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "("; break;
+case 'C': t3xt = t3xt + "("; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "Ð"; break;
+case 'D': t3xt = t3xt + "Ð"; break;
+
+case 'n': t3xt = t3xt + "|\\|"; break;
+case 'N': t3xt = t3xt + "|\\|"; break;
+case 'w': t3xt = t3xt + "\\/\\/"; break;
+case 'W': t3xt = t3xt + "\\/\\/"; break;
+case 'h': t3xt = t3xt + "|-|"; break;
+case 'H': t3xt = t3xt + "|-|"; break;
+case 'v': t3xt = t3xt + "\\/"; break;
+case 'V': t3xt = t3xt + "\\/"; break;
+case 'k': t3xt = t3xt + "|{"; break;
+case 'K': t3xt = t3xt + "|{"; break;
+case 'r': t3xt = t3xt + "®"; break;
+case 'R': t3xt = t3xt + "®"; break;
+case 'm': t3xt = t3xt + "|\\/|"; break;
+case 'M': t3xt = t3xt + "|\\/|"; break;
+case 'b': t3xt = t3xt + "ß"; break;
+case 'B': t3xt = t3xt + "ß"; break;
+case 'q': t3xt = t3xt + "Q"; break;
+case 'Q': t3xt = t3xt + "Q¸"; break;
+case 'x': t3xt = t3xt + ")("; break;
+case 'X': t3xt = t3xt + ")("; break;
+
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+if (procent  > 99)
+{
+switch(text.substring(i,i+1))
+{
+case 'a': t3xt = t3xt + "4"; break;
+case 'e': t3xt = t3xt + "3"; break;
+case 'i': t3xt = t3xt + "1"; break;
+case 'o': t3xt = t3xt + "0"; break;
+case 'A': t3xt = t3xt + "4"; break;
+case 'E': t3xt = t3xt + "3"; break;
+case 'I': t3xt = t3xt + "1"; break;
+case 'O': t3xt = t3xt + "0"; break;
+
+case 's': t3xt = t3xt + "$"; break;
+case 'S': t3xt = t3xt + "$"; break;
+case 'g': t3xt = t3xt + "9"; break;
+case 'G': t3xt = t3xt + "9"; break;
+case 'l': t3xt = t3xt + "£"; break;
+case 'L': t3xt = t3xt + "£"; break;
+case 'c': t3xt = t3xt + "("; break;
+case 'C': t3xt = t3xt + "("; break;
+case 't': t3xt = t3xt + "7"; break;
+case 'T': t3xt = t3xt + "7"; break;
+case 'z': t3xt = t3xt + "2"; break;
+case 'Z': t3xt = t3xt + "2"; break;
+case 'y': t3xt = t3xt + "¥"; break;
+case 'Y': t3xt = t3xt + "¥"; break;
+case 'u': t3xt = t3xt + "µ"; break;
+case 'U': t3xt = t3xt + "µ"; break;
+case 'f': t3xt = t3xt + "ƒ"; break;
+case 'F': t3xt = t3xt + "ƒ"; break;
+case 'd': t3xt = t3xt + "Ð"; break;
+case 'D': t3xt = t3xt + "Ð"; break;
+
+case 'n': t3xt = t3xt + "|\\|"; break;
+case 'N': t3xt = t3xt + "|\\|"; break;
+case 'w': t3xt = t3xt + "\\/\\/"; break;
+case 'W': t3xt = t3xt + "\\/\\/"; break;
+case 'h': t3xt = t3xt + "|-|"; break;
+case 'H': t3xt = t3xt + "|-|"; break;
+case 'v': t3xt = t3xt + "\\/"; break;
+case 'V': t3xt = t3xt + "\\/"; break;
+case 'k': t3xt = t3xt + "|{"; break;
+case 'K': t3xt = t3xt + "|{"; break;
+case 'r': t3xt = t3xt + "®"; break;
+case 'R': t3xt = t3xt + "®"; break;
+case 'm': t3xt = t3xt + "|\\/|"; break;
+case 'M': t3xt = t3xt + "|\\/|"; break;
+case 'b': t3xt = t3xt + "ß"; break;
+case 'B': t3xt = t3xt + "ß"; break;
+case 'j': t3xt = t3xt + "_|"; break;
+case 'J': t3xt = t3xt + "_|"; break;
+case 'P': t3xt = t3xt + "|°"; break;
+case 'P': t3xt = t3xt + "|°"; break;
+case 'q': t3xt = t3xt + "¶"; break;
+case 'Q': t3xt = t3xt + "¶¸"; break;
+case 'x': t3xt = t3xt + ")("; break;
+case 'X': t3xt = t3xt + ")("; break;
+
+
+default: t3xt = t3xt + text.substring(i,i+1);break;
+}
+}
+
+}
+}
+
+
+document.myform.neww.value = t3xt;
+}

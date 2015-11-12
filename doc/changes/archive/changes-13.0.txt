@@ -1,0 +1,29 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 13.0: Heart of the Swarm! Java 7 req!
+
+[hr]
+
+[big][b]Sc2gears 13.0: Full Heart of the Swarm Support! Java 7 requirement![/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 13.0:[/b]
+--------------------------------------------------------
+
+-[b]Java 7 requirement![/b]
+This Sc2gears release now requires Java 7 (instead of Java 6). If you only have Java 6 installed on your computer, you won't be able to run Sc2gears.
+You can install Java 7 from here: [url=http://java.com/]http://java.com/[/url]
+
+-[b]HotS replays are now finally fully supported.[/b]
+The replay parsing engine has been improved to support HotS replays.
+The EAPM algorithm has been extended to HotS.
+Also fixed previous parsing errors, added new unit ids and images.
+
+-Fixed a small bug which caused incorrect display of samples count for loaded mouse prints.
+
+-Plugin API 4.0
+The plugin API jar has also been recompiled with Java 7.
+New Hots units, researches and abilities have been added.
+
+-Other minor changes, improvements and fixes.

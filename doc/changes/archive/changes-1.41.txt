@@ -1,0 +1,4 @@
+[b]Changes since version 1.40:[/b]
+--------------------------------------------
+-Fixed a bug in the replay parser (due to the bug in some replays not all actions were parsed and displayed).
+-Camera zoom and rotation is indicated for move screen actions in the action list.

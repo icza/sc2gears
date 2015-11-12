@@ -1,0 +1,77 @@
+<html>
+<head>
+	<style type="text/css">
+		li {padding-top:3px;padding-bottom:3px;}
+	</style>
+</head>
+<body>
+
+<h3>How-to create a new Sc2gears release</h3>
+
+<ol>
+	<li>In <code>Consts.java</code> review/change:
+		<ul>
+			<li><code>APPLICATION_VERSION</code></li>
+			<li><code>APPLICATION_RELEASE_DATE_ST</code></li>
+			<li><code>APPLICATION_LANGUAGE_VERSION</code></li>
+		</ul>
+	</li>
+	<li>If new files were added to Sc2gears (for example new translations or new jars or <b>new plugins</b>), they have to be listed explicitly in <code>Updater.java</code>.<br/>
+		Also if new jars were added/removed, they have to be explicitly listed in the <code>create-release.cmd</code> for jar indexing (besides adding them to the classpath and rebuilding the .exe).</li>
+	<li>In <code>Sc2gears.java</code> review/implement optional post-update tasks.</li>
+	<li>In <code>PluginManager.java</code> review/implement plugin compatibility condition.</li>
+	<li>Edit <code>start_page_XXX.html</code> files to add news and changes.</li>
+	<li>Create the new release-archives:
+		<ul>
+			<li>Change compiler settings: <span style='color:red;font-weight:bold'>disable</span> <i>"Add variable attributes to generated class files"</i> and recompile.</li>
+			<li>Run <code>create-release.cmd</code></li>
+			<li>Pack the new release to <code>W:\</code></li>
+			<li>Backup <code>"Sc2gears Plugin API/example"</code> (for optimized and smaller code for examples)</li>
+			<li>Change compiler settings back: <span style='color:red;font-weight:bold'>enable</span> <i>"Add variable attributes to generated class files"</i> and recompile.</li>
+			<li>Run <code>create-release.cmd</code> again</li>
+			<li>Restore <code>"Sc2gears Plugin API/example"</code> (with optimized and smaller code for examples)</li>
+			<li>Append/include Plugin API version to <code>"Sc2gears Plugin API"</code> and <code>"Sc2gears-plugin-api.jar"</code></li>
+			<li>Pack the new Plugin API release to <code>W:\</code></li>
+			<li>Run <code>src-util\...\CalcChecksum.java</code></li>
+		</ul>
+	</li>
+	<li>Upload the new release archive to <a href="https://www.mediafire.com/myfiles.php">MediaFire.com</a> and <a href="https://www.dropbox.com/">Dropbox.com</a>.</li>
+	<li>If a new Plugin API is released, copy that to the <code>/war/hosted/</code> folder. In the Plugin API javadoc provider servlet change the zip file param name in the <code>/war/WEB-INF/web.xml</code> descriptor.</li>
+	<li>Update the URLs in the <code>DownloadServlet</code> class.</li>
+	<li>In <code>latest_version.xml</code> review/change:
+		<ul>
+			<li><code>latestVersion</code></li>
+			<li><code>archiveSha256</code></li>
+			<li><code>archiveUrl</code>s</li>
+			<li>language file versions
+		</ul>
+	</li>
+	<li>Update the Sc2gears home page:
+		<ul>
+			<li>Create a new post in the Version history page</li>
+			<li>Download page:
+				<ul>
+					<li>Edit download URLs</li>
+					<li>Edit download size</li>
+					<li>Edit release date</li>
+					<li>Edit SHA-256 checksum</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>Make the new release official:
+		<ul>
+			<li>Deploy <code>sc2gearsdb</code> to Google app engine</li>
+		</ul>
+	</li>
+	<li>Upload the new release-archive and <code>latest_version.xml</code> to Google docs.</li>
+	<li>Optionally update the Features pages and upload new screenshots.</li>
+	<li>Update and post on <a href="http://www.teamliquid.net/forum/viewmessage.php?topic_id=124689">Teamliquid.net main Sc2gears thread</a>.</li>
+</ol>
+
+<hr/>
+<div align=right><i>&copy; Andr&aacute;s Belicza, 2010-2014</i></div>
+
+</body>
+</htm>
+ 

@@ -1,0 +1,54 @@
+[b]Sc2gears 0.80 with charts and with latest replay format support[/b]
+
+[img]http://lh4.ggpht.com/_jDMClHrENz8/S-illYeKOLI/AAAAAAAATdE/XVbqXbMQTDk/s400/overview.png.jpg[/img]
+
+[img]http://lh3.ggpht.com/_jDMClHrENz8/S-ilmDpOArI/AAAAAAAATdM/TILFtxJ0mMo/s400/apm_chart.png.jpg[/img]
+[url=http://picasaweb.google.com/iczaaa/Sc2gears]More screenshots[/url]
+
+[b]Changes since version 0.61:[/b]
+----------------------------------
+
+[b]Charts tab is now implemented! Features of the Charts tab: [/b]
+-3 chart types as of now: [b]APM[/b], [b]Hotkeys[/b] and [b]Builds/Tech[/b].
+-On the APM chart you can set the granularity in pixels and the curve approximation (linear or cubic).
+-On the Hotkeys chart you can visualize the Assign and Select hotkeys (you can hide select hotkeys). 
+-On the Builds/Tech chart you can visualize the Build, Train, Research and Upgrade actions. You can enable/disable any of it, and you can choose whether to display workers if Train actions are displayed.
+-A colored action list with [b]action icons[/b] is displayed below the charts, you can filter it by action types. Action colors can be inverted, icon size can be changed (or hid).
+-You can jump to a specified frame, you can search text in the action, and you can filter them by the entered text. The filter text are in logical AND connection by default, you may enter OR between them to specify a logical OR connection. Hotkeys: CTRL+J jump, CTRL+S search, CTRL+F filter. 
+-You can fast switch between charts with CTRL+number. For example CTRL+1 for APM, CTRL+2 for Hotkeys etc.
+-You can fast zoom in with CTRL+I and zoom out with CTRL+U.
+-Right click on the chart opens the Replay operations menu.
+
+Applied to all chart types:
+-Every chart can be zoomed. If a chart is zoomed, you can simply drag it to scroll (or traditionally use the scrollbar).
+-You can choose to display all players on 1 common chart, or to put each on a separate one.
+-You can choose to display time info in seconds or in frames.
+-You can choose to display charts using the players' in-game colors, or with the same color.
+-You can enable/disable any of the players.
+-The chart marker and the selected action is synchronized to each other.
+
+======================================================================
+
+[b]Other new features and changes: [/b]
+-New replay operation: [b]Watch replay[/b]. If Sc2 is not running, this will start Sc2 and starts playing the replay.
+-Added new search fields: Match-up, Build order, Building, Unit, Research, Upgrade, Unit ability, Building ability. The build order may contain asterisks (*) to match any building. The unit and building ability fields can be used to find replays where the specified abilities were used. At each of these fields you can also specify the min occurrence count (for example PSI storm was used at least 10 times).
+-Added a new "List all replays of this source" [i]shortcut[/i] button to the source tab of the Replay search to quickly list the replays of a source (you can achieve this by going to the filters tab and performing a search without changing any filter fields).
+-New menu item: Folder settings. Here you can set your Sc2 installation folder, auto replay folder and SC2 maps folder.
+-Added Swedish translation by Marcus Östergren (translated version 0.61).
+-Game info tab now groups players into teams.
+-Closeable tabs now can be closed with CTRL+W (search results tab for example).
+-When search/load is finished, Abort button is removed.
+-Added map name and size on the map preview tab, and now map preview is scrollable by dragging.
+-New symbols in the replay rename dialog: match-up, race match-up, full name, full name list,
+-Fixed a small bug in the replay rename code (template processor).
+-Coordinates are now parsed and displayed properly.
+-Supports the new replay format (from version 0.11), and does not support previous versions.
+-More flexible layout on some tabs.
+
+
+[b]Home page:[/b]
+[url=http://sites.google.com/site/sc2gears/]http://sites.google.com/site/sc2gears/[/url]
+
+Note:
+It's written in Java, so you need Java 6.0 or newer to use it.
+On the other hand if you have Java, you can use it (on all operating systems: Windows, MAC OS-X, Linux).

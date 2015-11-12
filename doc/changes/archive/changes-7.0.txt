@@ -1,0 +1,113 @@
+To translators:
+
+Removed keys:
+-module.repAnalyzer.tab.charts.players.portraitToolTip.gameType
+-module.repAnalyzer.tab.charts.players.portraitToolTip.random
+-module.repAnalyzer.tab.charts.players.portraitToolTip.race
+-module.repAnalyzer.tab.charts.players.portraitToolTip.points
+-module.repAnalyzer.tab.charts.players.portraitToolTip.wins
+-module.repAnalyzer.tab.charts.players.portraitToolTip.losses
+-module.repAnalyzer.tab.charts.players.portraitToolTip.worldRank
+-module.repAnalyzer.tab.charts.players.portraitToolTip.regionRank
+-playerProfile.retrievedAt
+-about.profileCachePoweredBy
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.0: Plugin interface, Chat stats + more
+Sc2gears 7.0: Plugin interface, Chat word statistics, Profile info from Battle.net
+
+[b]Changes and new features in 7.0:[/b]
+--------------------------------------------------------
+
+-[b]A new plugin interface![/b]
+Java Developers, fire up your IDEs! You can now write plugins and extensions for Sc2gears.
+More: [url=https://sites.google.com/site/sc2gears/features/plugin-interface]Plugin interface[/url]
+Forum: [url=https://groups.google.com/forum/#!forum/sc2gearsdev]Sc2gears developer forum[/url]
+
+-[b]New tool: Plugin manager[/b]
+The Plugin manager can be used to see what plugins you have installed, you can see details/properties of the plugins, and you can enable/disable them one by one or all with a click.
+
+-[i]A new "Check plugins" diagnostic task checks if all enabled plugins have been started successfully.[/i]
+
+-[b]New tab in the Multi-replay analysis: Chat words[/b]
+This tab shows a table of the chat words used by the player in the replays.
+The table shows the occurrence of the words, the number of replays they were used in, % of all replays they were used in, first and last dates they were used.
+This Chat statistics is calculated for all players in all replays, and also for each player separately.
+
+-[b]Profile info is now taken from the Battle.net instead of Sc2ranks.com.[/b]
+What does this mean?
+ * Must faster profile info access
+ * Less downtime (Battle.net servers are available most of the time)
+ * The retrieved profile info is [b]always up-to-date[/b] (not like in the case of sc2ranks.com where profile data may even be several weeks/months old)
+ * You don't have to register or add your account to see profile info (Sc2ranks only provided info about players being in their database)
+
+-[b]New setting: Auto retrieve extended profile info[/b]
+If this is checked, extended profile info is automatically retrieved along with the profile info.
+Extended profile info contains all leagues (all team info) of a player (not just the best leagues).
+The extended profile info is retrieved after base profile info is ready (and displayed), and it happens in the background.
+
+-Sc2gears is now aware of the Season #3 start date.
+
+-Updated the replay parser engine to be able to parse replays where lag hack was used.
+
+-Other minor changes and improvements.
+
+
+
+
+
+PLUGIN INTERFACE
+
+
+Plugins are software components that will run along with Sc2gears, but they are developed independently by 3rd party developers and vendors.
+
+Plugins can be a great asset to make your Sc2gears and StarCraft II experience better.
+
+Sc2gears has a plugin interface which allows developers to create plugins and extensions for Sc2gears. 
+
+Since plugins are NOT developed or maintained by me, you should have the same reservations about them as about any applications you download from the Internet.
+
+ONLY DOWNLOAD AND ADD PLUGINS THAT COME FROM TRUSTED SOURCES!
+
+Plugins are distributed as folders. To add a plugin to Sc2gears, you just have to copy the plugin's folder into the "Plugins" folder inside Sc2gears.
+You can manage your plugins from the Plugin Manager which is available from the Tools menu inside Sc2gears.
+
+Since plugins are NOT developed by me, I take zero responsibility for what they do or how they do it.
+Poorly or viciously written plugins can make your Sc2gears or your whole system slow, unstable, or can even damage it.
+Plugins can also access and steal your private data.
+
+AGAIN: ONLY DOWNLOAD AND ADD PLUGINS THAT COME FROM TRUSTED SOURCES!
+
+
+Plugin development
+
+    [i]The following information is intended for developers.[/i]
+
+You can download the Plugin API (Plugin interface library, example code, Javadoc) from the []Downloads[] page.
+
+If you have any questions, suggestions or you want to share your opinion, visit the []Sc2gears developer forum[].
+
+
+Plugins are written using the Java language. There are no restrictions, everything can be used from the public Java API.
+Plugins can write to the standard output (<code>System.out</code>) or to the standard error (<code>System.err</code>),
+they will appear in the application Log (<code>"User content/Logs"</code> folder).
+
+A plugin is a set of files within a folder. It must contain a <i>plugin descriptor</i> file
+and java libraries (*.jar files) that contain the code of the plugin - in simple cases it can be one jar file.
+All Java libraries (*.jar) in the plugin folder will be loaded and will be available for the plugin.
+The Plugin API library must not be included in the plugin jars, because it is contained in Sc2gears!</p>
+
+<p>The plugin descriptor is an XML file which must be in the root of the plugin folder and must be named <code>"Sc2gears-plugin.xml"</code>,
+and contains meta-data about the plugin including the plugin name, author, description and main class.</p>
+
+Here is an example of <code>"Sc2gears-plugin.xml"</code>:
+[]
+
+<p>The main class must implement the <code>"hu.andras.belicza.sc2gearspluginapi.Plugin"</code> interface or extend a class that implements it.
+Moreover the main class must provide a public no-arg constructor (a constructor that takes no arguments).
+The main class must also be unique: cannot be added 2 plugins with the same main class!</p>
+

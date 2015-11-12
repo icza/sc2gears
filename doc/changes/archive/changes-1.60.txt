@@ -1,0 +1,35 @@
+To translators:
+When translating please use the language files from the latest official release (1.51) because I might have edited the translation files you sent me last time.
+
+
+Sc2gears 1.60: Real-time conversion and Voices
+
+[b]Changes in 1.60 since version 1.51:[/b]
+--------------------------------------------
+-[b]Added game-time <=> real-time conversion.[/b]
+From now on real-time calculation is the default, so the APM and other charts, the average APM values and game lengths are displayed in real-time.
+The conversion takes the game speed into consideration. If you were playing on faster game speed for example, expect to see your APM being raised by 38.4%.
+You can disable this (switch back to game-time) in the Miscellaneous settings menu. 
+
+-A new menu item in the Settings: [b]Enable voice notifications[/b]. If it is enabled, you will hear voice notification at some specific events.
+
+-A new menu item in the Settings: [b]Voice[/b]. Sc2gears supports multiple voices. You can choose the one that you like the most.
+
+-A new menu item in the Settings: [b]Miscellaneous settings...[/b] Here you can change internal settings and fine-tune the operation of Sc2gears.
+
+-Now you can provide a name template for the auto-saved replays under the Miscellaneous settings. The same format can be used as in the replay rename dialog. 
+
+-[b]Replay save time[/b] is now parsed out of replay and is used instead of the file last modified date.
+
+-Updated the 1v1 match-up records tab (in the details of a player in Multi-rep analysis): now the match-ups where [b]Random is involved[/b] are also broken down to statistics [b]to what the random race turned out to be[/b].
+For example if you played PvR games with all outcomes of random, you will see all these statistics: Pv*, PvR, P vs R(Terran), P vs R(Zerg), P vs R(Protoss)
+
+-Added replay date+time and format info on the replay open dialogs.
+
+-Replaced the country flags.
+
+-Improved logging. Old logs are now backed up, and you can set how long you want to keep them.
+
+-Latest version check now uses a [b]secure connection[/b].
+
+-Other minor changes and improvements.

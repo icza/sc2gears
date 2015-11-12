@@ -1,0 +1,18 @@
+
+MatchMakingRatingTool
+	http://www.teamliquid.net/forum/viewmessage.php?topic_id=334561
+
+ScoreScreenSave
+	http://www.teamliquid.net/forum/viewmessage.php?topic_id=303609
+
+http://www.pmsclan.com/forum/showthread.php?t=75326
+	http://www.p34nut.net/SC2/getUploader.html
+
+
+http://code.google.com/p/replay-stat-analysis/
+
+
+https://github.com/paul-meier/PizzaHutTacoBell
+
+
+https://github.com/willemvanrooyen/SBOAutomaton

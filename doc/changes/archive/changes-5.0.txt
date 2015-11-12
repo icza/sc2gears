@@ -1,0 +1,186 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.0: Sc2gears Database
+Sc2gears 5.0: Sc2gears Database
+
+
+[b]Changes and new features in 5.0:[/b]
+--------------------------------------------------------
+
+-[b]1.3 Patch changes are now implemented.[/b]
+
+-[b]Added support for the new China gateway.[/b]
+Gateway and races are recognized properly, added links to the Chinese Battle.net profiles and to Sc2ranks.com profiles.
+
+-[b]Start page Channels[/b]
+The Start page now supports multiple channels. You can select the channel you want to be displayed.
+
+-Added a new granularity for the development charts in the Multi-replay analysis: [b]Ladder season[/b]
+If this is selected, replays from the same season will be summarized to generate chart data.
+
+-The [b]drop.sc[/b] replay site has implemented the replay upload specification, and it has been added to Sc2gears and is available for replay sharing.
+
+-[b]Sc2gears Database[/b]
+Replays are becoming more and more important as Blizzard has shown that they can and they do hide important statistics arbitrary from Battle.net profile pages. Replays remain your only source to get detailed statistics about your play and improvements.
+Sc2gears Database is a secure server to store ALL your replays and other related files privately.
+More: [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url]
+[b]Sc2gears Database has been integrated into Sc2gears:[/b]
+-New tab in the Miscellaneous settings dialog to view, edit and check the Authorization key.
+-New settings: "Replay auto-store", "Store all mouse prints" to enable storing new replays and new mouse prints automatically.
+-New replay operation: Store replays; to store any number of replays at once.
+-New buttons on the Mouse print recorder: Store mouse print, Select mouse prints to store; to store the current mouse print or any number of mouse prints at once.
+-New diagnostic tests that checks the Authorization key and the pre-conditions of the auto-store settings.
+-There is a Start page channel to display the User Quota.
+-A new tool: Sc2gears Database downloader, can be used to download multiple files from the Sc2gears Database.
+The [url=https://sites.google.com/site/sc2gears/faq]FAQ[/url] page has also been updated with questions regarding to Sc2gears Database.
+
+-An info dialog is now displayed when preprocessed replay cache is being emptied.
+
+-Other minor fixes and improvements.
+
+
+
+
+Sc2gears Database
+
+Replays are becoming more and more important as Blizzard has shown that they can and they do hide important statistics arbitrary from Battle.net profile pages. Replays remain your only source to get detailed statistics about your play and improvements.
+
+[b]Sc2gears Database is a secure server to store ALL your replays and other related files privately.[/b]
+You do not have to worry anymore about losing your replays or Sc2gears mouse prints. Doesn't matter if your computer crashes, you accidently delete your replays, or someone/something intentionally deletes them from your computer. Your replays are secured online and are accessible from anywhere any time.
+With Sc2gears you can upload all your saved replays at once, and it can automatically store your new replays for you on the Sc2gears Database server right after they are saved.
+
+It's secure!
+1) Everything is done over a secure connection (HTTPS). Every info and replay is transmitted over a secure connection, hackers who monitor the network traffic are not able to decode it.
+2) You are never asked for any password: even Sc2gears Database does not know (does not need to know) your password. Sc2gears communicates with the server with an Authorization key (see below). 
+3) Your content is stored duplicated on a secure, distributed network, not on some some private server which lacks security solutions or administrators with proper expertise to handle security and backups. 
+
+The Sc2gears Database uses Google account for authentication. What does this mean?
+-Google manages your account and password. They do a lot better job at keeping it safe and secure than anyone else could.
+-If you have a GMail account, then you already have a Google Account. If not, you can use any email address to create a Google Account.
+-Your password is not given to any 3rd parties (unlike for example a site where you register). Google only provides Sc2gears Database with the info whether you are logged in and with which account.
+-If you use other Google products (like GMail or Google Docs) and you are logged in to any of those, you will have access to your Sc2gears Database User Page without having to log in again.
+
+Howto register an account for Sc2gears Database?
+1) First you have to create a Google Account if you don't have one.
+2) You have to send a minimum payment of 8 USD to my PayPal account (my email is on the About tab inside Sc2gears).
+   In the comment section indicate that you want an Sc2gears Database account.
+   Note: This is a one-time fee, no monthly costs.
+   Note #2: this payment is not for my development efforts. It is to pay for the storage and bandwidth that your replays and other files need.
+   Note #3: if you don't have a PayPal account, you can ask a friend of yours to send the money in your name.
+TODO implement a form here instead of email!
+3) Send me an email (my email is on the About tab inside Sc2gears) with the following details:
+   -PayPal account that you sent the money from.
+   -Your Google account that you want to access the web interface of Sc2gears Database with.
+   -Your contact email in case it differs from the Google account you're signing up with.
+4) You're done. You will receive an automated email when your account is ready. The email will contain your Authorization key and the link to your Sc2gears Database User Page.
+   You can start uploading your saved replays immediately. Be sure to enable automatic replay storing.
+
+Authorization key
+Sc2gears communicates with the Sc2gears Database server using an Authorization key instead of your password.
+The authorization key is a secret key known only to its owner and to the Sc2gears Database.
+The Authorization key is sent to the users via email after registration, and you can also view your key or generate a new one on the [url!]Sc2gears Database User Page[/url].
+If you think your Authorization key might have been compromised, simply generate a new one and change the key in your Sc2gears to the new one.
+You can use your Authorization key from multiple computers, but it is your responsibility not to share it with others.
+
+
+Pricing
+The minimum payment (8 USD) comes with 1 GB storage space. This is enough for approximately 15 thousand replays. This is sufficient for the majority.
+You can get additional storage for the following prices:
+
+             | Price (1)    | Storage  | # of replays |
+Package      |(one-time fee)| (2)      | (3)          | Replays stored for $1
+------------------------------------------------------------------------------------
+Bronze       | 8 USD        | 1 GB     | 16,000       | 2,000
+Silver       | 15 USD       | 2 GB     | 32,000       | 2,133
+Gold         | 29 USD       | 4 GB     | 64,000       | 2,206  
+Platinum     | 42 USD       | 6 GB     | 96,000       | 2,285
+Diamond      | 54 USD       | 8 GB     | 128,000      | 2,370
+Master       | 65 USD       | 10 GB    | 160,000      | 2,461
+(1) Prices indicate a one-time fee, there are no recurring monthly costs. Prices include the costs of all necessary resources (storage, incoming and outgoing bandwidth, CPU).
+(2) Storage conversion: 1 GB = 1,000,000,000 bytes
+(3) The number of replays is an approximation. Size of replays depends on its length, number of players, number of actions.
+You can request even more storage if the Master package is not enough for you.
+You can upgrade your current package at any time by sending the price difference (for example if you paid 8 USD for 1 GB and you want 2 GB, you have to send 15-8=7 USD to upgrade to 2 GB).
+
+
+Integration into Sc2gears
+The Sc2gears Database can easily be accessed from Sc2gears:
+-There is an "Sc2gears Database" tab in the Miscellaneous settings dialog to view, edit and check the Authorization key.
+-There are "Replay auto-store" and "Store all mouse prints" settings to enable storing new replays and new mouse prints automatically.
+-"Store replays" replay operation to store any number of replays at once.
+-"Store mouse print" and  "Select mouse prints to store" buttons on the Mouse print recorder to store the current mouse print or any number of mouse prints at once.
+-Diagnostic tests that checks the Authorization key and the pre-conditions of the auto-store settings.
+-A Start page channel to display the User Quota.
+-An "Sc2gears Database downloader" tool to download multiple files from the Sc2gears Database.
+
+
+Limitation
+-The maximum allowed file size is 1 MB (you will not run into this as the typical size of StarCraft II replays is about 60 KB).
+
+Terms of Service
+Last updated: 2011-04-13
+1) The payment is not refundable. You can't change your mind and request the money back.
+2) If the service is terminated in the future, you can claim the proportional amount of your payment projected to 2 years. For example if you register today and the service gets shut down a year from now, you can claim half of your payment.
+3) Price changes do not effect currently paid packages. If you want to upgrade to a higher package, it will require a payment of the difference to the new price. 
+4) Accounts that are inactive for 1 year may be subject to deletion. An email is sent to the account 1 month prior to the deletion to inform the user and give possibility to show activity. 
+5) Accounts abusing the service will be suspended and/or deleted. This includes -but is not limited to- sharing an Authorization key with others or generating unreasonably high traffic. Note that the owner of the key may use it from multiple computers.
+6) I reserve the right to change the terms.
+
+
+
+
+FAQ
+-General FAQ
+
+-Sc2gears Database FAQ
+
+-What is Sc2gears Database?
+Sc2gears Database is a secure server to store ALL your replays and other related files privately. More: [url]Sc2gears Database[/url]
+
+-Is Sc2gears Database for free?
+Since I have to pay for the server resources Sc2gears Database uses, it's not free. But you only have to pay for the resources that it uses and not for my development work.
+You can check out the prices of different packages on the Sc2gears Database page.
+
+-What is the Authorization key?
+Sc2gears communicates with the Sc2gears Database server using an Authorization key instead of your password. The authorization key is a secret key known only to its owner and to the Sc2gears Database. More: [url]Sc2gears Database[/url]
+
+-How can I get an Authorization key?
+See "Howto register an account for Sc2gears Database?"
+
+-Howto register an account for Sc2gears Database?
+The registration steps are detailed on the [url]Sc2gears Database[/url] page.
+
+-I don't have a PayPal account. Can I pay in some other way?
+You can ask any of your friends to pay in your name.
+
+-I don't have a GMail account, can I still register?
+Yes. All you need is a Google account which allows you to use any email address.
+
+-What happens if I exceeded my quota?
+Sc2gears Database will refuse to store the files you're attempting to, and sends a notification email to the address you registered with.
+You will also get an email if your near your quota so you can upgrade in time if you want to store more files.
+
+-I exceeded my quota. Can I upgrade my package?
+Yes, you can. You only have to pay the difference to upgrade to a new package.
+
+-I lost my Authorization key or it might have been compromised.
+Not a problem. Login to your [url]User page[/url], and you can generate a new Authorization key.
+
+-How can I view my uploaded files?
+Simply visit the [url]Sc2gears Database User Page[/url].
+
+-How can I download my files?
+You can download your files individually or zipped (100 max) from the [url]Sc2gears Database User Page[/url].
+You can use the Sc2gears Database downloader tool (available from the Tools menu inside Sc2gears) to download all your files with a date criteria.
+
+-I deleted some files but they are still included on the Quota page!
+When you delete files they are deleted immediately. The info displayed on the quota page is refreshed asynchronously. Give the Quota page a few seconds (or minutes) to get updated.
+
+-What happens if I upload the same files multiple times?
+Sc2gears Database detects if a file with the same content has been uploaded before, and will not store it again. The content of the file is what matters: if you upload 2 different files with the same name, they will be stored separately. If you upload 2 identical files with different names, it will be detected and stored only once. 

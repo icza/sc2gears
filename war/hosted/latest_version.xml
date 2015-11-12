@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<versionInfo docVersion="1.4">
+	<latestVersion>14.3.3</latestVersion>
+	<requiredMinUpdaterVer>1.1</requiredMinUpdaterVer>
+	<archiveSha256>db26bc7d84e125f5c13bfc50e502f9d9fd94cad86ea9ddf9643a61a53afd137e</archiveSha256>
+	
+	<archiveUrl>http://sciigears.appspot.com/download/Sc2gears-14.3.3.zip</archiveUrl>
+	<archiveUrl>http://dl.dropbox.com/u/19063641/Sc2gears-14.3.3.zip</archiveUrl>
+	
+	<languages baseUrl="http://sciigears.appspot.com/download/lang/14.1/">
+<!--		<language name="English" version="12.0" subversion="1" file="1/English.xml" md5="260c5d07a8144688da8f41ec52cd03c4"/>-->
+<!-- 		<language name="German" version="12.4" subversion="1" file="1/German.xml" md5="8f460518dacaed95e8a906a727c55a6d"/> -->
+<!--		<language name="French" version="12.2" subversion="2" file="2/French.xml" md5="409925adfed4b9fdbce8ac30d858504f"/>-->
+<!--		<language name="Polish" version="10.5" subversion="1" file="1/Polish.xml" md5="8827ef904e6ccddc830fdc8a81cb8885"/>-->
+<!--  		<language name="Russian" version="12.4" subversion="1" file="1/Russian.xml" md5="08e53cdaab35f8a28248e537c640be09"/> --> -->
+<!--  		<language name="Italian" version="14.1" subversion="1" file="1/Italian.xml" md5="f0d08c065b043665a504ea063f10bcff"/> -->
+<!-- 		<language name="Portuguese-BR" version="12.3" subversion="1" file="1/Portuguese-BR.xml" md5="7dd939a54f6670c70f51863e5fca0f57"/> -->
+<!-- 		<language name="Chinese" version="12.3" subversion="1" file="1/Chinese.xml" md5="1bc31904c568395b04db0b8051f179a1"/> -->
+<!-- 		<language name="ChineseTraditional" version="12.3" subversion="1" file="1/ChineseTraditional.xml" md5="1695029c21bcf2265079e31bd613ed1e"/> -->
+	</languages>
+	
+</versionInfo>

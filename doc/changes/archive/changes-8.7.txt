@@ -1,0 +1,31 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.7: Icon bar, Improved Replay cache
+
+
+[hr]
+
+[b]Sc2gears 8.7: Icon bar, Improved Replay cache, Override format based on match-up, Custom game format[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-DWcwn6dn3Ds/TsDBglspczI/AAAAAAAAg0c/v9qRlwMyUJE/s590/public_comments.png[/img][/url]
+
+[b]Changes and new features in 8.7:[/b]
+--------------------------------------------------------
+
+-[b]A new "icon bar"[/b] in the public comments tab of the Replay analyzer which allows you to insert special symbols (like emotions, arrows etc.) into your comments.
+
+-[b]New setting on the Analyzer tab of the Misc settings dialog: Override detected game format based on match-up[/b]
+If you play a non-ladder game, StarCraft II records a game format based on the map size. This is not what you want to see or be included in statistics.
+For example if you play a 1v1 game on a 2v2 map, SC II records it as a 2v2 game.
+If this new setting is enabled (it is by default), Sc2gears will "guess" the proper game format based on the match-up: if you play a 1v1 game on a 2v2 map, it will show you it as an 1v1 game.
+
+-[b]A new "Custom" game format[/b]
+Game format will be set to "Custom" for games with unbalanced team sizes, for example "2v3".
+
+-[b]Improved Replay cache[/b]
+The internal replay cache has been redesigned which results in 20% faster replay parsing/searching, lower memory usage and less disk space used by the cache. Also emptying the replay cache became instant.
+The new implementation provides the same speed from disk (without having to load it into memory).
+
+-The "Private data" tab in the Replay analyzer now displays the max and remaining allowed comment length.
+
+-EaSynthLookAndFeel has been removed due to having several bugs.

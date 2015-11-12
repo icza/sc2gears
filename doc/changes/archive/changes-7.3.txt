@@ -1,0 +1,51 @@
+To translators:
+
+Removed keys:
+-tab.close.tooltop (renamed to tab.close.toolTip)
+-playerProfile.retrieveNow
+-playerProfile.retreivingProfile
+
+
+Changed translation:
+
+
+TODO consider adding new methods to the API (build profile tool tip, updateLeagueLabels)
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.3: On-Top Game info and Current APM
+Sc2gears 7.3: On-Top game info and Current APM
+
+[b]Changes and new features in 7.3:[/b]
+--------------------------------------------------------
+
+-[b]On-Top Game info dialog (In-game info panel)[/b]
+This is an always on top dialog which shows the best leagues and the APM values of the players of your last game without having to ALT+TAB out or having to check them one-by-one.
+You can simply drag it with your mouse, Sc2gears will remember its position.
+This dialog is only visible if you use the [i]"Fullscreen (Windowed)"[/i] or the [i]"Windowed"[/i] display mode.
+This dialog automatically appears after all of your games if you enable [i]"Show On-Top Game info dialog for new replays"[/i] on the Replay autosave tab of the Misc settings dialog.
+You can show/hide the game info dialog of the last game from anywhere at any time (from StarCraft II during a game for example) with the [b]CTRL+ALT+I[/b] global hotkey (Global hotkeys must be enabled).
+Also there is a [i]"On-Top last game info"[/i] menu item for this in the Tools menu.
+
+-[b]On-Top APM display dialog (In-game current APM)[/b]
+This is an always on top dialog which shows your current APM while you're in a game.
+You can simply drag it with your mouse, Sc2gears will remember its position.
+This dialog is only visible if you use the [i]"Fullscreen (Windowed)"[/i] or the [i]"Windowed"[/i] display mode.
+This dialog automatically appears/disappears as you enter or leave a game if you enable [i]"Show/Hide On-Top APM display dialog on game start/end"[/i] on the APM Alert tab of the Misc settings dialog.
+You can turn on the APM display dialog with the [i]"On-Top APM display"[/i] menu item from the Tools menu.
+You can also show/hide the APM display dialog from anywhere at any time (from StarCraft II during a game for example) with the [b]CTRL+ALT+U[/b] global hotkey (Global hotkeys must be enabled).
+If APM alert is enabled and the current APM is less than the APM alert level, the current APM is drawn with red color.
+You can change the font size of the displayed APM with the + and - keys.
+The On-Top APM display only works on Windows.
+
+-The [b]Coreplays.net[/b] replay site has been added to Sc2gears and is available for replay sharing.
+
+-The [b]sc2bc.com[/b] replay site has been added to Sc2gears and is available for replay sharing.
+
+-[b]Corrected the APM algorithm that was used in the APM alert and now in the On-Top APM display.[/b]
+
+-Fixed a bug in the replay parser engine which caused opening a replay fail if the replay had multiple observers with the same name.
+
+-Fixed a bug in the profile module which caused to fail retrieving profiles with zero league games.
+
+-Other minor changes and improvements.

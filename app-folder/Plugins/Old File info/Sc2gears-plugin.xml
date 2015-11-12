@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Plugin descriptor, contains plugin meta-data. -->
+<plugin docVersion="1.0">
+	
+	<name>Old File info</name>
+	
+	<authorFirstName>András</authorFirstName>
+	<authorLastName>Belicza</authorLastName>
+	<authorEmail>iczaaa@gmail.com</authorEmail>
+	
+	<version>1.0</version>
+	<releaseDate>2011-07-08</releaseDate> <!-- Format: "yyyy-MM-dd" -->
+	
+	<apiVersion>1.0.1</apiVersion> <!-- Plugin API version implemented/used by the plugin. -->
+	
+	<homePage>https://sites.google.com/site/sc2gears/</homePage>
+	
+	<!-- Description can be plain text or HTML text, can contain multiple lines. -->
+	<description isHtml="true"><![CDATA[<br>A test plugin that adds a new <b>replay operations</b> menu item which shows info of the selected replays in a dialog.]]></description>
+	
+	<!--
+		The main class must implement the "hu.andras.belicza.sc2gearspluginapi.Plugin" interface,
+		and must have a public no-arg constructor (a constructor that takes no arguments).
+		
+		The main class must also be unique: cannot be added 2 plugins with the same main class!
+	-->
+	<mainClass>hu.belicza.andras.fileinfoplugin.OldFileInfoPlugin</mainClass>
+	
+</plugin>

@@ -1,0 +1,66 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.0: Historical League Info+Integration! 
+
+[hr]
+
+[big][b]Sc2gears 14.0: Historical League Info, League match-ups in Multi-rep analysis, League search and league integration[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.0:[/b]
+--------------------------------------------------------
+
+-(Again) Improved HotS parsing.
+The long awaited feature is here: [b]Historical league info![/b] 1v1 league info is now parsed out of replays. This is (of course) the league of players [i]at the time of the game[/i].
+Historical league info is exposed in the Game info tab of the Replay analyzer, in the Replay search, in the Command line interface, in the Plugin API and in the Parsing service.
+[b]Swarm levels[/b] is parsed out of replays (at the time of the game) and is exposed in the Game info tab of the Replay analyzer.
+These info are available from replay version 2.0.
+
+-Replays with observers are now parsed properly.
+
+-[b]Players in the Replay analyzer are now displayed with a colored border based on the 1v1 league [i]at the time of the game[/i].[/b]
+Unranked players have a light green border, players with unknown league (replays below 2.0) have a light red border.
+
+-[b]Leagues in the Replay search![/b]
+You can now search replays (players) specifying their league. You can list replays of only Master players for example.
+The replay list table of a search result now has a new column: [b]Leagues[/b]. This column contains the [i]league match-up[/i], for example "PGvMS" (meaning Platinum+Gold vs Master+Silver).
+The league is the 1v1 league [i]at the time of the replay[/i], and this info is only available from replay version 2.0.
+
+-[b]Search by league match-up![/b]
+Added a [i]simple-to-use but powerful[/i] [b]League match-up filter[/b]. It's very similar to the race match-up filter.
+You can enter league letters you're looking for. Symbols (in English): R Grandmaster, M Master, D Diamond, P Platinum, G Gold, S Silver, B Bronze, U Unranked, - Unknown, v to separate teams, * to match all leagues. Examples: MvD, PvD, Dv*, DMvPG, PPv**, DPG.
+If you don't provide team separation just league letters, it will list replays where the indicated leagues are found.
+Example: if you search for "DPG*", it will list replays which include Diamond, Platinum and Gold league players, and there was at least a 4th player.
+If you provide team separation, it will list replays where the grouped leagues were in the same team.
+The "Exact match" property in case of this filter means: if it is checked, only replays that have exactly the same amount of teams and leagues as specified will be listed.
+For example DvD without exact match will also list DPvDG for example. DvD with exact match will only list DvD.
+League match-up search field is a pre-defined list: you can edit the offered list by opening the drop-down list and clicking on the "Edit list" link at the bottom, or in Pre-defined lists tab of the Misc settings dialog.
+
+Note 1: the league letters are the first letters of leagues [b]in the language of Sc2gears[/b] (except R for Grandmaster)! This might vary if the user interface language of Sc2gears is changed. The tool tip shows the proper letters of leagues in the language of Sc2gears.
+Note 2: the League match-up filter can be combined with the Match-up filter of course, but care must be taken as they might work against each other (for example searching for "1v1" and "**v**" will never give any results).
+
+
+-[b]League match-ups in Multi-replay analysis![/b]
+If you perform a Multi-replay analysis and open the details of a player (by double clicking on it), you will see a new tab now: [b]League match-ups[/b].
+This League match-ups is similar to the (race) Match-ups tab, shows you all the statistics of playing with and vs different league players broken down to formats (such as 1v1, 2v2 etc.).
+The League match-ups tab shows you everything you want (or wanted) to know about your game statistics grouped by leagues.
+It shows you for example your (or any player's) statistics vs other leagues (vs Platinum for example), your record playing in a league (you playing in Platinum for example), your record vs any leagues, concrete league match-up records like Platinum vs Gold etc.
+Statistics included other than record are also very important here, for example the first and last game columns in the line of Pv* will show you when you first and last played as Platinum (promotion/demition dates).
+The tables of the League match-ups can be filtered just like any other tables.
+If you filter the table by "*v", you will see immediately your records vs different leagues.
+If you filter the table by "v*", you will see immediately your records playing in different leagues.
+
+-[b]New name template symbol: /Bx[/b]
+This symbol inserts the Battle.net 1v1 league letter of the player [i]at the time of the replay[/i]. League letters in English: R Grandmaster, M Master, D Diamond, P Platinum, G Gold, S Silver, B Bronze, U Unranked, - Unknown.
+It can also be used in the player block without the player index, for example "</p (/B)>" will result in "Bob (P) vs Alice (D)" (meaning "Bob (Platinum) vs Alice (Diamond)").
+
+-Added Season #13 start date.
+
+-Fixed a bug where the profile engine failed to get profile info of players with no games ever played.
+
+-Plugin API 4.2:
+getLeague() and getSwarmLevels() added to IPlayer.
+isCompetitive() and getLeagueMatchup() added to IReplay.
+
+-Other minor changes and optimization.

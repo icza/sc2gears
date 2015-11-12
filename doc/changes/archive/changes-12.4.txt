@@ -1,0 +1,28 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 12.4: The little things...
+
+[hr]
+
+[big][b]Sc2gears 12.4: The little things...[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 12.4:[/b]
+--------------------------------------------------------
+
+-Improved replay parser engine.
+Implemented small changes that came with 1.5.3.
+
+-The name template engine now checks and reports if the name template contains characters which are not allowed on the user's operating system.
+
+-The Progress dialog now also displays the average processing speed.
+
+-All tables got a "Select / Deselect all rows" icon in the table header.
+
+-Fixed a bug where the Replay sharing dialog would be placed outside of the screen (making the title bar not visible) on low resolutions like 1024x768.
+The Replay sharing dialog is now automatically resized if its size is bigger than the screen size.
+
+-Fixed a bug where retrieving player profiles from Battle.net with no portrait failed.
+
+-Other minor changes and improvements.

@@ -1,0 +1,18 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 12.1: 
+
+[hr]
+
+[big][b]Sc2gears 12.1: [/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 12.1:[/b]
+--------------------------------------------------------
+
+-Reverted the Plugin API 3.0 "incompatibility classification".
+This means that plugins below version 3.0 will still start without manually enabling incompatible plugins, but they may fail at any time if they use the incompatible changed interfaces.
+
+-Failed abilities are back in the charts and statistics and again counted in replay search...
+...but they are still excluded from the EAPM calculation.

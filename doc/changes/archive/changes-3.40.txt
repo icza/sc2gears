@@ -1,0 +1,36 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+Sc2gears 3.40: Replay sharing made easy
+Sc2gears 3.40: Replay sharing made easy
+
+
+[b]Changes and new features in 3.40:[/b]
+--------------------------------------------------------
+
+-[b]Replay sharing made easy![/b]
+There is a new replay operation menu item: [b]"Share replay..."[/b] It is also available from the file menu.
+With this you can easily share your replays on different replay sites. You just have to choose a replay site you want to upload your replay to, and provide optional details about the replay the replay site might require. You can provide authentication info if you have an account on the selected replay site or you want your replay uploaded with your account.
+You can also upload anonymously by leaving the user name and password fields empty, though this will only work if the replay site supports anonymous upload (the currently listed ones support it).
+If you want your replay site added to Sc2gears, please read this page: [url=http://sites.google.com/site/sc2gears/features/replay-sharing]Replay sharing[/url]
+
+-[b]Sc2gears manages your replay sharing history.[/b]
+You can view your previously shared replays by clicking on the [b]"My shared replays"[/b] menu item in the File menu. You get assistance to copy the replay links in different formats or you can visit the replay link.
+
+-APM Alert were not working for some people. This is fixed now.
+
+-Added a new link on the Start page: "Open last replay"
+
+-Closeable tabs can now be closed by middle-clicking (net-scroll) on the tab's title.
+
+-In case of some Look and Feels (Windows related) some internal windows were not opened maximized. This is fixed now.
+
+-/Ax and /Wx symbols of the name template were not always working in case of replay auto-save. This is fixed now.
+
+-Added some missing/wrong ability codes to the replay parser.
+
+-Fixed some typos (cloack => cloak).

@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?><language subversion="1" translatorFirstName="김철한(기김)/윤석재(Nios)" translatorLastName="" version="3.20">
+<dateFormat>yyyy-MM-dd</dateFormat>
+<timeFormat>HH:mm:ss</timeFormat>
+<dateTimeFormat>yyyy-MM-dd HH:mm:ss</dateTimeFormat>
+<personNameFormat>lastName firstName</personNameFormat>
+<g k="translationTool">
+<g k="tab.texts"/>
+<g k="tab.generalInfo"/>
+</g>
+<g k="button">
+<t k="close">닫기(_C)</t>
+<t k="cancel">취소(_C)</t>
+<t k="yes">예(_Y)</t>
+<t k="ok">확인(_O)</t>
+<t k="no">아니오(_N)</t>
+</g>
+<g k="overlayCharts"/>
+<g k="mousePracticeGame"/>
+<g k="diagnosticTool">
+<g k="test"/>
+</g>
+<g k="menu">
+<g k="window">
+<t k="cascadeAllWindows">모든 창 계단식 배열(_C)</t>
+<t k="fullscreen">전체 화면(_F)</t>
+<t k="tileVisibleWindows">활성 창 바둑판식 배열(_I)</t>
+<t k="tileAllWindows">모든 창 바둑판식 배열(_T)</t>
+<t k="mimimizeToTray">트레이로 최소화(_N)</t>
+<t k="startMinimimizedToTray">시작 시 트레이로 최소화(_S)</t>
+<t k="minimizeToTrayOnMinimize">최소화 시 트레이로 보내기(_Z)</t>
+<t k="cascadeVisibleWindows">활성 창 계단식 배열(_A)</t>
+<t k="useVerticalTileStrategy">수직 배열 사용(_V)</t>
+<t k="minimizeAll">모두 최소화(_M)</t>
+<t k="minimizeToTrayOnClose">닫기 시 트레이로 보내기(_E)</t>
+<t k="closeAll">모두 닫기(_E)</t>
+</g>
+<g k="help">
+<t k="showStartPage">시작 페이지 표시(_S)</t>
+<t k="viewSystemMessages">시스템 메시지 보기(_S)</t>
+<t k="donate">후원하기(_D)</t>
+<t k="checkUpdatesChecking">업데이트 검사(_C) (검사 중...)</t>
+<t k="visitHomePage">홈페이지 방문(_H)</t>
+<t k="viewVersionHistory">버전 정보 보기(_V)</t>
+<t k="visitForum">토론장 방문(_F)</t>
+<t k="about">$0 정보(_A)</t>
+<t k="viewFaq">FAQ 보기(_Q)</t>
+<t k="checkUpdates">업데이트 검사(_C)</t>
+</g>
+<g k="navigation">
+<t k="expandAll">모두 펼치기(_E)</t>
+<t k="showNavbar">네비게이션 바 표시(_S)</t>
+<t k="navbarPosition">네비게이션 바 위치(_P)</t>
+<t k="useSmallFont">작은 글꼴 사용(_U)</t>
+<t k="collapseAll">모두 접기(_C)</t>
+<t k="navbarPosition.left">왼쪽(_L)</t>
+<t k="refreshTree">트리 새로고침(_R)</t>
+<t k="navbarPosition.right">오른쪽(_R)</t>
+</g>
+<g k="tools">
+<t k="gameTimeRealTimeConverter">게임 시간 - 실제 시간 변환(_G)</t>
+</g>
+<g k="settings">
+<t k="enableReplayAutoSave">리플레이 자동 저장 사용(_R)</t>
+<t k="miscellaneous">기타 설정(_M)...</t>
+<t k="voice">음성(_E)</t>
+<t k="enableVoiceNotifications">음성 알림 사용(_V)</t>
+<t k="language">언어(_L) (재시작 필요)</t>
+<t k="showStartPageOnStartup">시작 시 시작 페이지 표시(_G)</t>
+<t k="enableApmAlert">APM 경보 사용(_P)</t>
+<t k="checkUpdatesOnStartup">시작시 업데이트 검사(_C)</t>
+<t k="laf">테마(_O)</t>
+<t k="saveOnExit">종료 시 설정 저장(_X)</t>
+<t k="saveNow">지금 설정 저장(_S)</t>
+</g>
+<g k="file">
+<t k="recentReplays">최근 리플레이(_R)</t>
+<t k="openLastReplay">최근 리플레이 열기(_L)</t>
+<t k="openReplay">리플레이 열기(_O)...</t>
+<t k="exit">끝내기(_X)</t>
+</g>
+<t k="file">파일(_F)</t>
+<t k="navigation">네비게이션(_N)</t>
+<t k="window">창(_W)</t>
+<t k="settings">설정(_S)</t>
+<t k="tools">도구(_T)</t>
+<t k="help">도움말(_H)</t>
+</g>
+<g k="sc2">
+<g k="gameType">
+<t k="singlePlayer">싱글 플레이어</t>
+<t k="public">공개</t>
+<t k="amm">자동대전(AMM)</t>
+<t k="private">비공개</t>
+</g>
+<g k="unitTier"/>
+<g k="difficulty">
+<t k="medium">보통</t>
+<t k="veryEasy">매우 쉬움</t>
+<t k="easy">쉬움</t>
+<t k="hard">어려움</t>
+<t k="insane">가장 어려움</t>
+<t k="veryHard">매우 어려움</t>
+</g>
+<g k="gateway">
+<t k="southeastAsia">동남아시아</t>
+<t k="europe">유럽</t>
+<t k="asia">아시아</t>
+<t k="america">북미</t>
+</g>
+<g k="gameSpeed">
+<t k="fast">빠름</t>
+<t k="faster">매우 빠름</t>
+<t k="normal">보통</t>
+<t k="slower">매우 느림</t>
+<t k="slow">느림</t>
+</g>
+<g k="color">
+<t k="yellow">노랑</t>
+<t k="blue">파랑</t>
+<t k="orange">주황</t>
+<t k="pink">분홍</t>
+<t k="darkGreen">암녹색</t>
+<t k="darkGray">암회색</t>
+<t k="teal">청록</t>
+<t k="green">초록</t>
+<t k="red">빨강</t>
+<t k="lightGray">연회색</t>
+<t k="lightGreen">연녹색</t>
+<t k="brown">갈색</t>
+<t k="lightPink">연분홍</t>
+<t k="purple">보라</t>
+<t k="violet">보라</t>
+</g>
+<g k="playerType">
+<t k="human">사용자</t>
+<t k="computer">컴퓨터</t>
+</g>
+<g k="region"/>
+<g k="actionType">
+<t k="other">기타</t>
+<t k="inaction">비액션</t>
+<t k="research">연구</t>
+<t k="train">훈련</t>
+<t k="upgrade">업그레이드</t>
+<t k="build">건설</t>
+<t k="select">선택</t>
+</g>
+<g k="matchResult"/>
+<g k="race">
+<t k="random.letter">R</t>
+<t k="zerg">저그</t>
+<t k="terran.letter">T</t>
+<t k="unknown.letter">U</t>
+<t k="random">무작위</t>
+<t k="protoss">프로토스</t>
+<t k="zerg.letter">Z</t>
+<t k="terran">테란</t>
+<t k="protoss.letter">P</t>
+<t k="any.letter">*</t>
+</g>
+</g>
+<g k="pluginManager">
+<g k="details"/>
+<g k="status"/>
+</g>
+<g k="fileChooser">
+<t k="lookInLabel">위치:</t>
+<t k="helpButtonToolTip">파일 선택 도움말</t>
+<t k="saveDialogTitle">저장</t>
+<t k="sc2ReplaySources">SC2 리플레이 소스 (*.sc2repsrc)</t>
+<t k="newFolderToolTip">새 폴더 만들기</t>
+<t k="acceptAllFileFilter">모든 파일 (*.*)</t>
+<t k="cancelButtonToolTip">파일 선택 상자 정보</t>
+<t k="sc2ReplayFiles">SC2 리플레이 파일 (*.SC2Replay)</t>
+<t k="detailsViewButtonToolTip">자세히</t>
+<t k="homeFolderToolTip">바탕화면</t>
+<t k="saveButtonToolTip">선택된 파일 저장</t>
+<t k="updateButtonToolTip">디렉터리 목록 갱신</t>
+<t k="listViewButtonToolTip">목록</t>
+<t k="helpButton">도움말</t>
+<t k="zipFiles">Zip 파일 (*.zip)</t>
+<t k="openButton">열기</t>
+<t k="cancelButton">취소</t>
+<t k="filesOfTypeLabel">파일 형식:</t>
+<t k="openButtonToolTip">선택된 파일 열기</t>
+<t k="upFolderToolTip">한 단계 위로</t>
+<t k="openDialogTitle">열기</t>
+<t k="updateButton">갱신</t>
+<t k="sc2ReplayLists">SC2 리플레이 목록 (*.csv)</t>
+<t k="saveButton">저장</t>
+<t k="failedToParseRepaly">리플레이 분석을 실패했습니다!</t>
+<t k="fileNameLabel">파일 이름:</t>
+</g>
+<g k="importBuildOrders"/>
+<g k="findDuplicates"/>
+<g k="newToSc2gears"/>
+<g k="colorChooser"/>
+<g k="gameTimeRealTimeConverter">
+<t k="apmConverter">APM 변환:</t>
+<t k="gameSpeed">게임 속도:</t>
+<t k="realApm">실제 APM:</t>
+<t k="ingameApm">게임 내 APM:</t>
+<t k="toGameApmButton">게임 APM로 변환(_G)</t>
+<t k="timeConverter">시간 변환:</t>
+<t k="toGameTimeButton">게임 시간으로 변환(_A)</t>
+<t k="toRealTimeButton">실제 시간으로 변환(_E)</t>
+<t k="toRealApmButton">실제 APM로 변환(_R)</t>
+<t k="title">게임 시간 - 실제 시간 변환</t>
+<t k="ingameTime">게임 시간:</t>
+<t k="realTime">실제 시간:</t>
+</g>
+<g k="mySharedReplays">
+<g k="header"/>
+</g>
+<g k="gridSettings">
+<g k="autoConfigure"/>
+</g>
+<g k="module">
+<g k="repSearch">
+<g k="tab">
+<g k="filters">
+<g k="name">
+<t k="gateway">게이트웨이:</t>
+<t k="mapName">지도 이름:</t>
+<t k="playerName">플레이어 이름:</t>
+<t k="fileName">파일 이름:</t>
+<t k="upgrade">업그레이드:</t>
+<t k="buildOrderAnyBuilding">모든 건물</t>
+<t k="gameLength">게임 길이:</t>
+<t k="building">건물:</t>
+<t k="chatMessage">채팅 메시지:</t>
+<t k="unitAbility">유닛 능력:</t>
+<t k="matchupToolTip">찾고자 하는 종족의 첫 글자를 입력하십시오. 심볼: $0 - $1, $2 - $3, $4 - $5, $6 - $7, * = 모든 종족, v - 팀 구분. 예시: $8</t>
+<t k="raceMatchup">종족 매치업:</t>
+<t k="buildingAbility">건물 능력:</t>
+<t k="buildOrder">빌드 오더:</t>
+<t k="dateToolTip">날짜 혹은 날짜+시간을 입력하십시오. 예시: $0 or $1</t>
+<t k="gameType">게임 형식:</t>
+<t k="research">연구:</t>
+<t k="unit">유닛:</t>
+<t k="version">버전:</t>
+<t k="buildOrderAddToolTip">선택한 건물을 빌드 오더에 추가합니다.</t>
+<t k="date">날짜:</t>
+<t k="buildOrderTextToolTip">쉼표 구분으로 건물 목록을 입력할 수 있습니다(대소문자 구분). 모든 건물을 일치시키려면 별표(*)를 사용하십시오.</t>
+<t k="format">형식:</t>
+<t k="playerNameToolTip">쉼표 구분으로 여러 명을 입력할 수 있습니다. 모든 이름은 리플레이에 있는 플레이어이어야 합니다.</t>
+<t k="minOccurrenceText">최소 빈도:</t>
+</g>
+<t k="performSearchButton">검색 시작(_P)</t>
+<t k="min">최소:</t>
+<t k="title">검색 필터</t>
+<t k="timeFormatToolTip">형식: seconds 혹은 min:sec 혹은 hour:min:sec</t>
+<t k="invalidFieldsError">표시된 필드에 잘못된 값이 포함되어 있습니다!</t>
+<t k="addNewFieldToolTip">새 필드 추가</t>
+<t k="max">최대:</t>
+<t k="removeFieldToolTip">필드 제거</t>
+<t k="resetFieldsButton">필드 초기화(_R)</t>
+<t k="exactMatch">정확한 일치</t>
+</g>
+<g k="results">
+<g k="header">
+<t k="map">지도</t>
+<t k="players">플레이어</t>
+<t k="comment">의견</t>
+<t k="fileDate">게임 날짜</t>
+<t k="file">파일</t>
+<t k="gateway">게이트웨이</t>
+<t k="length">길이</t>
+<t k="version">버전</t>
+<t k="type">형식</t>
+<t k="raceMatchup">종족 매치업</t>
+<t k="apms">APM</t>
+</g>
+<t k="searchStatus">찾음: $0, 검색: $1, 통과: $2, 전체: $3 ($4%)</t>
+<t k="loadButton">목록 불러오기(_L)...</t>
+<t k="abortButton">검색 중단(_A)</t>
+<t k="removeSelectedMenuItem">테이블에서 선택 제거</t>
+<t k="selectLoadReplayList">불러올 리플레이 목록 선택</t>
+<t k="saveButton">목록 저장(_V)...</t>
+<t k="title">결과 #$0</t>
+<t k="multiRepAnalysisToolTip">모든 리플레이를 다중 리플레이 분석기에서 엽니다.</t>
+<t k="countingReplays">리플레이 세는 중...</t>
+<t k="repListSaved">리플레이 목록이 저장되었습니다.</t>
+<t k="loadResult">$0개의 리플레이를 불러왔습니다.</t>
+<t k="loadingReplayList">리플레이 목록 불러오는 중: $0</t>
+<t k="multiRepAnalysisButton">다중 리플레이 분석기</t>
+<t k="failedToLoadRepList">리플레이 목록의 불러오지 못했습니다!</t>
+<t k="failedToSaveRepList">리플레이 목록의 저장을 실패했습니다!</t>
+<t k="setAsSourceButton">모음으로 설정</t>
+<t k="stretchToWindow">창 채우기</t>
+<t k="setSelectedAsSourceMenuItem">선택 항목을 모음으로 설정</t>
+<t k="setAsSourceToolTip">이후 검색을 위해 모든 리플레이를 모음으로 설정합니다.</t>
+<t k="searchAborted">검색 중단!</t>
+<t k="selectSaveReplayList">저장할 리플레이 목록 선택</t>
+</g>
+<g k="source">
+<t k="sortButton">정렬</t>
+<t k="repSourceSaved">리플레이 모음이 저장되었습니다.</t>
+<t k="autoSort">자동 정렬</t>
+<t k="purgeButton">중복 제거(_P)</t>
+<t k="addFoldersButton">폴더 추가(_D)...</t>
+<t k="removeSelectedButton">선택 항목 제거(_R)</t>
+<t k="addFilesButton">파일 추가(_L)...</t>
+<t k="saveReplaySourceButton">리플레이 모음 저장...</t>
+<t k="purgeButtonToopTip">중복이거나 존재하지 않거나 다른 모음에 포함된 파일을 제거합니다.</t>
+<t k="selectReplaysToAdd">추가할 리플레이 선택</t>
+<t k="selectFoldersToAdd">추가할 폴더 선택</t>
+<t k="listAllReplays">현재 모음의 모든 리플레이 출력(_T)</t>
+<t k="title">리플레이 모음</t>
+<t k="loadReplaySourceButton">리플레이 모음 열기...</t>
+<t k="failedToSaveRepSource">리플레이 모음을 저장하는 데 실패했습니다!</t>
+<t k="failedToLoadRepSource">리플레이 모음을 불러오는 데 실패했습니다!</t>
+<t k="selectSaveReplaySource">저장할 리플레이 모음을 선택</t>
+<t k="selectLoadReplaySource">불러올 리플레이 모음을 선택</t>
+</g>
+</g>
+<t k="name">리플레이 검색</t>
+<t k="title">리플레이 검색 #$0</t>
+</g>
+<g k="multiRepAnal">
+<g k="tab">
+<g k="maps">
+<g k="header">
+<t k="1v1ZWinRatio">1v1 Z 승률</t>
+<t k="firstPlayed">처음 플레이</t>
+<t k="lastPlayed">마지막 플레이</t>
+<t k="winRatio">승률</t>
+<t k="record">승-패-?</t>
+<t k="replays">리플레이</t>
+<t k="1v1TWinRatio">1v1 T 승률</t>
+<t k="1v1PWinRatio">1v1 P 승률</t>
+<t k="mapName">지도 이름</t>
+<t k="replaysRatio">리플레이 %</t>
+</g>
+<t k="info">전체 지도: $0</t>
+<t k="title">지도</t>
+</g>
+<g k="chatWords"/>
+<g k="players">
+<g k="header">
+<t k="lastGame">마지막 게임</t>
+<t k="firstGame">처음 게임</t>
+<t k="replays">리플레이</t>
+<t k="record">승-패-?</t>
+<t k="presence">기간 (일)</t>
+<t k="avgApm">평균 APM</t>
+<t k="totalTimeInGames">게임 전체 시간</t>
+<t k="playerName">플레이어 이름</t>
+<t k="avgGameLength">평균 게임 길이</t>
+<t k="raceDistribution">종족 %</t>
+<t k="winRatio">승률</t>
+<t k="avgGamesPerDay">평균 게임/일</t>
+</g>
+<t k="info">전체 플레이어: $0. 팁: 플레이어를 두 번 클릭하여 자세한 통계 및 시간에 따른 차트를 볼 수 있습니다. 플레이어 메뉴를 표시하려면 오른쪽 클릭하십시오.</t>
+<t k="title">플레이어</t>
+</g>
+<g k="player">
+<g k="tab">
+<g k="playmates">
+<g k="header">
+<t k="lastCommonGame">마지막 같이 한 게임</t>
+<t k="firstCommonGame">처음 같이 한 게임</t>
+<t k="winRatioAsOpponents">상대 승률</t>
+<t k="recordAsOpponents">상대 전적</t>
+<t k="gamesAsOpponents">적군</t>
+<t k="winRatioAsAllies">동맹 승률</t>
+<t k="gamesAsAllies">동맹</t>
+<t k="recordAsAllies">동맹 전적</t>
+<t k="commonGames">공통 게임</t>
+<t k="totalTimeTogether">함께한 전체 시간</t>
+<t k="playmate">팀원</t>
+</g>
+<t k="title">팀원</t>
+</g>
+<g k="trends">
+<t k="hourly">시간 당</t>
+<t k="daily">일간</t>
+<t k="type">트렌드 유형:</t>
+<t k="monthly">월간</t>
+<t k="title">행동 트렌드 차트</t>
+</g>
+<g k="charts">
+<g k="chartType">
+<t k="activity.yAxisLabel">게임/$0</t>
+<t k="winRatioDevelopment.yAxisLabel">승률</t>
+<t k="formatDistribution.yAxisLabel">형식 %</t>
+<t k="apmDevelopment.yAxisLabel">가중치 평균 APM</t>
+<t k="gameTypeDistribution.yAxisLabel">게임 형식 %</t>
+<t k="winRatioDevelopment">승률 분석</t>
+<t k="raceDistribution">시간에 따른 종족 분포</t>
+<t k="apmDevelopment">APM 분석</t>
+<t k="raceDistribution.yAxisLabel#2">종족 %</t>
+<t k="activity">행동</t>
+<t k="formatDistribution">시간에 따른 형식 분포</t>
+<t k="gameTypeDistribution">시간에 따른 게임 형식 분포</t>
+</g>
+<g k="granularity">
+<t k="month">월</t>
+<t k="week">주</t>
+<t k="day">일</t>
+<t k="year">년</t>
+</g>
+<t k="title">분석 차트</t>
+<t k="granularity">정밀도:</t>
+<t k="averageMarker">평균: $0</t>
+</g>
+<t k="matchupRecords.title">매치업 전적</t>
+<t k="typeRecords.title">게임 형식 전적</t>
+<t k="formatRecords.header.format">형식</t>
+<t k="matchupRecords.header.matchup">매치업</t>
+<t k="formatRecords.title">게임 형식 전적</t>
+<t k="typeRecords.header.type">게임 형식</t>
+</g>
+<t k="info">$1개 리플레이의 $0 플레이어 분석:</t>
+</g>
+<g k="buildOrders"/>
+<g k="1v1BuildOrders.header">
+<t k="occurrences">빈도</t>
+<t k="record">승-패-?</t>
+<t k="winRatio">승률</t>
+<t k="race">종족</t>
+<t k="lastUsed">마지막 사용</t>
+<t k="recordVsT">vs T 전적</t>
+<t k="recordVsZ">vs Z 전적</t>
+<t k="recordVsP">vs P 전적</t>
+<t k="buildOrder">빌드 오더</t>
+<t k="firstUsed">처음 사용</t>
+</g>
+</g>
+<t k="autoOpenFirstPlayerToolTip">분석이 완료되면 가장 많은 게임을 한 플레이어를 자동으로 엽니다.</t>
+<t k="analysisStatus">분석됨: $0, 통과됨: $1, 전체: $2 ($3%)</t>
+<t k="abortAnalysisButton">분석 중단(_A)</t>
+<t k="stretchToWindow">창 채우기</t>
+<t k="analysisAborted">분석이 중단되었습니다!</t>
+<t k="name">다중 리플레이 분석</t>
+<t k="countingReplays">리플레이 세는 중...</t>
+<t k="openTitle">분석할 파일 및 폴더를 선택</t>
+<t k="autoOpenFirstPlayer">첫 플레이어 자동 열기</t>
+<t k="title">다중 리플레이 분석 #$0</t>
+<t k="opening">여는 중...</t>
+<t k="playerMenu.openPlayer">플레이어 열기</t>
+</g>
+<g k="startPage">
+<g k="tip">
+<t k="11">리플레이 분석기에서 특정 관심 있는 액션만 표시하려면 "액션 필터" 및 "제외할 액션 필터" 필드를 사용하십시오.</t>
+<t k="12">"액션 목록 사용..." 체크 박스를 선택하고 액션 필터를 적용하면 리플레이 분석기의 차트에서 원하는 데이터만 출력시킬 수 있습니다.</t>
+<t k="10">You can restrict the Multi-rep analysis to any subset of the replays if you pre-filter them in the Replay search.</t>
+<t k="15">대부분의 명령과 액션은 단축키를 가집니다. 단축키를 기억하면 Sc2gears를 더욱 효율적으로 사용할 수 있습니다.</t>
+<t k="16">드롭 다운 목록에 포커스가 있다면, 찾고자 하는 항목을 타이밍하면 빠르게 선택할 수 있습니다.</t>
+<t k="13">플레이어 즐겨찾기 목록에 자신의 스타크래프트2 계정 이름을 추가하면, 항상 첫 번째 플레이어로 표시할 수 있습니다.</t>
+<t k="14">차트 보기에서 전체 하면 모드(F11)를 사용하면 모든 항목을 크게 볼 수 있습니다.</t>
+<t k="19">창 메뉴의 "닫기 시 트레이로 최소화"를 사용하면 실수로 Sc2gears가 닫히는 걸 방지해 줍니다.</t>
+<t k="17">리플레이 분석기에서 "팀으로 그룹" 기능을 사용하면 전체 팀의 전적을 쉽게 비교할 수 있습니다.</t>
+<t k="18">지도 보기 차트에서 "팀으로 그룹" 기능을 사용하면 같은 색상으로 팀원의 건물을 표시할 수 있습니다.</t>
+<t k="20">리플레이 검색의 결과 탭에서 ENTER 혹은 SHIFT+ENTER를 눌러 선택한 리플레이를 열어 분석할 수 있습니다.</t>
+<t k="21">리플레이 분석기의 단축키 차트에서 할당된 단축키 번호에 마우스를 올리면 어떤 유닛이 해당 그룹에 할당되었는 지 알 수 있습니다.</t>
+<t k="22">리플레이 분석기의 모든 차트는 확대할 수 있습니다. 차트가 확대된 경우, 간단히 드래그하여 스크롤 할 수 있습니다. (혹은 스크롤 바를 이용할 수 있습니다)</t>
+<t k="23">빠른 프로그램 시작과 더 적은 초기 메모리 점유를 원하시면 "시작 시 SC2 아이콘 미리 읽기" 기능을 끄시기 바랍니다.</t>
+<t k="24">네비게이션 트리 및 활성 창 간 전환을 하려면 F6을 누르십시오.</t>
+<t k="25">네비게이션 바의 크기를 조절하려면 F8을 누르고 방향키를 이용하세요.</t>
+<t k="26">리플레이 분석기의 차트를 오른쪽 클릭하면 리플레이 작업 메뉴가 나타나며, 플레이어 체크 박스를 오른쪽 클릭하면 플레이어 메뉴가 나타납니다.</t>
+<t k="27">저장된 리플레이 출처 및 리플레이 목록은 기본 폴더에 저장을 하면 자동으로 네비게이션 바에 나타납니다.</t>
+<t k="28">Middle click (net scroll) on the charts in the Replay analyzer enlarges the charts! Middle click again restores the original.</t>
+<t k="4">Sc2gears.exe 바로가기를 시작 메뉴에 추가할 수 있으며, Sc2gears를 트레이로 최소화 하여 시작할 수 있습니다.</t>
+<t k="5">Sc2gears의 모든 테이블의 데이터는 내보낼 수 있습니다. CTRL+C를 눌러 선택한 테이블의 행을 클립보드로 복사할 수 있습니다.</t>
+<t k="2">빠른 차트 간 전환을 위해 CTRL+숫자 단축키를 사용하세요.</t>
+<t k="3">테이블이 최대 3 컬럼으로 정렬됩니다. 두 번째와 세 번째 정렬 컬럼은 이전 정렬 컬럼이 됩니다.</t>
+<t k="8">폴더 설정에서 리플레이 열기의 시작 폴더를 설정할 수 있습니다.</t>
+<t k="9">You can narrow a search result by refining the search terms and perform the search again or set the results as source and define new filters.</t>
+<t k="6">You can pass any SC2 replays, Sc2gears replay lists and Sc2gears replay sources to Sc2gears.exe, and all will be opened.</t>
+<t k="7">Sc2gears 리플레이 목록은 표준 CVS 파일이므로 Excel로 열 수 있습니다.</t>
+<t k="1">*.SC2Replay 파일을 Sc2gears.exe에 연결하면, 해당 파일을 두 번 클릭하면 Sc2gears가 열립니다.</t>
+</g>
+<g k="channel"/>
+<t k="title">시작 페이지</t>
+<t k="refreshToolTip">시작 페이지 새로 고침 (F5)</t>
+<t k="refresh">새로 고침</t>
+<t k="nextTipToolTip">다음 팁</t>
+<t k="visitHomePage">홈 페이지 방문</t>
+<t k="tips">팁</t>
+<t k="previousTipToolTip">이전 팁</t>
+</g>
+<g k="repAnalyzer">
+<g k="tab">
+<g k="mapPreview">
+<t k="mapFileNotExists">지도 파일이 존재하지 않습니다.</t>
+<t k="mapDownloaded">지도 다운로드 완료!</t>
+<t k="reopenReplayButton">리플레이 다시 열기(_R)</t>
+<t k="downloadMapButton">지도 다운로드(_D)</t>
+<t k="title">지도 미리보기</t>
+<t k="mapDownloadFailed">지도 다운로드 실패!</t>
+<t k="downloadingMap">지도 다운로드 중...</t>
+<t k="downloadFromGateway">게이트웨이에서 다운로드:</t>
+<t k="zoom">확대:</t>
+<t k="previewNotAvailable">지도 미리보기를 이용할 수 없습니다.</t>
+</g>
+<g k="charts">
+<g k="chartText">
+<t k="producedSupply">생산 인구: $0</t>
+<t k="producedArmySize">생산 부대 규모: $0</t>
+<t k="gas">가스</t>
+<t k="upgrades">업그레이드: $0</t>
+<t k="hotkeysAssign">단축키 할당: $0</t>
+<t k="researches">연구: $0</t>
+<t k="assign">할당: $0</t>
+<t k="hotkeys">단축키: $0</t>
+<t k="trains">훈련: $0</t>
+<t k="select">선택: $0</t>
+<t k="gasSpent">가스 소비: $0</t>
+<t k="minerals">광물</t>
+<t k="actions">액션: $0</t>
+<t k="mapViewZoomTip">팁: 이 차트를 확대하려면 마우스로 드래그하십시오!</t>
+<t k="apm">APM: $0</t>
+<t k="mineralsSpent">광물 소비: $0</t>
+<t k="abilityGroups">어빌리티 그룹: $0</t>
+<t k="workers">일꾼: $0</t>
+<t k="supply">인구</t>
+<t k="builds">건설: $0</t>
+<t k="team">팀 $0</t>
+<t k="mapViewChartNotAvailable2">지도 미리보기 탭에서 지도를 먼저 다운로드 하십시오.</t>
+<t k="mapViewChartNotAvailable1">지도 보기 차트에서 필요한 리플레이의 지도 파일을 찾을 수 없습니다.</t>
+<t k="army">부대</t>
+</g>
+<g k="animate">
+<t k="speedUpToolTip">빠르게 (CTRL+SHIFT+R)</t>
+<t k="jumpToBeginningToolTip">처음으로 이동 (CTRL+SHIFT+Q)</t>
+<t k="speed">속도:</t>
+<t k="animate">애니메이션:</t>
+<t k="pauseToolTip">일시중지 (CTRL+W)</t>
+<t k="jumpForwardToolTip">앞으로 이동 (CTRL+E)</t>
+<t k="slowDownToolTip">느리게 (CTRL+R)</t>
+<t k="jumpBackwardToolTip">뒤로 이동 (CTRL+Q)</t>
+<t k="jumpToEndToolTip">마지막으로 이동 (CTRL+SHIFT+E)</t>
+<t k="playToolTip">재생 (CTRL+W)</t>
+</g>
+<g k="actions">
+<g k="iconSize">
+<t k="medium">보통</t>
+<t k="big">큼</t>
+<t k="small">작음</t>
+<t k="hidden">숨김</t>
+</g>
+<t k="invertColors">색상 반전</t>
+<t k="iconSizes">아이콘 크기:</t>
+<t k="listedActionsCount">나열된 액션 수: $0</t>
+<t k="useListedActionsAsInput">나열된 액션을 차트 입력 데이터로 사용</t>
+</g>
+<g k="buildsTechStat">
+<t k="barSize">바 크기:</t>
+<t k="showUnits">유닛 표시</t>
+<t k="showBuildings">건물 표시</t>
+<t k="showUpgrades">업그레이드 표시</t>
+<t k="showResearches">연구 표시</t>
+<t k="showAbilityGroups">능력 그룹 표시</t>
+</g>
+<g k="playerMenu">
+<t k="viewCharacterProfile">캐릭터 프로필 보기</t>
+<t k="addToFavoredPlayerList">플레이어 즐겨찾기 목록에 추가</t>
+<t k="showOnlyThisPlayer">현재 플레이어만 표시</t>
+<t k="removeFromFavoredPlayerList">플레이어 즐겨찾기 목록에서 제거</t>
+<t k="viewCharacterProfileInLanguage">캐릭터 프로필 보기 언어</t>
+<t k="insertToFavoredPlayerList">플레이어 즐겨찾기 목록의 플레이어 앞에 삽입</t>
+<t k="showAllPlayers">모든 플레이어 표시</t>
+</g>
+<g k="players">
+<g k="league"/>
+<g k="portraitToolTip"/>
+<t k="winnerToolTip">이 플레이어가 승자입니다.</t>
+<t k="handicapToolTip">이 플레이어는 핸디캡=$0으로 플레이했습니다.</t>
+</g>
+<g k="mapView">
+<g k="background">
+<t k="blank">공백</t>
+<t k="hotAreas">주요 영역</t>
+<t k="mapImage">지도 이미지</t>
+<t k="mapImageAndHotAreas">지도 이미지+주요 영역</t>
+<t k="mapImageAndHotPoints">지도 이미지+주요 지점</t>
+<t k="hotPoints">주요 지점</t>
+</g>
+<t k="quality">품질:</t>
+<t k="quality.high">높음</t>
+<t k="quality.low">낮음</t>
+<t k="background">배경:</t>
+<t k="hideOverlappedBuildings">겹친 건물 숨김</t>
+<t k="fillBuildingIcons">건물 아이콘 채우기</t>
+<t k="showMapObjects">지도 객체 표시</t>
+<t k="quality.medium">보통</t>
+</g>
+<g k="chartType">
+<t k="buildsTech">빌드/테크</t>
+<t k="resourcesSpent">자원 소모</t>
+<t k="producedArmySupply">생산 부대/인구</t>
+<t k="buildsTechStat">빌드/테크 통계</t>
+<t k="apm">APM</t>
+<t k="hotkeys">단축키</t>
+<t k="mapView">지도 보기</t>
+</g>
+<g k="buildsTech">
+<t k="showTrains">훈련 표시</t>
+<t k="showUpgrades">업그레이드 표시</t>
+<t k="showDuration.none">없음</t>
+<t k="showDuration">지속시간 표시:</t>
+<t k="showDuration.bars">바</t>
+<t k="showAbilityGroups">어빌리티 그룹</t>
+<t k="showWorkers">일꾼 표시</t>
+<t k="showResearches">연구 표시</t>
+<t k="showDuration.lines">선</t>
+<t k="iconSizes">아이콘 크기:</t>
+<t k="showBuilds">건물 표시</t>
+</g>
+<g k="actionOps">
+<t k="clearFiltersButton">필터 지우기(_C)</t>
+<t k="filterActions">액션 필터:</t>
+<t k="filterOutActionsToolTip">필터를 적용하지 않을 액션의 단어를 입력하십시오. OR을 이용하여 여러 단어를 입력할 수 있습니다. (CTRL+T)</t>
+<t k="filterOutActions">제외할 액션 필터:</t>
+<t k="jumpToFrame">프레임으로 이동:</t>
+<t k="filterActionsToolTip">필터를 적용할 액션의 단어를 입력하십시오. OR을 이용하여 여러 단어를 입력할 수 있습니다. (CTRL+F)</t>
+<t k="searchText">검색 텍스트:</t>
+<t k="searchTextToolTip">CTRL+S</t>
+<t k="jumpToFrameToolTip">CTRL+J</t>
+</g>
+<t k="displayInSeconds">초 단위</t>
+<t k="producedArmySupply.includeInitialUnits">초기 유닛 포함</t>
+<t k="zoomToolTip">확대 수준을 선택하십시오. 확대하려면 CTRL+I를 사용하고, 축소하려면 CTRL+U를 사용하십시오.</t>
+<t k="allPlayersOn1Chart">1번 차트에 모두 표시</t>
+<t k="displayInSecondsToolTip">프레임 대신 초 단위로 시간 정보를 출력합니다.</t>
+<t k="hotkeys.showSelectHotkeys">선택 단축키 표시</t>
+<t k="usePlayersColorsToolTip">차트 그리기에 플레이어의 게임 내 색상을 사용합니다.</t>
+<t k="groupByTeams">팀 단위 묶음</t>
+<t k="allPlayersOn1ChartToolTip">같은 차트에 모든 플레이어를 출력합니다.</t>
+<t k="groupByTeamToolTip">각 팀 구성원의 요약된 값을 1개 차트로 표시합니다.</t>
+<t k="usePlayersColors">플레이어 색상 사용</t>
+<t k="chartTooltip.frameTime">프레임: $0, 시간: $1</t>
+<t k="displayActionTypes">출력 액션 유형:</t>
+<t k="showAfterCompletedToolTip">완료 후 액션의 결과만 표시합니다.</t>
+<t k="chartMenu.enlargeChart">Enlarge chart</t>
+<t k="apm.pixels">픽셀.</t>
+<t k="zoom">확대 수준:</t>
+<t k="players">플레이어:</t>
+<t k="showAfterCompleted">완료 후 표시</t>
+<t k="title">차트</t>
+</g>
+<g k="inGameChat">
+<t k="translateButton">번역(_A)</t>
+<t k="targetLanguage">대상 언어:</t>
+<t k="restoreOriginalButton">원문으로 복귀(_R)</t>
+<t k="chatMessageFull">$0 [$2] $1: $3</t>
+<t k="blinkMessage">$0 [$1] 미니맵 핑: x=$2,y=$3</t>
+<t k="title">게임 내 채팅</t>
+<t k="sourceLanguage">원문 언어:</t>
+<t k="chatMessageNoTarget">$0 $1: $2</t>
+<t k="hideMessageTarget">메시지 대상 숨김</t>
+<t k="showBlinks">미니맵 핑 표시</t>
+<t k="formatIntoParagraphs">시간별 줄 개행 표시</t>
+<t k="messageTargetAll">모두</t>
+<t k="messageTargetAllies">동맹</t>
+</g>
+<g k="gameInfo">
+<t k="clients">클라이언트: $0</t>
+<t k="version">버전: $0</t>
+<t k="gateway">게이트웨이: $0</t>
+<t k="players">플레이어:</t>
+<t k="handicap">핸디캡: $0</t>
+<t k="team">팀 $0:</t>
+<t k="gameSpeed">게임 속도: $0</t>
+<t k="mapFile">지도 파일: $0</t>
+<t k="mapSize">지도 크기: $0</t>
+<t k="format">형식: $0</t>
+<t k="gameLength">게임 길이: $0</t>
+<t k="winners">승자: $0</t>
+<t k="title">게임 정보</t>
+<t k="date">날짜: $0</t>
+<t k="mapName">지도 이름: $0</t>
+<t k="mapPlayableSize">플레이 가능 지도 크기: $0</t>
+<t k="gameType">게임 형식: $0</t>
+<t k="fileName">파일 이름: $0</t>
+</g>
+</g>
+<t k="opening">여는 중...</t>
+<t k="openError">리플레이를 열 수 없습니다!</t>
+<t k="openTitle">불러올 리플레이 선택</t>
+<t k="name">리플레이 분석기</t>
+</g>
+</g>
+<g k="folderSettings">
+<t k="sc2AutoReplay">SC2 자동 리플레이 폴더 (사용자 홈과 관련):</t>
+<t k="replayAutoSaveFolder">Sc2gears 리플레이 자동 저장 폴더:</t>
+<t k="chooseFolder">폴더 선택...</t>
+<t k="restoreDefaultFolder">기본값 복원</t>
+<t k="sc2Maps">SC2 지도 폴더:</t>
+<t k="defaultFolder">리플레이 열기 기본 폴더:</t>
+<t k="sc2InstallationFolder">스타크래프트 2 설치 폴더:</t>
+</g>
+<g k="replayops">
+<g k="renameDialog">
+<g k="symbol">
+<t k="firstLettersOfMapName">지도 이름의 처음 xy 글자 (2 자리!)</t>
+<t k="playerRaceFirstLetter">플레이어 x의 첫 번째 종족 문자 (x = 1부터 시작하는 플레이어의 번호)</t>
+<t k="playerRace">플레이어 x의 종족 (x = 1부터 시작하는 플레이어의 번호)</t>
+<t k="replayCounter">카운터 (x 자리수를 가지며, 대상 폴더의 리플레이 수 +1의 값을 가짐)</t>
+<t k="allPlayerNamesGrouped">쉼표로 구분된 모든 플레이어의 이름 (팀 단위)</t>
+<t k="playerName">플레이어 x의 이름 (x = 1부터 시작하는 플레이어의 번호)</t>
+<t k="dateTime">리플레이의 날짜와 시간</t>
+<t k="name">심볼 이름</t>
+<t k="format">형식 (2v2 예시)</t>
+<t k="counter">카운터 (1부터 시작하여 매 사용시 1씩 증가)</t>
+<t k="playerInfoBlock">플레이어 정보 구획. 인덱스 없이 $0 내부 기호를 사용하면, 모든 플레이어가 팀 단위로 그룹화 됩니다. 예시: &lt;/p(/r)&gt;</t>
+<t k="raceMatchup">종족 매치업 (TZvPP 예시)</t>
+<t k="firstWordsOfMapName">지도 이름의 처음 x개 단어</t>
+<t k="mapName">지도 이름</t>
+<t k="extension">확장자 ('SC2Replay')</t>
+<t k="counter2">카운터 (x 자리수를 가지며, 1부터 시작하여 매 사용시 1씩 증가)</t>
+<t k="allPlayerNames">쉼표로 구분된 모든 플레이어의 이름</t>
+<t k="date">리플레이의 날짜</t>
+</g>
+<g k="tab"/>
+<t k="failedToRename">$0개의 리플레이 이름 변경이 실패하였습니다.</t>
+<t k="successfullyRenamed">$0개의 리플레이 이름이 변경되었습니다.</t>
+<t k="invalidTemplate">입력된 형식이 올바르지 않습니다!</t>
+<t k="title">리플레이 이름 바꾸기</t>
+<t k="previewButton">새 이름 미리보기(_P)</t>
+<t k="renameButton">리플레이 이름 바꾸기(_R)</t>
+<t k="description1">리플레이 이름 변경에 사용할 형식을 입력하세요.</t>
+<t k="description2">원하는 텍스트를 입력하거나 동적인 값을 넣으려면 심볼을 사용하십시오.</t>
+<t k="description3">심복은 모든 리플레이의 주어진 값으로 대체됩니다.</t>
+<t k="description4">다음의 심볼을 사용할 수 있습니다:</t>
+</g>
+<t k="openInAnalyzer">분석기에서 열기</t>
+<t k="deleteReplays">리플레이 삭제...</t>
+<t k="openReplaysFolder">리플레이의 폴더 열기</t>
+<t k="includePathInZip">ZIP 파일에 경로 포함</t>
+<t k="copyReplays">리플레이 복사...</t>
+<t k="moveReplays">리플레이 이동...</t>
+<t k="selectMoveTargetFolder">이동될 대상 폴더 선택</t>
+<t k="watchReplay">리플레이 감상</t>
+<t k="openInMultiRepAnal">다중 리플레이 분석에서 열기</t>
+<t k="selectCopyTargetFolder">복사될 대상 폴더 선택</t>
+<t k="packReplays">리플레이 압축(ZIP)...</t>
+<t k="deleteConfirmation">정말로 $0개의 리플레이를 삭제하시겠습니까?</t>
+<t k="renameReplays">리플레이 이름 바꾸기...</t>
+<t k="selectFileToPackTo">압축할 파일을 선택</t>
+</g>
+<g k="tsovplugin"/>
+<g k="charts">
+<t k="chartType">차트 유형:</t>
+<t k="granularity">정밀도:</t>
+<t k="graphApproximation.cubic">곡선</t>
+<t k="graphApproximation">표현:</t>
+<t k="graphApproximation.linear">선형</t>
+<t k="chartTypeToolTip">보고 싶은 차트 유형을 선택하십시오. 항목 간 빠른 전환을 위해 CTRL+숫자를 사용하십시오.</t>
+</g>
+<g k="mousePrintRecorder">
+<g k="tab.info"/>
+</g>
+<g k="sc2gearsDatabaseDownloader"/>
+<g k="keyboardShortcuts">
+<g k="function"/>
+<g k="context"/>
+<g k="key"/>
+</g>
+<g k="wordCloud"/>
+<g k="trayIcon">
+<t k="startedMinimized">$0가 최소화 되었습니다.</t>
+<t k="running">$0가 실행 중입니다.</t>
+</g>
+<g k="pluginSettings"/>
+<g k="botplugin"/>
+<g k="welcome">
+<t k="selectLanguage">아래의 언어를 선택하십시오.</t>
+<t k="voice">음성:</t>
+<t k="firstRun">$0의 첫 번째 실행입니다.</t>
+<t k="welcome">환영합니다</t>
+<t k="thankYou">$0를 이용해 주셔서 감사합니다.</t>
+<t k="language">언어:</t>
+</g>
+<g k="playerProfile"/>
+<g k="progressDialog">
+<g k="progressBar"/>
+</g>
+<g k="tray">
+<t k="restore">메인 창 복원</t>
+<t k="enableApmAlert">APM 경보 사용</t>
+<t k="exit">끝내기</t>
+<t k="hide">메인 창 숨기기</t>
+<t k="openLastReplay">최근 리플레이 열기</t>
+<t k="enableReplayAutoSave">리플레이 자동 저장 사용</t>
+</g>
+<g k="internalFrame">
+<g k="menu">
+<t k="size">크기</t>
+<t k="restore">복원</t>
+<t k="move">이동</t>
+<t k="close">닫기</t>
+<t k="minimize">최소화</t>
+<t k="maximize">최대화</t>
+</g>
+<g k="toolTip">
+<t k="maximize">최대화</t>
+<t k="restore">복원</t>
+<t k="close">닫기</t>
+<t k="minimize">최소화</t>
+</g>
+</g>
+<g k="miscSettings">
+<g k="predefinedList"/>
+<t k="preferredBnetLanguage">선호하는 배틀넷 언어:</t>
+<t k="useRealTimeMeasurement">실시간 시간 측정 사용:</t>
+<t k="templateDialog.title">자동 저장 이름 템플릿 편집</t>
+<t k="alertOnGameStartEvents">게임 시작 상황에 경보:</t>
+<t k="cachePreprocessedReplays">리플레이 캐시</t>
+<t k="tab.replayAutoSave">리플레이 자동 저장</t>
+<t k="alertWhenGamesEnd">게임 종료시 경보</t>
+<t k="confirmEmptyReplayCache">정말로 리플레이 캐시를 비우시겠습니까?</t>
+<t k="validRangeToolTip">유효 범위: $0..$1</t>
+<t k="enableInternalPreprocessedReplayCache">내부 리플레이 캐시 사용:</t>
+<t k="autoOpenNewReplaysInAnalyzer">분석기에서 새로운 리플레이 자동 열기:</t>
+<t k="tab.userInterface">사용자 인터페이스</t>
+<t k="allowOnlyOneInstance">단일 인스턴스만 허용:</t>
+<t k="emptyReplayCacheButton">캐시 비우기...</t>
+<t k="preloadSc2IconsOnStartup2">시작 시 SC2 아이콘 미리 불러오기</t>
+<t k="buildOrderLength">다중 리플레이 분석기의 빌드 오더 길이:</t>
+<t k="soundVolume">음량:</t>
+<t k="newRepCheckIntervalSec">신규 리플레이 검사 주기:</t>
+<t k="title">기타 설정</t>
+<t k="tab.folders">폴더</t>
+<t k="enableInstanceMonitor">인스턴스 모니터 사용</t>
+<t k="restoreDefault">기본값 복원</t>
+<t k="buildings">개 건물</t>
+<t k="apmAlertLevel">APM 경보 수준:</t>
+<t k="navBarInitialWidth">네비게이션 바 초기 가로폭:</t>
+<t k="largestRemainingTeamWins">많은 사람이 남아 있는 팀이 우승</t>
+<t k="showWinners2">승자 표시</t>
+<t k="favoredPlayerList">플레이어 즐겨찾기 목록:</t>
+<t k="ms">ms.</t>
+<t k="declareLargestWinner">많은 사람이 남아 있는 팀을 우승으로 처리 여부:</t>
+<t k="pixels">픽셀.</t>
+<t k="templateDialog.checkButton">검사(_H)</t>
+<t k="alertRepetitionIntervalIfApmStaysLow">APM이 낮은 상태로 머물 경우 경보 주기:</t>
+<t k="alertWhenApmIsAboveAlertLevelAgain">APM이 경보 수준 이상으로 다시 올라가면 경보:</t>
+<t k="preloadSc2IconsOnStartup">시작 시 SC2 아이콘 미리 불러오기:</t>
+<t k="alertWhenGamesStarts">게임 시작 시 경보</t>
+<t k="apm">APM</t>
+<t k="convertGameTimeToRealTime">게임 시간을 현실 시간으로 변환</t>
+<t k="favoredPlayerListToolTip">이름 형식 적용시 다른 플레이어보다 우선적으로 나타나는 콤마로 구분된 플레이어 목록. 대소문자를 구분합니다!</t>
+<t k="animatorJumpTime">애니메이터에서 앞 뒤로 시간 이동:</t>
+<t k="initialTimeToExcludeFromApm">APM 계산에서 제외할 초반 시간(게임 시간 기준):</t>
+<t k="tab.apmAlert">APM 경보</t>
+<t k="animateRefreshRate">리플레이 분석기의 애니메이션 프레임:</t>
+<t k="alertOnGameEndEvents">게임 종료 상황에 경보:</t>
+<t k="showWinners">리플레이 분석기에서 승자 표시:</t>
+<t k="editTemplateButton">편집(_E)...</t>
+<t k="alertWhenApmIsBackToNormal">APM이 보통으로 돌아가면 알림</t>
+<t k="tab.analyzer">분석기</t>
+<t k="timeToKeepLogFiles">로그 파일 유지 기간:</t>
+<t k="toolTipInitialDelay">툴팁 초기 지연:</t>
+<t k="templateValid">이 형식은 문법이 올바릅니다.</t>
+<t k="apmCheckIntervalSec">APM 검사 주기:</t>
+<t k="fps">FPS.</t>
+<t k="templateDialog.testOnLastReplayButton">최근 리플레이 검사(_T)</t>
+<t k="timeLimitForMultiRepAnalysis">다중 리플레이 분석에서 포함되는 시간 제한::</t>
+<t k="repAutoSaveNameTemplateToolTip">리플레이 이름 바꾸기에서 사용하는 동일한 양식으로 입력할 수 있습니다.</t>
+<t k="tab.internal">내부</t>
+<t k="days">일.</t>
+<t k="testSoundButton">테스트(_T)</t>
+<t k="repAutoSaveNameTemplate">리플레이 자동 저장 이름 형식:</t>
+<t k="preferredBnetLanguageToolTip">플레이어의 배틀넷 서버를 이용할 수 있다면 캐릭터 프로필을 이 언어로 엽니다.</t>
+<t k="chartsActionListPartition">리플레이 분석기에서 차트 액션 목록 분할:</t>
+<t k="percent">%.</t>
+<t k="applyFavoredListInRepAnalyzer">리플레이 분석기의 플레이어 즐겨찾기 목록에도 적용</t>
+<t k="seconds">초.</t>
+<t k="autoOpenNewReplays">새 리플레이 자동 열기</t>
+<t k="rearrangePlayersInRepAnalyzer">리플레이 분석기의 플레이어 재정렬:</t>
+<t k="deleteAutoSavedReplays">자동 저장된 리플레이 삭제</t>
+<t k="deleteSuccessfullyAutoSavedReplays">성공적으로 자동 저장된 리플레이 삭제:</t>
+<t k="toolTipDismissDelay">툴팁 사라짐 지연:</t>
+<t k="apmWarmupTime">APM 도달 시간 (이 시간 동안 경보 안 함):</t>
+<t k="never">경보 안 함</t>
+</g>
+<g k="onTopGameInfo"/>
+<g k="about">
+<t k="currentTranslator">현재 언어의 번역자:</t>
+<t k="releasedOn">출시일:</t>
+<t k="version">버전:</t>
+<t k="replayCacheVersion">리플레이 캐시 버전:</t>
+<t k="currentVoice">현재 음성:</t>
+<t k="email">이메일:</t>
+<t k="authorOfCurrentVoice">현재 음성의 제작자:</t>
+<t k="replayParserVersion">리플레이 분석기 버전:</t>
+<t k="currentLanguage">현재 언어:</t>
+<t k="languageFileVersion">현재 언어 파일 버전:</t>
+<t k="usedIcons">$0는 Fugue 및 FamFamFam 아이콘을 사용합니다.</t>
+<t k="author">제작자:</t>
+<t k="title">$0 정보</t>
+</g>
+<g k="navigationTree">
+<g k="popup">
+<t k="renameItem">항목 이름 바꾸기...</t>
+<t k="openInRepSearchForFiltering">향후 필터링을 위해 리플레이 검색에서 열기</t>
+<t k="renameDialog.renameButton">이름 바꾸기(_R)</t>
+<t k="deleteItem">항목 삭제...</t>
+<t k="areYouSureToDelete">정말로 "$0" 항목을 삭제하시겠습니까?</t>
+<t k="listAllReplays">모든 리플레이 목록</t>
+<t k="renameDialog.failedToRename">"$0" 항목을 "$1" 이름으로 변경하지 못했습니다!</t>
+<t k="openInMultiRepAnalysis">다중 리플레이 분석기에서 열기</t>
+<t k="renameDialog.enterNewNameFor">"$0"의 새로운 이름 입력:</t>
+<t k="renameDialog.title">항목 이름 바꾸기</t>
+</g>
+<t k="repSources.name">리플레이 위치</t>
+<t k="repLists.name">리플레이 목록</t>
+<t k="info.newRepList">리플레이 검색의 "결과" 탭의 리플레이 목록을 저장할 수 있습니다.</t>
+<t k="repSources.sc2AutoReps.name">SC2 자동 저장</t>
+<t k="repSources.autoSavedReps.name">자동 저장된 리플레이</t>
+<t k="info.newRepSource">리플레이 검색의 "검색 위치"에서 리플레이 모음을 만들고 저장할 수 있습니다.</t>
+<t k="new">새로 만들기</t>
+<t k="empty">비어 있음</t>
+</g>
+<g k="shareReplay">
+<g k="uploadProcess"/>
+</g>
+<g k="replayListColumnSetup"/>
+<g k="general">
+<g k="tableFilter"/>
+<g k="language">
+<t k="portugueseBr">포르투갈어(브라질)</t>
+<t k="french">프랑스어</t>
+<t k="chineseTw">중국어(대만)</t>
+<t k="polish">폴란드어</t>
+<t k="russian">러시아어</t>
+<t k="spanishMx">스페인어(멕시코)</t>
+<t k="english">영어</t>
+<t k="italian">이탈리아어</t>
+<t k="korean">한국어</t>
+<t k="german">독일어</t>
+</g>
+<g k="day">
+<t k="thursday">목</t>
+<t k="saturday">토</t>
+<t k="sunday">일</t>
+<t k="wednesday">수</t>
+<t k="monday">월</t>
+<t k="friday">금</t>
+<t k="tuesday">화</t>
+</g>
+<g k="month">
+<t k="may">5월</t>
+<t k="february">2월</t>
+<t k="january">1월</t>
+<t k="december">12월</t>
+<t k="september">9월</t>
+<t k="june">6월</t>
+<t k="july">7월</t>
+<t k="november">11월</t>
+<t k="october">10월</t>
+<t k="august">8월</t>
+<t k="march">3월</t>
+<t k="april">4월</t>
+</g>
+<t k="no">아니오</t>
+<t k="errorDetails">자세히...</t>
+<t k="infoTitle">정보</t>
+<t k="unknown">알 수 없음</t>
+<t k="errorTitle">오류!</t>
+<t k="confirmationTitle">확인</t>
+<t k="noButton">아니오</t>
+<t k="cancelButton">취소</t>
+<t k="okButton">확인</t>
+<t k="yes">예</t>
+<t k="yesButton">예</t>
+</g>
+<g k="misc">
+<t k="autorepFolderEmpty">자동 저장 폴더에 리플레이가 없습니다.</t>
+<t k="autorepFolderNotExists">자동 저장 폴더가 존재하지 않습니다.</t>
+<t k="settingsOf">$0 설정...</t>
+</g>
+<g k="updatesAvailable">
+<t k="dontUpdateButton">업데이트 안 함</t>
+<t k="whatToDo">업데이트 하시겠습니까?</t>
+<t k="title">업데이트 사용 가능</t>
+<t k="newVersionAvailable">새로운 버전 사용 가능: $0</t>
+<t k="updateButton">업데이트</t>
+<t k="updaterCannotBeStarted">사전 업데이트 작업을 수행할 수 없어 $0 프로그램을 시작하지 못했습니다!</t>
+<t k="restart">$0 프로그램을 재시작하고 다시 시도하십시오.</t>
+<t k="viewVersionHistory">버전 정보 보기</t>
+</g>
+<g k="tips"/>
+<g k="proxyConfig"/>
+<g k="dialog.systemMessages">
+<t k="title">시스템 메시지</t>
+</g>
+<t k="tab.close.toolTip">탭 닫기 (CTRL+W)</t>
+</language>

@@ -1,0 +1,28 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.3.3: Replay version 2.1 support
+
+[hr]
+
+[big][b]Sc2gears 14.3.3: [/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.3.3:[/b]
+--------------------------------------------------------
+
+-[b]Added support for 2.1 replays.[/b]
+
+-Adjusted the profile retriever to the changes made to Battle.net profile pages so profile data is retrieved correctly again.
+
+-Added Season #17 and #18 start dates.
+
+-Added missing / new portrait images.
+
+-Added links to [url=https://sites.google.com/site/scelight/]Scelight[/url], the successor to Sc2gears (Help menu, Start page, About dialog).
+
+
+[b]NOTES:[/b]
+[i]With this release Sc2gears is being kept up-to-date, but no new features have been added for quite some time now: [url=https://sites.google.com/site/scelight/]Scelight™[/url] is the one being in the focus of development.
+Although Scelight might lack some features that Sc2gears has or provides (yet), but the ones that are implemented are far superior to those of Sc2gears'. Scelight already has numerous features that Sc2gears never had.
+It is recommended for everyone to get to know Scelight and get ready to completely switch over to Scelight one day. The sooner you make the switch the better.[/i]

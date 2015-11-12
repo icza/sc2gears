@@ -1,0 +1,19 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.2.1: 
+Sc2gears 5.2.1: 
+
+
+[b]Changes and new features in 5.2.1:[/b]
+--------------------------------------------------------
+
+-Fixed a bug which caused incorrect building placement on the Map view chart.
+
+-Fixed a bug which sometimes caused the content of the Start page not being loaded.

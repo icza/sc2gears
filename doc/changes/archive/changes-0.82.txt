@@ -1,0 +1,24 @@
+Version 0.82 is out. The auto-update should handle it, just click on the "Update" button.
+
+[b]Changes since version 0.80:[/b]
+----------------------------------
+-Added a [i]simple-to-use but powerful[/i] [b]Race match-up filter[/b].
+You can enter race letters you're looking for. Symbols (in English): P - Protoss, T - Terran, Z - Zerg, R - Random, v to separate teams, * to match all races. Examples: ZvT, TvR, Tv*, ZPvPT, ZZv**, ZTP.
+If you don't provide team separation just race letters, it will list replays where the indicated races were used.
+Example: if you search for "ZPT*", it will list replays where all races were used, and there was at least a 4th player.
+If you provide team separation, it will list replays where the grouped races were in the same team.
+The "Exact match" property in case of this filter means: if it is checked, only replays that have exactly the same amount of teams and races as specified will be listed.
+For example ZvZ without exact match will also list ZTvZP for example. ZvZ with exact match will only list ZvZ.
+
+Note 1: if you have a replay of TvR which turned out to be TvZ, it will match both "TvR" and the "TvZ" patterns, but not the "TvP" pattern for example.
+Note 2: if you have a replay of TvZ (chosen T and Z, not random), it will not match the "TvR" pattern.
+Note 3: the race letters are the first letters of races [b]in the language of Sc2gears[/b]! For example in Swedish the letter for Random is 'S'. The tool tip shows the proper letters of races in the language of Sc2gears.
+Note 4: the Race match-up filter can be combined with the Match-up filter of course, but care must be taken as they might work against each other (for example searching for "1v1" and "**v**" will never give any results).
+ 
+-Added a new folder setting: "Default folder when opening replays". If this is set, replay choosing dialogs will start from this folder.
+-Added German translation for version 0.82 by Stephan Wimmer.
+-Added Swedish translation for version 0.80 by Marcus Östergren.
+-Added Russian translation for version 0.80 by Nikita "niyaro" Tsarev.
+-Added French translation for version 0.82 by Romain Salvin.
+-User home relative paths in the folder settings are now handled this way: if the specified path exists, it will be used as-is. If doesn't, it will be completed with the user home (prepend). So if your Documents folder is placed outside of your home folder, just give the absolute path you want to use and it'll work.
+-On MAC OS and MAC OS-X StarCraft is started with command: "StarCraft II.app".

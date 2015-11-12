@@ -1,0 +1,41 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.6: Public rep commenting, Deferred tabs
+
+
+[hr]
+
+[b]Sc2gears 8.6: Public replay commenting, Deferred tab content building, Private replay data and more...[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-DWcwn6dn3Ds/TsDBglspczI/AAAAAAAAg0c/v9qRlwMyUJE/s590/public_comments.png[/img][/url]
+
+[b]Changes and new features in 8.6:[/b]
+--------------------------------------------------------
+
+-[b]A new tab in the Replay analyzer: Public comments[/b]
+On this tab you can rate the replay and post public comments.
+Although the title says [i]"Public comments"[/i], the posts can only be seen by those who have the replay. This means that the [b]replay is the "password"[/b] to these comments: if you have the replay, you can see the comments, if you don't have the replay, you can't see the comments. You can use this to post private comments on your own replays, but keep in mind that if someone acquires the replay, he/she will be able to read the posts.
+Comments and rating are not mandatory: you can comment and rate, you can rate only, or you can comment only.
+Replays are neither sent nor stored on the server.
+Replays saved by different players from the same game are considered as different replays (they don't share comments and rating).
+More about this feature: [url=https://sites.google.com/site/sc2gears/public-replay-commenting]Public replay commenting[/url]
+
+-[b]A new tab in the Replay analyzer: Private data[/b]
+On this tab you can view and edit custom data stored for the replay in the Sc2gears Database.
+You can set the labels of the replay and you can view/edit the comment for the replay.
+These data can be viewed/edited also on the web interface, but now you can do it directly in Sc2gears too.
+
+-[b]Deferred tab building optimization[/b]
+The contents of different tabs in the Replay analyzer and in the Multi-rep analysis are now only constructed if the tabs are selected. Thanks to this Sc2gears now uses significantly less memory and operates faster.
+
+-1.4.2 Patch changes have been implemented.
+
+-Added [b]Brazilian Portuguese[/b] translation by Luis Castro.
+
+-Updated the portrait images to the new system.
+
+-Plugin API 2.5.2:
+ * SettingsTab enumeration now contains the MOUSE_GAME_RULES value.
+ * Fixed a bug where incorrect numbers were returned by IPlayer.getEffectiveActionsCount() and IPlayer.getExcludedEffectiveActionsCount()
+
+-Other minor changes, improvements and bug fixes.

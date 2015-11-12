@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+	
+	<datastore-index kind="Visit" ancestor="false">
+		<property name="visitorKey" direction="asc"/>
+		<property name="date" direction="desc"/>
+	</datastore-index>
+	
+	<!--  Rep indices -->
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="map" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="players" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="type" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="format" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="gw" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="labels" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="norlm" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="normu" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Rep" ancestor="false">
+		<property name="hasCom" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="repd" direction="desc"/>
+	</datastore-index>
+	
+	<!--  End of Rep indices -->
+	
+	<datastore-index kind="Smpd" ancestor="false">
+		<property name="ownerk" direction="asc"/>
+		<property name="end" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="OtherFile" ancestor="false">
+		<property name="ownerk" direction="asc"/>
+		<property name="date" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="OtherFile" ancestor="false">
+		<property name="ext" direction="asc"/>
+		<property name="ownerk" direction="asc"/>
+		<property name="date" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="RepComment" ancestor="false">
+		<property name="sha1" direction="asc"/>
+		<property name="date" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="D" ancestor="false">
+		<property name="f" direction="asc"/>
+		<property name="d" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="ApiVisit" ancestor="false">
+		<property name="visitorKey" direction="asc"/>
+		<property name="date" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="ApiCallStat" ancestor="false">
+		<property name="ownerKey" direction="asc"/>
+		<property name="day" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="ApiPayment" ancestor="false">
+		<property name="apiAccountKey" direction="asc"/>
+		<property name="date" direction="desc"/>
+	</datastore-index>
+	
+	<datastore-index kind="Event" ancestor="false">
+		<property name="entityKey" direction="asc"/>
+		<property name="type" direction="asc"/>
+		<property name="date" direction="desc"/>
+	</datastore-index>
+	
+</datastore-indexes>

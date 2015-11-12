@@ -1,0 +1,21 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.3: Replay version 2.0.8 support
+
+[hr]
+
+[big][b]Sc2gears 14.3: Replay version 2.0.8 support[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.3:[/b]
+--------------------------------------------------------
+
+-Updated the replay parser engine to support 2.0.8 replay files.
+
+-Added season #14 start date.
+
+-Added updated Chinese and Chinese Traditional language files.
+
+-Other minor changes and improvements.
+

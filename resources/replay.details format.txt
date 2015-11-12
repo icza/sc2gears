@@ -1,0 +1,32 @@
+User azndsh@Tl.net:
+---------------------------------------------------------------------
+
+So the replay.details file looks like an xml file, except it's coded funny. The rightmost bit is usually some sort of flag,
+0 is default, 1 is special. Thus most numerical values need to be divided by two
+
+0x05 indicates the beginning of an array of items, which can be hierarchical and contain other arrays.
+the byte after that is the number of fields. Then each field is numbered 0x00, 0x02, 0x04, etc., and after each one is an opcode
+
+some opcodes:
+0x02 = variable length string, length immediately follows
+0x09 = single byte item (see next paragraph)
+0x04 = a number of identical items
+0x05 = an array as before
+
+so the first few bytes are
+05 1c 00 04 01 00 20
+
+array with (1c = 14) elements. The first item is numbered 00, and is followed by 04 01 00 20.
+This is a collection of items with (20 = 16), players in this case
+
+similarly, players begin
+05 12 00 02 0x "name"
+
+array with (12 = 9) items. The first one is a variable length string with 0x/2 length. It's followed by the name of the player.
+
+actually for numerical values, the leftmost bit is a flag for more bits...
+so that value = (value[0] & 0b01111110) + (value[1] & 0b1111110 << 6) + (value[2] & 0b1111110 << 7)
+and so on as long as the leftmost bit is 1. For example, color (alpha transparency) looks like
+00 09 fe 03
+
+this the first item of the players metadata array. 09 indicates "single" byte. fe 03 = 11111110 00000011 = 11111111 = 255

@@ -1,0 +1,38 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.2: EAPM integrated, Day-hour records
+
+
+[hr]
+
+[b]Sc2gears 8.2: EAPM integrated everywhere, Day and Hour records[/b]
+
+[b]Changes and new features in 8.2:[/b]
+--------------------------------------------------------
+
+-[b]Day records and Hour records in the Multi-rep analysis[/b]
+The player details now shows Day records and Hour records. The day records shows your records for the days of the week, the hour records shows your records for the hours of the day.
+With this you can easily tell on which days and at which hours you perform the best (or worst).
+You can also visualize on which days and hours you play the most (or least) in word clouds.
+
+-[b]Now EAPM is everywhere in Sc2gears:[/b]
+ * Avg EAPM, Avg APM redundancy columns in the tables of the Multi-rep analysis
+ * EAPMs column in the Replay list table (Replay search) (click on the Column setup link to make it visible)
+ * /E name template symbol to insert the EAPM values of players (can also be used in the player block)
+ * Added EAPM to the APM development chart in the Multi-rep analysis
+ * EAPM is on the Game info tab (Replay analyzer) and in the Game info command line interface export
+ * EAPM is on the On-Top game info dialog
+
+-Plugin API 2.5:
+ * EapmUtilsApi: interface of the EAPM algorithm
+ * New methods in IPlayer to query the effective actions count.
+
+-The Mouse print recorder window changes window icon when a recording is in progress.
+
+-Added a Help icon to the APM chart which opens the [url=https://sites.google.com/site/sc2gears/features/replay-analyzer/apm-types]APM Types[/url] help page.
+
+-Fixed a bug in the Multi-rep analysis which prevented to open Player details when replays only from the same day were selected in some very rare cases.
+
+-The Start page randomly changes tip when you active it.
+
+-Other minor changes, improvements and bug fixes.

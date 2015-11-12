@@ -1,0 +1,19 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+Sc2gears 3.32: 
+Sc2gears 3.32: 
+
+
+[b]Changes and new features in 3.32:[/b]
+--------------------------------------------------------
+
+-[b]Adjusted the APM Alert to Patch 1.1.3.[/b]
+Patch 1.1.3 changed the way StarCraft II outputs the APM values to the windows registry. The new format is now handled.
+
+-[b]Solved the missing parts anomaly in the development charts in the Multi-replay analysis.[/b]
+Missing parts of the charts are estimated with linear interpolation and drawn with dash lines.

@@ -1,0 +1,63 @@
+Source: http://www.teamliquid.net/forum/viewmessage.php?topic_id=117260&currentpage=3
+
+Before I start explaining format, I'll first describe how integers are stored in replays.
+Blizzard chose a variable-length format (different from the one used in in other parts of replays by the way, why?)
+that is in a way similar to utf8: a number consists of a number of bytes; a byte that has 0 in most significant bit is the last one.
+So, to read a number, you read bytes until you encounter the one less than 0x80,
+and put their 7 least significant bytes into your variable, first byte at offset 0, second - at offset 7,
+third - at 14, etc. Least significant bit of result is sign. Shift result right by one byte and multiply by -1
+if least significant bit was set. This is the number stored in replay. I am very sure it is the correct way to handle it
+because I got numbers like 144000000000 (decimal) from some replays, as well as 1337
+(each player had this number attached to him in beta). I'll refer to this format as VLF (variable length format) later on.
+
+Here are few examples:
+bytes    values (dec)
+            =====    ============
+               00 => 0
+               01 => 0
+               02 => 1
+               03 => -1
+               04 => 2
+               7e => 63
+               7f => -63
+               80 => INVALID (last byte must have most significant bit set)
+            80 00 => 0 (but you'll never find it in replays since 0 can be represented by just 00)
+            80 01 => 64
+            81 01 => -64
+            82 01 => 65
+            80 02 => 128
+            81 02 => -128
+      80 80 80 10 => 16777216
+
+ 
+Now, replay.details format itself is pretty simple. It consists of one data type marker followed by data itself.
+Data type marker is a single byte and can have following values:
+
+02: Binary data. 02 is followed by size of binary data in VLF after that comes data itself; in most cases it's text in utf8. 02 12 41 55 54 4F 4D 41 54 49 43 is a string AUTOMATIC.
+04: An array. 04 is alway followed by 01 00, after that there is number of elements in array in VLF, and elements follow. Each element is a data type marker followed by data, all in same format.
+05: An array. Followed by number in VLF which indicates how many pairs will follow -- a pair consists of array element index in VLF and element itself (data type marker followed by data).
+06: A number. Its value follows in one byte.
+07: A number. Its value follows in four bytes.
+09: A number. Its value follows in VLF.
+
+Here are examples:
+binary data (right align)    equivalent in JSON
+=========================    ==================
+              02 04 68 69 => "hi"
+     05 02 00 02 04 68 69 => ["hi"]
+  05 04 00 02 04 68 69 02
+              02 04 68 69 => ["hi","hi"]
+  05 06 00 09 02 02 09 04
+                 08 09 06 => [1,2,null,3]
+  05 04 00 05 02 09 02 02
+              05 02 09 04 => [[1],[2]]
+  05 04 00 06 01 02 07 02
+                 00 00 00 => [1,2]
+
+Here is an example of random parsed replay.details I downloaded:
+[[["IdrA",[1,844300288,1,null,693604],"Zerg",[255,22,128,0],2,1,100,0,2],["Silver",[1,844300288,1,null,445448],"Terran",[255,0,66,255],0,0,0,0,1]],"Lost Temple","",["Minimap.tga"],1,129251921670000000,-144000000000,"","","",[<unrealted unreadable binary data>],0,4,2]
+
+It's very easy to work with and part of program that works with binary data not only becomes small
+but it almost doesn't change when blizz releases new version of replays. You can see that [255,22,128,0] is color,
+"Silver" is player name, "Lost Temple" is map name, and after studying some other replays it's easy to notice
+that last digit in player array is team number and 129251921670000000 is date.

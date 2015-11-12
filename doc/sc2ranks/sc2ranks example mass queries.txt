@@ -1,0 +1,54 @@
+Character with base team info
+
+Includes base character data, as well as base data on all of the players teams. If you need team members you need the API below.
+
+URL format: http://sc2ranks.com/api/base/teams/[region]/[name]
+
+Example: http://sc2ranks.com/api/base/teams/us/HuK$530
+http://sc2ranks.com/api/base/teams/us/HuK$530.json?appKey=sc2ranks.com
+
+Error: no_character if a character does not exist
+
+Cached: 3 hours
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Mass base character
+
+Same as pulling just character information, except you can pull 100 characters at once.
+The returns are the same, except you get an array of characters rather than a hash.
+Since a lot more data can be returned, only JSON is available, you cannot get XML from the API due to XML being rather verbose.
+Names have to be passed through POST requests rather than URLs as well.
+
+AJAX request in Javascript for example: {"characters":[{"bnet_id":388538,"region":"us","name":"HuK"},{"code":947,"region":"us","name":"dayvie"}]}
+
+Raw post request of the above: characters[0][region]=us&characters[0][name]=HuK&characters[0][bnet_id]=388538&characters[1][region]=us&characters[1][name]=dayvie&characters[1][code]=947
+
+URL format: http://sc2ranks.com/api/mass/base/char/
+
+Error: no_characters if you do not pass any characters or too_many_characters if you pass over 100 characters to be returned at once.
+
+Cached: 1 hour
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+Mass base character + team information
+
+
+
+Works the same as pulling base team information for a character, except you can pull 100 characters at once. The returns are the same, except you get an array of characters rather than a hash. Since a lot more data can be returned, only JSON is available, you cannot get XML from the API due to XML being rather verbose. Names have to be passed through POST requests rather than URLs as well.
+
+Bracket is the bracket you want the players teams from, bracket => 1, is_random => 0 gets you 1v1, if you want 4v4 random you would do bracket => 4, is_random => 1
+
+AJAX request in Javascript for example: {"characters":[{"bnet_id":388538,"region":"us","name":"HuK"},{"code":947,"region":"us","name":"dayvie"}],"team":{"bracket":1,"is_random":0}}
+
+Raw post request of the above: team[bracket]=1&team[is_random]=0&characters[0][region]=us&characters[0][name]=HuK&characters[0][bnet_id]=388538&characters[1][region]=us&characters[1][name]=dayvie&characters[1][code]=947
+
+URL format: http://sc2ranks.com/api/mass/base/teams/
+
+Error: no_characters if you do not pass any characters or too_many_characters if you pass over 100 characters to be returned at once.
+
+Cached: 3 hours 

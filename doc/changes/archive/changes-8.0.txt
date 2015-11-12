@@ -1,0 +1,38 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.0: 1.4 replay support, Translation tool
+
+[hr]
+
+[b]Sc2gears 8.0: 1.4 replay support, Translation tool[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh3.googleusercontent.com/-ZZerwVcZyPw/TnmK_yiacmI/AAAAAAAAgtY/g_mQHk2lC0o/s590/translation_tool.png[/img][/url]
+
+[b]Changes and new features in 8.0:[/b]
+--------------------------------------------------------
+
+-[b]1.4 replays are now supported.[/b]
+1.4 replay format changes have been implemented, 1.4 replays are now supported.
+The APM calculation in Sc2gears was not changed, it still shows your "real" APM (including all your actions - but excluding the beginning of the game). You can switch between using real-time or game-time for calculations in the Analyzer tab of the Misc settings dialog.
+
+-[b]A new menu item in the Tools menu: Translation tool[/b]
+Translating Sc2gears into other languages now just became a piece of cake.
+A new translation tool is now included in Sc2gears where you can create new translations or edit any existing translations.
+Translating Sc2gears is now as easy as filling a table... It's even easier as Sc2gears can sort or filter the texts, filter out already translated texts; Sc2gears shows you a preview of the original text and the translation. You can jump forward and backward between untranslated texts and it even shows you a progress bar indicating the completion status (how many texts you translated and how many more to go...).
+I encourage those who speak well other languages beside English to translate Sc2gears and send me the language file so I can include it in the next release.
+[i]The translation tool has another potential:[/i] You can use it to change a few texts you want to see differently. If you want a few texts to be displayed differently, create a new translation, change the texts you want to appear differently, and select that new Language. Text that you did not change/translated will appear as defined in the default English language.
+
+-Plugin API 2.4:
+ * New method in ITableBox to specify a custom row filter: setAdditionalRowFilter(), fireAdditionalRowFilterChanged()
+ * New methods in the GuiUtilsApi to open internal (in Sc2gears) browser dialogs: showBrowserDialog()
+ * Other minor additions.
+
+-Added "ChineseTraditional" language by "jojos".
+
+-Optimized the language files (for smaller size and faster processing).
+
+-Fixed a bug that all previous replay versions used 50 sec (in-game) Blink research time (instead of 110 sec).
+
+-Fixed a bug where Chitinous Plating research was not recognized in replay version 1.3.3 and after.
+
+-Other minor changes and improvements.

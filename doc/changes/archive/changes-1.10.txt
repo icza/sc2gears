@@ -1,0 +1,20 @@
+Sc2gears version 1.10 is out:
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh6.ggpht.com/_jDMClHrENz8/TAyTs4weRtI/AAAAAAAAUVo/8nffpiLmNt0/s400/builds_tech.png.jpg[/img][/url]
+
+[b]Changes since version 1.00:[/b]
+----------------------------------
+-Added [b]tool tips[/b] to the charts. By default it shows the frame and time.
+On the Hotkeys chart it shows the current selection in case of hotkey assigns.
+On the Builds/Tech charts tool tips show the name of the icons/bars.
+
+-A new option on the Builds/Tech chart: [b]"Use icons"[/b]. If it is checked, icons will be displayed on the chart instead of the names, but tool tips will show the names.
+
+-The File date column of replay list/search results now shows the [b]date+time[/b] (instead of just the date).
+
+-A new menu item: [b]"Allow only one instace"[/b]. If this is checked, Sc2gears will only run in one instance. Attempting to open a new instance will bring the running instance to front.
+If you double click on an SC2Replay (and it is associated with Sc2gears), the replay will open in the (only) running instance.
+
+-Added [b]2 new symbols[/b] to the replay rename template: 'd' for the date of the replay files, 'D' for the date and time of the replay files
+
+-Player name search field now allows a [b]comma separated list[/b] of names. If multiple names are provided, they are connected with logical AND: all listed names must be in the replay.

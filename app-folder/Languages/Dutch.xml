@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?><language subversion="1" translatorFirstName="Kevin" translatorLastName="te Raa" version="2.10">
+<dateFormat>yyyy-MM-dd</dateFormat>
+<timeFormat>HH:mm:ss</timeFormat>
+<dateTimeFormat>yyyy-MM-dd HH:mm:ss</dateTimeFormat>
+<personNameFormat>firstName lastName</personNameFormat>
+<g k="translationTool">
+<g k="tab.texts"/>
+<g k="tab.generalInfo"/>
+</g>
+<g k="button">
+<t k="close">_Sluiten</t>
+<t k="cancel">_Anulleren</t>
+<t k="yes">_Ja</t>
+<t k="ok">_OK</t>
+<t k="no">_Nee</t>
+</g>
+<g k="overlayCharts"/>
+<g k="mousePracticeGame"/>
+<g k="diagnosticTool">
+<g k="test"/>
+</g>
+<g k="menu">
+<g k="window">
+<t k="cascadeAllWindows">_Stort alle vensters in</t>
+<t k="fullscreen">_Volledig scherm</t>
+<t k="tileVisibleWindows">T_ile zichtbare vensters</t>
+<t k="tileAllWindows">_Tile alle vensters</t>
+<t k="mimimizeToTray">Mi_nimalizeren</t>
+<t k="startMinimimizedToTray">_Geminimalizeerd starten op menubalk</t>
+<t k="minimizeToTrayOnMinimize">Minima_lizeer naar menubalk op Minimalizeren</t>
+<t k="cascadeVisibleWindows">S_tort zichtbare vensters in</t>
+<t k="useVerticalTileStrategy">Gebruik _verticale tile strategie</t>
+<t k="minimizeAll">_Minimalizeer alles</t>
+<t k="minimizeToTrayOnClose">Minimalizeer_ naar menubalk tijdens sluiten</t>
+<t k="closeAll">Sluit alles</t>
+</g>
+<g k="help">
+<t k="viewSystemMessages">Bekijk systeem berichten</t>
+<t k="donate">_Doneren</t>
+<t k="visitHomePage">_Home page bezoeken.</t>
+<t k="viewVersionHistory">_Versie geschiedenis bekijken.</t>
+<t k="visitForum">_Forum bezoeken.</t>
+<t k="about">_Over $0</t>
+<t k="viewFaq">FA_Q bekijken.</t>
+<t k="checkUpdates">_Check voor updates</t>
+</g>
+<g k="navigation">
+<t k="expandAll">_Expand all</t>
+<t k="showNavbar">_Geef navigatie weer</t>
+<t k="navbarPosition">Navigatie bar _positie</t>
+<t k="useSmallFont">_Gebruik klein lettertype</t>
+<t k="collapseAll">_Minimalizeer alles</t>
+<t k="navbarPosition.left">_Links</t>
+<t k="refreshTree">_Refresh tree</t>
+<t k="navbarPosition.right">_Rechts</t>
+</g>
+<g k="tools"/>
+<g k="settings">
+<t k="enableReplayAutoSave">Automatische replay opslag toelaten</t>
+<t k="miscellaneous">_Overige opties...</t>
+<t k="voice">Ste_m</t>
+<t k="enableVoiceNotifications">Stem notificaties toelaten</t>
+<t k="language">_Taal (herstart vereist)</t>
+<t k="checkUpdatesOnStartup">_Check updates tijdens opstarten.</t>
+<t k="laf">L_ook and Feel</t>
+<t k="saveOnExit">Opties opslaan tijdens a_fsluiten</t>
+<t k="saveNow">_Nu opties opslaan</t>
+</g>
+<g k="file">
+<t k="recentReplays">_Recente replays</t>
+<t k="openLastReplay">Open _laatste replay</t>
+<t k="openReplay">_Open replay...</t>
+<t k="exit">A_fsluiten</t>
+</g>
+<t k="file">_Bestand</t>
+<t k="navigation">_Navigatie</t>
+<t k="window">_Beeld</t>
+<t k="settings">_Opties</t>
+<t k="help">_Help</t>
+</g>
+<g k="sc2">
+<g k="gameType">
+<t k="singlePlayer">Single player</t>
+<t k="public">Openbaar</t>
+<t k="amm">AutoMM</t>
+<t k="private">Privé</t>
+</g>
+<g k="unitTier"/>
+<g k="difficulty">
+<t k="medium">Gemiddeld</t>
+<t k="veryEasy">Heel makkelijk</t>
+<t k="easy">Makkelijk</t>
+<t k="hard">Moeilijk</t>
+<t k="insane">Gestoord moeilijk</t>
+<t k="veryHard">Heel moeilijk</t>
+</g>
+<g k="gateway">
+<t k="southeastAsia">Zuidoost Azië</t>
+<t k="europe">Europa</t>
+<t k="asia">Azië</t>
+<t k="america">Amerika</t>
+</g>
+<g k="gameSpeed">
+<t k="fast">Snel</t>
+<t k="faster">Sneller</t>
+<t k="normal">Normaal</t>
+<t k="slower">Langzamer</t>
+<t k="slow">Langzaam</t>
+</g>
+<g k="color">
+<t k="yellow">Geel</t>
+<t k="blue">Blauw</t>
+<t k="orange">Oranje</t>
+<t k="pink">Roze</t>
+<t k="darkGreen">Donkergroen</t>
+<t k="darkGray">Donkergrijs</t>
+<t k="teal">Turquoise</t>
+<t k="green">Groen</t>
+<t k="red">Rood</t>
+<t k="lightGray">Lichtgrijs</t>
+<t k="lightGreen">Lichtgroen</t>
+<t k="brown">Bruin</t>
+<t k="lightPink">Licht roze</t>
+<t k="purple">Paars</t>
+<t k="violet">Violet</t>
+</g>
+<g k="playerType">
+<t k="human">Mens</t>
+<t k="computer">Computer</t>
+</g>
+<g k="region"/>
+<g k="actionType">
+<t k="other">Overig</t>
+<t k="inaction">Inaction</t>
+<t k="research">Onderzoek</t>
+<t k="train">Train</t>
+<t k="upgrade">Upgrade</t>
+<t k="build">Build</t>
+<t k="select">Selecteer</t>
+</g>
+<g k="matchResult"/>
+<g k="race">
+<t k="random.letter">R</t>
+<t k="zerg">Zerg</t>
+<t k="terran.letter">T</t>
+<t k="unknown.letter">U</t>
+<t k="random">Random</t>
+<t k="protoss">Protoss</t>
+<t k="zerg.letter">Z</t>
+<t k="terran">Terran</t>
+<t k="protoss.letter">P</t>
+<t k="any.letter">*</t>
+</g>
+</g>
+<g k="pluginManager">
+<g k="details"/>
+<g k="status"/>
+</g>
+<g k="fileChooser">
+<t k="lookInLabel">Kijk in:</t>
+<t k="helpButtonToolTip">File chooser help</t>
+<t k="saveDialogTitle">Opslaan</t>
+<t k="sc2ReplaySources">SC2 Replay bronnen (*.sc2repsrc)</t>
+<t k="newFolderToolTip">Nieuwe map maken</t>
+<t k="acceptAllFileFilter">Alle bestanden (*.*)</t>
+<t k="cancelButtonToolTip">Abort file chooser dialog</t>
+<t k="sc2ReplayFiles">SC2 Replay bestanden (*.SC2Replay)</t>
+<t k="detailsViewButtonToolTip">Details</t>
+<t k="homeFolderToolTip">Bureaublad</t>
+<t k="saveButtonToolTip">Geselecteerde bestand opslaan</t>
+<t k="updateButtonToolTip">Update directory listing</t>
+<t k="listViewButtonToolTip">Lijst</t>
+<t k="helpButton">Help</t>
+<t k="zipFiles">Zip bestanden (*.zip)</t>
+<t k="openButton">Openen</t>
+<t k="cancelButton">Anulleren</t>
+<t k="filesOfTypeLabel">Bestanden van type:</t>
+<t k="openButtonToolTip">Geselecteerde bestand openen</t>
+<t k="upFolderToolTip">Naar bovenstaande map</t>
+<t k="openDialogTitle">Openen</t>
+<t k="updateButton">Update</t>
+<t k="sc2ReplayLists">SC2 Replay lijsten (*.csv)</t>
+<t k="saveButton">Opslaan</t>
+<t k="failedToParseRepaly">Kon de replay niet parsen!</t>
+<t k="fileNameLabel">Bestand naam:</t>
+</g>
+<g k="importBuildOrders"/>
+<g k="findDuplicates"/>
+<g k="newToSc2gears"/>
+<g k="colorChooser"/>
+<g k="gameTimeRealTimeConverter"/>
+<g k="mySharedReplays">
+<g k="header"/>
+</g>
+<g k="gridSettings">
+<g k="autoConfigure"/>
+</g>
+<g k="module">
+<g k="repSearch">
+<g k="tab">
+<g k="filters">
+<g k="name">
+<t k="gateway">Gateway:</t>
+<t k="mapName">Map naam:</t>
+<t k="playerName">Speler naam:</t>
+<t k="fileName">Bestand naam:</t>
+<t k="upgrade">Upgrade:</t>
+<t k="buildOrderAnyBuilding">Elk gebouw</t>
+<t k="gameLength">Game lengte:</t>
+<t k="building">Gebouw:</t>
+<t k="chatMessage">Chat bericht:</t>
+<t k="unitAbility">Unit vaardigheid:</t>
+<t k="matchupToolTip">Voeg eerste letter van het ras dat je zoekt. Symbolen: $0 - $1, $2 - $3, $4 - $5, $6 - $7, * om elk ras te matchen, v - om teams te verdelen. Voorbeelden: $8</t>
+<t k="raceMatchup">Race match-up:</t>
+<t k="buildingAbility">Gebouw vaardigheid:</t>
+<t k="buildOrder">Build order:</t>
+<t k="dateToolTip">Voeg een datum of een volledige datum+tijd in. Voorbeeld: $0 or $1</t>
+<t k="gameType">Game type:</t>
+<t k="research">Onderzoek:</t>
+<t k="unit">Unit:</t>
+<t k="version">Versie:</t>
+<t k="buildOrderAddToolTip">Voeg geselecteerd gebouw aan build order toe.</t>
+<t k="date">Datum:</t>
+<t k="buildOrderTextToolTip"> Voeg hier een door komma verdeeld gebouw lijst in. (niet hoofdletter gevoelig). Gebruik asterisk (*) om gebouwen te matchen.</t>
+<t k="format">Formaat:</t>
+<t k="playerNameToolTip">Je kan een door een komma verdeelde lijst invoegen waar alle namen in de replay moeten zijn.</t>
+<t k="minOccurrenceText">Min. occurrence:</t>
+</g>
+<t k="performSearchButton">_Zoekactie uitvoeren</t>
+<t k="min">Min:</t>
+<t k="title">Zoek filters</t>
+<t k="timeFormatToolTip">Format: seconden of min:sec of uur:min:sec</t>
+<t k="invalidFieldsError">Er zitten verkeerde waarden in de geselecteerde velden!</t>
+<t k="addNewFieldToolTip">Nieuw veld toevoegen</t>
+<t k="max">Max:</t>
+<t k="removeFieldToolTip">Veld verwijderen</t>
+<t k="resetFieldsButton">_Reset velden</t>
+<t k="exactMatch">Exacte match</t>
+</g>
+<g k="results">
+<g k="header">
+<t k="map">Map</t>
+<t k="players">Spelers</t>
+<t k="comment">Commentaar</t>
+<t k="fileDate">Game datum</t>
+<t k="file">Bestand</t>
+<t k="gateway">Gateway</t>
+<t k="length">Lengte</t>
+<t k="version">Versie</t>
+<t k="type">Type</t>
+<t k="raceMatchup">Race match-up</t>
+<t k="apms">APMs</t>
+</g>
+<t k="searchStatus">Gevonden: $0, Gezocht: $1, Overgeslagen: $2, Totaal: $3 ($4%)</t>
+<t k="loadButton">_Lijst laden...</t>
+<t k="abortButton">_Zoekactie staken</t>
+<t k="removeSelectedMenuItem">Verwijder item van lijst.</t>
+<t k="selectLoadReplayList">Selecteer replay lijst om te laden</t>
+<t k="saveButton">Lijst opslaan...</t>
+<t k="title">Resultaten #$0</t>
+<t k="multiRepAnalysisToolTip">Opent alle replays in multi-replay analyse.</t>
+<t k="countingReplays">Replays tellen...</t>
+<t k="repListSaved">Replay lijst succesvol opgeslagen.</t>
+<t k="loadResult">$0 replay(s) geladen.</t>
+<t k="loadingReplayList">Replay lijst laden: $0</t>
+<t k="multiRepAnalysisButton">Multi-rep analyse</t>
+<t k="failedToLoadRepList">Replay lijst kon niet geladen worden!</t>
+<t k="failedToSaveRepList">Replay lijst kon niet opgeslagen worden!</t>
+<t k="setAsSourceButton">Zet als bron</t>
+<t k="stretchToWindow">Naar beeld strekken</t>
+<t k="setSelectedAsSourceMenuItem">Zet geselecteerde item als bron.</t>
+<t k="setAsSourceToolTip">Zet alle replays als bron voor verdere zoekacties.</t>
+<t k="searchAborted">Zoeken afgebroken!</t>
+<t k="selectSaveReplayList">Selecteer replay lijst om op te slaan</t>
+</g>
+<g k="source">
+<t k="sortButton">Sorteren</t>
+<t k="repSourceSaved">Replay bron succesvol opgeslagen.</t>
+<t k="autoSort">Automatisch sorteren</t>
+<t k="purgeButton">_Wissen</t>
+<t k="addFoldersButton">Mappen toevoegen...</t>
+<t k="removeSelectedButton">_Geselecteerde verwijderen</t>
+<t k="addFilesButton">Bestanden toevoegen...</t>
+<t k="saveReplaySourceButton">Replay bron opslaan...</t>
+<t k="purgeButtonToopTip">Verwijdert dubbele en niet bestaande bronnen, en bronnen die in andere bronnen zitten.</t>
+<t k="selectReplaysToAdd">Selecteer replays om toe te voegen</t>
+<t k="selectFoldersToAdd">Selecteer mappen om toe te voegen</t>
+<t k="listAllReplays">Alle replays van deze bron opnoemen.</t>
+<t k="title">Bron zoeken</t>
+<t k="loadReplaySourceButton">Replay bron laden...</t>
+<t k="failedToSaveRepSource">Kon de replay bron niet opslaan!</t>
+<t k="failedToLoadRepSource">Kon de replay bron niet laden!</t>
+<t k="selectSaveReplaySource">Selecteer replay bron om op te slaan</t>
+<t k="selectLoadReplaySource">Selecteer replay bron om te laden</t>
+</g>
+</g>
+<t k="name">Replay zoeken</t>
+<t k="title">Replay zoekactie #$0</t>
+</g>
+<g k="multiRepAnal">
+<g k="tab">
+<g k="maps">
+<g k="header">
+<t k="1v1ZWinRatio">1v1 Z win %</t>
+<t k="firstPlayed">Eerst gespeeld</t>
+<t k="lastPlayed">Laatst gespeeld</t>
+<t k="winRatio">Win percentage</t>
+<t k="record">Record W-L-U</t>
+<t k="replays">Replays</t>
+<t k="1v1TWinRatio">1v1 T win %</t>
+<t k="1v1PWinRatio">1v1 P win %</t>
+<t k="mapName">Map naam</t>
+<t k="replaysRatio">Replays %</t>
+</g>
+<t k="info">Totaal aantal maps: $0</t>
+<t k="title">Maps</t>
+</g>
+<g k="chatWords"/>
+<g k="players">
+<g k="header">
+<t k="lastGame">Laatste game</t>
+<t k="firstGame">Eerste game</t>
+<t k="replays">Replays</t>
+<t k="record">Record W-L-U</t>
+<t k="presence">Presence (dagen)</t>
+<t k="avgApm">Gem. APM</t>
+<t k="totalTimeInGames">Totale tijd in games</t>
+<t k="playerName">Speler naam</t>
+<t k="avgGameLength">Gem. game lengte</t>
+<t k="raceDistribution">Races %</t>
+<t k="winRatio">Win %</t>
+<t k="avgGamesPerDay">Gem. aantal games/dag</t>
+</g>
+<t k="info">Totaal aantal spelers: $0. Tip: dubbel klik op een speler om de gedetalieerde statistieken en vordering-over-tijd charten te bekijken.</t>
+<t k="title">Spelers</t>
+</g>
+<g k="player">
+<g k="tab">
+<g k="playmates">
+<g k="header">
+<t k="lastCommonGame">Laatste common game</t>
+<t k="firstCommonGame">Eerste common game</t>
+<t k="winRatioAsOpponents">Win % tegen</t>
+<t k="recordAsOpponents">Record tegen</t>
+<t k="gamesAsOpponents">Games tegen</t>
+<t k="winRatioAsAllies">Win % met</t>
+<t k="gamesAsAllies">Games met</t>
+<t k="recordAsAllies">Record met</t>
+<t k="commonGames">Common games</t>
+<t k="totalTimeTogether">Totaal tijd samen</t>
+<t k="playmate">Maat</t>
+</g>
+<t k="title">Maten</t>
+</g>
+<g k="trends">
+<t k="hourly">Per uur</t>
+<t k="daily">Dagelijks</t>
+<t k="type">Trend type:</t>
+<t k="monthly">Maandelijks</t>
+<t k="title">Aanwezigheid trend charts</t>
+</g>
+<g k="charts">
+<g k="chartType">
+<t k="activity.yAxisLabel">Games/$0</t>
+<t k="winRatioDevelopment.yAxisLabel">Win %</t>
+<t k="apmDevelopment.yAxisLabel">Weighted Gem. APM</t>
+<t k="winRatioDevelopment">Win ratio ontwikkeling</t>
+<t k="raceDistribution">Race distributie over tijd</t>
+<t k="apmDevelopment">APM ontwikkeling</t>
+<t k="activity">Aanwezigheid</t>
+</g>
+<g k="granularity">
+<t k="month">Maand</t>
+<t k="week">Week</t>
+<t k="day">Dag</t>
+<t k="year">Jaar</t>
+</g>
+<t k="title">Vorderings charts</t>
+<t k="granularity">Granulariteit:</t>
+<t k="averageMarker">Gem.: $0</t>
+</g>
+<t k="matchupRecords.title">Match-up records</t>
+<t k="typeRecords.title">Game type records</t>
+<t k="formatRecords.header.format">Formaat</t>
+<t k="matchupRecords.header.matchup">Match-up</t>
+<t k="formatRecords.title">Game formaat records</t>
+<t k="typeRecords.header.type">Type</t>
+</g>
+<t k="info">Analyse van speler $0 gebaseerd op $1 replays:</t>
+</g>
+<g k="buildOrders"/>
+<g k="1v1BuildOrders.header">
+<t k="occurrences">Occurrences</t>
+<t k="record">Record W-L-U</t>
+<t k="winRatio">Win %</t>
+<t k="race">Race</t>
+<t k="lastUsed">Laatst gebruikt</t>
+<t k="recordVsT">Record tegen T</t>
+<t k="recordVsZ">Record tegen Z</t>
+<t k="recordVsP">Record tegen P</t>
+<t k="buildOrder">Build order</t>
+<t k="firstUsed">Eerst gebruikt</t>
+</g>
+</g>
+<t k="autoOpenFirstPlayerToolTip">Open automatisch de speler met de meeste games als de analyse klaar is.</t>
+<t k="analysisStatus">Geanalyzeerd: $0, Overgeslagen: $1, Totaal: $2 ($3%)</t>
+<t k="abortAnalysisButton">_Analyse anulleren</t>
+<t k="stretchToWindow">Naar volledig beeld strekken</t>
+<t k="analysisAborted">Analyse geanulleerd!!</t>
+<t k="name">Multi-replay analyse</t>
+<t k="countingReplays">Replays tellen...</t>
+<t k="openTitle">Selecteer bestanden en mappen om te analyseren</t>
+<t k="autoOpenFirstPlayer">Auto-open eerste player</t>
+<t k="title">Multi-replay analyse #$0</t>
+<t k="opening">Openen...</t>
+<t k="playerMenu.openPlayer">Open speler</t>
+</g>
+<g k="startPage">
+<g k="tip"/>
+<g k="channel"/>
+</g>
+<g k="repAnalyzer">
+<g k="tab">
+<g k="mapPreview">
+<t k="mapFileNotExists">Het map bestand bestaat niet.</t>
+<t k="mapDownloaded">Map gedownload!</t>
+<t k="reopenReplayButton">_Replay heropenen</t>
+<t k="downloadMapButton">_Download de map</t>
+<t k="title">Map preview</t>
+<t k="mapDownloadFailed">Map download mislukt!</t>
+<t k="downloadingMap">Map downloaden...</t>
+<t k="downloadFromGateway">Download van gateway:</t>
+<t k="zoom">Zoom:</t>
+<t k="previewNotAvailable">Een map preview is niet beschikbaar.</t>
+</g>
+<g k="charts">
+<g k="chartText">
+<t k="upgrades">upgrades: $0</t>
+<t k="hotkeysAssign">hotkeys assign: $0</t>
+<t k="researches">onderzoek: $0</t>
+<t k="assign">assign: $0</t>
+<t k="hotkeys">hotkeys: $0</t>
+<t k="trains">trains: $0</t>
+<t k="select">select: $0</t>
+<t k="actions">acties: $0</t>
+<t k="mapViewZoomTip">Tip: zoom deze chart in en beweeg met de muis!</t>
+<t k="apm">APM: $0</t>
+<t k="workers">werkers: $0</t>
+<t k="builds">builds: $0</t>
+<t k="team">TEAM $0</t>
+<t k="mapViewChartNotAvailable2">Gaan naar het Map preview tab en download de map eerst.</t>
+<t k="mapViewChartNotAvailable1">De Map view chart heeft een map bestand van de replay nodig die niet aanwezig is.</t>
+</g>
+<g k="animate"/>
+<g k="actions">
+<g k="iconSize">
+<t k="medium">Medium</t>
+<t k="big">Groot</t>
+<t k="small">Klein</t>
+<t k="hidden">Verborgen</t>
+</g>
+<t k="invertColors">Kleuren omkeren</t>
+<t k="iconSizes">Icoon groottes:</t>
+<t k="listedActionsCount">Listed actie nummer: $0</t>
+<t k="useListedActionsAsInput">Gebruik listed acties als chart input data</t>
+</g>
+<g k="buildsTechStat">
+<t k="barSize">Bar grootte:</t>
+<t k="showUnits">Laat units zien</t>
+<t k="showBuildings">Laat gebouwen zien</t>
+<t k="showUpgrades">Laat upgrades zien</t>
+<t k="showResearches">Laat onderzoek zien</t>
+<t k="showAbilityGroups">Laat vaardigheid groepen zien</t>
+</g>
+<g k="playerMenu">
+<t k="viewCharacterProfile">Bekijk character profiel</t>
+<t k="addToFavoredPlayerList">Voeg toe aan aanbevolen speler lijst</t>
+<t k="showOnlyThisPlayer">Laat alleen deze speler zien</t>
+<t k="removeFromFavoredPlayerList">Verwijder van aanbevolen speler lijst</t>
+<t k="viewCharacterProfileInLanguage">Bekijk character profiel in taal</t>
+<t k="insertToFavoredPlayerList">Voeg toe aan aanbevolen speler lijst voor speler</t>
+</g>
+<g k="players">
+<g k="league"/>
+<g k="portraitToolTip"/>
+<t k="winnerToolTip">Deze speler is de winnaar van deze game.</t>
+<t k="handicapToolTip">Deze speler speelde met een handicap=$0.</t>
+</g>
+<g k="mapView">
+<g k="background"/>
+<t k="hideOverlappedBuildings">Verberg overlappende gebouwen</t>
+<t k="fillBuildingIcons">Vul gebouw icoontjes in</t>
+</g>
+<g k="chartType">
+<t k="buildsTech">Builds/Tech</t>
+<t k="buildsTechStat">Builds/Tech Stat</t>
+<t k="apm">APM</t>
+<t k="hotkeys">Hotkeys</t>
+<t k="mapView">Map view</t>
+</g>
+<g k="buildsTech">
+<t k="showTrains">Laat trains zien</t>
+<t k="showUpgrades">Laat upgrades zien</t>
+<t k="showWorkers">Laat werkers zien</t>
+<t k="showResearches">Laat onderzoek zien</t>
+<t k="showBuilds">Laat builds zien</t>
+</g>
+<g k="actionOps">
+<t k="clearFiltersButton">_Filters clearen</t>
+<t k="filterActions">Filter acties:</t>
+<t k="filterOutActionsToolTip">Voeg woorden in om acties weg te filteren, je kan OR tussen woorden gebruiken. (CTRL+T)</t>
+<t k="filterOutActions">Filter acties weg:</t>
+<t k="jumpToFrame">Jump naar frame:</t>
+<t k="filterActionsToolTip">Voeg woorden in om acties te filteren, je kan OR tussen woorden gebruiken. (CTRL+F)</t>
+<t k="searchText">Zoek tekst:</t>
+<t k="searchTextToolTip">CTRL+S</t>
+<t k="jumpToFrameToolTip">CTRL+J</t>
+</g>
+<t k="displayInSeconds">In seconden</t>
+<t k="zoomToolTip">Selecteer het zoom niveau. Gebruik CTRL+I om in te zoomen, CTRL+U om uit te zoomen.</t>
+<t k="allPlayersOn1Chart">Alles op 1 chart</t>
+<t k="displayInSecondsToolTip">Laat tijd info zien in seconden, niet in frames.</t>
+<t k="hotkeys.showSelectHotkeys">Laat geselecteerde hotkeys zien</t>
+<t k="usePlayersColorsToolTip">Gebruik de spelers' in-game kleuren voor chart kleuren.</t>
+<t k="groupByTeams">Groep in teams</t>
+<t k="allPlayersOn1ChartToolTip">Laat alle spelers op 1 chart zien.</t>
+<t k="groupByTeamToolTip">Laat 1 chart zien voor ieder team met samengevatte waarden voor de team leden.</t>
+<t k="usePlayersColors">Gebruik speler kleuren</t>
+<t k="chartTooltip.frameTime">Frame: $0, Tijd: $1</t>
+<t k="displayActionTypes">Laat actie types zien:</t>
+<t k="apm.pixels">pixels.</t>
+<t k="zoom">Zoom:</t>
+<t k="players">Spelers:</t>
+<t k="title">Charts</t>
+</g>
+<g k="inGameChat">
+<t k="chatMessageFull">$0 - $1 to $2: $3</t>
+<t k="blinkMessage">$0 - $1 gepingde positie: x=$2,y=$3</t>
+<t k="title">In-game chat</t>
+<t k="chatMessageNoTarget">$0 - $1: $2</t>
+<t k="hideMessageTarget">Verberg bericht target</t>
+<t k="showBlinks">Laat map blinks zien</t>
+<t k="formatIntoParagraphs">Formateer in paragraven</t>
+<t k="messageTargetAll">ALLES</t>
+<t k="messageTargetAllies">ALLIES</t>
+</g>
+<g k="gameInfo">
+<t k="clients">Clients: $0</t>
+<t k="version">Versie: $0</t>
+<t k="gateway">Gateway: $0</t>
+<t k="players">Spelers:</t>
+<t k="handicap">Handicap: $0</t>
+<t k="team">Team $0:</t>
+<t k="gameSpeed">Game snelheid: $0</t>
+<t k="mapFile">Map bestand: $0</t>
+<t k="mapSize">Map grootte: $0</t>
+<t k="format">Formaat: $0</t>
+<t k="gameLength">Game lengte: $0</t>
+<t k="winners">Winnaars: $0</t>
+<t k="title">Game info</t>
+<t k="date">Datum: $0</t>
+<t k="mapName">Map naam: $0</t>
+<t k="mapPlayableSize">Map speelbare grootte: $0</t>
+<t k="gameType">Game type: $0</t>
+<t k="fileName">Bestand naam: $0</t>
+</g>
+</g>
+<t k="opening">Openen...</t>
+<t k="openError">Kon replay niet openen!</t>
+<t k="openTitle">Selecteer replay om te openen</t>
+<t k="name">Replay analyzer</t>
+</g>
+</g>
+<g k="folderSettings">
+<t k="sc2AutoReplay">SC2 auto replay map (relative to user home):</t>
+<t k="replayAutoSaveFolder">Sc2gears Replay auto-save map:</t>
+<t k="chooseFolder">Map kiezen...</t>
+<t k="restoreDefaultFolder">Default herstellen</t>
+<t k="sc2Maps">SC2 maps map:</t>
+<t k="defaultFolder">Default map voor openen van replays:</t>
+<t k="sc2InstallationFolder">StarCraft 2 installatie map:</t>
+</g>
+<g k="replayops">
+<g k="renameDialog">
+<g k="symbol">
+<t k="firstLettersOfMapName">Eerste xy letters van de map naam: ( 2 karakters! )</t>
+<t k="playerRaceFirstLetter">Eerste letter van de race van speler x (x is het speler getal beginnend met 1)</t>
+<t k="playerRace">race van speler x (x is het speler getal beginnend met 1)</t>
+<t k="replayCounter">Replay teller met een x waarde, de waarde is altijd het aantal replays in de target map +1</t>
+<t k="allPlayerNamesGrouped">Door komma verdeelde lijst van alle speler namen, gegroepeerd in teams.</t>
+<t k="playerName">Naam van speler x (x is het speler getal beginnend met 1)</t>
+<t k="dateTime">Datum en tijd van de replay</t>
+<t k="name">De originele naam</t>
+<t k="format">formaat (bijvoorbeeld 2v2)</t>
+<t k="counter">Teller die begint met 1 zal met elk gebruik met 1 omhoog gaan</t>
+<t k="playerInfoBlock">Speler info block. Gebruik de $0 symbolen hierin en alle spelers gegroepeerd in teams zullen worden aangepast. Voorbeeld: &lt;/p(/r)&gt;</t>
+<t k="raceMatchup">race match-up (Bijvoorbeeld TZvPP)</t>
+<t k="firstWordsOfMapName">Eerste x woorden van map naam</t>
+<t k="mapName">Map naam</t>
+<t k="extension">Extensie ('SC2Replay')</t>
+<t k="counter2">Teller met een x waarde die met 1 begint zal met elk gebruik met 1 omhoog gaan</t>
+<t k="allPlayerNames">Door komma verdeelde lijst van speler namen</t>
+<t k="date">Datum van de replay</t>
+</g>
+<g k="tab"/>
+<t k="failedToRename">Kon $0 replay(s) niet hernoemen.</t>
+<t k="successfullyRenamed">$0 replay(s) succesvol hernoemt.</t>
+<t k="invalidTemplate">Het ingevoegde template is niet toegestaan!</t>
+<t k="title">Replays naam wijzigen</t>
+<t k="previewButton">_Preview nieuwe namen</t>
+<t k="renameButton">_Naam replays wijzigen</t>
+<t k="description1">Voeg een template voor het wijzigen van replay namen in.</t>
+<t k="description2">U kan elke text en symbolen toevoegen voor dynamische waarden.</t>
+<t k="description3">Symbolen worden vervangen met de juiste waarde voor alle replays.</t>
+<t k="description4">De volgende symbolen kunnen worden gebruikt:</t>
+</g>
+<t k="openInAnalyzer">Open in analyzer</t>
+<t k="deleteReplays">Replays verwijderen...</t>
+<t k="openReplaysFolder">Replay map openen</t>
+<t k="includePathInZip">Paden in zip betrekken</t>
+<t k="copyReplays">Replays kopiëeren...</t>
+<t k="moveReplays">Verplaats replays...</t>
+<t k="selectMoveTargetFolder">Selecteer target map voor verplaatsen</t>
+<t k="watchReplay">Replay bekijken</t>
+<t k="openInMultiRepAnal">Open in multi-replay analysis</t>
+<t k="selectCopyTargetFolder">Selecteer target map voor kopiëeren.</t>
+<t k="packReplays">Zip replays (ZIP)...</t>
+<t k="deleteConfirmation">Weet U zeker dat u $0 replay(s) wilt verwijderen?</t>
+<t k="renameReplays">Naam replays wijzigen...</t>
+<t k="selectFileToPackTo">Bestand selecteren om te zippen</t>
+</g>
+<g k="tsovplugin"/>
+<g k="charts">
+<t k="chartType">Chart type:</t>
+<t k="granularity">Granulariteit:</t>
+<t k="graphApproximation.cubic">cubic</t>
+<t k="graphApproximation">Approximatie:</t>
+<t k="graphApproximation.linear">liniär</t>
+<t k="chartTypeToolTip">Selecteer het chart type die je wilt zien. Gebruik CTRL+nummer om snel te wisselen.</t>
+</g>
+<g k="mousePrintRecorder">
+<g k="tab.info"/>
+</g>
+<g k="sc2gearsDatabaseDownloader"/>
+<g k="keyboardShortcuts">
+<g k="function"/>
+<g k="context"/>
+<g k="key"/>
+</g>
+<g k="wordCloud"/>
+<g k="trayIcon">
+<t k="startedMinimized">$0 is geminimalizeert opgestart.</t>
+<t k="running">$0 runt.</t>
+</g>
+<g k="pluginSettings"/>
+<g k="botplugin"/>
+<g k="welcome">
+<t k="selectLanguage">Je kan hieronder je taal selecteren.</t>
+<t k="voice">Stem:</t>
+<t k="firstRun">Dit is de eerste keer dat je $0 opstart.</t>
+<t k="welcome">Welkom</t>
+<t k="thankYou">Dank U voor het kiezen van $0.</t>
+<t k="language">Taal:</t>
+</g>
+<g k="playerProfile"/>
+<g k="progressDialog">
+<g k="progressBar"/>
+</g>
+<g k="tray">
+<t k="restore">Herstel main venster</t>
+<t k="exit">Afsluiten</t>
+<t k="hide">Verberg main venster</t>
+<t k="openLastReplay">Laatste replay openen</t>
+<t k="enableReplayAutoSave">Replay automatisch opslaan aanzetten</t>
+</g>
+<g k="internalFrame">
+<g k="menu">
+<t k="size">Grootte</t>
+<t k="restore">Herstellen</t>
+<t k="move">Bewegen</t>
+<t k="close">Sluiten</t>
+<t k="minimize">Minimalizeren</t>
+<t k="maximize">Maximilizeren</t>
+</g>
+<g k="toolTip">
+<t k="maximize">Maximalizeren</t>
+<t k="restore">Hestellen</t>
+<t k="close">Sluiten</t>
+<t k="minimize">Minimalizeren</t>
+</g>
+</g>
+<g k="miscSettings">
+<g k="predefinedList"/>
+<t k="preferredBnetLanguage">Gewenste Battle.net taal:</t>
+<t k="useRealTimeMeasurement">Gebruik real-time tijd meter:</t>
+<t k="templateDialog.title">Auto-save naam template aanpassen</t>
+<t k="cachePreprocessedReplays">Preprocessde replay cache</t>
+<t k="confirmEmptyReplayCache">Weet je zeker dat je de replay cache wilt legen?</t>
+<t k="validRangeToolTip">Valid range: $0..$1</t>
+<t k="enableInternalPreprocessedReplayCache">Interne preprossesde replay cache toestaan:</t>
+<t k="autoOpenNewReplaysInAnalyzer">Open nieuwe replays in de replay analyzer automatisch:</t>
+<t k="emptyReplayCacheButton">Cache leegmaken...</t>
+<t k="buildOrderLength">Build order lengte in Multi-rep analyse:</t>
+<t k="soundVolume">Geluid volume:</t>
+<t k="newRepCheckIntervalSec">Niewe replay check interval:</t>
+<t k="title">Overige opties</t>
+<t k="restoreDefault">Default herstellen</t>
+<t k="buildings">gebouwen.</t>
+<t k="navBarInitialWidth">Navigatie menu originele breedte:</t>
+<t k="largestRemainingTeamWins">Grootste overgebleven team wint.</t>
+<t k="showWinners2">Laat winnaars zien</t>
+<t k="favoredPlayerList">Lijst van de aanbevolen spelers:</t>
+<t k="ms">ms.</t>
+<t k="declareLargestWinner">Verklaar het grootste team in team games tot winnaar:</t>
+<t k="pixels">pixels.</t>
+<t k="templateDialog.checkButton">C_heck</t>
+<t k="convertGameTimeToRealTime">Converteer game-tijd naar real-time tijd</t>
+<t k="favoredPlayerListToolTip">Door komma verdeelde lijst van speler namen die voor andere speler namen moeten koment te staan als een naam-template word gebruikt. Hoofdletter gevoelig!</t>
+<t k="initialTimeToExcludeFromApm">Begintijd om van de APM berekening weg te halen (in game tijd):</t>
+<t k="showWinners">Laat winnaars in de Replay analyzer zien:</t>
+<t k="editTemplateButton">_Aanpassen...</t>
+<t k="timeToKeepLogFiles">Tijd om log bestanden te houden:</t>
+<t k="toolTipInitialDelay">Tool tip originele vertraging:</t>
+<t k="templateValid">De template is gramaticaal correct.</t>
+<t k="templateDialog.testOnLastReplayButton">_Test op laatste replay</t>
+<t k="timeLimitForMultiRepAnalysis">Tijd limiet voor Multi-rep analyse:</t>
+<t k="repAutoSaveNameTemplateToolTip">Je kan een template invoegen die je ook met replay hernoemen gebruiken.</t>
+<t k="days">dagen.</t>
+<t k="testSoundButton">_Test</t>
+<t k="repAutoSaveNameTemplate">Replay auto-save naam template:</t>
+<t k="preferredBnetLanguageToolTip">Character profielen worden geopent in deze taal als die aanwezig is op de speler's Battle.net server.</t>
+<t k="chartsActionListPartition">Chart's actie lijst die deelneemt in replay analyzer:</t>
+<t k="percent">%.</t>
+<t k="applyFavoredListInRepAnalyzer">Zet aanbevolen speler lijst ook in replay analyzer</t>
+<t k="seconds">seconds.</t>
+<t k="autoOpenNewReplays">Open nieuwe replays automatisch</t>
+<t k="rearrangePlayersInRepAnalyzer">Herrank spelers ook in replay analyzer:</t>
+<t k="deleteAutoSavedReplays">Verwijder automatisch-opgeslagen replays</t>
+<t k="deleteSuccessfullyAutoSavedReplays">Verwijder succesvol automatisch-opgeslagen replays:</t>
+<t k="toolTipDismissDelay">Tool tip vertraging weghalen:</t>
+</g>
+<g k="onTopGameInfo"/>
+<g k="about">
+<t k="currentTranslator">Vertaler van huidige taal:</t>
+<t k="releasedOn">Uitgebracht op:</t>
+<t k="version">Versie:</t>
+<t k="currentVoice">Huidige stem:</t>
+<t k="email">E-mail:</t>
+<t k="authorOfCurrentVoice">Auteur van huidige stem:</t>
+<t k="replayParserVersion">Replay parser versie:</t>
+<t k="currentLanguage">Huidige taal:</t>
+<t k="languageFileVersion">Huidige taal bestand versie:</t>
+<t k="usedIcons">$0 gebruikt de Fugue en de FamFamFam icoontjes.</t>
+<t k="author">Auteur:</t>
+<t k="title">Over $0</t>
+</g>
+<g k="navigationTree">
+<g k="popup">
+<t k="renameItem">Hernoem item...</t>
+<t k="openInRepSearchForFiltering">Open het in Replay zoeken voor verdere filtering</t>
+<t k="renameDialog.renameButton">Naam wijzigen</t>
+<t k="deleteItem">Item verwijderen...</t>
+<t k="areYouSureToDelete">Weet je zeker dat je "$0" wilt verwijderen?</t>
+<t k="listAllReplays">Laat alle replays zien</t>
+<t k="renameDialog.failedToRename">Kon "$0" niet wijzigen naar "$1"!</t>
+<t k="openInMultiRepAnalysis">Open in Multi-replay analyse</t>
+<t k="renameDialog.enterNewNameFor">Typ nieuwe naam voor "$0":</t>
+<t k="renameDialog.title">Hernoem item</t>
+</g>
+<t k="repSources.name">Replay bronnen</t>
+<t k="repLists.name">Replay lijsten</t>
+<t k="info.newRepList">Je kan replay lijsten opslaan op het "Resultaten" tab van de replay zoekactie.</t>
+<t k="repSources.sc2AutoReps.name">SC2 auto reps</t>
+<t k="repSources.autoSavedReps.name">Auto-saved reps</t>
+<t k="info.newRepSource">Je kan replay bronnen maken en opslaan op het "Zoek bron" tab van de replay zoekactie.</t>
+<t k="new">Nieuw</t>
+<t k="empty">Legen</t>
+</g>
+<g k="shareReplay">
+<g k="uploadProcess"/>
+</g>
+<g k="replayListColumnSetup"/>
+<g k="general">
+<g k="tableFilter"/>
+<g k="language">
+<t k="portugueseBr">Braziliaans portugees</t>
+<t k="french">Frans</t>
+<t k="chineseTw">Chinees-TW</t>
+<t k="polish">Pools</t>
+<t k="russian">Russisch</t>
+<t k="spanishMx">Mexicaans spaans</t>
+<t k="english">Engels</t>
+<t k="italian">Italiaans</t>
+<t k="korean">Koreaans</t>
+<t k="german">Duits</t>
+</g>
+<g k="day">
+<t k="thursday">Donderdag</t>
+<t k="saturday">Zaterdag</t>
+<t k="sunday">Zondag</t>
+<t k="wednesday">Woensdag</t>
+<t k="monday">Maandag</t>
+<t k="friday">Vrijdag</t>
+<t k="tuesday">Dinsdag</t>
+</g>
+<g k="month">
+<t k="may">Mei</t>
+<t k="february">Februari</t>
+<t k="january">Januari</t>
+<t k="december">December</t>
+<t k="september">September</t>
+<t k="june">Juni</t>
+<t k="july">Juli</t>
+<t k="november">November</t>
+<t k="october">Oktober</t>
+<t k="august">Augustus</t>
+<t k="march">Maart</t>
+<t k="april">April</t>
+</g>
+<t k="no">Nee</t>
+<t k="errorDetails">Details...</t>
+<t k="infoTitle">Info</t>
+<t k="unknown">Onbekend</t>
+<t k="errorTitle">Error!</t>
+<t k="confirmationTitle">Bevestiging</t>
+<t k="noButton">Nee</t>
+<t k="cancelButton">Anulleren</t>
+<t k="okButton">OK</t>
+<t k="yes">Ja</t>
+<t k="yesButton">Ja</t>
+</g>
+<g k="misc">
+<t k="autorepFolderEmpty">De autoreplay map heeft geen replays.</t>
+<t k="autorepFolderNotExists">Autoreplay map bestaat niet.</t>
+</g>
+<g k="updatesAvailable">
+<t k="dontUpdateButton">Niet updaten</t>
+<t k="whatToDo">Wat wilt U doen?</t>
+<t k="title">Updates beschikbaar</t>
+<t k="newVersionAvailable">Een nieuwere versie is beschikbaar: $0</t>
+<t k="updateButton">Update</t>
+<t k="updaterCannotBeStarted">De $0 kan niet opgestart worden!</t>
+<t k="restart">Herstart $0 en probeer opnieuw.</t>
+<t k="viewVersionHistory">Bekijk versie geschiedenis</t>
+</g>
+<g k="tips"/>
+<g k="proxyConfig"/>
+<g k="dialog.systemMessages">
+<t k="title">Systeem berichten</t>
+</g>
+<t k="tab.close.toolTip">Tab sluiten (CTRL+W)</t>
+</language>

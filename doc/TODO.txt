@@ -1,0 +1,112 @@
+
+-Add SMPD parsing and preview image generation to the parsing service?
+
+-The parsing API tester page could detect if there's a logged in google account, and if so, check if it has an associated API account,
+and offer to fill the API key of his.
+
+-NEW portrait images!
+
+-New diagnostic task: if "Color wins to green and losses to red..." is enabled, check if the favored player list contains players...
+
+-Add MAC OS-X launcher.
+
+-Sc2gears Database downloader: when getting file list (sha-1 list), use projection query! (much faster, much cheaper!)
+Rewrite to send only ids (id part of the Key) => smaller => keys-only query! => when sending content: getObjectById()
+
+-Deleting many files (e.g. 200) takes longer than the allowed request time, always throws DeadlineExceededException.
+Possible solutions: delegate to a task; send in batch of 20
+DO IT WITH LOW LEVEL (without transaction)
+
+-Dedicated clients. With dedication you can make your Sc2gears client more personalized.
+
+-Replay search, ladder season field, sort by enum value (not lexicographical)
+
+-APM stored in the windows registry changed format? Investigate...
+
+-Add mouse cursor when streaming...
+
+-Some kind of status indicator on the Streaming window ("AVI size limit (4GB) reached, skipping writing further video data!", "Error while writing AVI file!")
+
+-M-JPEG over HTTP: http://en.wikipedia.org/wiki/Motion_JPEG
+
+-File upload: send player id's
+
+-New info to the latest_version.xml, something like "important" or "mandatory" or "recommended" update
+
+-Add "Ladder season" to the API rep parsing output (this would require adding the LadderSeason class to the parsing engine)...
+
+-No shared replay list, "Store list" button is not disabled! Pressing it: => NPE
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(Unknown Source)
+	at hu.belicza.andras.sc2gears.util.HttpPost.doPost(HttpPost.java:165)
+	at hu.belicza.andras.sc2gears.util.GeneralUtils.storeFile(GeneralUtils.java:1037)
+	at hu.belicza.andras.sc2gears.util.GeneralUtils.access$0(GeneralUtils.java:1019)
+	at hu.belicza.andras.sc2gears.util.GeneralUtils$3.run(GeneralUtils.java:997)
+
+
+-if "delete auto-saved reps", it should check the replay auto-save folder...
+
+-new admin feature: "broadcast" mail to all ApiUsers, or Users
+
+-Full player name search field improvement: "Include name changes"
+
+-API user page: API Call Stats => put it on a chart (chombobox choose what, i.g. used ops, #calls...)
+
+-create chart for the game-length - win ratio in the multi-rep analysis?
+
+-add name template engine to the plugin API
+
+-Replay comparision feature: open 2 replays, and compare graphs (draw on the same chart)
+
+-Extend Visit (and account?) entity with a lowered email address
+
+-New admin feature: IP activity. Input an IP, display his visits, downloads, rep comments/rates and mouse game scores
+-Get all IP for an account (through visits and rep comments/rates) => pass this to IP activity
+
+-add version to RepProfile and RepRate (and maybe to other entities, Replay?)
+
+-APM vs win% graph http://www.fantasystrike.com/forums/index.php?threads/apm-impact-on-sc2.5527/ (old: http://forums.sirlin.net/showthread.php?t=5869)
+
+-Multi rep extensions:
+    -find player name changes (gateway, region, bnet id is the same, name is different)
+
+-Consider replacing the action list with a JTable (table box)
+
+-Check for dirty and ask for save if navigating away or closing (Translation tool).
+
+-Google Translation API will expire soon. Add an Sc2gears Database translation service (would cost some, but only sc2gears db users could use it, the db server could "url fetch" the translation)
+
+-New tab to the rep analyzer: custom data (override winner)
+
+-On-Top APM display dialog: consider to make it a frame so streamers can include that in their stream.
+
+-/Dance makes marines, lings and zealots dance (type it in chat window); also /cheer to cheer
+
+-Custom start page channels (consider if I really want this..)
+
+-parse more info from profile pages: wins/losses (in the best match-ups / snapshot) page
+-"loading..." tooltip while profile info is being retrieved
+
+-introduce new game result: tie (get a replay and check its binary value in the replay.details section
+-About dialog should be an HTML page?
+
+-test real time action list filter
+
+-player bookmark, display in table, button to open profile in popup
+
+-rewrite replay search with VECTOR!! (and other "big" parts where JTable is in play)
+
+-custom start page, where user can tell what to put on it, for example he can put his sc2 signature on it
+
+
+
+SC2GEARS DATABASE
+--------------------
+
+-file download: also send file size, and add an option: do not download existing files
+
+-test admin email?
+
+-statistics page to the admin module: total payment, total incoming and outgoing bandwidth
+
+-implement and use TableBuilder

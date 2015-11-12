@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+	
+	<application>sciigears</application>
+	<version>1</version>
+	
+	<static-files>
+		<include path="/hosted/**.xml" expiration="0s" />
+		<include path="/hosted/**.html" expiration="0s" />
+		
+		<include path="/images/**.png" expiration="365d" />
+		<include path="/images/**.gif" expiration="365d" />
+		
+		<include path="**" />
+		
+		<!-- Configure serving/caching of GWT files -->
+		<!-- The following line requires App Engine 1.3.2 SDK -->
+		<include path="**.nocache.*" expiration="0s" />
+		
+		<include path="**.cache.*" expiration="365d" />
+		<exclude path="**.gwt.rpc" />
+	</static-files>
+	
+	<!-- Configure java.util.logging -->
+	<system-properties>
+		<property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+	</system-properties>
+	
+	<!-- Configure custom admin pages -->
+	<admin-console>
+		<page name="Sc2gears DB Admin" url="/Admin.html" />
+	</admin-console>
+	
+	<!-- Allow multiple requests to be served parallel -->
+	<threadsafe>true</threadsafe>
+	
+	<precompilation-enabled>false</precompilation-enabled>
+	
+</appengine-web-app>

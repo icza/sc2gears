@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<queue-entries>
+	
+	<total-storage-limit>1G</total-storage-limit>
+	
+	<queue>
+		<name>default</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>admin</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>procFileWithContent</name>
+		<rate>1/s</rate>
+		<bucket-size>1</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>mapProcessor</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>custom</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate0</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate1</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate2</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate3</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate4</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate5</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate6</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate7</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate8</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate9</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate10</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate11</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate12</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate13</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate14</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate15</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate16</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate17</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate18</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate19</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate20</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate21</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate22</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate23</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate24</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate25</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate26</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate27</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate28</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate29</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate30</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+	<queue>
+		<name>entityUpdate31</name>
+		<rate>500/s</rate>
+		<bucket-size>100</bucket-size>
+		<max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+	
+</queue-entries>

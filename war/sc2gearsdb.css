@@ -1,0 +1,33 @@
+.gwt-Button{background:#ffaa77}
+body{font-family:arial;font-size:10px;background:#ffffff}
+.h1{font-size:20px;font-weight:bold;padding:0px 0px 6px 0px}
+.h2{font-size:16px;font-weight:bold;padding:7px 0px 7px 0px}
+.h3{font-size:13px;font-weight:bold;padding:7px 0px 5px 0px}
+.headerRow{background:#000000;color:#ffffff;cursor:default;font-weight:bold;text-align:center}
+.gold{font-weight:bold;font-style:italic;background:#D9D919}
+.silver{font-weight:bold;font-style:italic;background:#E6E8FA}
+.bronze{font-weight:bold;font-style:italic;background:#9C6963}
+.row0{background:#e2e2e2}
+.row1{background:#ffffff}
+.winRow0{background:#a8ffa8}
+.winRow1{background:#d0ffd0}
+.lossRow0{background:#ffb8b8}
+.lossRow1{background:#ffd8d8}
+.note{font-style:italic}
+.strong{font-weight:bold}
+.explanation{font-size:80%;color:#555555}
+.infoMsg{color:green}
+.errorMsg{color:red;font-weight:bold}
+.authKey{font-family:'courier new',monospace;color:green}
+.pointerMouse{cursor:pointer}
+.commentHeader{font-weight:bold;background:#c0c0ff;width:100%;padding:3px 0px 3px 6px}
+.hiddenHeader{font-weight:bold;background:#ffc0c0;width:100%;padding:3px 0px 3px 6px}
+.autoWidth{width:auto}
+.dlButton{padding-left:18px;background:#80dd80 url(/images/fugue/drive-download.png) no-repeat 1px center}
+.permButton{background:#80dd80}
+.ownAccount{background:#c0ffc0}
+.sharedAccount{background:#c0c0ff}
+.delButton{padding-left:18px;background:#ff8080 url(/images/fugue/cross.png) no-repeat 1px center}
+.saveButton{padding-left:18px;background:#ffaa77 url(/images/fugue/disk.png) no-repeat 1px center}
+.delta{color:#007700}
+.noWrap{white-space:nowrap}

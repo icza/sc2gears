@@ -1,0 +1,24 @@
+
+Texts of Sc2gears voice recordings:
+----------------------------------
+
+<voice name>
+Welcome!
+Sc2gears
+Replay saved
+Failed to save replay
+Updates available!
+Restart is advised when changing theme.
+Restart is required when changing language.
+Thank You for choosing Sc2gears.
+Language file updated. Please restart Sc2gears.
+Low APM!
+APM OK.
+Game started!
+Game ended!
+Auto-save on.
+Auto-save off.
+APM Alert on.
+APM Alert off.
+Recording started.
+Recording stopped.

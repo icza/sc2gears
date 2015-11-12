@@ -1,0 +1,16 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 10.4.1: 
+
+[hr]
+
+[big][b]Sc2gears 10.4.1: [/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-W0Zr8U58AbM/T7swv_xFogI/AAAAAAAAoVw/qVnSsFpELzk/s730/apm_red_dist_chart.png[/img][/url]
+
+[b]Changes and new features in 10.4.1:[/b]
+--------------------------------------------------------
+
+-Season 8 start date has been added.
+
+-Updated language files are included.

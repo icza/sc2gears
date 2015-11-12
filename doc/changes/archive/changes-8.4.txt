@@ -1,0 +1,33 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.4: Improved Mouse game, Improved CLI
+
+
+[hr]
+
+[b]Sc2gears 8.4: Improved Mouse practice game with custom rules, Improved CLI[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-HSuLgI6hGkw/Tqf70bLDZvI/AAAAAAAAgyc/Tpuk2VETPCw/s590/mouse_game_custom_rules.png[/img][/url]
+
+[b]Changes and new features in 8.4:[/b]
+--------------------------------------------------------
+
+-[b]Improved Mouse practice game[/b]
+There is a new [i]"Enable custom rules"[/i] check box. If you enable this, you can play the game by custom rules you're free to change as you like. You can change the game rules on the [b]Mouse game rules[/b] tab of the misc settings dialog. All kinds of things can be changed, and you can even put a cross at the center of discs and a circle around them showing their maximum size.
+There is a new [i]"Color blind"[/i] check box which if enabled will cause Red discs not to be filled (just the outline will be drawn). This helps color blinds to easily differentiate red and green discs.
+When a game is in progress, the Start button changes to a Stop button which if pressed ends the game immediately.
+I've created a page which describes the custom game rules: [url=https://sites.google.com/site/sc2gears/features/mouse-practice-game]Mouse practice game[/url]
+
+-[b]The Print game info action of the Command line interface now supports XML output format.[/b]
+This new XML format is great for those who use the command line interface as their internal parser, but they don't want to break their code when new info is added to the output.
+If the XML output is used, the code that interprets the XML document will work without modification when new tags or attributes are added to the XML document.
+The XML output also contains more details, and the contained info is broken down into pieces (in the form of tag attributes).
+[i]The XML output is the recommended way if the output is processed by a program and not a human.[/i]
+
+-[b]Added a new replay sharing site: [url=http://www.statcraft.net]www.StatCraft.net[/url][/b]
+You can upload replays to StatCraft, but the site does not allow anonymous upload.
+
+-Fixed a bug which caused sharing a single replay to fail.
+
+-Improvements in the Replay parser engine to correctly detect player teams (and other info) in custom games where slots are left open.
+

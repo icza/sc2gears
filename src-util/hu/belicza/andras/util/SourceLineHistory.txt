@@ -1,0 +1,13 @@
+
+2012-09-24
+=================================
+Project            TLOC:  179,680
+Sc2gears source    TLOC:   72,877
+Sc2gears DB source TLOC:   26,433
+WAR                TLOC:   48,128
+Util-src           TLOC:    1,584
+---------------------------------
+Project Java       TLOC:   99,226
+Sc2gears Java      TLOC:   69,711
+Sc2gears DB Java   TLOC:   26,301
+Updater Java       TLOC:    1,072

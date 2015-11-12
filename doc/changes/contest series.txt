@@ -1,0 +1,98 @@
+Sc2gears Contest Series [with prizes!]
+
+Went live at:
+http://www.teamliquid.net/forum/viewmessage.php?topic_id=303609
+http://www.reddit.com/r/starcraft/comments/ojdjf/sc2gears_contest_series_with_prizes/
+
+***************************************************************************************************************************************
+
+[center][i](A logo would be appreciated)[/i][/center]
+
+Today I launch a series of Sc2gears contests. There are multiple contest categories. Everyone can participate in any of them, even with multiple entries.
+
+If you don't know what Sc2gears is: [url=https://sites.google.com/site/sc2gears/]Sc2gears home page[/url], [url=http://www.teamliquid.net/forum/viewmessage.php?topic_id=124689]Sc2gears thread[/url]
+
+[blue][b]CATEGORIES[/b][/blue] [i](Categories are detailed below.)[/i]
+
+1) Create a "How to use Sc2gears" video
+2) Write an Sc2gears Manual
+3) Create new Sc2gears Icon and Logo
+4) Write a plugin for Sc2gears
+
+[blue][b]PRIZES[/b][/blue]
+
+[u]12 winners[/u] will be awarded (3 in each category) with prizes worth a total of [b]100 USD[/b] offered by me:
+
+[b]1st place:[/b]
+. . . [img]http://lh5.googleusercontent.com/-6CJFOKCfZhU/TpPrh_zmgEI/AAAAAAAAgv0/ccf0JjMTHSw/s16/[/img] GOLD Sc2gears Database package ([b]worth 15 USD[/b]; 2 GB storage enough for ~40,000 replays)
+[b]2nd place:[/b]
+. . . [img]http://lh6.googleusercontent.com/-zGHuiAe5V9g/TpPriu0wAdI/AAAAAAAAgv0/eyV5i4HYPHE/s16/[/img] SILVER Sc2gears Database package ([b]worth 8 USD[/b]; 1 GB storage enough for ~20,000 replays)
+[b]3rd place:[/b]
+. . . [img]http://lh3.googleusercontent.com/-QIKFJdj7CPE/TpPrhtqhYBI/AAAAAAAAgv0/9WfjFDH7IUM/s16/[/img] BRONZE Sc2gears Database package ([b]worth 2 USD[/b]; 200 MB storage enough for ~4,000 replays)
+
+[i]If you don't know what Sc2gears Database is, check it out here: [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url][/i]
+
+[blue][b]DEADLINE[/b][/blue]
+
+February 29, 2012
+
+[blue][b]GENERAL RULES AND REQUIREMENTS[/b][/blue]
+
+-All entries have to be in English if it contains written or verbal text.
+-All entries must be made with or refer to the latest version of Sc2gears (8.9 or newer), and you must use the English language in Sc2gears.
+-By submitting your entry, you agree to publish your work on the Sc2gears home page or as part of the Sc2gears application. Credit will be given of course.
+-If there is only 1 entry in a category, the Bronze package will be awarded; if there are only 2 entries, the Silver and the Bronze packages will be awarded.
+-You can give away your prize to anyone if you do not want to use it.
+-Entries must be sent to me via email (my email is on the About dialog inside Sc2gears)
+
+[hr]
+[green][b]CATEGORY #1: "How to use Sc2gears" video[/b][/green]
+
+Task: Create a "How to use Sc2gears" video starting with downloading and extracting Sc2gears, followed by setting it up. Show/explain the most common and useful features of Sc2gears and present most of the features in a logical order (the more the better).
+
+[b]Notes:[/b]
+-The video has to be provided as a file. It will be uploaded to YouTube by me (to avoid potential abuse), but credit will be given of course.
+-Use HD quality if possible.
+-Talk during the video, explain what happens or why you do this and that.
+
+[hr]
+[green][b]CATEGORY #2: Sc2gears Manual[/b][/green]
+
+Task: Write a Manual for Sc2gears. Describe how to set it up, what the different settings mean, how to use it, describe its features etc.
+
+[b]Notes:[/b]
+-Both a PDF and an HTML version is desirable (PDF to download, HTML to host it online or browse inside Sc2gears).
+
+[hr]
+[green][b]CATEGORY #3: New Sc2gears Icon and Logo[/b][/green]
+
+Task: Create images for Sc2gears.
+
+[b]The following images are required:[/b]
+-Application EXE icon (ICO file containing the icon in multiple sizes 64x64, 48x48, 32x32, 16x16)
+-Application Window icon (PNG file in size of 64x64, should be the same picture as the application exe icon)
+-Favicon for the Sc2gears Database web interface (ICO file in size of 16x16, should be the same picture as the application exe icon)
+-Animated GIF logo for the about dialog inside Sc2gears (Help menu => About)
+-Logo image for the Sc2gears home page (should be similar to the About dialog Logo, but in PNG format - no animation)
+
+[b]Notes:[/b]
+-The Logo for the Sc2gears home page cannot be higher than 48 pixels, width should be around 350 (but can be wider/smaller).
+-The Animated GIF logo can be basically any size (should be no smaller than 350x48 pixels).
+-Use transparent images in all cases (alpha channel).
+
+[hr]
+[green][b]CATEGORY #4: Plugin for Sc2gears[/b][/green]
+
+Task: Create a plugin for Sc2gears.
+
+[b]Notes:[/b]
+-You have to use the Plugin API 2.7 (and do not use deprecated calls..)
+-You can choose what is the purpose of the plugin, it can be fun, interesting, useful...
+-Try to keep the size of the plugin small (e.g. do not use big external libraries/jars).
+-Must be a stable plugin, cannot cause system instability or failures.
+-Source code release is a plus.
+
+More about the plugin interface: [url=https://sites.google.com/site/sc2gears/features/plugin-interface]Plugin interface[/url]
+
+[hr]
+Rules and requirements might change slightly. If you have any questions, suggestions, please post them.

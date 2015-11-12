@@ -1,0 +1,25 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 10.3: Better season integration
+
+[hr]
+
+[b]Sc2gears 10.3: Better season integration[/b]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh6.googleusercontent.com/-q3aN-quBlDI/T13zAjPKIgI/AAAAAAAAjBs/Ksp6BVvdkdg/s730/rs_non_cumulative_chart.png[/img][/url]
+
+[b]Changes and new features in 10.3:[/b]
+--------------------------------------------------------
+
+-[b]Ladder season is now better integrated and handled properly.[/b]
+Seasons start slightly at different times on different servers, these offsets are now implemented.
+On the Filters tab of the Replay search, there is now a new line: "Ladder Season".
+There is a new name template symbol to insert the ladder season number: /s (very useful if you want to organize your replays into separate folders based on ladder season).
+
+-Season 7 start date has been added.
+
+-If replay auto-store is enabled and Sc2gears fails to auto-store a replay, a "Failed to store file!" voice is played.
+
+-Sc2gears Database server address has been updated to use the new URL ([url=https://sciigears.appspot.com]https://sciigears.appspot.com[/url]).
+
+-Fixed an error in the Sc2gears Database downloader tool which prevented to download files.

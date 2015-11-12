@@ -1,0 +1,20 @@
+[b]Changes since version 0.82:[/b]
+----------------------------------
+-A new chart type: [b]Builds/Tech Stat[/b]
+This bar chart will show statistics of the units/buildings/researches/upgrades you made during the game, and abilities you used grouped by their categories. You can specify what to display, and you can change the bars' size.
+Statistics will be gathered only up to the time of the marker (the selected action). So you can follow how these statistics change over time. The objects on the chart will be displayed in the occurrence order.
+If marker is not yet visible, you'll see statistics for the whole game. 
+
+-A new option below the action list: [b]Use listed actions as chart input data[/b]
+This option gives GREAT customization to the data visualized on the charts. If checked, charts will be constructed only from the actions that are listed in the action list.
+Note: the listed actions can be filtered in 2 ways (besides the player check boxes): either by the action-type check boxes (like Train, Build etc.) and by a user specified free-text. 
+Green background draws attention if this is enabled.
+Useful examples: First enable "Use visible actions as chart input data", then:
+If you want to see how players add supply (for all races), enter a filter text: "pylon or supply or overlord".
+If you want to see when players expand, select only the Build action type and enter a filter text: "hatchery or nexus or command center".
+If you want to see the Macro APM chart, filter actions only to types of Trains and Builds.
+
+-Race letters can now be specified in the language files in order to avoid confusion of races with the same first letters.
+-Added a few new actions that weren't parsed in the previous version. 
+-Optimized action filtering by action types, it should be faster now.
+-Updated language files to newer versions.

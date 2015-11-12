@@ -1,0 +1,75 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+-misc.autorepFolderNotExists (atuoreplay => auto-replay)
+-misc.autorepFolderEmpty (atuoreplay => auto-replay)
+
+
+Sc2gears 3.30: Improved search+template,duplicates
+Sc2gears 3.30: Improved search and template editor, find duplicates
+
+
+[b]Changes and new features in 3.30:[/b]
+--------------------------------------------------------
+
+-[b]You can now start StarCraft II and StarCraft II Editor with Sc2gears.[/b]
+Menu items have been added to the File menu, to the Start page window and to the system tray.
+
+-[b]Replay search has been improved with a complex player filter.[/b]
+Beside the player name you can now specify player race, match result (Win, Loss) and an APM range (min APM - max APM).
+With this you can perform player searches like:
+[i]Find replays with player "SCIIGears" where he was Protoss, lost the game even though he had APM greater than 150.[/i]
+[i]Find replays with player "SCIIGears" where he was Random, won the game with less than 80 APM.[/i]
+Of course the extra fields are optional.
+
+-[b]All search fields has been extended with a "Not" check box.[/b]
+This new check box [b]inverts[/b] the filter condition: performing a search will list replays that do NOT match the entered criteria. This can be set separately for each search field.
+If you add new filter fields, you can set the invert check box separately for each of the same type. This gives great flexibility.
+With this you can perform searches like:
+[i]Find replays which do not contain player "SCIIGears".[/i]
+[i]Find replays that were not played on map "Lost Temple".[/i]
+Also changed the order of the filters (the more frequently used ones were put to the top).
+
+-[b]Template symbols have been grouped into tabs.[/b]
+There are too many symbols now (with the new ones), so they have been grouped into logical tabs for easier access.
+
+-[b]Name templates now support sub-folders![/b]
+Sub-folders are separated with the backslash character ("\"). With this you can easily separate your replays to sub-folders based on any symbol.
+For example let's say you want to organize your replays based on the format (1v1, 2v2 etc.). Simply start your name template with "/f\" and finish it with how you want to name them, and after the rename they will be categorized into sub-folders based on the game format. Sc2gears will automatically create non-existing subfolders.
+This also works with multiple sub-folders: let's say you want match-ups inside the format folders: "/f\/T\"
+This sub-folder support works for both manual renaming and replay auto-save.
+The sub-folders will be created in the folder where the original replay resides in case of manual renaming, and in the replay auto-save folder in case of replay auto-save.
+[i]There is a new symbol to insert the sub-folder separator.[/i]
+
+-[b]New name template symbol: /Wx[/b]
+This will tell if the player x won or lost. A letter will be substituted: W = Win, L = Loss, U = Unknown. The letters are localized (they are N, V, I in Hungarian for example).
+This symbol can be used in the player block too.
+
+-[b]New name template symbol: /Ax[/b]
+This will insert the APM of player x.
+This symbol can be used in the player block too.
+
+-[b]New name template symbols: /l, /L[/b]
+These insert the game length in short (6-30) and long (00-06-30) format.
+
+-[b]A new feature to find and filter out duplicate replays![/b]
+Added a new menu item in to the replay operations menu in the Replay search: [b]Find duplicates...[/b]
+This will check all the replays in the table, and in a dialog window displays those that are duplicates of each other.
+You can mark any or all of the duplicates, and they will be selected in the table: now you can do whatever you want to with them: move them, delete them, remove them from the table etc.
+Marking the duplicate replays are assisted with 3 buttons: [i]Mark all[/i], [i]Mark all but firsts[/i], [i]Clear marks[/i]. To get the job done fast, mark all but firsts. This will will select all "redundant" replays and will leave 1 replay in each duplicate groups unselected (a duplicate group is a set of identical replays - there can be more than 2).
+Sc2gears checks duplication based on the contents of the replays. Performance: Sc2gears finds duplicates amongst thousands of replays instantly.
+With this you can easily find and remove duplicate replays in seconds even if they are in different folders or they have different names, or even if they have different file dates.
+
+-Added new graphical themes: [b]Squareness[/b] and [b]Napkin[/b] (you have to try this one out.. loads up a little slower and uses more memory, but looks fun!).
+
+-Replaced some icons. Also added icons to the popup menu of the system tray.
+
+-The content of the Game info tab in the Replay analyzer has been aligned for better readability.
+
+-Added new tips.
+
+-Small bugfix in the replay parser (players from games with open slots were not properly detected; winners with computer teams were not always properly detected).
+
+-Other minor fixes and improvements.

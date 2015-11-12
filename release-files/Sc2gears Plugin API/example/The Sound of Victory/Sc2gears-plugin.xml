@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Plugin descriptor, contains plugin meta-data. -->
+<plugin docVersion="1.0">
+	
+	<name>The Sound of Victory</name>
+	
+	<authorFirstName>András</authorFirstName>
+	<authorLastName>Belicza</authorLastName>
+	<authorEmail>iczaaa@gmail.com</authorEmail>
+	
+	<version>1.0.1</version>
+	<releaseDate>2012-01-24</releaseDate> <!-- Format: "yyyy-MM-dd" -->
+	
+	<apiVersion>3.0</apiVersion> <!-- Plugin API version implemented/used by the plugin. -->
+	
+	<homePage>https://sites.google.com/site/sc2gears/</homePage>
+	
+	<!-- Description can be plain text or HTML text, can contain multiple lines. -->
+	<description isHtml="true"><![CDATA[
+		<p>This plugin plays an audio file after each of your games based on your match result (win or loss). You can choose your own Victory and Defeat audio files.</p>
+		<p>Replay auto-save must be enabled for this plugin to work.</p>
+		<p>Source code is available on the Sc2gears <a href="https://sites.google.com/site/sc2gears/downloads">Downloads</a> page inside the Sc2gears Plugin API archive.</p>
+	]]></description>
+	
+	<!--
+		The main class must implement the "hu.belicza.andras.sc2gearspluginapi.Plugin" interface,
+		and must have a public no-arg constructor (a constructor that takes no arguments).
+		
+		The main class must also be unique: cannot be added 2 plugins with the same main class!
+	-->
+	<mainClass>hu.belicza.andras.thesoundofvictoryplugin.TheSoundOfVictoryPlugin</mainClass>
+	
+</plugin>

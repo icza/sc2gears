@@ -1,0 +1,75 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+-module.repAnalyzer.tab.charts.gridToolTip
+-module.repAnalyzer.tab.charts.gridSettingsToolTip
+-module.repAnalyzer.tab.charts.animate.playToolTip
+-module.repAnalyzer.tab.charts.animate.pauseToolTip
+-module.repAnalyzer.tab.charts.animate.jumpToBeginningToolTip
+-module.repAnalyzer.tab.charts.animate.jumpToEndToolTip
+-module.repAnalyzer.tab.charts.animate.jumpBackwardToolTip
+-module.repAnalyzer.tab.charts.animate.jumpForwardToolTip
+-module.repAnalyzer.tab.charts.animate.slowDownToolTip
+-module.repAnalyzer.tab.charts.animate.speedUpToolTip
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.2: Overlay charts, new chart, 1337
+Sc2gears 5.2: Overlay charts, Main building control chart, automatic Leet translation, partial 1.3.3 replay support
+
+
+[b]Changes and new features in 5.2:[/b]
+--------------------------------------------------------
+
+-[b]Overlay charts![/b]
+Some charts are cool to have, but they are not too informative if you look at them alone. They would be much more useful if we could look at them with other charts at the same time...
+This is now possible. There is an [b]"Overlay charts"[/b] link above the chart (referred to as [i]main chart[/i] from now on) where you can enable any of the available charts to display in pop-ups on top of the Replay analyzer.
+Overlay charts are synchronized to the main chart, they can be resized, moved, closed, maximized, and they are always on top. Overlay charts are displayed in child dialogs of the Replay analyzer, so all opened replays can have their own and different overlay charts.
+If you animate the replay, all charts (main and overlay) will animate properly synchronized to the main chart.
+A quick way to fast open/close overlay charts is to press CTRL+SHIFT+number.
+
+-[b]A new chart type: Main building control[/b]
+For now this chart visualizes Larva injections into multiple hatcheries. Each hatchery that gets injected at least one time will get a row in the time line showing when and how long it was injected.
+Statistics displayed show the [b]average spawning ratio[/b] and the [b]average injection gap[/b] for each hatchery, and a total average is calculated and displayed in the header of the charts.
+The average spawning ratio is the ratio of the time being injected and the the time from the first injection till the last action of the player. The higher the better, the optimal best value is 100%. The average injection gap is the average of the time gaps between injections. The smaller the better, the optimal best value is 0 sec. The time after the last injection is excluded.
+Interpretation: if the average spawning ratio is low and/or the average injection gap is high, it means you should make less hatcheries and spawn larva more often.
+
+-[b]Added partial support for 1.3.3 replays.[/b]
+Blizzard again changed the replay format. They can now be parsed but many changes are not yet implemented.
+
+-[b]A new "Keyboard shortcuts" dialog available from the Help menu.[/b]
+This dialog lists the available shortcuts in Sc2gears.
+
+-Sc2gears can now speak Leet: [i]"$(2g34r$ (4n n0w $p34k £33t!"[/i]
+In the Settings/Language menu you can enable automatic Leet translation.
+Available levels (leetness): Disabled, Basic, Intermediate, Advanced, Expert
+If you don't know what Leet is, you can check it out on [url=http://en.wikipedia.org/wiki/Leet]wikipedia[/url].
+
+-The [b]SC-Replay.com[/b] site implemented the replay upload specification, and has been added to Sc2gears and is now available for replay sharing.
+
+-Sc2gears now retries up to 3 times if an Sc2gears Database operation (like storing or downloading a replay) fails.
+
+-A new menu item in the Windows menu: "Start maximized".
+It is on by default, and its effect is that after start the main window will be in maximized state.
+
+-New hotkeys in the Replay analyzer:
+ CTRL+G to turn on/off the grid
+ CTRL+SHIFT+G to open the Grid settings dialog
+ Animator Play/Pause: CTRL+W
+ Animator jump to beginning: CTRL+SHIFT+Q
+ Animator jump backward: CTRL+Q
+ Animator jump forward: CTRL+E
+ Animator jump to end: CTRL+SHIFT+E
+ Animator slow down: CTRL+R
+ Animator speed up: CTRL+SHIFT+R
+
+-The Command Line Interface now prints everything using UTF-8 encoding.
+
+-Improved the hotkeying and focusing system in the Replay analyzer (keyboard shortcuts sometimes didn't work unless a proper component was focused).
+
+-Optimized the loading of the definitions of different replay versions ("load on demand"; slightly better performance and slightly less memory usage).
+
+-Other minor fixes and improvements.

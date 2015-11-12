@@ -1,0 +1,20 @@
+
+[b]Changes since version 0.90:[/b]
+----------------------------------
+-[b]Added a new Sc2gears.exe file to the application.[/b]
+This program detects installed JVMs (Java Virtual Machines), and if none present (or only older versions), offers to go to the Java home page to download it.
+It's recommended to associate SC2Replay files with Sc2gears.exe, so if you double click on them, Sc2gears will come up with the replay opened in an analyzer.
+Multiple replays can also be passed in which case all will be opened (within the same Sc2gears using multiple internal analyzers).
+Furthermore you can pass any SC2 replay files, Sc2gears replay source files and Sc2gears replay list files, they will all be opened respectively. If a file name contains spaces, put it in quotation marks.
+If Sc2gears is started with this exe, no other javaw process will be spawned (the jvm.dll will be instantiated and the VM will run in the Sc2gears.exe process).
+On Windows 7 Sc2gears.exe can be pinned to the taskbar.
+
+-The Map preview tab of the Replay analyzer offers a button to [b]download the map[/b] if you don't have it. If you download it, it will be put in your StarCraft II cache folder (depends on what folder you set), so if you want to watch the replay in Sc2, the map will be available instantly.
+Gateway can be chosen where to download maps from (e.g. America, Asia, Europe).
+-Tabbed panes now have numbers as mnemonics, so you can switch between the tabs easily by pressing ALT+1, ALT+2, ALT+3 etc.
+-Added a new "Race match-up" column to the results tab (replay lists and search results).
+-Added a new "File date" column to the replay lists and search results. This is only the last modified date of the replay file, not the date of the game.
+-Added new search fields: gateway, game type.
+-Added support of the new replay format (from version 0.16). Supported versions are: 0.11 and all newer versions.
+-Updated the Sc2gears Updater to perform SHA-256 checksum before updating to increase the clients' security.
+-Teams were not always parsed correctly, this is fixed now.

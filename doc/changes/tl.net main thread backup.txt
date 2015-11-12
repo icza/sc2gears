@@ -1,0 +1,2551 @@
+[center][url=https://sites.google.com/site/sc2gears/][img]http://sciigears.appspot.com/images/sc2gears_logo.png[/img][/url][/center]
+[hr]
+[big][green][b]BREAKING NEWS[/b][/green][/big]
+
+[red][b]DECEMBER 5, 2013 - Scelight (successor to Sc2gears) is released![/b][/red]
+[spoiler=details][b]At last! The first public version of Scelight™ (successor to Sc2gears) is released![/b]
+I still have a long way ahead, but the current version is already useful enough to be shared. It is also better for everyone to give / get feedback earlier.
+
+Visit the home page for more about Scelight:
+[b][url=https://sites.google.com/site/scelight/]https://sites.google.com/site/scelight/[/url][/b]
+
+Teamliquid thread:
+[b][url=http://www.teamliquid.net/forum/viewmessage.php?topic_id=437452]http://www.teamliquid.net/forum/viewmessage.php?topic_id=437452[/url][/b][/spoiler]
+
+[red][b]MARCH 19, 2013 - Sc2gears 14.0 Historical League info and integration![/b][/red]
+[spoiler=details]Sc2gears 14.0 finally brings the long awaited feature: 1v1 Battle.net league of players [i]at the time of the replay[/i] is now parsed out of replays, and is integrated in Sc2gears everywhere:
+
+[b]Examples:[/b]
+-You can search by player's league and even by league match-up.
+-League match-up statistics in the Multi-replay analysis.
+-Name template symbol to insert the league when naming/renaming replays.
+-Colored borders around players based on the league in the Replay analyzer.[/spoiler]
+
+[red][b]FEBRUARY 28, 2013 - Sc2gears 13.0 now fully Heart of the Swarm compatible! Java 7 Requirement![/b][/red]
+[spoiler=details]Sc2gears 13.0 has been released which now finally fully supports Heart of the Swarm replays.
+From this release Sc2gears requires [b]Java 7[/b] (instead of Java 6). You can get it from here: [url=http://java.com/]http://java.com/[/url][/spoiler]
+
+[red][b]JULY 3, 2012 - Sc2gears Database - Open to Everyone![/b][/red]
+[spoiler=details]Today the Sc2gears Database is made open to everyone. By visiting the [url=https://sciigears.appspot.com/User.html]Sc2gears Database User Page[/url] you can create your own account in [b]30 seconds[/b]!
+
+If you visit the User Page and you don't already have an Sc2gears Database account, a tiny registration form will be displayed to you. With that, you can create your own account literally in 30 seconds.
+
+This registration process will create a Free account for you which you can upgrade at any time if you want to, of course. You can read the details on the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url] page.[/spoiler]
+
+[red][b]MAY 15, 2012 - Sharing and Team support in the Sc2gears Database[/b][/red]
+[spoiler=details][b][i]Hell! It's about time![/i][/b]
+
+Today I introduced a new feature in the Sc2gears Database: [b]Database Account Sharing![/b]
+
+You can now share your Sc2gears Database Account with other Google Accounts and they will be able to use your storage and access your content as it would be theirs (controlled by permissions).
+You can set permissions for each granted Google Account individually fine tuning who can do and what within the shared database account.
+
+The new Sharing feature makes the Sc2gears Database [b]ideal for StarCraft II teams to store and share their replays[/b] within the team.
+
+Let the new Sc2gears Database shine! Read the details on the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url] page.[/spoiler]
+
+
+[hr]
+[big][green][b]SUMMARY[/b][/green][/big]
+
+[url=https://sites.google.com/site/sc2gears/]Sc2gears™[/url] is a general StarCraft II utility for everyone who is interested in the game (either a player, a developer or just a game analyzer). Its main features are replay management and analysis for both individual replays and mass replays (multi-replay statistics). It provides easy but powerful and efficient replay management and basic statistics for starters, and advanced statistics and time development charts useful even for professional players. It is also a great asset for tournament and league organizers in quick analysis of tournament results.
+
+It has many handy or cool-to-have features like APM Alert, replay auto-save, replay sharing with a few clicks, automatic retrieval and display of player profiles, mouse print recording, replay renaming based on user provided template, On-Top Game info dialog (In-game info panel), On-Top APM display dialog (In-game current APM), mouse practice game, integrated private video streaming server.
+
+The program is written in Java, so everyone can use it: Windows, MAC OS-X and Linux users (and others where you can install the Java Runtime Environment).
+
+
+[big][green][b]LATEST VERSION[/b][/green][/big] [i](read changes and new features below...)[/i]
+
+[blue][b]Sc2gears 14.3.3: Replay version 2.1 support[/b][/blue]
+
+Auto-update will install it. [i]For the lazy ones here's the direct download link: [url=http://sciigears.appspot.com/download/Sc2gears-14.3.3.zip]Sc2gears-14.3.3.zip[/url] (from China use this: [url=http://www.mediafire.com/download/0lpt41a0b3d534i/Sc2gears-14.3.3.zip]Sc2gears 14.3.3 for China[/url])[/i]
+
+
+[big][green][b]HOME PAGE [/b][/green][/big]
+
+[b][url=https://sites.google.com/site/sc2gears/]https://sites.google.com/site/sc2gears/[/url][/b]
+
+
+[big][green][b]SCREENSHOTS[/b][/green][/big] [i](click for more and large versions)[/i]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh6.ggpht.com/_jDMClHrENz8/TMkpJa5LTHI/AAAAAAAAWQU/P9I6JjDwKf0/s730/rep_anal_builds_tech1.png.jpg[/img][/url]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh6.ggpht.com/_jDMClHrENz8/TMkpJDjMRsI/AAAAAAAAWQM/qK10-S6pAuY/s730/rep_analyzer_charts.png.jpg[/img][/url]
+
+
+[big][green][b]LINKS[/b][/green][/big]
+
+[b][url=https://sites.google.com/site/sc2gears/]Home page[/url][/b]
+
+[b][url=https://sites.google.com/site/sc2gears/videos]Sc2gears Videos[/url][/b]
+
+[b][url=https://sites.google.com/site/sc2gears/how-to-use-sc2gears]How to use Sc2gears[/url][/b]
+
+[b][url=https://sites.google.com/site/sc2gears/glossary]Glossary page[/url][/b]
+
+[b][url=http://pubgoods.appspot.com]Public Services and Web Tools[/url][/b]
+
+
+[hr]
+
+[big][b]Sc2gears 14.3.3: [/b][/big]
+
+[b]Changes and new features in 14.3.3:[/b]
+--------------------------------------------------------
+
+-[b]Added support for 2.1 replays.[/b]
+
+-Adjusted the profile retriever to the changes made to Battle.net profile pages so profile data is retrieved correctly again.
+
+-Added Season #17 and #18 start dates.
+
+-Added missing / new portrait images.
+
+-Added links to [url=https://sites.google.com/site/scelight/]Scelight[/url], the successor to Sc2gears (Help menu, Start page, About dialog).
+
+
+[b]NOTES:[/b]
+[i]With this release Sc2gears is being kept up-to-date, but no new features have been added for quite some time now: [url=https://sites.google.com/site/scelight/]Scelight™[/url] is the one being in the focus of development.
+Although Scelight might lack some features that Sc2gears has or provides (yet), but the ones that are implemented are far superior to those of Sc2gears'. Scelight already has numerous features that Sc2gears never had.
+It is recommended for everyone to get to know Scelight and get ready to completely switch over to Scelight one day. The sooner you make the switch the better.[/i]
+
+
+[hr]
+
+[big][b]Sc2gears 14.3.2[/b][/big]
+
+[b]Changes and new features in 14.3.2:[/b]
+--------------------------------------------------------
+
+-Added a new portrait image.
+
+-Added Season #16 start date.
+
+-Adjusted the profile retriever to the changes made to Battle.net profile pages in season #15 so profile data is retrieved correctly again.
+
+
+[hr]
+
+[big][b]Sc2gears 14.3.1[/b][/big]
+
+[b]Changes and new features in 14.3.1:[/b]
+--------------------------------------------------------
+
+-Declaration of trademark in preparation of what's coming next...
+
+-Corrected the Season #14 start date, added Season #15 start date.
+
+-Other minor optimization.
+
+
+[hr]
+
+[big][b]Sc2gears 14.3: Replay version 2.0.8 support[/b][/big]
+
+[b]Changes and new features in 14.3:[/b]
+--------------------------------------------------------
+
+-Updated the replay parser engine to support 2.0.8 replay files.
+
+-Added season #14 start date.
+
+-Added updated Chinese and Chinese Traditional language files.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 14.2: Sc2gears Turns 3! (Birthday release)[/b][/big]
+
+[b]Changes and new features in 14.2:[/b]
+--------------------------------------------------------
+
+-The name template engine now removes not allowed characters from the generated file name.
+This is required because map names may contain characters that are not allowed to be used in file names.
+If such characters are encountered, the template engine will substitute them with an underscore (_).
+
+-Added new portrait images.
+
+-Fixed a synchronization issue which sometimes caused incorrect displayed data in the replay search result when the search was performed using multiple CPU cores.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 14.1: League match-up and league match-up filter in the Sc2gears Database[/b][/big]
+
+[b]Changes and new features in 14.1:[/b]
+--------------------------------------------------------
+
+[red][b]14.1.1 Hotfix release changes:[/b][/red] [spoiler=14.1.1 Hotfix release changes]-Rebuilt Sc2gears version 14.1 because previous build left out some refactored code.[/spoiler]
+
+-[b]League match-up and league match-up filter in the Sc2gears Database.[/b]
+In the Replays page of the [url=https://sciigears.appspot.com/User.html]Sc2gears Database User page[/url] there is now a [b]Leagues[/b] column which contains the 1v1 league match-up info of the replay at the time of the game.
+There is also a new filter field above the table: [b]League MU[/b]. This is a league match-up filter similar to the existing race match-up filter. Tool tip shows examples.
+This league match-up info is only available for replays uploaded with Sc2gears 14.1+.
+[i]Tip: Re-upload all your 2.0+ replays and you will see the league info and will be able to search by league match-up.[/i]
+
+-Mouse print (SMPD) version 1.1.
+Smpd files now contain the name (and version) of the application that created them.
+The Sc2gears Database handles both 1.0 and 1.1 versions of Smpd.
+
+-Shortened URLs (addresses) in the Sc2gears Database.
+User page is now available here: https://sciigears.appspot.com/User.html
+API Use page is now available here: https://sciigears.appspot.com/ApiUser.html
+
+-The On-top APM display dialog no longer converts APM values to real-time because from 2.0 SC2 outputs real-time APM (instead of game-time APM).
+
+-Fixed a bug where extended profile info was parsed wrongly for players having both HotS and Wol ladders.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 14.0: Historical League Info, League match-ups in Multi-rep analysis, League search and league integration[/b][/big]
+
+[b]Changes and new features in 14.0:[/b]
+--------------------------------------------------------
+
+-(Again) Improved HotS parsing.
+The long awaited feature is here: [b]Historical league info![/b] 1v1 league info is now parsed out of replays. This is (of course) the league of players [i]at the time of the game[/i].
+Historical league info is exposed in the Game info tab of the Replay analyzer, in the Replay search, in the Command line interface, in the Plugin API and in the Parsing service.
+[b]Swarm levels[/b] is parsed out of replays (at the time of the game) and is exposed in the Game info tab of the Replay analyzer.
+These info are available from replay version 2.0.
+
+-Replays with observers are now parsed properly.
+
+-[b]Players in the Replay analyzer are now displayed with a colored border based on the 1v1 league [i]at the time of the game[/i].[/b]
+Unranked players have a light green border, players with unknown league (replays below 2.0) have a light red border.
+
+-[b]Leagues in the Replay search![/b]
+You can now search replays (players) specifying their league. You can list replays of only Master players for example.
+The replay list table of a search result now has a new column: [b]Leagues[/b]. This column contains the [i]league match-up[/i], for example "PGvMS" (meaning Platinum+Gold vs Master+Silver).
+The league is the 1v1 league [i]at the time of the replay[/i], and this info is only available from replay version 2.0.
+
+-[b]Search by league match-up![/b]
+Added a [i]simple-to-use but powerful[/i] [b]League match-up filter[/b]. It's very similar to the race match-up filter.
+You can enter league letters you're looking for. Symbols (in English): R Grandmaster, M Master, D Diamond, P Platinum, G Gold, S Silver, B Bronze, U Unranked, - Unknown, v to separate teams, * to match all leagues. Examples: MvD, PvD, Dv*, DMvPG, PPv**, DPG.
+If you don't provide team separation just league letters, it will list replays where the indicated leagues are found.
+Example: if you search for "DPG*", it will list replays which include Diamond, Platinum and Gold league players, and there was at least a 4th player.
+If you provide team separation, it will list replays where the grouped leagues were in the same team.
+The "Exact match" property in case of this filter means: if it is checked, only replays that have exactly the same amount of teams and leagues as specified will be listed.
+For example DvD without exact match will also list DPvDG for example. DvD with exact match will only list DvD.
+League match-up search field is a pre-defined list: you can edit the offered list by opening the drop-down list and clicking on the "Edit list" link at the bottom, or in Pre-defined lists tab of the Misc settings dialog.
+
+Note 1: the league letters are the first letters of leagues [b]in the language of Sc2gears[/b] (except R for Grandmaster)! This might vary if the user interface language of Sc2gears is changed. The tool tip shows the proper letters of leagues in the language of Sc2gears.
+Note 2: the League match-up filter can be combined with the Match-up filter of course, but care must be taken as they might work against each other (for example searching for "1v1" and "**v**" will never give any results).
+
+
+-[b]League match-ups in Multi-replay analysis![/b]
+If you perform a Multi-replay analysis and open the details of a player (by double clicking on it), you will see a new tab now: [b]League match-ups[/b].
+This League match-ups is similar to the (race) Match-ups tab, shows you all the statistics of playing with and vs different league players broken down to formats (such as 1v1, 2v2 etc.).
+The League match-ups tab shows you everything you want (or wanted) to know about your game statistics grouped by leagues.
+It shows you for example your (or any player's) statistics vs other leagues (vs Platinum for example), your record playing in a league (you playing in Platinum for example), your record vs any leagues, concrete league match-up records like Platinum vs Gold etc.
+Statistics included other than record are also very important here, for example the first and last game columns in the line of Pv* will show you when you first and last played as Platinum (promotion/demotion dates).
+The tables of the League match-ups can be filtered just like any other tables.
+If you filter the table by "*v", you will see immediately your records vs different leagues.
+If you filter the table by "v*", you will see immediately your records playing in different leagues.
+
+-[b]New name template symbol: /Bx[/b]
+This symbol inserts the Battle.net 1v1 league letter of the player [i]at the time of the replay[/i]. League letters in English: R Grandmaster, M Master, D Diamond, P Platinum, G Gold, S Silver, B Bronze, U Unranked, - Unknown.
+It can also be used in the player block without the player index, for example "</p (/B)>" will result in "Bob (P) vs Alice (D)" (meaning "Bob (Platinum) vs Alice (Diamond)").
+
+-Added Season #13 start date.
+
+-Fixed a bug where the profile engine failed to get profile info of players with no games ever played.
+
+-Plugin API 4.2:
+getLeague() and getSwarmLevels() added to IPlayer.
+isCompetitive() and getLeagueMatchup() added to IReplay.
+
+-Other minor changes and optimization.
+
+
+[hr]
+
+[big][b]Sc2gears 13.1: Further HotS support[/b][/big]
+
+[b]Changes and new features in 13.1:[/b]
+--------------------------------------------------------
+
+-[b]Improved replay parser engine.[/b]
+[b]Expansion level (WoL or HotS) is now parsed[/b], and exposed in the Replay search, on the Game info tab in the Replay analyzer, in the command line interface and in the plugin interface.
+[b]Map hash[/b] for HotS replays and custom games (including old ones) [b]is now parsed correctly.[/b]
+Added missing ability codes and missing ability and upgrade icons. The map view chart will now for HotS replays too.
+Slightly modified the EAPM algorithm to include the Thor's transformations and the Widow Mine's activate actions as ineffective if repeated without time restriction.
+The [url=https://sites.google.com/site/sc2gears/parsing-service]Parsing service[/url] has also been updated with these improvements.
+Due to previous incorrect map parsing it is strongly recommended to re-upload all HotS and old custom replays to the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url].
+Easiest way is to just re-upload all your replays (the database detects if a replay is already stored and will only update it, not store it duplicated).
+Just list all your replays, right click and choose "Store replays".
+
+-Added new portrait images.
+
+-The Replay analyzer now also displays the XAPM as percent growth (if XAPM is enabled above the chart).
+
+-Code optimization (using Java 7 new features).
+
+-The Map preview tab of the Replay analyzer now automatically tries the replay's gateway for map download if the map is not available on the selected gateway.
+
+-Fixed a bug where the profile engine failed to get profile info of GM ranked players with no games played.
+
+-Plugin API 4.1.
+Contains the added new abilities, and also exposes the expansion level (IReplay.getExpansion()).
+
+-Other minor changes, fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 13.0: Full Heart of the Swarm Support! Java 7 requirement![/b][/big]
+
+[b]Changes and new features in 13.0:[/b]
+--------------------------------------------------------
+
+-[b]Java 7 requirement![/b]
+This Sc2gears release now requires Java 7 (instead of Java 6). If you only have Java 6 installed on your computer, you won't be able to run Sc2gears.
+You can install Java 7 from here: [url=http://java.com/]http://java.com/[/url]
+
+-[b]HotS replays are now finally fully supported.[/b]
+The replay parsing engine has been improved to support HotS replays.
+The EAPM algorithm has been extended to HotS.
+Also fixed previous parsing errors, added new unit ids and images.
+
+-Fixed a small bug which caused incorrect display of samples count for loaded mouse prints.
+
+-Plugin API 4.0
+The plugin API jar has also been recompiled with Java 7.
+New Hots units, researches and abilities have been added.
+
+-Other minor changes, improvements and fixes.
+
+
+[hr]
+
+[big][b]Sc2gears 12.5: Patch 2.0.4 (and partial HotS) support[/b][/big]
+
+[b]Changes and new features in 12.5:[/b]
+--------------------------------------------------------
+
+[red][b]12.5.1 Hotfix release changes:[/b][/red]
+-Player names with a clan tag are now handled properly.
+
+-[b]Updated the replay parser engine to handle replay versions 2.0.4.[/b]
+The new engine is NOT HotS ready, but it is able to handle HotS replays to a good extent (including most player actions too).
+
+-[b]Updated the Player profile engine to reflect the new data available on the Battle.net pages.[/b]
+This involves: player profile dialog, player tool tip in the Replay analyzer and in the On-top last game info dialog.
+
+-New portrait images have been added.
+
+-Added 2 new name template symbols.
+[b]/v[/b] will insert the short replay version (e.g. "2.0.4").
+[b]/b[/b] will insert the replay version build number (e.g. 24944).
+Concatenating the 2 will yield the whole version: "/v./b" => "2.0.4.24944"
+
+-Fixed ladder season start dates (season #11 and #12).
+
+-Player names in the Player profile dialog are now links to the Battle.net profile page (in the preferred language set in the User interface tab of the Misc settings dialog).
+
+-The [url=https://sites.google.com/site/sc2gears/parsing-service]Parsing Service[/url] has also been updated with the new replay parser engine and with the new player profile engine to reflect the new data available on the battle.net profile pages.
+
+-Plugin API 3.1: backward incompatible changes!
+Changed the IProfile and related interfaces to reflect the new data available on the battle.net profile pages.
+
+-Other minor changes, improvements and fixes.
+
+
+[hr]
+
+[big][b]Sc2gears 12.4.1[/b][/big]
+
+[b]Changes and new features in 12.4.1:[/b]
+--------------------------------------------------------
+
+-Added Season #10 (and #11) start date.
+
+-Proper OS detection for Windows 8.
+
+-Changed the base SC2Replay folder on MAC OS-X to "/Library/Application Support/Blizzard/StarCraft II/Accounts" inside the user's home folder.
+
+-Other minor optimizations.
+
+
+[hr]
+
+[big][b]Sc2gears 12.4: The little things...[/b][/big]
+
+[b]Changes and new features in 12.4:[/b]
+--------------------------------------------------------
+
+-Improved replay parser engine.
+Implemented small changes that came with 1.5.3.
+
+-The name template engine now checks and reports if the name template contains characters which are not allowed on the user's operating system.
+
+-The Progress dialog now also displays the average processing speed.
+
+-All tables got a "Select / Deselect all rows" icon in the table header.
+
+-Fixed a bug where the Replay sharing dialog would be placed outside of the screen (making the title bar not visible) on low resolutions like 1024x768.
+The Replay sharing dialog is now automatically resized if its size is bigger than the screen size.
+
+-Fixed a bug where retrieving player profiles from Battle.net with no portrait failed.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 12.3: [/b][/big]
+
+[b]Changes and new features in 12.3:[/b]
+--------------------------------------------------------
+
+-Added Season 9 start date (assumed to be September 12).
+
+-Improved Replay parser engine: replays sent to me in the past causing "Parse error!" are now working properly.
+
+-Word clouds are working again!
+Fixed a bug where the Word cloud dialogs did not appear when clicked on any of the "Word cloud" link in the header of many tables.
+
+-Fixed a bug where the Private Video Streaming window would become too wide if the save stream video folder was too long.
+
+-The "Check Mouse print auto-save" diagnostic test no longer states "APM Alert must be enabled" (because it is no longer required).
+
+
+[hr]
+
+[big][b]Sc2gears 12.2: Introducing XAPM, Replay parser engine fixes[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh6.googleusercontent.com/-qudb_mCoRs0/UDTf6yluE7I/AAAAAAAAr6Q/T4KwnwIzEG8/s730/APM_Types.png[/img][/url]
+
+[b]Changes and new features in 12.2:[/b]
+--------------------------------------------------------
+
+-[b]Introducing XAPM[/b]
+Many questioned why camera hotkeys are not included in APM and have asked for it. Well, it never had been, and including screen movements in APM would just make the [i]APM chaos[/i] even more complicated. ([i]"Is it SC2 APM or EPM?"[/i], [i]"Is it Sc2gears APM?"[/i], [i]"Is it real-time or game-time?"[/i])
+On the other hand moving the screen by clicking on the mini map or pressing a camera hotkey has the same value and function just like double pressing a hotkey to center the assigned units which is included in APM (and even in EAPM).
+To leave APM (and its concept) as it is but still provide a way to measure these screen movements, the APM chart of the Replay analyzer introduces the [b]XAPM[/b] (eXtended APM).
+XAPM is turned off by default and can be made visible by selecting the "Show XAPM" check box. When selected, the XAPM chart will be drawn with a dotted line, and the calculated XAPM for the whole game (excluding the first x seconds) will be displayed in the player headers.
+XAPM includes all actions that are included in APM [b]plus[/b] move screen actions which move the screen on the horizontal plane with at least a certain distance (delta>=15).
+[b]Therefore -beyond actions included in APM- XAPM includes (assumed you looked elsewhere) :[/b]
+ * camera hotkey usage
+ * (left) clicking on the mini map to move your screen
+ * clicking on the portrait of the selected unit to center the unit on the screen
+ * pressing the space key to center the location of the latest event
+[b]XAPM does not include:[/b]
+ * scrolling your screen with the cursor keys (keyboard)
+ * scrolling your screen by moving your mouse cursor to the side of the screen (side scrolling)
+ * spamming the same camera hotkey or (left) clicking on the mini map to approximately the same location
+
+-Improved the replay parser engine.
+Implemented some changes so many 1.5 replays that gave a "Parsing error!" should now be parsed properly.
+Also fixed a bug where "Build Armory" and "Build Starport" were mixed up in 1.5 replays.
+
+-Fixed the "Watch replay" function in the replay operations popup menu.
+Replays are now launched by calling SC2Switcher.exe instead of "StarCraft II.exe".
+Didn't have a chance to test this yet...
+
+
+[hr]
+
+[big][b]Sc2gears 12.1: Fully SC2 1.5 compliant, Updated and Improved Replay parser engine, Save stream video as AVI file, Improved Updater, Plugin API 3.0[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 12.0:[/b]
+--------------------------------------------------------
+
+[red][b]12.1 Hotfix release changes:[/b][/red] [spoiler=12.1 Hotfix release changes]-Reverted the Plugin API 3.0 "incompatibility classification".
+This means that plugins below version 3.0 will still start without manually enabling incompatible plugins, but they may fail at any time if they use the incompatible changed interfaces.
+
+-Failed abilities are back in the charts and statistics and again counted in replay search...
+...but they are still excluded from the EAPM calculation.[/spoiler]
+
+-[b]Updated (for 1.5 replays) and Improved Replay parser engine.[/b]
+[b]Replays with version 1.5 (and 1.5.1) are now fully supported.[/b]
+[b]Moreover the following extra data is now extracted/displayed (for all versions starting from 1.1) :[/b]
+ * [b]Invaluable new info:[/b] Different flags are displayed for abilities like build, train, right click etc. if applicable. These include: "Queued", "WireframeClick", "Toggle", "Autocast", "WireframeUnload", "WireframeCancel", "MinimapClick", "Failed" (only available from 1.3.3).
+ * Actions that have a unit target now also display the location of the unit target (unit location at the time of issuing the command).
+ * Built Assimilators, Extractors and Refineries are now displayed on top of geysers on the Map view chart of the Replay analyzer.
+ * Map coordinates parsed with the previous engine were not always precise. They are now.
+ * Move screen actions now display distance, pitch, yaw and height offset if applicable.
+ * Changed the displayed precision of all coordinate values from 1 fraction digit to 2 (instead of "x=38.6" you'll see "x=38.63" for example).
+ * In-game chat messages now properly display message target if sent to observers.
+The new replay parser engine now also parses many old replays which failed to parse before (with the previous engine).
+You wish you had all your replays? Start using the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url] today to not lose any replays: [url=https://sciigears.appspot.com/User.html]User Page[/url]
+The [url=https://sites.google.com/site/sc2gears/parsing-service]Parsing Service[/url] has also been updated accordingly with the new parsing engine.
+[i]Thanks to Furlqt (TL) for his contribution to the sc2replay-csharp project (which has helped me to cut some of the reverse engineering process).[/i]
+
+-[b]The Player Profile dialog and player tool tips have been redesigned to reflect the info available on the new Battle.net profile pages.[/b]
+League wins have been removed and added new info: Games This Season, All Games, Most Played Mode, Most Played Race, Highest Solo Finish League plus times achieved, Highest Team Finish League plus times achieved.
+Unlike Battle.net profile pages, current best leagues are still acquired and displayed.
+The On-Top Game info panel now displays AG (All Games) instead of LW (League Wins).
+The current best league icons in the profile dialog now displays the team members in a tool tip.
+
+-[b]EAPM algorithm improvement.[/b]
+Actions which are reported to have failed are now considered ineffective.
+
+-[b]Replay analyzer charts improvement.[/b]
+Actions which are reported to have failed are now [b]excluded[/b] from certain charts which result in more accurate data and statistics.
+These include: EAPM graph (APM still includes failed abilities), Builds/Tech chart, Builds/Tech stat chart, Map view chart, Main building control chart, Unit tiers chart, Resource spending rate chart, Resources spent chart, Produced Army/Supply chart, Action sequences chart, Production chart.
+The failed actions are specifically [b]included[/b] on the APM redundancy distribution chart, shown as a separate category.
+[i]The difference is huge in some cases.[/i]
+
+-[b]Replay search improvement.[/b]
+Filtering replays by build order, building, unit, research, upgrade, unit ability or building ability now excludes actions which are reported to have failed.
+Also fixed a bug where filtering by unit ability or building ability the min occurrence parameter were not taken into account.
+
+-[b]Private Video Streaming improvements[/b]
+[b]You can now save the streaming video as an AVI file![/b]
+The saved video file can be opened with any movie players or can be uploaded to YouTube. Saved AVI size limit: 4GB (due to AVI format; if the AVI file reaches 4GB, further video data will not be written to prevent video file corruption).
+New streaming statistics on the server: Saved AVI file size (in case you're saving the stream video), [b]Viewers table[/b]
+The server now displays a table of all stream viewers. The table includes all viewers since the start of streaming including those who are not viewing anymore. The table lists the viewer's IP address, frames sent, outgoing bandwidth and the number of bad password attempts.
+Added many predefined values to the output video size combo box (like Full HD, HD, DVD, VGA etc.).
+
+-[b]Updater improvements[/b]
+The Sc2gears Updater now tries different mirror archives if one download source is not available. This will fix the UK update problem.
+This new Updater will only run at the next release.
+
+-A new "Start page" item has been added to the top of the navigation bar which when clicked selects (or opens if closed) the Start page internal window.
+
+-Greatly improved French translation included, thanks to Sébastien "Zepiii" Mathu and Julien "Furlisht" Halet.
+
+-Fixed a bug which caused the content of the Private Video Streaming window to be too wide if the Stream description contained long lines.
+
+-Fixed a bug which in some cases prevented Sc2gears to shut down correctly on non-windows operating systems.
+
+-[b]Plugin API 3.0: backward incompatible changes![/b]
+Plugins below version 3.0 are now considered incompatible (and denied running by default!).
+Existing plugins that do not use the changed interfaces can simply change the Plugin API version in their plugin descriptor to make it compatible with the new Sc2gears and plugin API.
+Incompatible API changes:
+	* IProfile changed to reflect the info available on the new Battle.net profile pages, some unavailable info has been removed.
+	* Removed from IBaseUseAbilityAction: isTargetUnit(), getTargetP1(), getTargetP2()
+	* Removed from IMoveScreenAction: isZooming(), isRotating()
+	* ISelectAction.getUnitsOfTypeCounts() now returns a short[] instead of byte[]!
+API changes:
+    * Many classes have been extended to provide interface to new data available from the new Battle.net profile pages, and new data provided by the new replay parser engine (the interface internal versions are properly labeled as "3.0").
+
+-Other minor changes, fixes and improvements.
+
+[b]Those who use the Sc2gears Database it is recommended to re-upload all your 1.5 replays.[/b]
+Just list all your replays, select the ones with version 1.5 (should be at the top), right click and choose store replays.
+
+
+[hr]
+
+[big][b]Sc2gears 11.1: Improved Video Streaming Server[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh3.googleusercontent.com/-gEwsyaSTF14/UBZ5RwUBMaI/AAAAAAAArPc/oTC97n04Mpg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 11.1:[/b]
+--------------------------------------------------------
+
+-Private Video Streaming improvements:
+
+[b]Streaming server improvements:[/b]
+  * [b]New streaming parameter: Screen capture method[/b]
+    There is a "Standard (Java)" method which was in the previous (1.0) version. This works on all operating systems. This method has been slightly improved compared to the previous version (like +10% higher reachable FPS).
+    On Windows there is another method: "Windows Native". This is the default method on Windows, and this method gives 10..30% higher reachable FPS value compared to the improved standard method. This method also [i]eliminates the mouse cursor blinking effect[/i] experienced in some cases using the standard method.
+  * New streaming statistics added: Average video size (per second), Frames transmitted.
+  * Statistics are now displayed in more user friendly units like Bytes, KB, MB, GB.
+  * Custom area components and custom resize components are now only enabled if applicable.
+
+[b]Client streaming web page improvements:[/b]
+  * On the client streaming web page the "Max Width" and "Max Height" zoom values are replaced with a single [b]"Full Window"[/b] value. If you select this zoom value, the video stream will automatically scale to fill your browser window while keeping the aspect ratio. If you resize your browser window or enter browser Full Screen (F11 key in most browsers), the video stream will automatically adjust to the new size.
+    [i]Tip: If you want to watch the video stream full screen, select "Full Window" zoom value and enter browser full screen mode (F11 key).[/i]
+  * Clicking on the video now scrolls the page so the top of the video will be at the top of the page.
+  * If someone tries to view your stream but with a wrong or missing password, a [b]password form will be presented[/b] where the user can enter the password.
+
+-Fixed a language bug which prevented the "Proxy configuration" dialog to appear (on the Internal tab of the Misc settings dialog).
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 11.0: Integrated Private Video Streaming server[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-SPJM-yqv1OE/UA_kBHDwqBI/AAAAAAAArO8/_8J3Q1X4S7w/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 11.0:[/b]
+--------------------------------------------------------
+
+-[b]Integrated Private Video Streaming Server.[/b]
+There is a new tool in the Tools menu: [b]Private Video Streaming[/b]. This opens the Private Video Streaming window where you can start your own private video stream with 1 click!
+The private streaming does not require registration to any server, and it does not require clients to download and install any software (not even Sc2gears).
+When Private streaming is started, your computer will broadcast the stream to all clients. I've implemented a specialized HTTP server for this purpose. Clients can view the video stream from any browser. The client interface (which is a web page) does not require any plugins (not even Flash plugin), which means clients can start viewing the stream from ANY platform, even from [b]CELL PHONES[/b]!
+On the Private Video Streaming window you can customize the video stream. You can give a name and a description which will appear on the streaming web page. You can set a password to protect your stream from those who know you stream but you don't want them to give access. You can stream your full screen or just a custom area. As the output you can stream with the original size or you can resize it to the size of your choice (either keeping the aspect ratio or distorted). You can specify the video refresh rate (FPS), and you can specify the server port to stream on. And finally you can specify the video image quality from very low quality to maximum (where you will see no difference from the original picture). This image quality has great impact on the video size (outgoing bandwidth).
+The Private Video Streaming window also calculates and shows you streaming statistics while streaming. These include streaming time, frames captured, average refresh rate, average frame size, total frame size and total outgoing bandwidth.
+On the client web page you can pause/resume playing and zoom the video stream. The client web page listens to the video stream parameters and automatically reloads if stream parameters are changed.
+The stream is video only, no sound is broadcasted.
+More about the Private Video Streaming: [url=https://sites.google.com/site/sc2gears/features/private-video-streaming]Sc2gears Private Video Streaming[/url]
+
+-[b]Status indicators at the bottom of the navigation bar.[/b]
+3 status indicators have been added to the navigation bar. These indicate if a game is started in StarCraft II, a mouse print is being recorded or private video streaming is on.
+This SC2 game status indicator and the game start and game end voice alerts now work even if APM Alert is not enabled (but still only on Windows).
+The Mouse print recorder and Private Video Streaming indicators are links which when clicked open the Mouse print recorder or Private Video Streaming windows.
+
+-A new help icon on the Main Building Control chart which takes you right to the [url=https://sites.google.com/site/sc2gears/features/replay-analyzer/main-building-control-chart]Main Building Control Chart[/url] help page.
+
+-Added a "View Glossary" menu item to the Help menu pointing to the [url=https://sites.google.com/site/sc2gears/glossary]Glossary[/url] page.
+
+-The replay info panel of the "Share replays" dialog now displays a scroll bar if the window is too small to display all of its content.
+This change fixes rendering issues on computers with low screen resolution (the initial height of the window is bigger than 800 pixel!). 
+
+-Plugin API implementation change:
+Previously GameStatusListeners registered at the CallbackApi were only called if APM Alert was enabled. This is no longer the case, APM alert does not need to be enabled in order to detect game status changes.
+
+-Other minor changes, fixes and optimization.
+
+
+[hr]
+
+[big][b]Sc2gears 10.6: 1.4.4 version support and small changes[/b][/big]
+
+[b]Changes and new features in 10.6:[/b]
+--------------------------------------------------------
+
+-1.4.4 replays are now supported.
+
+-Restructured some tabs in the Multi-replay analysis to avoid confusion/misinterpretation.
+The Maps, Build orders, Chats tab which show global statistics for all players/replays are now put under a "Global Stats" tab indicating that these stats are not your or a specific player's stats.
+
+-The manual replay renaming now skips replays whose new name equals to the old one (and therefore will not wrongly append something like [i]" (2)"[/i]).
+
+-The Game info tab of the Replay analyzer now displays the ladder season for AutoMM (ladder) games.
+This info has also been added to output of the "print-game-info" action of the [url=https://sites.google.com/site/sc2gears/features/command-line-interface]Command Line Interface[/url].
+
+-Slightly changed the order of the chart types in the Replay analyzer due to shifted importance...
+
+-Added some new (not-yet-included) icons (for name template symbols and actions).
+
+-The Coreplays.net replay site has been shut down and therefore removed from the replay sharing dialog.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 10.5: Main building control chart for Protoss, Polish translation, Plugin API 2.9[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh5.googleusercontent.com/--LSeqmsSgh8/T9rXFkzUSiI/AAAAAAAApVg/lu5c_gj7W4I/s730/main_building_control_2.png[/img][/url]
+
+[b]Changes and new features in 10.5:[/b]
+--------------------------------------------------------
+
+-[b]Main building control chart for Protoss: Chrono Boost usage[/b]
+The Main building control chart is now implemented for Protoss, and it visualizes the Chrono Boost usage.
+Each Chrono Boosted building has its own row similar to the Zerg injection graph (where each Hatchery has its row visualizing the injections).
+The Chrono Boosts are displayed as bars filled with transparent colors, because Chrono Boosts can be "overlapped" (unlike the Spawn Larva). Where 2 or more Chrono Boosts overlap because the player Chrono Boosted a building again before the previous one would have ended, you will see the bar with stronger color indicating the overlap ("waste").
+
+-[b]Complete Polish translation by Marcin "Smuf" Stępniak (for version 10.4).[/b]
+
+-Some drop down lists on the Filters tab of the Replay analyzer now display all possible values.
+Previously they were displayed in a scrollable list, but many did not realize it is a scrollable list and believed items were missing (Ladder season filter is a good example).
+
+-Plugin API 2.9:
+ *A plugin can now have internal frames as its GUI (similar to the Replay analyzer, Replay search and Multi-replay analysis). These can be created with the CallbackApi.createAndAddInternalFrame() method.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 10.4: APM redundancy distribution chart[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-W0Zr8U58AbM/T7swv_xFogI/AAAAAAAAoVw/qVnSsFpELzk/s730/apm_red_dist_chart.png[/img][/url]
+
+[b]Changes and new features in 10.4:[/b]
+--------------------------------------------------------
+
+-[b]New chart in the Replay analyzer: APM redundancy distribution[/b]
+This chart is similar to the Action distribution, but this one visualizes the distribution of the ineffective actions. Very useful for those who want to reduce their redundancy.
+This chart visualizes APM redundancy distribution up to the selected action, therefore you can also use this chart to tell from each action whether they are ineffective. To do this: uncheck "Show percent", then click on the preceding action, then "step" to the action in question. If the ineffective action count changes, then that action is (or some other actions if there are more in the same frame) is ineffective!
+Like any other chart, you can group players by teams, show all on one chart, and you can animate the chart to see how the redundancy distribution changes over time.
+
+-Added icons to other action types in the action list of the Replay analyzer (like Select, Hotkey, Right click etc.).
+
+-[b]A new replay site has implemented the [url=https://sites.google.com/site/sc2gears/features/replay-sharing]replay upload specification[/url] and is available for replay sharing: ggtracker.com[/b]
+
+-[b]Complete Italian translation by Paolo Baesso (for version 10.3).[/b]
+
+-Injection count has been added to the player description and to each individual Hatchery on the Main Building Control chart of the Replay Analyzer.
+
+-"Failed to store file!" recording is now included in the Smix and Smix Korean voices too.
+
+-Observer build time has been decreased to 30 sec (in-game) to reflect recent balance changes.
+
+-Plugin API 2.8:
+*New method: LadderSeason.getByDate() which now takes the gateway along with the date for which to return the proper ladder season.
+*Removed the deprecated NewReplayListener interface, CallbackApi.addNewReplayListener() and CallbackApi.removeNewReplayListener() methods. (NewReplayListener was replaced by ReplayAutosaveListener in version 2.7.)
+
+-Other minor fixes, changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 10.3: Better season integration[/b][/big]
+
+[b]Changes and new features in 10.3:[/b]
+--------------------------------------------------------
+
+-[b]Ladder season is now better integrated and handled properly.[/b]
+Seasons start slightly at different times on different servers, these offsets are now implemented.
+On the Filters tab of the Replay search, there is now a new line: "Ladder Season".
+There is a new name template symbol to insert the ladder season number: /s (very useful if you want to organize your replays into separate folders based on ladder season).
+
+-Season 7 start date has been added.
+
+-If replay auto-store is enabled and Sc2gears fails to auto-store a replay, a "Failed to store file!" voice is played.
+
+-Sc2gears Database server address has been updated to use the new URL ([url=https://sciigears.appspot.com]https://sciigears.appspot.com[/url]).
+
+-Fixed an error in the Sc2gears Database downloader tool which prevented to download files.
+
+
+[hr]
+
+[big][b]Sc2gears 10.2: Gaming Sessions, Improved name template editor, Refactored Misc settings dialog[/b][/big]
+
+[b]Changes and new features in 10.2:[/b]
+--------------------------------------------------------
+
+-[b]The Name template editor has been improved.[/b]
+On the template editor dialog there is a new field: [b]"Explained:"[/b]. This field explains the currently entered template, the symbols are expressed with words.
+While you edit the name template, the template is checked in real time and the Explained field is updated continuously.
+In case the template is invalid, the Explained field changes to red background and contains an explanation of what the problem is with the current template.
+The Check button has been removed because the Explained field is automatic and provides much more details. The Test and Preview buttons are still available to test/preview the name template on your last replay or on your selected replays.
+
+-[b]New name template symbol: /w[/b]
+This symbol inserts the comma separated list of the winners.
+
+-[b]The Analyzer tab of the Misc settings dialog has been decomposed into 3 tabs: Replay parser, Replay analyzer, Multi-rep analysis.[/b]
+The Analyzer tab contained too many settings, the list even grew in this version.
+Also some settings were moved from the Internal tab to the Replay parser tab (replay cache and MD5 hash name setting) and to the Replay analyzer tab (profile info validity time).
+With these 3 new categories it will be easier to tell where the proper settings are located and what they have influence on.
+
+-[b]A new tab in the Multi-rep analysis: Gaming Sessions[/b]
+A Gaming Session is a sequence of games where the time break between games is not greater than a specified limit.
+This tab analyzes your gaming sessions, and calculates statistics for the games based on their position in the gaming sessions.
+For example you will see all the stats for each of your first games when you sat down to play, for your 2nd games, for your 3rd games etc.
+The first column is [i]"Game # in session"[/i] tells the position of games in the sessions (e.g. 1st games of sessions, 2nd games of sessions etc.). The second column is [i]"Sessions ending here"[/i] is the number of sessions with this length.
+With this you can analyze things like how well you perform in your first games - if your win rate is low, you might need some warm up before you play serious. Or if your win rate decreases after the 10th game of your sessions, that suggests that you should take a break/rest after playing 10 games.
+The max time break between gaming sessions is 60 minutes by default. You can change this on the Multi-rep analysis tab of the Misc settings dialog: [i]"Max gaming session break in Multi-rep analysis"[/i].
+
+-[b]A new button on the "My shared replays" dialog: Store list[/b]
+With this you can backup your shared replay list in the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url], you will find it under the "Other files" tab.
+If you store the list multiple times while it is not changed, it will only be stored once.
+If the list grew with new shared replays, it will appear as a new file under the "Other files" tab in the Sc2gears Database.
+
+-[b]A new replay site has implemented the [url=https://sites.google.com/site/sc2gears/features/replay-sharing]replay upload specification[/url] and is available for replay sharing: StarcraftTools.net[/b]
+
+-[b]Improved replay parser: replays where game was saved are now parsed properly.[/b]
+Saving a game appears in the replay which caused the replay parser to fail. This is now handled, replay save appears in the action list as a new action ("Save game") with the file name the game was saved to. This is an inaction, you only see these if you check the Inaction action type.
+
+-Renamed some abilities: "Activate/Deactivate ..." => "Toggle ...".
+
+-Fixed a typo (Zerg Research "Ventral Sacks" => "Ventral Sacs").
+
+-Plugin API 2.7.2
+Updated to the new constants, ISaveGameAction interface has been added.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 10.0: Improved charts, Full player name search, Enhanced Sc2gears Database integration[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh6.googleusercontent.com/-q3aN-quBlDI/T13zAjPKIgI/AAAAAAAAjBs/Ksp6BVvdkdg/s730/rs_non_cumulative_chart.png[/img][/url]
+
+[b]Changes and new features in 10.0:[/b]
+--------------------------------------------------------
+
+-[b]Improved Resources spent chart and Produced Army/Supply chart[/b]
+These 2 charts have been improved with the option to show spent resources and produced army/supply [i]non-cumulative[/i].
+2 new options have been added to both of these charts: [i]"Cumulative"[/i] and [i]"Granularity"[/i]. If cumulative is not checked, values will be calculated for periods specified by the granularity, and these values will be displayed as horizontal lines.
+
+-[b]Added a new replay search field: "Full player name"[/b]
+You can use this search field to find exact players (full name can be acquired by right clicking on a player name in the Replay analyzer, and choose "Copy full name...").
+You can list multiple full names separated with commas, and then only replays containing all listed players will be included in the results.
+There is also a check box for this field: "Include aliases". If the entered players are part of alias groups (defined on the Aliases tab of the Misc settings dialog), all occurrences of the aliases will be accepted.
+This search field is a predefined list which means you can edit the list, so you can add frequently used values, and you can select them from the drop-down list. To edit the list, simply open the drop down, and click on the "Edit list" link at the bottom. Or go to the Predefined lists tab on the Misc settings dialog.
+
+-[b]A new "Other Files" tab on the [url=https://sciigears.appspot.com/User.html]Sc2gears Database User page[/url][/b]
+You can manage your other files on this tab like your stored Sc2gears settings, replay lists and replay sources.
+Space used by your other files counts toward your Sc2gears Database storage quota.
+
+-[b]The Misc settings dialog now has a new button: "OK and Store settings"[/b]
+This button will store your settings file (settings.xml) in the Sc2gears Database. Be assured your settings are safe in case you'd lose or accidentally overwrite your settings.
+This is especially useful if you maintain huge lists of map and player aliases and your own predefined lists.
+You'll find your stored settings on the "Other Files" tab on the [url=https://sciigears.appspot.com/User.html]Sc2gears Database User page[/url].
+You can store multiple versions of your settings file, it is not overwritten if you store a new version.
+
+-[b]A new menu item if you right click on replay sources and replay lists in the navigation bar: "Store item"[/b]
+You can store replay sources and replay lists in the sc2gears Database if you select this.
+You'll find these files on the "Other Files" tab on the [url=https://sciigears.appspot.com/User.html]Sc2gears Database User page[/url].
+
+-The "Sc2gears Database downloader" tool now supports downloading files of "Other" type.
+
+-New portrait images have been added.
+
+-Added icons to the main menus.
+
+-Shortcuts of the chart types (Ctrl+number) are now displayed in the name of the chart in the combo box.
+
+-Redesigned the About dialog.
+
+-New ability codes have been added (which previously were displayed as "Use ability" in the action list).
+
+-Fixed a typo (Zerg Research "Metalic Boost" => "Metabolic Boost").
+
+-Used and allocated memory are now always displayed in the memory bar (at the bottom of the navigation bar).
+
+-File size is added to the Info tab of the Mouse print recorder, also other numbers are now formatted nicely.
+
+-Many improvements made to the Updater (you will see this when it is launched for the release after this).
+The Updater log is now also saved in the "User Content/Logs" folder.
+
+-Plugin API 2.7.1
+Constants and enumerations have been updated to contain new values.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 9.2: Resource Spending Rate (RSR) chart, Action sequences chart, 1.4.3 Patch implementation[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-7n1OQ7dLLs0/T0ZGGw2qULI/AAAAAAAAiPU/FYi1Jyw_jc4/s730/action_sequences_chart.png[/img][/url]
+
+[b]Changes and new features in 9.2:[/b]
+--------------------------------------------------------
+
+-[b]Patch 1.4.3 changes have been implemented.[/b]
+
+-[b]New chart: Resource Spending Rate (RSR)[/b]
+This chart is similar to the APM chart, but this one visualizes the resource spending rate (RSR) of the players.
+You can choose the granularity and the graph approximation. 2 separate graphs are drawn for each player: Mineral RSR and Gas RSR.
+The displayed RSR values are per minute values (e.g. actual mineral or gas spending averaged to 1 minute).
+Like any other chart, it can be zoomed, grouped by teams, or show everyone on one chart for easy comparison.
+
+-[b]New chart: Action Sequences[/b]
+This chart measures and visualizes how fast players execute different action sequences (common, repeatable tasks like attack or move with multiple hotkeyed groups). It is measured in pairs/sec (action pairs in one second).
+[i]Action sequences[/i] are subsequent select+command pairs without being interrupted by other commands or by a specific time break, and consists of at least 2 select+command pairs. For example: select+move+select+move+..., another: hotkey select+attack+hotkey select+attack+...
+These sequences are presented as bars, where the width of the bar is the duration of the sequence, the height of the bar is the average execution speed of the sequence in pairs/sec.
+The max allowed frame delay in sequences is a parameter and can be changed. Hotkey sequences are drawn with brighter color.
+The chart headers include info about sequences count, pairs count and average execution speed in Pairs/sec.
+Like any other chart, it can be zoomed, grouped by teams, show everyone on one chart.
+
+-On the APM chart if the last chart segment is smaller than the other ones, its APM value is now properly calculated taking this (its smaller size) into account.
+This may result in proper, higher end-game (meaning the last chart segment) APM values.
+
+-If charts are zoomed in the Replay analyzer, the text displaying the marker time is now always visible at fixed position at the top right corner (even if you don't scroll to the end of the chart).
+
+-New line strings ("<n/>") in map attributes (Map preview tab in the Replay analyzer) are now handled properly (replaced by new line characters).
+
+
+[hr]
+
+[big][b]Sc2gears 9.0: Parsing Service[/b][/big]
+
+[b]Changes and new features in 9.0:[/b]
+--------------------------------------------------------
+
+-[b]A new Parsing Service has been launched today.[/b]
+The Parsing Service is a service of the Sc2gears Database where you can post a replay to a URL, and you can get back all kinds of information about the replay.
+Or you can post the name of a StarCraft II map file, and you can get back basic info about the map and the map preview image.
+More: [url=https://sites.google.com/site/sc2gears/parsing-service]Sc2gears Database Parsing Service[/url]
+
+-[b]Added support for newer map formats.[/b]
+Map preview image was not displayed for some maps, this is fixed now.
+
+-The "Open replay's folder" file operation menu on Windows now not only opens the replay's folder, but after opening the folder also selects the replay file.
+
+-The "/Mx" name template symbol (which is the first x words of the map name) now skips the first word if it's "The" or "A".
+
+-A progress dialog is displayed while diagnostic tests are running.
+
+-[b]A new menu item in the Window menu: Restore last window position on startup[/b]
+If this is enabled (it is by default), Sc2gears will remember and restore the last window position and size on the next startup.
+Keep in mind that if "Start maximized" is enabled, Sc2gears will still start maximized.
+If "Start minimized to tray" is enabled, window position and size will still be saved and remembered.
+
+-Added Season 6 start date (assumed to be February 14).
+
+
+[hr]
+
+[big][b]Sc2gears 8.9: Map attributes, Plugin API 2.7[/b][/big]
+
+[b]Changes and new features in 8.9:[/b]
+--------------------------------------------------------
+
+-[b]Map attributes are now parsed and displayed on the Map preview tab in the Replay analyzer.[/b]
+Map attributes include Map name, Author, short and long description. You can choose to display map attributes from all the available languages/locales.
+
+-If a replay cannot be parsed fully due to errors, a [b]"Parsing error!"[/b] text is displayed above the action list in the Replay analyzer.
+
+-[b]Plugin API 2.7. Changes and additions:[/b]
+ * NewReplayListener is replaced by ReplayAutosaveListener (the new one also passes the auto-saved replay file; the old one has been deprecated).
+ * New enum value: ReplayFactoryApi.ReplayContent.MAP_ATTRIBUTES
+ * Several new methods in IMapInfo to access map attributes of a replay.
+ * New methods in InfoApi to get player alias and map alias info.
+ * New method in IReplay to get the origin of the replay (where/how the replay was assembled).
+ * New method: IGameEvents.isErrorParsing() which tells if there were errors parsing the game events.
+
+
+[hr]
+
+[big][b]Sc2gears 8.8: Spawn Larva development chart, Action distribution chart, Plugin API 2.6[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-d5keFQ2wK9I/TuhyhnzNRwI/AAAAAAAAhZQ/1K_xuk2DHYY/s730/spawn_larva_development.png[/img][/url]
+
+[b]Changes and new features in 8.8:[/b]
+--------------------------------------------------------
+
+-[b]New development chart in the Multi-rep analysis: Spawn Larva development[/b]
+This new development chart shows your weighted average spawning ratio and weighted average injection gap calculated from all selected replays.
+
+-[b]A new chart type in the Replay analyzer: Action distribution[/b]
+This chart visualizes the action distribution of players up until the selected action, or if no action is selected (by default) for the whole game.
+The following action categories are used: Select, Hotkey, Train, Build, Research, Upgrade, Right click, Stop, Hold position, Move, Patrol, Attack, Set rally point, Cancel, Other
+
+-The marker time is displayed at the top right corner of the charts in the Replay analyzer.
+
+-Plugin API 2.6:
+ * New methods in IPlayer to get info regarding to average spawning ratio and average injection gap 
+ * Added the Format.CUSTOM enumeration value introduced in Sc2gears version 8.7
+ * New method: IconsApi.getCustomEnlargedIcon()
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 8.7: Icon bar, Improved Replay cache,  Override format based on match-up, Custom game format[/b][/big]
+
+[b]Changes and new features in 8.7:[/b]
+--------------------------------------------------------
+
+-[b]A new "icon bar"[/b] in the public comments tab of the Replay analyzer which allows you to insert special symbols (like emotions, arrows etc.) into your comments.
+
+-[b]New setting on the Analyzer tab of the Misc settings dialog: Override detected game format based on match-up[/b]
+If you play a non-ladder game, StarCraft II records a game format based on the map size. This is not what you want to see or be included in statistics.
+For example if you play a 1v1 game on a 2v2 map, SC II records it as a 2v2 game.
+If this new setting is enabled (it is by default), Sc2gears will "guess" the proper game format based on the match-up: if you play a 1v1 game on a 2v2 map, it will show you it as an 1v1 game.
+
+-[b]A new "Custom" game format[/b]
+Game format will be set to "Custom" for games with unbalanced team sizes, for example "2v3".
+
+-[b]Improved Replay cache[/b]
+The internal replay cache has been redesigned which results in 20% faster replay parsing/searching, lower memory usage and less disk space used by the cache. Also emptying the replay cache became instant.
+The new implementation provides the same speed from disk (without having to load it into memory).
+
+-The "Private data" tab in the Replay analyzer now displays the max and remaining allowed comment length.
+
+-EaSynthLookAndFeel has been removed due to having several bugs.
+
+[hr]
+
+[big][b]Sc2gears 8.6: Public replay commenting, Deferred tab content building, Private replay data and more...[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-DWcwn6dn3Ds/TsDBglspczI/AAAAAAAAg0c/v9qRlwMyUJE/s730/public_comments.png[/img][/url]
+
+[b]Changes and new features in 8.6:[/b]
+--------------------------------------------------------
+
+-[b]A new tab in the Replay analyzer: Public comments[/b]
+On this tab you can rate the replay and post public comments.
+Although the title says [i]"Public comments"[/i], the posts can only be seen by those who have the replay. This means that the [b]replay is the "password"[/b] to these comments: if you have the replay, you can see the comments, if you don't have the replay, you can't see the comments. You can use this to post private comments on your own replays, but keep in mind that if someone acquires the replay, he/she will be able to read the posts.
+Comments and rating are not mandatory: you can comment and rate, you can rate only, or you can comment only.
+Replays are neither sent nor stored on the server.
+Replays saved by different players from the same game are considered as different replays (they don't share comments and rating).
+More about this feature: [url=https://sites.google.com/site/sc2gears/public-replay-commenting]Public replay commenting[/url]
+
+-[b]A new tab in the Replay analyzer: Private data[/b]
+On this tab you can view and edit custom data stored for the replay in the Sc2gears Database.
+You can set the labels of the replay and you can view/edit the comment for the replay.
+These data can be viewed/edited also on the web interface, but now you can do it directly in Sc2gears too.
+
+-[b]Deferred tab building optimization[/b]
+The contents of different tabs in the Replay analyzer and in the Multi-rep analysis are now only constructed if the tabs are selected. Thanks to this Sc2gears now uses significantly less memory and operates faster.
+
+-1.4.2 Patch changes have been implemented.
+
+-Added [b]Brazilian Portuguese[/b] translation by Luis Castro.
+
+-Updated the portrait images to the new system.
+
+-Plugin API 2.5.2:
+ * SettingsTab enumeration now contains the MOUSE_GAME_RULES value.
+ * Fixed a bug where incorrect numbers were returned by IPlayer.getEffectiveActionsCount() and IPlayer.getExcludedEffectiveActionsCount()
+
+-Other minor changes, improvements and bug fixes.
+
+
+[hr]
+
+[big][b]Sc2gears 8.4: Improved Mouse practice game with custom rules, Improved CLI[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-HSuLgI6hGkw/Tqf70bLDZvI/AAAAAAAAgyc/Tpuk2VETPCw/s730/mouse_game_custom_rules.png[/img][/url]
+
+[b]Changes and new features in 8.4:[/b]
+--------------------------------------------------------
+
+-[b]Improved Mouse practice game[/b]
+There is a new [i]"Enable custom rules"[/i] check box. If you enable this, you can play the game by custom rules you're free to change as you like. You can change the game rules on the [b]Mouse game rules[/b] tab of the misc settings dialog. All kinds of things can be changed, and you can even put a cross at the center of discs and a circle around them showing their maximum size.
+There is a new [i]"Color blind"[/i] check box which if enabled will cause Red discs not to be filled (just the outline will be drawn). This helps color blinds to easily differentiate red and green discs.
+When a game is in progress, the Start button changes to a Stop button which if pressed ends the game immediately.
+I've created a page which describes the custom game rules: [url=https://sites.google.com/site/sc2gears/features/mouse-practice-game]Mouse practice game[/url]
+
+-[b]The Print game info action of the Command line interface now supports XML output format.[/b]
+This new XML format is great for those who use the command line interface as their internal parser, but they don't want to break their code when new info is added to the output.
+If the XML output is used, the code that interprets the XML document will work without modification when new tags or attributes are added to the XML document.
+The XML output also contains more details, and the contained info is broken down into pieces (in the form of tag attributes).
+[i]The XML output is the recommended way if the output is processed by a program and not a human.[/i]
+
+-[b]Added a new replay sharing site: [url=http://www.statcraft.net]www.StatCraft.net[/url][/b]
+You can upload replays to StatCraft, but the site does not allow anonymous upload.
+
+-Fixed a bug which caused sharing a single replay to fail.
+
+-Improvements in the Replay parser engine to correctly detect player teams (and other info) in custom games where slots are left open.
+
+
+[hr]
+
+[big][b]Sc2gears 8.3: Batch uploading and sharing, Win-Loss coloring, Record order to support map vetoing[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh6.googleusercontent.com/-UHNRSxfPGAg/Tp1lrWOn-1I/AAAAAAAAgws/UagKVd7a9t4/s730/replay_list_color_win-loss.png[/img][/url]
+
+[b]Changes and new features in 8.3:[/b]
+--------------------------------------------------------
+
+-[b]The replay sharing feature now supports batch uploads: you can select multiple replays and share all at once![/b]
+When you open the Replay share dialog with multiple replays selected, you can upload all selected replays one-by-one, providing different description for each, or you can choose the "Upload all remaining" button which will upload all selected replays one by one automatically.
+
+-[b]New option in the replay list table: Color Win-Loss[/b]
+If this is checked, the rows in the replay list table will be colored based on the match result: wins will be colored green, losses will be colored red.
+Every replay has winners and losers, [i]the favored player list is the reference[/i]: the players from the favored player list are checked for win-loss.
+
+-[b]Record columns in the Multi-replay analysis now sort by (wins-losses) (the difference).[/b]
+This logic takes the number of played games into consideration contrary to the Win % column.
+You can use the result order to decide which maps to veto down for example. Worst maps (that cause you more loss points) will be at the end of the list (or if you click again to reverse the order: at the top of the list).
+[i]Example:[/i] a record of 4-36-0 (win rate = 11%) will be after a record of 1-10-0 (win rate = 10%) reflecting that a map of 4-36 record gives you more lost points than a map with a record of 1-10.
+[i]Another example:[/i] a record of 10-100-0 will be after a record of 1-10-0 even though having the same 10% win rate reflecting that 10-100 record would give you a lot more lost points.
+
+-New setting on the User interface tab of the Misc settings dialog: "Display info balloon when started minimized"
+You can disable the info balloon that says "Sc2gears has been started minimized." if you enabled Sc2gears to start minimized (in the Window menu) but you don't want this info message to pop up every time you start Sc2gears.
+
+-Fixed a bug where the navigation bar appeared on startup even when it was disabled.
+
+-Fixed a bug which caused some replays with too long chat messages fail to parse.
+
+-Other minor changes and improvements.
+
+[hr]
+
+[big][b]Sc2gears 8.2: EAPM integrated everywhere, Day and Hour records[/b][/big]
+
+[b]Changes and new features in 8.2:[/b]
+--------------------------------------------------------
+
+-[b]Day records and Hour records in the Multi-rep analysis[/b]
+The player details now shows Day records and Hour records. The day records shows your records for the days of the week, the hour records shows your records for the hours of the day.
+With this you can easily tell on which days and at which hours you perform the best (or worst).
+You can also visualize on which days and hours you play the most (or least) in word clouds.
+
+-[b]Now EAPM is everywhere in Sc2gears:[/b]
+ * Avg EAPM, Avg APM redundancy columns in the tables of the Multi-rep analysis
+ * EAPMs column in the Replay list table (Replay search) (click on the Column setup link to make it visible)
+ * /E name template symbol to insert the EAPM values of players (can also be used in the player block)
+ * Added EAPM to the APM development chart in the Multi-rep analysis
+ * EAPM is on the Game info tab (Replay analyzer) and in the Game info command line interface export
+ * EAPM is on the On-Top game info dialog
+
+-Plugin API 2.5:
+ * EapmUtilsApi: interface of the EAPM algorithm
+ * New methods in IPlayer to query the effective actions count.
+
+-The Mouse print recorder window changes window icon when a recording is in progress.
+
+-Added a Help icon to the APM chart which opens the [url=https://sites.google.com/site/sc2gears/features/replay-analyzer/apm-types]APM Types[/url] help page.
+
+-Fixed a bug in the Multi-rep analysis which prevented to open Player details when replays only from the same day were selected in some very rare cases.
+
+-The Start page randomly changes tip when you active it.
+
+-Other minor changes, improvements and bug fixes.
+
+
+[hr]
+
+[big][b]Sc2gears 8.1: EAPM, Multi CPU core search and analysis support, Translation updates[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-Ki6vR6goRsc/ToQZlfbOBCI/AAAAAAAAgt0/8zuB_Qbs6Mo/s730/apm_types.png[/img][/url]
+
+[b]Changes and new features in 8.1:[/b]
+--------------------------------------------------------
+
+-[b]Added multi CPU core replay search and analysis support.[/b]
+On the Internal tab of the Misc settings dialog, there's a new setting: "Utilized CPU cores (set 0 to use all)".
+You can set how many CPU cores you'd like Sc2gears to utilize when performing a replay search or a multi-rep analysis.
+Replay search and analysis are at least 1.5x faster when you enable more than 1 cores. 0 is the default value which means Sc2gears will use all cores that are available on your computer.
+
+-[b]Added EAPM support.[/b]
+EAPM stands for Effective APM. EAPM measures the amount of useful/effective commands that would be given by a player in 1 minute.
+The APM chart of the Replay analyzer can now display APM, EAPM and Micro/Macro APM graphs all on the same chart. You can show/hide EAPM and Micro/Macro APMs.
+Details of the EAPM algorithm: [url=https://sites.google.com/site/sc2gears/features/replay-analyzer/apm-types]APM Types[/url]
+You can run tests as to what actions are effective or considered micro if you enter the actions in the Build order import window (available from the File menu). Details about the build order import: [url=https://sites.google.com/site/sc2gears/features/build-order-import]Build order import[/url]
+
+-[b]New option for the Main building control chart: "Calculate until time marker"[/b]
+The larva injections are mostly important in the early-mid game, late game when you are nearly maxed they are somewhat less important.
+If "Calculate until time marker" check box is enabled, spawning ratios and injection gaps will be calculated only until the time marker (click anywhere on the chart to set/change the time marker).
+
+-[b]Complete Chinese and Chinese Traditional translations (for version 8.0) by Hao "digmouse" Wu.[/b]
+
+-[b]Complete German translation (for version 8.0) by Wolfram "Wisgurd" Püchert.[/b]
+
+
+[hr]
+
+[big][b]Sc2gears 8.0: 1.4 replay support, Built-in Translation tool[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh3.googleusercontent.com/-ZZerwVcZyPw/TnmK_yiacmI/AAAAAAAAgtY/g_mQHk2lC0o/s730/translation_tool.png[/img][/url]
+
+[b]Changes and new features in 8.0:[/b]
+--------------------------------------------------------
+
+-[b]1.4 replays are now supported.[/b]
+1.4 replay format changes have been implemented, 1.4 replays are now supported.
+The APM calculation in Sc2gears was not changed, it still shows your "real" APM (including all your actions - but excluding the beginning of the game). You can switch between using real-time or game-time for calculations in the Analyzer tab of the Misc settings dialog.
+
+-[b]A new menu item in the Tools menu: Translation tool[/b]
+Translating Sc2gears into other languages now just became a piece of cake.
+A new translation tool is now included in Sc2gears where you can create new translations or edit any existing translations.
+Translating Sc2gears is now as easy as filling a table... It's even easier as Sc2gears can sort or filter the texts, filter out already translated texts; Sc2gears shows you a preview of the original text and the translation. You can jump forward and backward between untranslated texts and it even shows you a progress bar indicating the completion status (how many texts you translated and how many more to go...).
+I encourage those who speak well other languages beside English to translate Sc2gears and send me the language file so I can include it in the next release.
+[i]The translation tool has another potential:[/i] You can use it to change a few texts you want to see differently. If you want a few texts to be displayed differently, create a new translation, change the texts you want to appear differently, and select that new Language. Text that you did not change/translated will appear as defined in the default English language.
+
+-Plugin API 2.4:
+ * New method in ITableBox to specify a custom row filter: setAdditionalRowFilter(), fireAdditionalRowFilterChanged()
+ * New methods in the GuiUtilsApi to open internal (in Sc2gears) browser dialogs: showBrowserDialog()
+ * Other minor additions.
+
+-Added "ChineseTraditional" language by "jojos".
+
+-Optimized the language files (for smaller size and faster processing).
+
+-Fixed a bug that all previous replay versions used 50 sec (in-game) Blink research time (instead of 110 sec).
+
+-Fixed a bug where Chitinous Plating research was not recognized in replay version 1.3.3 and after.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 7.7: Match-ups records by Maps, Mouse practice game, Network proxy setting[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh6.googleusercontent.com/-EAPk6cbcBMI/Tqf70UhBioI/AAAAAAAAgyc/mKRq0M3PU90/s730/mouse_practice_game.png[/img][/url]
+
+[b]Changes and new features in 7.7:[/b]
+--------------------------------------------------------
+
+-[b]By popular demand: Match-up records by Maps[/b]
+A new tab has been added to the player details in the Multi-rep analysis: "Match-ups by Maps".
+This tab contains 1v1 match-up records categorized by match-ups and maps at the same time. The map name and the match-up are in 2 separate columns which allows you to sort by both of them separately.
+
+-[b]New setting on the Internal tab of the Misc settings dialog: Enable Proxy configuration[/b]
+If you enable this, you can tell Sc2gears to access the internet through proxy servers.
+There is a "Proxy config" button here which opens a Proxy config dialog where you can set different proxy servers: HTTP proxy, HTTPS proxy, SOCKS proxy. You can also tell whether the Updater should use these proxy settings (or else use direct connection).
+[i]The proxy is useful[/i] if you use Sc2gears from a network which has internet access only through a proxy server.
+[b]Also this is the solution to the China problem:[/b] Servers that serve info for Sc2gears (latest version info, Start page content, custom portraits, Sc2gears Database etc.) are on Google servers which is blocked by the Chinese government. Setting a proxy will allow Sc2gears to access these servers from China. Since new versions (updates) are not served from Google servers, the "Also use Proxy when downloading updates" option can be disabled on the "Proxy config" dialog.
+
+-[b]A new game in the Tools menu: Mouse practice game[/b]
+This game tests your mouse speed and accuracy. Your goal is to click on the discs as they appear. Use the LEFT button for Green discs and the RIGHT button for Red discs. The closer you click to their center point the more points you get.
+The game counts your score and calculates your mouse accuracy. There is a built-in Top Score table which is stored on the Sc2gears Database server. Those who entered an Authorization key can submit their scores to the server.
+The Top Scores table is restricted to Sc2gears Database users (to prevent abuse).
+
+-New settings in the Internal tab of the Misc settings dialog: Max replays to open for "Open in analyzer" menu item
+Sc2gears will now open multiple replays in the Replay analyzer if you select multiple replays in the replays list table, right click and choose "Open in analyzer".
+This setting controls the maximum replays to be opened at once.
+
+-All links that opens a page in an external browser now have the same icon indicating that clicking on the link will open a browser.
+Also tool tip shows the URL of the page that will be opened.
+
+-Fixed a bug which in some cases caused incorrect player order (and team) in the replay names when applying a name template.
+It is advised to rename your replays if you used the player block in your template.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 7.6: Word Clouds, Game length records[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh3.googleusercontent.com/-T6bAiXX7Jiw/TldrIqCtezI/AAAAAAAAgq4/R4CEvvi6xhc/s730/word_cloud_maps.png[/img][/url]
+
+[b]Changes and new features in 7.6:[/b]
+--------------------------------------------------------
+
+-[b]Word Clouds[/b]
+Sc2gears now has a Word Cloud generator engine. This engine is bound to all the tables where a Word Cloud has a meaning.
+A Word Cloud is an image of input words arranged in a cloud formation where the words have different sizes based on their frequencies (or occurrences).
+A [i]"Word Cloud"[/i] link has been added to the top of most tables in the Multi-replay analysis. Clicking on these links will open a new window and generate a Word cloud from the input table. You can customize the generated Word Cloud directly from the opened window.
+You can visualize the players found in the analyzer replays, the maps, chat words (chat cloud), your playmates... everything. The Word cloud will clearly show who played the most games, on what maps you played the most, who did you play with the most etc.
+You can also display All leagues of a player in a Word Cloud: click on the "Word Cloud" link above the All leagues table in the Player profile dialog. The All leagues Word cloud visualizes all the leagues weighted by their division rank (higher rank is displayed in bigger size).
+
+-[b]A new tab in the Multi-replay analysis: Game lengths (player details)[/b]
+This tab will show the distribution of the game lengths of your games, and also statistics for each of them (including win ratio and APM).
+This will show you how many sort and long games you played, and also how well or bad you perform in them.
+You can set the game length granularity in the Analyzer tab of the Misc settings dialog. The default is 5 min, so your replays will be categorized into intervals like "0-5 min", "5-10 min", "10-15 min" etc.
+
+-[b]On-Top dialogs now can be locked![/b]
+You can lock the On-Top APM display and the On-Top Game info dialogs if you right click on them and you choose "Lock". Do the same to unlock them.
+If an On-Top dialog is locked, you can close it by right clicking on it and choosing "Close".
+
+-Plugin API 2.3:
+ * New methods in the GuiUtilsApi to create and show Word Cloud dialogs, and to add a "Word Cloud" link to tables.
+ * Other minor additions.
+
+-Small improvements made to the Updater.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 7.5: Improved Replay list table, Plugin API 2.2[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh5.googleusercontent.com/-4y3gRFKCACg/TkvWAvLjD6I/AAAAAAAAgaI/altt_y6PO5o/s730/replay_list_column_setup.png[/img][/url]
+
+[b]Changes and new features in 7.5:[/b]
+--------------------------------------------------------
+
+-[b]Improved Replay list table[/b]
+There is a [b]Column setup[/b] link above the table now where you can [b]rearrange and hide the columns permanently[/b] to your liking. Sc2gears will remember your order and preference when you close the replay search or restart Sc2gears.
+2 new columns have been added to the replays table (the Results tab of the Replay search): Format and Winners.
+You can still drag and reorder the columns with your mouse which will be applied only temporary.
+
+-[b]Plugin API 2.2[/b]
+Overview of the Plugin API 2.2 changes and additions:
+ * A powerful IHttpPost utility to work with HTTP POST requests, even to easily upload / download files from standard HTTP servers. Usage examples can be found on the javadoc page of IHttpPost.
+ * Base64 file encoding utility: GeneralUtilsApi.encodeFileBase64()
+ * Added a new synchronous downloader utility method: GeneralUtilsApi.downloadUrl() (to co-exist with the asynchronous getDownloader() method).
+ * Plugin-specific persistent file cache folder: PluginServices.getPluginFileCacheFolder()
+ * Other minor additions.
+
+-Added a new setting on the "Replay auto-save" tab: 'Play "Replay saved" voice when replays are saved'
+You can disable the "Replay saved" voice after games if you use the "The Sound of Victory" plugin and you don't want both sounds to be played.
+"Failed to save replay" will still be played if it fails to save a replay.
+
+-Fixed a bug in the Build Orders Table plugin which caused incorrect table sorting when clicking on the Time column.
+
+-Other minor changes, improvements and bug fixes.
+
+
+[hr]
+
+[big][b]Sc2gears 7.4: The Sound of Victory plugin, Plugin API 2.1[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh3.googleusercontent.com/-gtNTkcdDYRE/TkONx1Gc7kI/AAAAAAAAei8/hWNRN89W62E/s730/the_sound_of_victory_plugin.png[/img][/url]
+
+[b]Changes and new features in 7.4:[/b]
+--------------------------------------------------------
+
+-[b]A new "The Sound of Victory" plugin[/b]
+Do you miss your favorite sound to praise you when you win? Or do you miss something to cheer you up when you lose? Then this plugin is for You.
+This plugin plays an audio file after each of your games based on your match result (win or loss). You can choose your own Victory and Defeat audio files.
+Replay auto-save must be enabled for this plugin to work.
+
+-[b]Plugin API 2.1[/b]
+An overview of the Plugin API 2.1 changes and additions:
+ * A new [i]Configurable[/i] interface which if implemented will be called when the user clicks on the [i]"Configure plugin"[/i] button in the Plugin manager.
+ * Fixed a bug which caused an error when a plugin tried to set or get a setting through the SettingsApi.
+ * The SoundsApi now accepts data streams which do not support mark().
+ * Fixed many typos in the API documentation.
+ * Fixed some bugs in the API implementation.
+
+-Setting the APM Alert level to zero will disable APM alerts "Low APM" and "APM ok." (but will let the APM Alert monitor run).
+
+-Replaced the Win icon and added a Loss icon.
+
+-Winners and losers are now displayed in the On-Top Game info dialog.
+
+-League wins ("LW") are now displayed in the On-Top Game info dialog next to the APM.
+
+-Improved the replay parser engine (replays are now handled properly where the in-game chat parsing failed).
+
+-Other minor changes, bug fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 7.3: On-Top game info and Current APM[/b][/big]
+
+[b]Changes and new features in 7.3:[/b]
+--------------------------------------------------------
+
+-[b]On-Top Game info dialog (In-game info panel)[/b]
+This is an always on top dialog which shows the best leagues and the APM values of the players of your last game without having to ALT+TAB out or having to check them one-by-one.
+You can simply drag it with your mouse, Sc2gears will remember its position.
+This dialog is only visible if you use the [i]"Fullscreen (Windowed)"[/i] or the [i]"Windowed"[/i] display mode.
+This dialog automatically appears after all of your games if you enable [i]"Show On-Top Game info dialog for new replays"[/i] on the Replay autosave tab of the Misc settings dialog.
+You can show/hide the game info dialog of the last game from anywhere at any time (from StarCraft II during a game for example) with the [b]CTRL+ALT+I[/b] global hotkey (Global hotkeys must be enabled).
+Also there is a [i]"On-Top last game info"[/i] menu item for this in the Tools menu.
+
+-[b]On-Top APM display dialog (In-game current APM)[/b]
+This is an always on top dialog which shows your current APM while you're in a game.
+You can simply drag it with your mouse, Sc2gears will remember its position.
+This dialog is only visible if you use the [i]"Fullscreen (Windowed)"[/i] or the [i]"Windowed"[/i] display mode.
+This dialog automatically appears/disappears as you enter or leave a game if you enable [i]"Show/Hide On-Top APM display dialog on game start/end"[/i] on the APM Alert tab of the Misc settings dialog.
+You can turn on the APM display dialog with the [i]"On-Top APM display"[/i] menu item from the Tools menu.
+You can also show/hide the APM display dialog from anywhere at any time (from StarCraft II during a game for example) with the [b]CTRL+ALT+U[/b] global hotkey (Global hotkeys must be enabled).
+If APM alert is enabled and the current APM is less than the APM alert level, the current APM is drawn with red color.
+You can change the font size of the displayed APM with the + and - keys.
+The On-Top APM display only works on Windows.
+
+-The [b]Coreplays.net[/b] replay site has been added to Sc2gears and is available for replay sharing.
+
+-The [b]sc2bc.com[/b] replay site has been added to Sc2gears and is available for replay sharing.
+
+-[b]Corrected the APM algorithm that was used in the APM alert and now in the On-Top APM display.[/b]
+
+-Fixed a bug in the replay parser engine which caused opening a replay fail if the replay had multiple observers with the same name.
+
+-Fixed a bug in the profile module which caused to fail retrieving profiles with zero league games.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 7.2: Plugin API 2.0, Build Orders Table plugin[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh5.googleusercontent.com/-zXGa9a16ALg/TigWqs-e_9I/AAAAAAAAdMw/HM6EiVxf3TM/s730/build_orders_table.png.jpg[/img][/url]
+
+[b]Changes and new features in 7.2:[/b]
+--------------------------------------------------------
+
+-[b]Plugin API 2.0[/b]
+The Sc2gears Plugin API 2.0 allows to create more powerful plugins which better integrate into Sc2gears.
+The main addition is that plugins can now take advantage of Sc2gears' most advanced SC2Replay parser engine, and they can also access profile info.
+[i]Plugin API 2.0 gives deep insight into replays' structures, advanced info and the actions of the players.[/i] Also provides numerous utilities to parse and process StarCraft II replays.
+The javadoc (also available [b][url=http://sciigears.appspot.com/sc2gears-plugin-api/index.html]online[/url][/b]) contains invaluable information and many example code snipplets.
+An overview of the Plugin API 2.0 changes and addition:
+ * A new interface to access the Replay parser engine: ReplayFactoryApi
+ * A new interface to access profile info: ProfileApi
+ * A new interface to interact with the Mouse print recorder: MousePrintRecorderApi
+ * A new interface to access icons of different objects: IconsApi
+ * Methods to add/remove diagnostic test factories (in the CallbackApi) to be executed by the Diagnostic tool
+ * Methods to add/remove menu items to the new "Plugins" menu (in the CallbackApi)
+ * Several new methods in many API files (for example InfoApi, LanguageApi and GuiUtilsApi)
+
+-[b]A new Build Orders Table plugin (with source code).[/b]
+A demonstration plugin that adds a new [b]"Show Build Orders Table"[/b] replay operations menu item which opens the Build orders table of the selected replay in a dialog.
+Source code is available on the Sc2gears [url=https://sites.google.com/site/sc2gears/downloads]Downloads[/url] page inside the Sc2gears Plugin API archive.
+
+-The Plugin manager now handles incompatible plugins.
+A new check box has been added to the Plugin manager where you can allow/disallow running incompatible plugins.
+Plugins with version 1.x are now incompatible due to some structural changes, but they can be made compatible very easily (in 2 minutes).
+
+-A new menu: "Plugins"
+Plugins can add/register menu items under this "Plugins" menu to give you access to their functionality.
+
+-The replay operations popup menu now shows the number of selected replays.
+
+-The Season #3 start date has been modified to July 26.
+
+-Changed the Terran Infernal Pre-igniter research icon according to Blizzard's new icon.
+
+-Major refactoring (due to the Plugin API 2.0) and other minor changes, fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 7.0: Plugin interface, Chat word statistics, Profile info from Battle.net[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-fnr1ZHusAIo/TkONx_adJvI/AAAAAAAAei8/phpnqKFS4wU/s730/plugin_manager.png[/img][/url]
+
+[b]Changes and new features in 7.0:[/b]
+--------------------------------------------------------
+
+-[b]A new plugin interface![/b]
+Java Developers, fire up your IDEs! You can now write plugins and extensions for Sc2gears.
+More: [url=https://sites.google.com/site/sc2gears/features/plugin-interface]Plugin interface[/url]
+Forum: [url=https://groups.google.com/forum/#!forum/sc2gearsdev]Sc2gears developer forum[/url]
+
+-[b]New tool: Plugin manager[/b]
+The Plugin manager can be used to see what plugins you have installed, you can see details/properties of the plugins, and you can enable/disable them one by one or all with a click.
+
+-[i]A new "Check plugins" diagnostic task checks if all enabled plugins have been started successfully.[/i]
+
+-[b]New tab in the Multi-replay analysis: Chat words[/b]
+This tab shows a table of the chat words used by the player in the replays.
+The table shows the occurrence of the words, the number of replays they were used in, % of all replays they were used in, first and last dates they were used.
+This Chat statistics is calculated for all players in all replays, and also for each player separately.
+
+-[b]Profile info is now taken from the Battle.net instead of Sc2ranks.com.[/b]
+What does this mean?
+ * Must faster profile info access
+ * Less downtime (Battle.net servers are available most of the time)
+ * The retrieved profile info is [b]always up-to-date[/b] (not like in the case of sc2ranks.com where profile data may even be several weeks/months old)
+ * You don't have to register or add your account to see profile info (Sc2ranks only provided info about players being in their database)
+
+-[b]New setting: Auto retrieve extended profile info[/b]
+If this is checked, extended profile info is automatically retrieved along with the profile info.
+Extended profile info contains all leagues (all team info) of a player (not just the best leagues).
+The extended profile info is retrieved after base profile info is ready (and displayed), and it happens in the background.
+
+-Sc2gears is now aware of the Season #3 start date.
+
+-Updated the replay parser engine to be able to parse replays where lag hack was used.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 6.0.3: fixes the auto-update error[/b][/big]
+
+Details:
+
+-The auto-updater was not launched properly on some computers. It's fixed now.
+The error is caused by folder names that contain spaces. So if you have Sc2gears in such a folder (or inside of such a folder) that has spaces, here's how you can run the update properly:
+
+[b]Copy Sc2gears to a folder without spaces, for example "C:\Sc2gears". Start it, run the updater, after that you can copy it back.[/b]
+
+The new version will not have this error and will run the auto-update properly.
+
+
+[hr]
+
+[big][b]Sc2gears 6.0: Global hotkeys, Event based new replay detection[/b][/big]
+
+
+[b]Changes and new features in 6.0:[/b]
+--------------------------------------------------------
+
+-[b]Global hotkeys[/b]
+Global hotkeys can now be enabled from the Settings menu.
+With global hotkeys you can do the followings from SC2 (or from any other applications):
+   [b]CTRL+ALT+R[/b] enable/disable replay auto-save
+   [b]CTRL+ALT+A[/b] enable/disable APM alert
+   [b]CTRL+ALT+M[/b] start/stop mouse print recording
+   [b]CTRL+ALT+T[/b] bring Sc2gears to front
+You can find the global hotkey list on the Keyboard shortcuts dialog (in the Help menu).
+The global hotkeys are only available on Windows.
+
+-[b]A new setting on the Replay auto-save tab: "New replay detection method"[/b]
+You can choose a method for the Replay auto-saver how to detect new replays.
+The [i]"Polling"[/i] is the method that was used before: the auto-replay folders are periodically scanned for new replays.
+On Windows there is another method available: [i]"Event based"[/i]. This method does not scan periodically the auto-replay folders, it uses OS services to be notified when a new replay is saved therefore it uses no CPU resource. This is the default now.
+
+-New sounds when replay auto-save and APM alert is turned on/off or when mouse print recording is started/stopped with global hotkeys.
+
+-APM Alert has been re-written using native system calls which results in less CPU usage.
+
+-Map aliases did not work correctly. This is fixed now.
+
+
+[hr]
+
+[big][b]Sc2gears 5.6: "Instant" search and analysis![/b][/big]
+
+
+[b]Changes and new features in 5.6:[/b]
+--------------------------------------------------------
+
+[b]The internal replay cache management has been significantly improved.[/b]
+With 2 new additions, replay search and multi-replay analysis [b]take almost ZERO time[/b] even with thousands of replays!
+This applies to replays which are already cached - so the first search/analysis will run with approximately the same speed.
+
+-[b]In-memory replay cache management[/b]
+There is a setting on the Internal tab of the Misc settings dialog: "Use in-memory replay cache".
+If it is enabled (it is by default), Sc2gears will also manage the replay cache in-memory to speed up replay searches, multi-replay analysis and batch-renaming.
+
+-[b]A new name template symbol: /h[/b]
+This symbol inserts the MD5 hash of the replay. This might make your file names look a little uglier, but it will EXTREMELY speed up replay searches and multi-replay analysis.
+[b]It is recommended to rename all your current replays to add the MD5 hash to the name if you frequently use the search or the multi-rep analysis feature.[/b]
+To do that, list all your replays, and rename all with the template "/n  /h./e". This template simply adds the MD5 hash to the end of the current names.
+[b]Also add the /h symbol to your replay auto-save name template.[/b]
+
+-A new setting on the Internal tab of the Misc settings dialog: "Use MD5 hash from file name"
+You can tell Sc2gears whether to use the MD5 hash info if found in the file names.
+
+-Player aliases now have to be provided as full names: name-gateway-region-bnet_id, for example: "SCIIGears/EU/1/206154".
+[b]This is aided by a new player popup menu item: "Copy full name".[/b]
+This will allow you to specify your different accounts as aliases across all gateways even if they have the same name.
+
+-Removed the /P and /Q template symbols.
+
+-Code refactoring; other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 5.5: Table filter boxes, Improved replay search[/b][/big]
+
+[b]Changes and new features in 5.5:[/b]
+--------------------------------------------------------
+
+-[b]Table filter boxes[/b]
+ALL TABLES in Sc2gears (including Multi-replay analysis tables, Replay search tables) now have a quick table filter box.
+The filter box has 2 input fields: an include filter and an exclude filter. The include filter is to show only the rows that match the filter, the exclude filter is to hide rows that match the filter.
+This is a really easy way for you to find what you are looking for in big tables. You can enter any text into the filters, and only the rows that match the filters will remain visible. You can also use logical "OR" and "AND" between filter words, the default connection is "AND" if not specified. The filter is not case sensitive, you just have to type what you want to see.
+[i]This is a one-box type filter box:[/i] you enter the filter values of all columns into one field, and the filters are checked in all columns, so you can use this to filter by players, by races, by build orders, by maps, by leagues, by game type... by anything... at the same time.
+CTRL+F and CTRL+T hotkeys are bound to the include and exclude filter fields, so you can start filtering without having to click on the filter fields with your mouse.
+[i]The filtering happens in real time:[/i] the table is updated continuously as you type.
+You can also sort by any column and reorder columns while the table is filtered.
+
+-[b]Improved replay search[/b]
+Until now the player search field was only activated if player name(s) were entered.
+The player name is not required anymore. You can select/fill other fields in the player search field, and it will be applied properly.
+For example leave the player name field empty and you can search for replays where Terran won by choosing the "Terran" race and the "Win" match result. Or you can search for replays where a player had at least 300 APM by entering 300 to the Min APM field. These can also be combined of course.
+Also this can also be combined with the match-up filter. If you want to list replays where Terran won agaist Protoss, simply select the "Terran" race and the "Win" match result, and in the Race match-up filter enter "TvP".
+
+-A horizontal scroll bar is displayed under the players if the players do not fit into the screen.
+
+-Clicking on the portrait or the icons of the best leagues now opens the profile dialog (instead of enabling/disabling the player).
+
+-The recorder time zone is parsed and displayed on the Game info tab in the Replay analyzer.
+You can use this info to determine the local time of the player who recorded the replay.
+For example if the replay date says "8 AM", recorder time zone: +2.00 and you are in +4.00 time zone, then the recorder local time was 8-4+2 = 6 AM.
+
+-In some replays the gateway was not recognized, this is fixed now.
+
+-Other minor changes, fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 5.4: Player profile dialog, Custom portraits, Improved multi-rep analysis, Max table size in Profile tool tip[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh5.googleusercontent.com/-KDemoZcX1o8/TeS2XX_nlVI/AAAAAAAAbkc/IJiBiqyTSik/s730/player_profile_dialog.png.jpg[/img][/url]
+
+[b]Changes and new features in 5.4:[/b]
+--------------------------------------------------------
+
+-A new menu item in the player pop-up menu: [b]"Show profile info in pop-up"[/b]
+This will open a dialog window with the profile info of the player.
+Basically it shows the profile info that is already available in the tool tip of the players with some extras, but the league info is displayed in a table which can be scrolled if the list is too long, sorted, selected/copied, and the table always shows the full list.
+Clicking on the League column header for example will sort the table by Leagues regardless of the game type.
+This is also available in the players table of the Multi-replay analysis (Players and Playmates).
+
+-[b]Custom portraits[/b]
+By default your battle.net portrait is displayed as the portrait next to your name in the in the Replay analyzer and in the Player Profile dialog.
+For a small fee, [b]you can change your portrait picture to anything you like[/b], and everyone who opens a replay in Sc2gears with you in it will see the picture of your choice as your portrait.
+All you have to do is provide an image file in a size of 90x90 that you want to be your portrait. You can even set any battle.net portraits that you have not earned in StarCraft II! You can also set your own photo or even animated GIFs!
+This can be very useful especially for top players and progamers because their replays are downloaded and checked by thousands or tens of thousands of people.
+[i]Example:[/i] open the [url=http://sciigears.appspot.com/download/custom_portrait.SC2Replay]following replay[/url] in Sc2gears. You will see a custom animated GIF portrait next to the player [b]SCIIGears[/b].
+Read more about this feature: [url=https://sites.google.com/site/sc2gears/custom-portraits]Custom portraits[/url]
+
+-The Multi-replay analysis now distinguishes between different players having the same name.
+If multiple players are found with the same name, subsequent occurrences will be renamed by appending a counter, for example: "someName", "someName (#2)", "someName (#3)" etc.
+
+-New setting in the Analyzer tab of the Misc settings dialog: [b]Max table size in Profile tool tip[/b]
+If a player has too many leagues, it will be trimmed and a message will be appended indicating that there are more rows which can be viewed in the Player profile dialog.
+The best leagues of all types are always displayed in the tool tip.
+You can disable the profile tool tip if you set the max table size to 0.
+
+-The Napkin Look and Feel has been removed to reduced the download size of Sc2gears.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 5.3: Profile integration, 1.3.3 version support, Improved winner detection[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh3.googleusercontent.com/_jDMClHrENz8/TdTkAkkEVzI/AAAAAAAAbgE/jzgWOW9Gbto/s730/profile%20integration.png.jpg[/img][/url]
+
+[b]Changes and new features in 5.3:[/b]
+--------------------------------------------------------
+
+-[b]1.3.3 replays are now fully supported.[/b]
+Also improved the replay parser of the previous versions.
+
+-[b]Profile integration[/b]
+The replay analyzer now automatically downloads profile info from Sc2ranks.com, and displays the portrait and icons the best leagues for each ranked match-up.
+The profile info is downloaded asynchronously in the background. The replay analyzer is opened right away, and profile info will be displayed right when they are ready.
+If a player is a computer, a computer icon is displayed as the portrait and the difficulty level is displayed instead of the best leagues.
+If you move your mouse over a player's portrait or league icons, a tool tip text will list advanced profile info like achievement points and all ranked team info (without members).
+You can change and disable the profile info: on the Analyzer tab of the Misc settings dialog you can set how to show profile info: [i]"Portrait and Leagues"[/i], [i]"Leagues only"[/i], [i]"None"[/i].
+A Profile cache is managed automatically by Sc2gears to minimize the Profile info queries. You can set the profile info validity time on the Internal tab of the Misc settings dialog.
+If your profile is not in the Sc2ranks.com database, you will see [i]"NA"[/i] icons instead of your profile data. To display your profile info, add yourself to the Sc2ranks.com database.
+
+-[b]Winner detection has been improved! Match results, records and win ratio values are now more accurate![/b]
+Most of the unknown results should be gone now.
+
+-Fixed a bug which caused incorrect overlay map view if the main chart was zoomed.
+
+-Fixed a bug which caused an error when Hot areas or Camera areas was selected as the background in the Map view chart.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 5.2: Overlay charts, Main building control chart, automatic Leet translation, partial 1.3.3 replay support[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh5.googleusercontent.com/_jDMClHrENz8/TcFsZ4B4aaI/AAAAAAAAbdc/2baRa_5sGdQ/s730/main_building_control_overlay.png.jpg[/img][/url]
+
+[b]Changes and new features in 5.2:[/b]
+--------------------------------------------------------
+
+-[b]Overlay charts![/b]
+Some charts are cool to have, but they are not too informative if you look at them alone. They would be much more useful if we could look at them with other charts at the same time...
+This is now possible. There is an [b]"Overlay charts"[/b] link above the chart (referred to as [i]main chart[/i] from now on) where you can enable any of the available charts to display in pop-ups on top of the Replay analyzer.
+Overlay charts are synchronized to the main chart, they can be resized, moved, closed, maximized, and they are always on top. Overlay charts are displayed in child dialogs of the Replay analyzer, so all opened replays can have their own and different overlay charts.
+If you animate the replay, all charts (main and overlay) will animate properly synchronized to the main chart.
+A quick way to fast open/close overlay charts is to press CTRL+SHIFT+number.
+
+-[b]A new chart type: Main building control[/b]
+For now this chart visualizes Larva injections into multiple hatcheries. Each hatchery that gets injected at least one time will get a row in the time line showing when and how long it was injected.
+Statistics displayed show the [b]average spawning ratio[/b] and the [b]average injection gap[/b] for each hatchery, and a total average is calculated and displayed in the header of the charts.
+The average spawning ratio is the ratio of the time being injected and the the time from the first injection till the last action of the player. The higher the better, the optimal best value is 100%. The average injection gap is the average of the time gaps between injections. The smaller the better, the optimal best value is 0 sec. The time after the last injection is excluded.
+Interpretation: if the average spawning ratio is low and/or the average injection gap is high, it means you should make less hatcheries and spawn larva more often.
+
+-[b]Added partial support for 1.3.3 replays.[/b]
+Blizzard again changed the replay format. They can now be parsed but many changes are not yet implemented.
+
+-[b]A new "Keyboard shortcuts" dialog available from the Help menu.[/b]
+This dialog lists the available shortcuts in Sc2gears.
+
+-Sc2gears can now speak Leet: [i]"$(2g34r$ (4n n0w $p34k £33t!"[/i]
+In the Settings/Language menu you can enable automatic Leet translation.
+Available levels (leetness): Disabled, Basic, Intermediate, Advanced, Expert
+If you don't know what Leet is, you can check it out on [url=http://en.wikipedia.org/wiki/Leet]wikipedia[/url].
+
+-The [b]SC-Replay.com[/b] site implemented the replay upload specification, and has been added to Sc2gears and is now available for replay sharing.
+
+-Sc2gears now retries up to 3 times if an Sc2gears Database operation (like storing or downloading a replay) fails.
+
+-A new menu item in the Windows menu: "Start maximized".
+It is on by default, and its effect is that after start the main window will be in maximized state.
+
+-New hotkeys in the Replay analyzer:
+ CTRL+G to turn on/off the grid
+ CTRL+SHIFT+G to open the Grid settings dialog
+ Animator Play/Pause: CTRL+W
+ Animator jump to beginning: CTRL+SHIFT+Q
+ Animator jump backward: CTRL+Q
+ Animator jump forward: CTRL+E
+ Animator jump to end: CTRL+SHIFT+E
+ Animator slow down: CTRL+R
+ Animator speed up: CTRL+SHIFT+R
+
+-The Command Line Interface now prints everything using UTF-8 encoding.
+
+-Improved the hotkeying and focusing system in the Replay analyzer (keyboard shortcuts sometimes didn't work unless a proper component was focused).
+
+-Optimized the loading of the definitions of different replay versions ("load on demand"; slightly better performance and slightly less memory usage).
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 5.0: Sc2gears Database[/b][/big]
+
+[b]Changes and new features in 5.0:[/b]
+--------------------------------------------------------
+
+-[b]1.3 Patch changes are now implemented.[/b]
+
+-[b]Added support for the new China gateway.[/b]
+Gateway and races are recognized properly, added links to the Chinese Battle.net profiles and to Sc2ranks.com profiles.
+
+-[b]Start page Channels[/b]
+The Start page now supports multiple channels. You can select the channel you want to be displayed.
+
+-Added a new granularity for the development charts in the Multi-replay analysis: [b]Ladder season[/b]
+If this is selected, replays from the same season will be summarized to generate chart data.
+
+-The [b]drop.sc[/b] replay site has implemented the replay upload specification, and it has been added to Sc2gears and is available for replay sharing.
+
+-[b]Sc2gears Database[/b]
+Replays are becoming more and more important as Blizzard has shown that they can and they do hide important statistics arbitrary from Battle.net profile pages. Replays remain your only source to get detailed statistics about your play and improvements.
+Sc2gears Database is a secure server to store ALL your replays and other related files privately.
+More: [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url]
+
+[b]Sc2gears Database has been integrated into Sc2gears:[/b]
+-New tab in the Miscellaneous settings dialog to view, edit and check the Authorization key.
+-New settings: "Replay auto-store", "Store all mouse prints" to enable storing new replays and new mouse prints automatically.
+-New replay operation: Store replays; to store any number of replays at once.
+-New buttons on the Mouse print recorder: Store mouse print, Select mouse prints to store; to store the current mouse print or any number of mouse prints at once.
+-New diagnostic tests that check the Authorization key and the pre-conditions of the auto-store settings.
+-There is a Start page channel to display the User Quota.
+-A new tool: Sc2gears Database downloader, can be used to download multiple files from the Sc2gears Database.
+The [url=https://sites.google.com/site/sc2gears/faq]FAQ[/url] page has also been updated with questions regarding to Sc2gears Database.
+
+-An info dialog is now displayed when preprocessed replay cache is being emptied.
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 4.4: Diagnostic tool, Grid on charts, New to Sc2gears dialog, Tips dialog, New Productions chart, BO stats for all formats, Command line interface[/b][/big]
+
+[b]Changes and new features in 4.4:[/b]
+--------------------------------------------------------
+
+-[b]Grid on the charts[/b]
+In the Replay analyzer there is a new check box above the charts on the right: [b]"Grid"[/b]. This check box enables/disables painting a grid (time markers) on the chart.
+A grid icon next to it opens the [b]"Grid settings"[/b] dialog where you can set when and how often you want to see markers.
+There are radio buttons to auto-configure the grid for various causes: "Spawn Larva", "Calldown MULE", "Chrono Boost". If you select one of these, Sc2gears will automatically detect the first Queen/Orbital Command and repeat the marker as their energy is enough for Larva injection or for calldown MULE; or for Chrono Boost in case of Nexus.
+If you choose to auto-configure for Spawn Larva for example and there are more Zergs in the game, the Queen that is built first will be picked for reference. If you want to analyze the 2nd Zerg, simply disable the first Zerg player (the first Queen is picked from the listed actions).
+Also you can choose "Custom grid" where you can specify the time of the first marker and the repeat interval. You can use either frames, seconds or energy regeneration (the time that needs to regenerate X amount of energy).
+
+-[b]Build orders statistics for all game formats![/b]
+The "1v1 Build orders" tabs in the Multi-replay analysis transformed into tabbed panes, where each game format has its own tab now.
+What does this mean? The multi-replay analysis now gathers and displays the build orders statistics of all game formats not just the 1v1 games.
+
+-[b]New chart type: Productions[/b]
+This chart basically does what SC2 can during a replay: displays what units, buildings, upgrades, researches are in progress, and a bar indicates their completion status.
+You can also select to either group the same productions (with a counter), or paint them differently.
+
+-[b]"New to Sc2gears?" dialog.[/b]
+This dialog outlines some important things to know and to configure.
+It is also available from the Help menu.
+
+-[b]A new Diagnostic tool.[/b]
+A new diagnostic tool which performs certain tasks to test if your configuration and settings are correct.
+It is available from the Tools menu.
+
+-[b]Command Line Interface[/b]
+Now you can use Sc2gears from the command line to extract info from replays.
+It supports extracting general info (that is displayed on the Game info tab), the complete action list and in-game chat.
+Type [i]"Sc2gears-win.cmd --help"[/i] in the command line to print usage info (on other platforms type [i]"<script_name> --help"[/i]).
+This new Command Line Interface will allow other programs and web sites of any technology/programming language to use Sc2gears as a replay parser and build on top of it.
+Note: On windows you have to use the batch file (Sc2gears-win.cmd) if you want to use the command line interface because the exe does not create a console.
+More about the command line interface [url=https://sites.google.com/site/sc2gears/features/command-line-interface]here[/url].
+
+-[b]A new "Tips" dialog[/b]
+This dialog displays all the tips in a text area.
+The Tips label at the top of the Start page window now also opens the Tips dialog.
+
+-New button on the Miscellaneous settings dialog: "OK and Run diagnostic test".
+This button applies the current settings and then runs a diagnostic test.
+
+-A new "Memory status bar" at the bottom of the navigation bar. This bar indicates the memory usage of Sc2gears. Tool tip shows exact values. 
+
+-The Yellow and Orange colors in the Unit tiers chart have been swapped so that the colors of tiers honor the colors of the Color Wheel.
+
+-Added new tips.
+
+-Other minor changes, bug fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 4.2: New charts: Unit Tiers, Player Selections[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh3.googleusercontent.com/_jDMClHrENz8/TVuTw6uQT5I/AAAAAAAAZwE/pVfD2G8vV2Y/s730/unit_tiers_chart.png.jpg
+[/img][/url]
+
+[b]Changes and new features in 4.2:[/b]
+--------------------------------------------------------
+
+-[b]New chart: Unit Tiers[/b]
+This is a bar chart which shows the trains (and morphings) of the units of different tiers over time.
+The goal of the chart is to visualize what tier of units were made at different times of the game, so you can see what tier combinations have battled.
+Move your mouse over any of the bars to get the details broken down into tiers and units in a tool tip table.
+There is an option to [i]stretch bars[/i]: all charts will be drawn with maximum height giving you a view where you can fast analyze the ratio of different tiers over time.
+
+-[b]New chart: Player Selections[/b]
+This chart shows the current selections of players at any given time. Animate the replay to see how the players change their selections, to see what buildings and units they cycle through.
+Also the current selections always give you a hint of the [i]actual units/buildings[/i] that are in the game (meaning they were truly created and are not yet destroyed).
+
+-[b]New name template symbol: /G[/b]
+This symbol inserts the gateway on which the game was played on. This comes handy if you play on multiple servers (including the Public Test server) and you want to separate replays based on where they were played.
+
+-Added "Average game length" column to the maps tab in the Multi-replay analysis.
+
+-[b]Sc2gears is now available in Japanese too![/b]
+Thanks to Psyko!
+
+-Added option to search for "Unknown" match result.
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 4.1: Pre-defined, editable lists, Save/load search filters, Custom Replay upload sites, Link to Sc2ranks.com profiles[/b][/big]
+
+[b]Changes and new features in 4.1:[/b]
+--------------------------------------------------------
+
+-[b]Pre-defined, editable lists![/b]
+There are numerous places in Sc2gears where you can enter a text into a text field. For example when you want to search replays for a specific map, a match-up or a player, when you want to filter the action list or when you provide a name template for renaming replays.
+This is where pre-defined lists come in to the picture: pre-defined lists provide you a default option list for you to choose from. You can input your custom text, or you can select one from the offered list. After you select, you can edit/modify it of course.
+These pre-defined lists are fully customizable: you can add new values, remove/edit existing ones or reorder the items.
+[i]What does this mean to you?[/i] When you want to enter search terms to filter replays, when you want to provide a name template, when you want to filter the action list etc. you can choose from default, meaningful values and you can also customize the list that are offered to you. You can also edit/modify any of the offered options.
+The pre-defined lists can be viewed/edited on the [b]Pre-defined lists[/b] tab of the miscellaneous settings dialog. There is also a direct edit link at the bottom of all drop-down lists.
+
+-[b]Finally Search filters can now be saved/loaded![/b]
+You can now save and load filters with the [i]"Save filters"[/i] and [i]"Load filters"[/i] buttons on the Filters tab of a Replay search.
+Saved filters are not bound to a replay source or replay list, they are universal: you can use any saved filters with any replay source or replay list.
+Also when you right click on a replay source or replay list in the navigation tree, there is a new menu item: [b]"Apply filter"[/b]. This sub-menu lists all your saved filters, and you can open a replay source or replay list pre-filtered by one of your saved filters.
+
+-[b]Custom replay upload sites[/b]
+You can now specify your custom replay upload sites. They will be available for replay sharing.
+This is good if you want a private replay site which is not for the public but rather for a clan or a small group. Your site has to implement the replay upload specification, and after that you and your users/members can add your private replay site to Sc2gears.
+This is also good for testing purposes for those who are implementing the replay upload specification.
+
+-[b]Link to Sc2ranks.com player profiles[/b]
+Player profiles now can be opened from Sc2ranks.com too (besides the official battle.net character profile). Right click on the player name either in the Replay analyzer or in the Multi-replay analysis, then choose "View Sc2ranks.com profile".
+
+-[b]Mouse warm-up time[/b]
+When a game starts, players usually wait for several seconds while the game and map is loaded. During this time people rarely do anything or move their mouses.
+This results in unreasonable ink spots.
+[i]Mouse warm-up time[/i] specifies a time limit so ink will not be poured during this time.
+
+-[b]Changed the "ink pouring" policy in the Mouse print recorder.[/b]
+Previously ink was poured when mouse was idle for a specific amount of time. After that the amount of ink poured was calculated based on the total idle time.
+From now on the amount of ink poured is calculated with the idle time elapsed after this ink pouring idle time limit.
+If you reopen a saved binary mouse print file, the image will be calculated and drawn using this new algorithm.
+[i]Example:[/i] idle time limit is 3 seconds, mouse is idle for 5 seconds.
+Before: ink is poured for 5 seconds.
+Now: ink is poured for (5 sec - 3 sec) = 2 seconds.
+
+-Match-up record tables of team games (for example 2v2, 3v3, 4v4) in the Multi-replay analysis now contain new rows for summarized statistics for your different races.
+For example "P+* vs *", "T+* vs *", "Z+* vs *". These new lines show you statistics how you do in team games independent of your team mates and opponent races.
+
+-Request resources actions are now parsed and listed.
+
+-The Miscellaneous settings dialog now contains too many tabs therefore they are now arranged vertically on the left.
+
+-Slightly changed the chart text on the APM chart so APM values are easily readable.
+
+-Minor GUI/layout changes.
+
+-The /Fx counter symbol was not working properly if sub-folders were used in the auto-save name template. This is fixed now!
+
+-With some Look and Feels (e.g. Windows) certain combo boxes displayed the focused element with background color in the drop down list therefore they were invisible. This is fixed now.
+
+-Changed the linux and OS-X starter scripts to get rid of an initial error message.
+
+-Added new tips.
+
+-Other small changes, bug fixes and optimizations.
+
+
+[hr]
+
+[big][b]Sc2gears 4.0: 1.2 Patch support, Mouse Print Recorder, Improved Replay analyzer, Drag and Drop support[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh5.googleusercontent.com/_jDMClHrENz8/TTJJw-I764I/AAAAAAAAYv0/UX7O5aXP0SQ/s730/mouse_print_image.png.jpg[/img][/url]
+
+[b]Changes and new features in 4.0:[/b]
+--------------------------------------------------------
+
+-[b]1.2 Patch support[/b]
+Replays with version 1.2 are now supported. Also changed some icons according to Patch 1.2.
+
+-[b]Mouse print recorder[/b]
+[i]Mouse print recorder[/i] is both a [i]tool[/i] and a service-feature of Sc2gears.
+The [i]mouse print[/i] is the track of mouse movements. Sc2gears can save both the binary data of the mouse print or the image of it drawn onto a canvas.
+The mouse print can be customized on the Mouse print tab in the Miscellaneous settings dialog. You can select different image output formats (PNG, JPG, GIF), you can customize the mouse print color and the background color, enable/disable anti-aliasing, set the time limit to pour ink when mouse is idle, set the ink flow rate, set the compression algorithm to use to save mouse print binary data. The output folder to save mouse prints can be set on the Folders tab of the Misc settings dialog.
+You can setup Sc2gears to save all your mouse prints from the games. It can be enabled under the APM Alert tab in the Misc settings dialog: "Save mouse prints of all games". It only works if APM Alert is enabled because it requires to detect game starts and ends (and APM Alert does that).
+A new menu item has been added in the Tools menu: [b]Mouse print recorder.[/b] This tool can be used to check the current image of the mouse print.
+Beside the image it also shows you various useful information like the total distance your mouse moved (in pixels, foots, meters), the average mouse speed (in pixel/sec, inch/sec, cm/sec).
+It can also be used to manually start and stop mouse print recording. Note that this window does not need to be opened: once you start the recording you can safely close it. When you reopen it, you will see the mouse print that was recorded (or is being recorded).
+The tool is also able to load previously loaded binary mouse prints, so you can reproduce the mouse print image with new settings (so basically you only need to save binary mouse print data to also have the mouse print images...).
+[i]Please note that the Mouse print auto-saver works only if APM Alert is enabled.[/i] (This is because the APM Alert is the one that detects the start and the end of SC2 games.) This also means that MAC users cannot use the Mouse print auto-saver (APM Alert is not available on MAC), only the manual mouse print recording. If you want only mouse print auto-save but not APM Alert, you can set the APM alert level to 0.
+I've created a new file format called SMPD (Sc2gears Mouse Print Data) for storing mouse print binary data. You can read the format specification on this page: [url=https://sites.google.com/site/sc2gears/features/mouse-print-recorder]Mouse print recorder[/url].
+
+-[b]New option on the APM chart: Show Micro/Macro APM[/b]
+If this enabled, Micro APM will be drawn with a thin line with lighter color. This line shows the Micro APM of the player. The macro APM is between the normal APM and the Micro APM.
+The chart texts display the average Micro APM and Macro APM values of the players.
+[b]Classification of actions:[/b]
+As a [i]general rule[/i] actions that require resources or free resources are considered macro actions, for example unit trains, builds, upgrades, researches, "Upgrade to Greate Spire", Salvage etc.
+Select and Hotkey actions that include only buildings are macro actions, the remaining Select and Hotkey actions are considered micro actions.
+[b]Exceptions/additions:[/b] Cancel commands, resource trading related commands and "Merge Archon" are macro actions.
+"Cancel Warp Gate Upgrade", "Cancel Gateway Mutation", "Cancel Tac Nuclear Strike" are considered micro actions.
+Repair -although requires resources- is considered a micro action.
+[b]Exceptions of selecting/hotkeying units/buildings:[/b] Larva is considered a macro action, Creep Tumor, flying Terran buildings, uprooted Zerg buildings are considered micro actions.
+All actions that were not mentioned (and are not Inactions like "Move Screen") are considered micro actions, for example "Right click".
+
+-[b]New background options on the Map view chart: Camera areas, Map image+Camera areas[/b]
+This background type of the Map view visualizes where the players were looking at on the map weighted by the amount of time spent there.
+[b]A practical use of the Camera areas:[/b] You can see where people look most often on the map. Areas where people look less often are better places/paths for you: [i]you will have a better chance to remain unspotted if you attack/drop from these areas or you build/hide your tech or proxy buildings on these areas[/i]. Note that this only covers the players' cameras and not the visible areas of the minimap.
+
+-[b]Added Drag and Drop support.[/b]
+You can now drag and drop files and folders onto Sc2gears.
+If the dropped file list contains only a single replay (amongst other files), that will be opened in the Replay analyzer.
+If the dropped file list contains multiple replays and/or folders, those will be opened in a replay search (you can open all of them in Multi-replay anlayzer with 1 click). Also the files and folders will be added to the source tab, so you can edit/save it.
+If the dropped file list contains replay sources and/or replay lists, those will be opened respectively in replay searches.
+You can also drag and drop files and folders on the Source list of a replay search, the dropped file list will be added to the source list.
+
+-Tool tips of the buildings on the Map view chart now shows the time and frame when that building was built (after the name of the building and the owner player).
+
+-Hotkey 0 is now displayed below hotkey 9 (instead of above hotkey 1) on the Hotkeys chart in the Replay analyzer.
+
+-Replaced "Sc2gears-os-x.sh" with "Sc2gears-os-x.command" so you can double click on it in MAC OS-X. Also changed the content of "Sc2gears-linux.sh" so it can be double clicked on linux also.
+
+-Fixed a bug which prevented sub-folders in name templates to work on MAC OS-X.
+
+-Added new tips.
+
+-Other minor fixes and optimizations.
+
+
+[hr]
+
+[big][b]Sc2gears 3.60: BO import, Player and Map Alias management, Custom date and time formats, Batched Actions export[/b][/big]
+
+[b]Changes and new features in 3.60:[/b]
+--------------------------------------------------------
+
+-[b]A new BO import feature![/b]
+Sc2gears supports importing Build orders, which will be opened in the Replay analyzer, and all the tools and features that you can use to analyzer replays are available to analyze build orders.
+To import Build orders, click on the [i]Import Build orders...[/i] menu item in the File menu. This will open a dialog where you can specify up to 8 build orders. You can either copy/paste Build orders into the displayed to text areas, or you can load build orders from files. Sc2gears will simulate a replay creating a player from each provided Build order. You can select a replay version to simulate (unit/building costs and build times may vary in different versions), and you can select a game speed (to be used to convert between times and frames). You can also group the Build orders (later players) into teams, so you can analyze multiple Build orders as a team (if you use the "Group by teams" feature in the Replay analyzer).
+The format specification is available here: [url=https://sites.google.com/site/sc2gears/features/build-order-import]Build order format specification[/url]
+
+-[b]Player alias and Map alias management[/b]
+There is a new tab in the Misc settings dialog: [b]Aliases[/b]. You can specify player aliases and map aliases in 2 text areas.
+Each line is an alias group which contains a comma separated list of player or map aliases. The first alias in each line will be the name of the alias group. Map names will be replaced by the alias group name. Players and maps in the same alias group will be summarized in the Multi-replay analysis.
+The Player alias management is especially useful for those who used (or will use) the name change feature of SC2 (you can specify your new and old names) or if you have multiple accounts, and you will see summarized statistics for your different names in the Multi-replay analysis.
+The Map alias management is useful if you have replays saved by different localized clients. You can enumerate different names of the same maps, and they will appear as you wish everywhere. Also you will see summarized statistics for those maps in the Multi-replay analysis.
+If you enter aliases for a map name, you will be able to search all of them by the alias group name.
+A link to the Aliases settings has been added to the Multi-rep analysis.
+
+-[b]Custom date and time formats[/b]
+The default date and time formats are part of the language; each language can specify different date and time formats.
+From now on everyone can define his/her own date and time formats. On the Internal tab of the Misc settings dialog there are 3 new settings:
+[i]Custom date format[/i], [i]Custom time format[/i], [i]Custom date and time format[/i]. You can define 3 different formats for date only, for time only and for date+time.
+These formats will be used to display date/time information and when you rename replays.
+Tool tips show help text, a symbol table and some examples.
+
+-[b]New name template symbols:[/b]
+[i]/I the game type:[/i] this might come handy in organizing replays into sub-folders.
+[i]/S map name acronym:[/i] first letters of the map; for example: Lost Temple = LT, Steppes of War = SoW; comes handy if you like your replay names short.
+
+-[b]Charts in the Replay analyzer are now zoomable with CTRL+wheel scroll.[/b] CTRL+wheel up will zoom in the chart (like CTRL+I), CTRL+wheel down will zoom out the chart (like CTRL+U).
+
+-[b]A new replay operations menu item: Export actions[/b]
+With this you can export the complete action lists of any number of replays at once. This can be good if you want to build other applications on top Sc2gears, and you want to analyze and process the actions in text format.
+The exported action lists will be saved in separate UTF-8 encoded text files in the same folder and with the same name as the replay file (but with TXT extension). If a text file with that name already exists, a new unique name is generated.
+The exported action list will  be exactly what you would see if you'd open it in the Replay analyzer (this includes time-frame display and conversion).
+
+-[b]Renaming replays now generates new unique names[/b] if a replay already exists with the name specified by the name template (instead of not renaming it). New names will be generated by appending "(2)", "(3)", "(4)"... to the end of the name until a free name is found.
+
+-Copying, moving, deleting, packing replays and Exporting actions now displays a [b]Progress dialog[/b] to let you know what's going on.
+This progress dialog is non-modal: you can do anything else meanwhile. For example you can export actions from replays and at the same time you can pack them or analyze them in the Replay analyzer.
+
+-If you want to exit, Sc2gears now checks and asks for confirmation if there are active background jobs (like copying, moving, deleting, packing replays or exporting actions).
+
+-Changing the zoom in the Replay analyzer now remembers the position (where the chart is scrolled).
+
+-[b]Added Spanish translation by Francisco José Rodríguez Márquez.[/b] (incomplete)
+
+-The Activity chart in the Multi-replay analysis now displays 0 values with solid line and does not interpolate (unlike the APM development and Win ratio development charts) because zeroes here are really zeros: they mean 0 activity.
+
+-F1 key is now bound to show Start page (inside Sc2gears). CTRL+F1 is bound to visit the home page.
+
+-Added new tips.
+
+-Major update on the German language file (it was available through auto-update in 3.40).
+
+-Fixed a bug in the replay parser regarding to custom games.
+
+-Fixed a bug in the replay parser where in-game chat were parsed wrong in a rare case.
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 3.40: Replay sharing made easy![/b][/big]
+
+[b]Changes and new features in 3.40:[/b]
+--------------------------------------------------------
+
+-[b]Replay sharing made easy![/b]
+There is a new replay operation menu item: [b]"Share replay..."[/b] It is also available from the file menu.
+With this you can easily share your replays on different replay sites. You just have to choose a replay site you want to upload your replay to, and provide optional details about the replay the replay site might require. You can provide authentication info if you have an account on the selected replay site or you want your replay uploaded with your account.
+You can also upload anonymously by leaving the user name and password fields empty, though this will only work if the replay site supports anonymous upload (the currently listed ones support it).
+If you want your replay site added to Sc2gears, please read this page: [url=https://sites.google.com/site/sc2gears/features/replay-sharing]Replay sharing[/url]
+
+-[b]Sc2gears manages your replay sharing history.[/b]
+You can view your previously shared replays by clicking on the [b]"My shared replays"[/b] menu item in the File menu. You get assistance to copy the replay links in different formats or you can visit the replay link.
+
+-APM Alert were not working for some people. This is fixed now.
+
+-Added a new link on the Start page: "Open last replay"
+
+-Closeable tabs can now be closed by middle-clicking (net-scroll) on the tab's title.
+
+-In case of some Look and Feels (Windows related) some internal windows were not opened maximized. This is fixed now.
+
+-/Ax and /Wx symbols of the name template were not always working in case of replay auto-save. This is fixed now.
+
+-Added some missing/wrong ability codes to the replay parser.
+
+-Fixed some typos (cloack => cloak).
+
+
+[hr]
+
+[big][b]Sc2gears 3.30: Improved search and template editor, find duplicates[/b][/big]
+
+[b]Changes and new features in 3.30:[/b]
+--------------------------------------------------------
+
+-[b]You can now start StarCraft II and StarCraft II Editor with Sc2gears.[/b]
+Menu items have been added to the File menu, to the Start page window and to the system tray.
+
+-[b]Replay search has been improved with a complex player filter.[/b]
+Beside the player name you can now specify player race, match result (Win, Loss) and an APM range (min APM - max APM).
+With this you can perform player searches like:
+[i]Find replays with player "SCIIGears" where he was Protoss, lost the game even though he had APM greater than 150.[/i]
+[i]Find replays with player "SCIIGears" where he was Random, won the game with less than 80 APM.[/i]
+Of course the extra fields are optional.
+
+-[b]All search fields has been extended with a "Not" check box.[/b]
+This new check box [b]inverts[/b] the filter condition: performing a search will list replays that do NOT match the entered criteria. This can be set separately for each search field.
+If you add new filter fields, you can set the invert check box separately for each of the same type. This gives great flexibility.
+With this you can perform searches like:
+[i]Find replays which do not contain player "SCIIGears".[/i]
+[i]Find replays that were not played on map "Lost Temple".[/i]
+Also changed the order of the filters (the more frequently used ones were put to the top).
+
+-[b]Template symbols have been grouped into tabs.[/b]
+There are too many symbols now (with the new ones), so they have been grouped into logical tabs for easier access.
+
+-[b]Name templates now support sub-folders![/b]
+Sub-folders are separated with the backslash character ("\"). With this you can easily separate your replays to sub-folders based on any symbol.
+For example let's say you want to organize your replays based on the format (1v1, 2v2 etc.). Simply start your name template with "/f\" and finish it with how you want to name them, and after the rename they will be categorized into sub-folders based on the game format. Sc2gears will automatically create non-existing subfolders.
+This also works with multiple sub-folders: let's say you want match-ups inside the format folders: "/f\/T\"
+This sub-folder support works for both manual renaming and replay auto-save.
+The sub-folders will be created in the folder where the original replay resides in case of manual renaming, and in the replay auto-save folder in case of replay auto-save.
+[i]There is a new symbol to insert the sub-folder separator.[/i]
+
+-[b]New name template symbol: /Wx[/b]
+This will tell if the player x won or lost. A letter will be substituted: W = Win, L = Loss, U = Unknown. The letters are localized (they are N, V, I in Hungarian for example).
+This symbol can be used in the player block too.
+
+-[b]New name template symbol: /Ax[/b]
+This will insert the APM of player x.
+This symbol can be used in the player block too.
+
+-[b]New name template symbols: /l, /L[/b]
+These insert the game length in short (6-30) and long (00-06-30) format.
+
+-[b]A new feature to find and filter out duplicate replays![/b]
+Added a new menu item in to the replay operations menu in the Replay search: [b]Find duplicates...[/b]
+This will check all the replays in the table, and in a dialog window displays those that are duplicates of each other.
+You can mark any or all of the duplicates, and they will be selected in the table: now you can do whatever you want to with them: move them, delete them, remove them from the table etc.
+Marking the duplicate replays are assisted with 3 buttons: [i]Mark all[/i], [i]Mark all but firsts[/i], [i]Clear marks[/i]. To get the job done fast, mark all but firsts. This will will select all "redundant" replays and will leave 1 replay in each duplicate groups unselected (a duplicate group is a set of identical replays - there can be more than 2).
+Sc2gears checks duplication based on the contents of the replays. Performance: Sc2gears finds duplicates amongst thousands of replays instantly.
+With this you can easily find and remove duplicate replays in seconds even if they are in different folders or they have different names, or even if they have different file dates.
+
+-Added new graphical themes: [b]Squareness[/b] and [b]Napkin[/b] (you have to try this one out.. loads up a little slower and uses more memory, but looks fun!).
+
+-Replaced some icons. Also added icons to the popup menu of the system tray.
+
+-The content of the Game info tab in the Replay analyzer has been aligned for better readability.
+
+-Added new tips.
+
+-Small bugfix in the replay parser (players from games with open slots were not properly detected; winners with computer teams were not always properly detected).
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 3.20: NEW+Improved charts, chat translation, enlarge charts, tips, APM alert repetition[/b][/big]
+
+[b]Changes and new features in 3.20:[/b]
+--------------------------------------------------------
+
+-[b]New chart in the Replay analyzer: Resources spent[/b]
+Shows the amount of minerals and gas spent over the time by the players.
+[i]Limitation:[/i] Only the costs of issued commands are counted. Some cancel commands and repair costs are not taken into account.
+
+-[b]New chart in the Replay analyzer: Produced Army/Supply[/b]
+Shows the size of produced armies (in supply) and the produced supply count over the time of players. You have an option to include the initial units (workers, main building and overlord).
+You have also an option to add units and buildings to the chart after they are completed (default) or right when they are started.
+[i]Limitation:[/i] Only results of build/train actions are visualized. Unit and deaths and building destructions are not recorded in replays.
+
+-[b]New setting on the Builds/Tech chart: Show duration[/b]
+If enabled, this option will indicate how long the actions took in time; for example how long it took to train a unit, how long it took to build a building, how long it took to research or upgrade.
+You have 3 choices: None, Lines, Bars. In case of [i]Lines[/i] a horizontal line is drawn with a length of the duration. In case of [i]Bars[/i], a transparent bar is filled with the width of the duration.
+Changes of durations in different patches are handled (for example if you open a 1.0 replay, u'll see the Zealot training time is 23 sec, if u open a 1.1 replay, u'll see the zealot training time is 27 sec - in real time).
+[i]Limitation:[/i] The chart only shows how long the actions take once they started. The time that is needed for a worker to start the building is not recorded and therefore taken into account. Transformation of Warp gates when cooldown is active varies on what unit was warped in; this is not taken into account. Also Chrono boosts are not taken into account.
+
+-New setting on the Builds/Tech chart: [b]Show ability groups[/b]
+If enabled, unit and building abilities will be displayed on the chart. General ability groups such as attack are not displayed (unnecessary and would clutter the chart), but everything else u'd be interested in are (like spells, morphings, transformations like Warpgate-Gateway, Siege-Tank, Phasing-Transport, Fighter-Assault etc., building abilities like Sscan, Calldown, creep tumors etc.).
+If too many objects are displayed, decrease the icon sizes (see later), zoom the chart or filter the chart input data.
+
+-New setting on the Builds/Tech chart: [b]Icon sizes[/b]
+From now on you can change the icon sizes displayed on this chart. Removed the "Use icons" option. You can still display text labels if you set the "Hidden" icon size.
+
+-New setting on the Builds/Tech stat chart: [b]Show after completed[/b]
+If this is checked (default), units, buildings, researches and upgrades will only appear on the charts if they are completed at the time of the selected action (else they are shown right away when the commands are issued).
+
+-New background option on the Map view chart: [b]Map image+Hot areas[/b]
+If this is selected, the map image will be displayed, and the hot areas will be drawn onto it with 50% transparency.
+
+-[b]Middle click (net scroll)[/b] on the charts in the Replay analyzer [b]enlarges the charts[/b]!
+If a chart is enlarged, chart controls and the action list is hidden, the chart will take the whole space (of its window). Middle click again restores the original.
+Combine it with the Full screen (F11) option (and hide the navigation bar) to get real full screen charts! Of course animate works when enlarged.
+This Chart enlarge function is also available in the context menu displayed when you right click on the charts ([b]"Enlarge chart"[/b]).
+
+-[b]Added a translation bar to the In-game chat tab of the Replay analyzer.[/b]
+Now you can translate the in-game chat from and to more than 100 languages. The translator bar uses Google translate. Might not work all languages, but Google lists them.
+You can set a specific source language, or you can let it auto-detect the chat language (each line will be auto-detected separately since they can be in different languages).
+The translation isn't high quality but it's one click away and requires zero effort (the quality of Google translate improves by time).
+
+-[b]Added tips to the Start page.[/b]
+
+-Added a new APM alert option: [b]Alert repetition if APM stays low.[/b]
+Normally you only hear the "Low APM!" alert once until your APM goes back to normal. Here you can set a time interval to repeat the "Low APM!" alert if your APM stays below the alert level.
+
+-New option in the Internal tab of the misc settings dialog: [b]Pre-load SC2 icons on startup.[/b]
+If you enable it, SC2 icons will be pre-loaded on startup, which results in faster replay opening or faster replay search open at the first time. If you disable it, it will result in a slightly faster startup and smaller initial memory usage (this is useful if you just want to start Sc2gears to run in the background).
+
+-Added color icons to the player check boxes in the Replay analyzer to indicate the colors of the players.
+
+-The replay rename template engine now checks if new names end with the proper extension (.SC2Replay), and if not, it will be appended automatically. 
+
+-New menu item in the Player menu: Show all players
+
+-The Allow only one instance menu item has been moved to the Internal tab of Misc settings.
+
+-Comments were not properly saved with replay lists, this is fixed now.
+
+-Added hotkeys to the tile and cascade windows menu items.
+
+-Added some missing ability codes, unit IDs; bugfix in the 1.1 replay parser (some replays were not parsed till the end).
+
+-The Game time - Real time converter dialog has been changed to non-modal, so you can leave it open while you browse or analyze replays.
+
+-Fixed an error in the component focus system which prevented some hotkeys to work when switching between tabs.
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 3.00: APM alert, Animate, 1.1 Support, improved Map view, new charts and more...[/b][/big]
+
+[b]Changes and new features in 3.00:[/b]
+--------------------------------------------------------
+-[b]The latest 1.1 replays are now supported[/b] (supported replay versions: 1.0 and all above).
+
+-[b]Sc2gears now has an APM alert feature.[/b]
+You can enable/disable this with the "Enable APM alert" menu item in the Settings menu or in the system tray menu. You can set the APM alert level in the Misc settings dialog.
+It plays you a [i]"Low APM!"[/i] voice if your APM drops below the alert level. It does not display anything nor messes with StarCraft 2, so [b]it remains completely legit[/b] by Blizzard (like everything else in Sc2gears).
+Usually there are less things to do in the beginning of games. If you don't spam (or you don't want to spam) in the beginning of your games, you can set an [b]"APM warm-up time"[/b], and you will hear no alert voice during this time even if your APM drops or stays below the alert level.
+You can enable/disable alert when APM is above the alert level again.
+You can also enable/disable alerts for the [b]Game start[/b] and [b]Game end[/b] events.
+APM alert only works on Windows (therefore it is disabled on linux and OS-X).
+
+-[b]Map view chart has been improved:[/b]
+A new option: [b]Background[/b]. You can choose the following backgrounds: [i]Map image[/i], [i]Hot points[/i], [i]Map image+Hot points[/i], [i]Hot areas[/i], [i]Blank[/i].
+[b]Hot points[/b] are the target of the actions with the colors of the players issuing them. [b]Hot areas[/b] are areas having a transitional color from black to pink depending on the number of hot points inside them compared to other hot areas. The area with the most hot points gets the brightest color. With these new Hot points and Hot areas features you can easily track where the battles, intensive micro operations and other actions of the game take place.
+The size of hot areas (the area granularity) can be changed with the [b]Hot areas count[/b] option.
+The visualization of the hot points and hot areas work like everything else in the Map view chart: they always show the data up to the time of the selected action (or if you haven't selected anything, the whole game).
+This of course (like everything else) can be combined with the filtered action list: you can enable/disable players, you can filter the action list so for example you can check easily to what area a player warped his units. 
+A new option: [b]Show map objects[/b]. With this you can show/hide map objects like minerals fields, geysers, Xel'Naga towers, destructible rocks.
+A new option: [b]Quality[/b]. The chosen quality will decide how the images on the map view are rendered, how the pixels of scaled images are calculated: [i]Low:[/i] from the "nearest neighbor", [i]Medium:[/i] samples of the 4 nearest neighbor are interpolated linearly, [i]High:[/i] samples of 9 nearby pixels are interpolated using a cubic function. The quality is applied to all images in the Map view chart (map background, building images etc.).
+
+-[b]A new Animate feature in the Replay analyzer.[/b]
+With this you can "play" the replay: Sc2gears will iterate over the actions of the replay with a changeable speed, and automatically updates the charts. By selecting the Builds/Tech stat chart or the Map view chart you will see how the game evolved from seconds to seconds.
+You can change the chart refresh rate (FPS) in the misc settings dialog (you can enter your custom value in the range of 1..30), and you can change the play-back speed in a wide range from 1/4x up to 32x.
+[i]During the play-back you can do anything in the analyzer you could normally do:[/i] click on anywhere to position the time, filter actions, zoom, change chart etc.
+You have the following control buttons: Play/Pause, Jump to the beginning, Jump to the end, Jump backward, Jump forward, Slow down, Speed up. You can configure the amount of time to jump for the Jump forward and backward buttons in the Misc settings dialog.
+The current progress is displayed with a progress bar. You can also click on this progress bar to navigate anywhere in the replay.
+The Animate feature is also implemented multi-thread: you can play as many replays simultaneously as many you want. 
+
+-New development charts in the Multi-rep analysis: [b]Game type distribution over time[/b] and [b]Format distribution over time[/b]. Also changed the colors and legend of the Race distribution chart.
+
+-[b]Redesigned the Miscellaneous settings dialog.[/b] Too many settings were available, so I grouped them into tabs: now it's easier to find what you're looking for, and it's easier to understand what they do.
+The Folder settings dialog has also been merged into the Miscellaneous settings dialog.
+The following tabs have been created: [i]Replay auto-save[/i], [i]APM alert[/i], [i]User interface[/i], [i]Analyzer[/i], [i]Internal[/i], [i]Folders[/i]
+
+-[b]A new Start page window.[/b]
+When you start Sc2gears, an internal Start page window will appear which will show you the latest news related to Sc2gears.
+You can disable this with "Show Start page on startup" in the Settings menu. You can open the Start page at any time by clicking on the "Show Start page" in the Help menu.
+
+-[b]You can now set up to 5 SC2 auto-replay folders[/b] and all will be monitored for new replays.
+This is useful for those who play with multiple accounts and/or on multiple gateways, you can set your different SC2 auto-rep folders.
+
+-Added a new [b]Game time - Real time converter[/b] menu item in a new [b]Tools[/b] menu.
+This is a helpful little utility where you can easily convert APM values and time values from game time to real time and vice versa on any game speed.
+You can specify the time you want to convert in different formats (displayed in the tool tip): [i]seconds[/i] or [i]min:sec[/i] or [i]hour:min:sec[/i]
+
+-[b]Releases are no longer delayed by translations.[/b]
+Sc2gears now can be released without the new, updated language files. All old, already translated texts will be displayed in the selected language, new texts appear in the default, English language (it was like this before).
+When a newer language file becomes available, Sc2gears updates the language file automatically in the background (when an update check is performed either automatically on startup or manually from the Help menu).
+After a successful language auto-update you will hear a [i]"Language file updated. Please restart Sc2gears."[/i] voice.
+
+-Added a new Hungarian voice [b]Smuck[/b] by Andrea Smuck.
+
+-Added links to open the relevant settings in several places: links on the Replay analyzer and on the Multi-rep analysis to open the Analyzer settings, link on the error dialog if opening last replay fails link to open Folder settings.
+
+-Replaced the icons that changed in Patch 1.1. Also replaced all other icons with higher resolution ones, and removed the borders to leave more space for the images.
+
+-In the multi-replay analysis removed the hotkeys from the main tabs (Players, Maps, 1v1 build orders), and added hotkeys to the tabs of the details of a player.
+
+-Some advanced replay filters were not working since replay cache was introduced. They are fixed now.
+
+-Changed the icon sizes on the Filters tab of the Replay search to occupy less space.
+
+-Added replay cache version to the About dialog.
+
+-The "Check updates" menu item changes text if a check is in progress: "Check updates (checking...)"
+
+-Major code refactoring; other changes, fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 2.10: Speed up analysis and search![/b][/big]
+
+[b]Changes and new features in 2.10:[/b]
+--------------------------------------------------------
+-[b]A new, automated, internal preprocessed replay caching mechanism.[/b]
+I know that if you have many replays, running multi-rep analysis over and over again can be slow and frustrating.
+From now on Sc2gears manages an internal replay cache system: it's automated, you don't have to do anything, you won't see anything different in the user interface.
+Pre-processed information from each replay participating in a Multi-rep analysis or in replay searches will be cached for further use. This cached information will be available even if you move or rename the original replays (and perform a Multi-rep analysis on them).
+The cache is managed automatically by Sc2gears: it will be created and accessed on-demand, and if it becomes obsolete or invalid, it will be automatically recalculated/updated on demand.
+The first Multi-rep analysis or replay search might run with the "same old speed", but if you repeat the operation, you will get the results really-really fast.
+This internal replay cache is also used for replay searches and for renaming replays.
+You can enable/disable the replay cache in the Misc settings dialog: "Enable internal preprocessed replay cache". You can empty the cache at any time with the "Empty cache..." button.
+If you abort a search or a multi-rep analysis, replays that have been parsed are already cached and will be used if you repeat the operation.
+[i]Approximated performance gain due to the internal cache:[/i] Multi-replay analysis: [b]10x faster![/b], replay search: [b]2x faster[/b] (even though more info is parsed and displayed), replay renaming: [b]2x faster[/b]. The size of cache is [b]by far less than 1%[/b] of the replays.
+
+-Added 2 default, auto-created replay sources: [b]"SC2 auto reps"[/b] and [b]"Auto-saved reps"[/b].
+These 2 replay sources always point to the folders set in the Settings=>Folder settings menu.
+
+-New menu items in the context menu of replay sources and replay lists (right click on the replay sources and lists in the navigation tree):
+[b]Open in Multi-rep analysis:[/b] opens all replays of the replay source/list directly in the Multi-rep analysis (skips the replay search step)
+[b]List all replays:[/b] Lists all replays, just like double clicking on it.
+[b]Open in Replay search for further filtering:[/b] Opens the replay source/list in a replay search, but does not peform a search on it. The filter tab will be selected.
+[b]Rename item...:[/b] Renames the replay source/list.
+The Delete item now asks for confirmation.
+
+-New column in the results of a replay search: [b]APMs[/b]. This column will show the players APM in the replays.
+
+-A new item in the name template engine: [b]<> Player info block[/b].
+You can use the player specific symbols inside this without indices (/p, /r, /R, /P), and all players grouped by teams will be substituted.
+Example: "</p(/r)>" in 2v2 where players are NameA, NameB, NameC, NameD and match-up is PTvsZP will result in: "NameA(P), NameB(T) vs NameC(Z), NameD(P)"
+
+-A new tab in the details of a player in the Multi-rep analysis: [b]Game type records[/b]. This will show the "usual" statistics broken down to game types.
+
+-[b]Added hotkeys to tables:[/b]
+In the results tab of a replay search: pressing Enter or Shift+Enter opens the selected replay in replay analyzer, or if multiple replays are selected, they will be opened in multi-replay analysis; pressing delete will delete the selected replays (asks for confirmation).
+In the Players and Playmates tab in the multi-rep analysis pressing Enter or Shift+Enter opens the selected player.
+
+-Updated the Updater to only patch/replace files that are part of Sc2gears. 
+
+-The template engine still inserted random for races where the player chose Random instead of the final race. This is fixed now.
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 2.00: Favored player list, eliminated random and more...[/b][/big]
+
+[b]Changes and new features in 2.00:[/b]
+--------------------------------------------------------
+-[b]The Match-up records feature of the Multi-replay analysis has been extended to all game formats: 1v1, 2v2, 3v3, 4v4, FFA.[/b]
+The 1v1 match-up records tab transformed to another tabbed pane called "Match-up records", each format has its own tab inside of it.
+Now the match-up records also show the summarized statistics with all of your team race combo vs each specific opponent race combo.
+For example in 1v1 not just Pv* but *vP too. 
+
+-New option in the Misc settings dialog: [b]Favored player list[/b]: a comma separated list of player names to put ahead of other players when applying name templates or when displaying search results. Case sensitive!
+If there are player names provided here, they and their team will be put ahead of other players and teams. The order of players will define their precedence.
+If multiple favored players are part of the same team, they will be rearranged inside the team too.
+
+-New option in the Misc settings dialog: [b]Rearrange players in replay analyzer too[/b].
+If this is enabled (by default it is), the favored player list will also be applied in the replay analyzer, so the favored players and teams will be put ahead of others.
+
+-New option in the Misc settings dialog: [b]Build order length in Multi-rep analysis[/b].
+Now you can change how many buildings you want to see in the build orders. The default is 6 buildings. Increasing this value will increase the detected build orders.
+
+-[b]Random has been eliminated.[/b] The Multi-replay analysis now shows summarized statistics for the final races of players (the chosen concrete race or the race that random turned out to be).
+The race letters and race match-ups in case of name templates now substitutes the final race too instead of R (for Random).
+The Game info tab and the race icon next to the player names still shows if the chosen race was random.
+
+-New columns in the 1v1 build order tabs in the Multi-rep analysis: [b]Record vs P[/b], [b]Record vs T[/b], [b]Record vs Z[/b].
+Obviously a build order is not effective vs all races. These new columns will show you the record of the build orders vs each of the races.
+
+-New option in the Misc settings dialog: [b]Initial time to exclude from APM calculation (in game-time)[/b].
+Defaults to 110 seconds game-time (which is 79.4 seconds in real-time on faster game speed).
+
+-New option in the Misc settings dialog: [b]Delete successfully auto-saved replays[/b].
+
+-New menu items in the Player menu: [b]Add to the favored player list[/b], [b]Remove from the favored player list[/b], [b]Insert to the favored player list before player[/b].
+In the last menu you will see the current favored players, and you can choose where to insert the player in the favored player list. 
+
+-[b]The player menu is now available in the Multi-replay analysis too[/b]: if you right click on a player in the Players table or in the Playmates table, the player menu of the player will appear and you can view his/her character profile for example.
+You can now also double-click on a player in the Playmates table to open the details of the player.
+An "Open player" menu item is also added to the player menu in the Multi-rep analysis. 
+
+-New option in the Misc settings dialog: [b]Auto-open new replays[/b].
+This option comes really handy for those who have dual monitor and leave Sc2gears open on the other monitor. Whenever they finish a game, the replay will be opened on the other monitor, so you can see the stats you're interested in without having to minimize StarCraft 2.
+
+-New option in the Misc settings dialog: [b]Charts-action list partitioning in replay analyzer[/b].
+With this setting you can control the initial space distribution amongst the charts and the action list when opening a replay in the replay analyzer. It's a percent value between 0..100. A value of 0% will hide the chart by default, a value of 100% will hide the action list by default.
+Of course you can resize them by dragging the splitter with the mouse. This can be useful for those who only look at the charts and do not care about the action list.
+
+-New menu item in the player context menu: Show only this player.
+
+-Added a voice selection combo box to the Welcome frame.
+
+-Removed the InfoNode Look and Feel due to licensing problems.
+
+-Other minor improvements and bug fixes.
+
+
+[hr]
+
+[big][b]Sc2gears 1.80: Direct player profile access[/b][/big]
+
+[b]Changes and new features in 1.80:[/b]
+--------------------------------------------------------
+-A new [b]context menu[/b] if you right-click on a player name in the replay analyzer.
+It has a [b]"View character profile"[/b] menu item which will take you to Blizzards' Battle.net profile page of the player.
+Different battle.net servers support different languages. You can set your [b]preferred language[/b] in the Miscellaneous settings, and you will see the profiles in that language if that's available on the player's battle.net server.
+Available profile languages: English, Chinese_TW, French, German, Italian, Korean, Portuguese_BR, Russian, Spanish_MX.
+The context menu also has a [b]"View character profile in language"[/b] menu item which lists all available languages on the player's battle.net for you to choose.
+
+-Added new languages: [b]Dutch[/b] and [b]Korean[/b].
+
+-Added a new voice: Smix Korean.
+
+-[b]2 new columns in the Maps table of a player[/b] in the Multi-rep analysis: Record and Win %. These 2 new columns shows the total record and win ratio of the player on the different maps (the previous win ratio columns only showed 1v1 win ratios with different races).
+
+-[b]New name template symbol: /g[/b] - comma separated list of all player names grouped by teams.
+
+-[b]New name template symbol: /Nxy[/b] - first xy letters of map name (2 digits!).
+
+-[b]Replaced the Sc2gears.exe[/b] with a new, smaller one; this also solves the "msvcr71.dll was not found" related startup error.
+
+-Minimize to tray menu item now has a hotkey (F9).
+
+-New menu item in the Window menu: Minimize to tray on Minimize.
+
+-New menu item in the Window menu: Minimize to tray on Close.
+
+-New menu item in the system tray menu: Enable replay auto-save.
+
+-New menu item in the system tray menu: Open last replay.
+
+-[b]Send resources actions[/b] now show the target player and the amount of minerals and gas sent.
+
+-Fixed a replay parsing error which might have caused false winner detection and false chat display when observers (non-players) were in the game.
+
+-Fixed a syntax error in the Linux starter script.
+
+-Fixed a small bug in the Sc2gears Updater.
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 1.70: Trend charts + Template Editor[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh3.ggpht.com/_jDMClHrENz8/TMkpTwbye9I/AAAAAAAAWTM/cIGKc5qXqk8/s730/multi_anal_p_activity1.png.jpg[/img][/url]
+
+[b]Changes and new features in 1.70:[/b]
+--------------------------------------------------------
+-A new tab in the details of a player in the mulit-rep analysis: [b]Activity trend charts[/b].
+On this tab you can see your activity (the games played) at different hours of the day, on different days of the week and in different months of the year. 
+
+-[b]A new name template editor component.[/b] This component is added to the replay rename dialog and to the auto-save name template in the miscellaneous settings.
+There is a button for each symbol, clicking on it will insert the symbol to the current position in the template text field.
+The editor component hides inappropriate symbols (for example /Fx [i](see below)[/i] is hidden in the replay rename dialog, /c and /Cx [i](see below)[/i] are hidden in the replay auto-save name template editor).
+
+-A new name template symbol: [b]/Cx[/b]. This is a new counter where you can specify the number of digits. Leading zeros will be inserted if necessary.
+This (along with the /c symbol) is designed to the replay rename dialog.
+
+-A new name template symbol: [b]/Fx[/b]. Replay counter with fixed x digits, its value is always the number of replays in the target folder +1.
+This is designed to the replay auto-save feature.
+
+-A new name template symbol: [b]/Mx[/b]. This symbol can be used to insert the first x words of the map name (instead of the full map name).
+
+-Changed the template mechanism: symbols that require a player index will be silently disregarded if the current replay does not have enough players (for example you refer to the name of the 3rd player in case of a 1v1 replay).
+
+-[b]Improved the winner detection algorithm.[/b] In team games where the winner cannot be told for certain, the largest remaining team will be declared winner (which is most likely to be).
+This setting can be changed to leave the winners unknown in these situations in the miscellaneous settings.
+Also winner detection has been significantly improved for AI matches (taking into consideration that AI players do not leave).
+
+-A new option in the Multi-replay analysis module: [b]Auto-open first player[/b].
+If checked, automatically opens the player with the most games when the analysis is done.
+
+-The results table of a replay search is now default [b]sorted by date[/b] (descending). When the table is rebuilt (replays were renamed, moved deleted etc), the [b]sorting keys are restored[/b].
+
+-A new menu item in Window menu: [b]Start minimized to tray[/b]. If this is enabled, the main window will not appear on startup, only the system tray icon.
+The background works will operate of course (replay auto-save for example). You can bring the main window up by double clicking on the system tray icon, or right click on it and "Restore main window".
+
+-A new option in the Miscellaneous settings: [b]Time limit to be included in Multi-rep analysis[/b].
+Games shorter and players having less time in a replay than this value will be excluded from the multi-replay analysis.
+
+-Updated the application [b]icon and logo[/b] (thanks to roddds).
+
+-Bug fixes and code optimization.
+
+
+[hr]
+
+[big][b]Sc2gears 1.60: Real-time conversion and Voices[/b][/big]
+
+[b]Changes in 1.60 since version 1.51:[/b]
+--------------------------------------------
+-[b]Added game-time <=> real-time conversion.[/b]
+From now on real-time calculation is the default, so the APM and other charts, the average APM values and game lengths are displayed in real-time.
+The conversion takes the game speed into consideration. If you were playing on faster game speed for example, expect to see your APM being raised by 38.4%.
+You can disable this (switch back to game-time) in the Miscellaneous settings menu. 
+
+-A new menu item in the Settings: [b]Enable voice notifications[/b]. If it is enabled, you will hear voice notification at some specific events.
+
+-A new menu item in the Settings: [b]Voice[/b]. Sc2gears supports multiple voices. You can choose the one that you like the most.
+
+-A new menu item in the Settings: [b]Miscellaneous settings...[/b] Here you can change internal settings and fine-tune the operation of Sc2gears.
+
+-Now you can provide a name template for the auto-saved replays under the Miscellaneous settings. The same format can be used as in the replay rename dialog. 
+
+-[b]Replay save time[/b] is now parsed out of replay and is used instead of the file last modified date.
+
+-Updated the 1v1 match-up records tab (in the details of a player in Multi-rep analysis): now the match-ups where [b]Random is involved[/b] are also broken down to statistics [b]to what the random race turned out to be[/b].
+For example if you played PvR games with all outcomes of random, you will see all these statistics: Pv*, PvR, P vs R(Terran), P vs R(Zerg), P vs R(Protoss)
+
+-Added replay date+time and format info on the replay open dialogs.
+
+-Replaced the country flags.
+
+-Improved logging. Old logs are now backed up, and you can set how long you want to keep them.
+
+-Latest version check now uses a [b]secure connection[/b].
+
+-Other minor changes and improvements.
+
+
+[hr]
+
+[big][b]Sc2gears 1.50: Rep auto-save and Playmates[/b][/big]
+
+[b]Changes since version 1.41:[/b]
+--------------------------------------------
+-A new [b]Playmates[/b] tab in the details of a player in the Multi-replay analysis module.
+Statistics provided: common games, games as allies, games as opponents, records and win ratios as allies and as opponents, total time together, date of first and last common game.
+With this new tab you can see who did you play the most, who are you the most successful with, who are you the weakest against.
+
+-A new menu item in the Settings menu: [b]Enable replay auto-save[/b].
+If this is enabled, Sc2gears will backup all your new replays automatically. You just need to run Sc2gears while you play (you can hide it to the notification area if you want).
+If you want to change the replay auto-save folder, go to the Settings/Folder settings menu.
+
+-New info is parsed out and added to the game info tab: [b]handicap[/b]. Since most of the time it is 100 (default value), it is only displayed if it is less than 100.
+If handicap<100, a handicap icon is displayed next to the player name on the charts tab to draw attention to it. The tool tip value shows the handicap value.
+
+-Added Southeast Asia to the gateway list.
+
+-Added race icons on the charts tab, adjusted some colors for better readability.
+
+
+[hr]
+
+[big][b]Sc2gears 1.40 now supports the replays of the Official release[/b][/big]
+
+[b]Changes since version 1.30:[/b]
+--------------------------------------------
+-[b]Now works with the latest replay version (1.0, Official Release)[/b], does not support beta phase 1 replays anymore. Note that beta phase 2 replays are somewhat supported, but it wasn't my goal (the replay format is flawed).
+
+-More info is parsed out and displayed on the game info tab: computer difficulty level, player color names. Replay date+time is now displayed on the game info tab too.
+
+-Fixed a bug which caused some opened replays not to appear in the Recent replays menu.
+
+-Changed the unit ID representation in the action list (this way they are much shorter and easier to work with). 
+
+-Updated icons to the new Sc2 icons.
+
+-Changed the default replay and map folder settings according to the SC2 release.
+
+-Code optimizations (alternative coordinate arithmetics to avoid floating point arithmetics).
+
+
+[hr]
+
+[big][b]Sc2gears 1.30 with Multi-replay analysis has been released[/b][/big]
+
+[b]Some screenshots (scroll down for details):[/b]
+Activity chart:
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh4.ggpht.com/_jDMClHrENz8/TMkpRtLMRWI/AAAAAAAAWSc/6v6tVUF0P24/s730/multi_anal_p_activity.png.jpg[/img][/url]
+1v1 match-up records:
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh6.ggpht.com/_jDMClHrENz8/TMkpVrzur8I/AAAAAAAAWT0/VbZDAPFM7tY/s730/multi_anal_p_mu_1.png.jpg[/img][/url]
+Players' statistics:
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh4.ggpht.com/_jDMClHrENz8/TMkpQbS59yI/AAAAAAAAWSE/jFgrviXtn6E/s730/multi_anal_players.png.jpg[/img][/url]
+Race distribution over time:
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]http://lh4.ggpht.com/_jDMClHrENz8/TMkpS8oDXII/AAAAAAAAWS0/aYamP0k5jtM/s730/multi_anal_p_race_dist.png.jpg[/img][/url]
+(click on an image to see more)
+
+
+[b]Changes since version 1.20:[/b]
+--------------------------------------------
+-[b]A new module: Multi-rep analysis[/b]
+This module provides statistics across multiple replays and visualizes improvements and changes over time. It shows the following statistics of all the replays:
+
+[b]Players:[/b] a list of all players found in the replays. Statistics provided: Replays count, Average APM, Record (W-L-U), Win ratio, Race distribution, Total time in games, Average game length, First game date, Last game date, Presence (in days).
+[b]Maps:[/b] a list of all maps the replays were played on. Statistics provided: Replays count, Replays %, 1v1 P win ratio, 1v1 T win ratio, 1v1 Z win ratio, 1v1 R win ratio, First played, Last played.
+[b]1v1 Build orders:[/b] a list of all different build orders found in the replays. Statistics provided: Race, Build order (list of buildings), Occurrences, Record (W-L-U), Win ratio, First used, Last used.
+
+Double clicking on a player will open detailed statistics and development charts for the player. It shows the following statistics of a player (of all his/her replays):
+
+[b]Development charts:[/b] On this tab you can see various charts that show the development of a player over time. You can set the granularity of charts in the following time units: day, week, month, year. You can set the approximation (linear or cubic).
+    Chart types:
+    [i][u]Activity:[/u][/i] this chart visualizes the activity of a player over time. Shows the amount of games played over time (non-accumulative).
+    [i][u]APM development:[/u][/i] this chart visualizes the APM development of a player over time. The calculated average APMs are game length weighted. For example if a player in a time unit played 2 games, one with 10-minutes long and 100 APM, and another with 20-minutes long and 200 APM, the average weighted APM for this period will be 166.
+    [i][u]Race distribution over time:[/u][/i] this chart shows which races were used by the player over time (race distribution bars for each time period). 
+    [i][u]Win ratio development:[/u][/i] visualizes the changes of win ratio over time. 
+[b]Game format records:[/b] statistics for all different game formats. Statistics provided: all data as listed at the Players.  
+[b]1v1 match-up records:[/b] statistics for all different match-ups, plus summarized by the player race (for example PvP, PvT, PvZ, PvR plus Pv*). Statistics provided: all data as listed at the Players.
+[b]Maps:[/b] statistics of maps of the player. Statistics provided: all data as listed at the Maps.
+[b]1v1 Build orders:[/b] statistics of the 1v1 build orders of the player. Statistics provided: all data as listed at 1v1 Build orders.
+
+Tips: the statistics table are sorted by multiple columns. For example if you want to sort by Win ratio AND replays count, first click on the replays count column and then the win ratio.
+
+-Integration of the new Multi-rep analysis module:
+A new Multi-replay analysis node in the navigation tree. Double clicking on the <new> item will show a file/folder chooser dialog where you can select files/folders for the analysis.
+New replay operation: Open in multi-replay statistics. This will open all selected replays in the Multi-replay analysis.
+New button on the search results tab: Open all in multi-rep analysis. This will open all replays in the search result in the Multi-replay analysis.
+
+-New menu item in File: Recent replays. This sub menu lists the last 15 opened replays.
+
+-New menu items in Navigation: Expand all, Collapse all
+
+-[b]The winner is parsed now.[/b] On the Charts tab a [i]trophy[/i] icon is displayed next to the winners. 
+
+-More info on the "Game info" tab: replay file name, map playable size, winners.
+
+-A new search field: Date.
+
+-Copying, moving and packing (ZIP) replays now preserves the file date.
+
+-Other minor fixes and improvements.
+
+
+[hr]
+
+Previous changes and features:
+[url=https://sites.google.com/site/sc2gears/version-history]https://sites.google.com/site/sc2gears/version-history[/url]
+
+
+[b]Home page:[/b]
+[url=https://sites.google.com/site/sc2gears/]https://sites.google.com/site/sc2gears/[/url]

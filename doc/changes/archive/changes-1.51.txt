@@ -1,0 +1,9 @@
+To translators:
+When translating please use the language files from the latest official release (1.41) because I might have edited the translation files you sent me last time.
+
+
+Sc2gears 1.60:
+
+[b]Changes since version 1.50:[/b]
+--------------------------------------------
+-Small fix in the replay auto-saver (in some cases new replays might have been saved twice).

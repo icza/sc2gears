@@ -1,0 +1,42 @@
+To translators:
+
+Removed keys:
+-pluginManager.details.visitPluginHome
+
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.4: The Sound of Victory, Plugin API 2.1
+Sc2gears 7.4: The Sound of Victory plugin, Plugin API 2.1
+
+
+[b]Changes and new features in 7.4:[/b]
+--------------------------------------------------------
+
+-[b]A new "The Sound of Victory" plugin[/b]
+Do you miss your favorite sound to praise you when you win? Or do you miss something to cheer you up when you lose? Then this plugin is for You.
+This plugin plays an audio file after each of your games based on your match result (win or loss). You can choose your own Victory and Defeat audio files.
+Replay auto-save must be enabled for this plugin to work.
+
+-[b]Plugin API 2.1[/b]
+An overview of the Plugin API 2.1 changes and additions:
+ * A new [i]Configurable[/i] interface which if implemented will be called when the user clicks on the [i]"Configure plugin"[/i] button in the Plugin manager.
+ * Fixed a bug which caused an error when a plugin tried to set or get a setting through the SettingsApi.
+ * The SoundsApi now accepts data streams which do not support mark().
+ * Fixed many typos in the API documentation.
+ * Fixed some bugs in the API implementation.
+
+-Setting the APM Alert level to zero will disable APM alerts "Low APM" and "APM ok." (but will let the APM Alert monitor run).
+
+-Replaced the Win icon and added a Loss icon.
+
+-Winners and losers are now displayed in the On-Top Game info dialog.
+
+-League wins ("LW") are now displayed in the On-Top Game info dialog next to the APM.
+
+-Improved the replay parser engine (replays are now handled properly where the in-game chat parsing failed).
+
+-Other minor changes, bug fixes and improvements.

@@ -1,0 +1,44 @@
+To translators:
+
+Sc2gears 1.80: Direct player profile access
+
+
+[b]Changes and new features in 1.80:[/b]
+--------------------------------------------------------
+-A new [b]context menu[/b] if you right-click on a player name in the replay analyzer.
+It has a [b]"View character profile"[/b] menu item which will take you to Blizzards' Battle.net profile page of the player.
+Different battle.net servers support different languages. You can set your [b]preferred language[/b] in the Miscellaneous settings, and you will see the profiles in that language if that's available on the player's battle.net server.
+Available profile languages: English, Chinese_TW, French, German, Italian, Korean, Portuguese_BR, Russian, Spanish_MX.
+The context menu also has a [b]"View character profile in language"[/b] menu item which lists all available languages on the player's battle.net for you to choose.
+
+-Added new languages: [b]Dutch[/b] and [b]Korean[/b].
+
+-Added a new voice: Smix Korean.
+
+-[b]2 new columns in the Maps table of a player[/b] in the Multi-rep analysis: Record and Win %. These 2 new columns shows the total record and win ratio of the player on the different maps (the previous win ratio columns only showed 1v1 win ratios with different races).
+
+-[b]New name template symbol: /g[/b] - comma separated list of all player names grouped by teams.
+
+-[b]New name template symbol: /Nxy[/b] - first xy letters of map name (2 digits!).
+
+-[b]Replaced the Sc2gears.exe[/b] with a new, smaller one; this also solves the "msvcr71.dll was not found" related startup error.
+
+-Minimize to tray menu item now has a hotkey (F9).
+
+-New menu item in the Window menu: Minimize to tray on Minimize.
+
+-New menu item in the Window menu: Minimize to tray on Close.
+
+-New menu item in the system tray menu: Enable replay auto-save.
+
+-New menu item in the system tray menu: Open last replay.
+
+-[b]Send resources actions[/b] now show the target player and the amount of minerals and gas sent.
+
+-Fixed a replay parsing error which might have caused false winner detection and false chat display when observers (non-players) were in the game.
+
+-Fixed a syntax error in the Linux starter script.
+
+-Fixed a small bug in the Sc2gears Updater.
+
+-Other minor fixes and improvements.

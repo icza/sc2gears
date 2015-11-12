@@ -1,0 +1,19 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 6.0.3: 
+Sc2gears 6.0.3: 
+
+[b]Changes and new features in 6.0.3:[/b]
+--------------------------------------------------------
+
+-The auto-updater was not launched properly on some computers. It's fixed now.
+The error is caused by folder names that contain spaces. So if you have Sc2gears in such a folder (or inside of such a folder) that has spaces, here's how you can run the update properly:
+[b]Copy Sc2gears to a folder without spaces, for example "C:\Sc2gears". Start it, run the updater, after that you can copy it back.[/b]
+The new version will not have this error and will run the auto-update properly.

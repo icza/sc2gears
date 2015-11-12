@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <bnet-id type="integer">206154</bnet-id>
+  <updated-at type="datetime">2011-05-10T07:28:24Z</updated-at>
+  <achievement-points type="integer">1025</achievement-points>
+  <region>eu</region>
+  <name>SCIIGears</name>
+  <teams type="array">
+    <team>
+      <world-rank type="integer">37436</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">95</division-rank>
+      <division>Division Void Ray Lambda</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-10T07:13:14Z</updated-at>
+      <region-rank type="integer">12097</region-rank>
+      <wins type="integer">3</wins>
+      <bracket type="integer">2</bracket>
+      <is-random type="boolean">false</is-random>
+      <division-id type="integer">95390</division-id>
+      <members type="array">
+        <member>
+          <bnet-id type="integer">418184</bnet-id>
+          <fav-race>random</fav-race>
+          <name>OhDaeSu</name>
+          <id type="integer">698445</id>
+          <character-code type="integer">347</character-code>
+        </member>
+      </members>
+      <points type="integer">0</points>
+      <losses type="integer">0</losses>
+      <id type="integer">11382817</id>
+    </team>
+    <team>
+      <world-rank type="integer">37436</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">89</division-rank>
+      <division>Division Zeratul Gravity</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-10T11:48:06Z</updated-at>
+      <region-rank type="integer">12097</region-rank>
+      <wins type="integer">1</wins>
+      <bracket type="integer">2</bracket>
+      <is-random type="boolean">false</is-random>
+      <division-id type="integer">82409</division-id>
+      <members type="array">
+        <member>
+          <bnet-id type="integer">1329055</bnet-id>
+          <fav-race>random</fav-race>
+          <name>FireFlier</name>
+          <id type="integer">1309913</id>
+          <character-code type="integer">653</character-code>
+        </member>
+      </members>
+      <points type="integer">0</points>
+      <losses type="integer">0</losses>
+      <id type="integer">5978666</id>
+    </team>
+    <team>
+      <world-rank type="integer">37436</world-rank>
+      <ratio>1.00</ratio>
+      <division-rank type="integer">90</division-rank>
+      <division>Division Pylon Mars</division>
+      <fav-race>random</fav-race>
+      <league>diamond</league>
+      <updated-at type="datetime">2011-05-09T17:47:50Z</updated-at>
+      <region-rank type="integer">12097</region-rank>
+      <wins type="integer">1</wins>
+      <bracket type="integer">2</bracket>
+      <is-random type="boolean">false</is-random>
+      <division-id type="integer">95395</division-id>
+      <members type="array">
+        <member>
+          <bnet-id type="integer">387029</bnet-id>
+          <fav-race>random</fav-race>
+          <name>BanZanA</name>
+          <id type="integer">145602</id>
+          <character-code type="integer">324</character-code>
+        </member>
+      </members>
+      <points type="integer">0</points>
+      <losses type="integer">0</losses>
+      <id type="integer">10698228</id>
+    </team>
+  </teams>
+  <id type="integer">221850</id>
+  <character-code type="integer">387</character-code>
+</hash>

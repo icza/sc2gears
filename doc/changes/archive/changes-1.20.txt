@@ -1,0 +1,59 @@
+To translators:
+-Changed the text belonging to the key: module.repAnalyzer.tab.inGameChat.blinkMessage
+-Removed key: module.repAnalyzer.tab.charts.actionOps.clearFilterButton, its role is taken by module.repAnalyzer.tab.charts.actionOps.clearFiltersButton
+ (Note that it only differs in plural: now there are 2 filters not just 1)
+
+TITLE:
+Sc2gears 1.20: Map view chart+Team view
+
+
+[red][b]Edit: Sc2gears 1.20: Map view chart and Team view (aka Group by team)[/b][/red]
+
+Map view chart #1:
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh4.ggpht.com/_jDMClHrENz8/TBdWgsjmZcI/AAAAAAAAUYA/1HwcWsO3pYo/s400/map_view.png.jpg[/img][/url]
+
+Map view chart #2:
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh6.ggpht.com/_jDMClHrENz8/TBdWhCYyY7I/AAAAAAAAUYI/eyBBjVst9Ro/s400/map_view_2.png.jpg[/img][/url]
+
+[b]Changes since version 1.10:[/b]
+-----------------------------------------
+-[b]A new chart type: Map view chart[/b]
+The Map view chart displays the map image with objects on it including [i]resources[/i] (minerals, geysers), [i]other map objects[/i] (destructible rocks, towers etc.), [i]buildings[/i] and the [i]screen positions[/i] of the players (locations where players were looking at).
+The Map view chart always shows the status of the map at the time of the selected action, so you can follow how the map changes during the game from the beginning 'till the end.
+If no action is selected, it will show the image of the last moment of the game (all buildings). 
+You can choose to display building images or just filled rectangles. You can hide overlapped buildings (default behavior).
+Tool tip shows the coordinates or the name of the building (or map object) under the mouse cursor.
+If the selected action has a target point, the map will be scrolled to it and a marker will be displayed at the target location.
+[i]Tips:[/i] You can filter out buildings you're not interested in. You can use this chart to display/learn where others put certain buildings (like turrets, cannons etc) by enabling [i]"Use listed actions as chart input data"[/i] and filtering the action list.
+
+-[b]A new option that applies to all charts: Group by teams[/b]
+With this new option you can compare the performance of entire teams not just the individuals of the game.
+With [i]"Group by teams"[/i] you can check if teams were even based on the team's APM (sum of team members' APM), you can see the overall unit production of the entire team etc. 
+Of course the [i]"Group by teams"[/i] can be combined with [i]"All on 1 chart"[/i] to easily compare the overall performances of teams.
+If "Group by teams" is checked, the map view chart will display team members with the same color (so you can easily distinguish between teams).
+
+-[b]More info is parsed out[/b] from the replays about the actions.
+Action list now shows the target of the actions (either the target location or the targeted unit).
+
+-A new action operation: [b]Filter out actions[/b]
+You can enter a text filter term here, and actions that match this filter will not be displayed.
+This can be combined with the [i]"Filter actions"[/i], but the filter out actions has higher precedence: an action that matches both will not be displayed. 
+
+-The states of Action type check boxes (action filters above the action list) are now stored in the settings too. 
+
+-Listed actions count is displayed below the action list.
+
+-Map previews are now trimmed (black borders are removed).
+
+-Added [b]Chinese[/b] language by "mk jack".
+
+-Code optimizations (for better performance).
+-Optimized code compilation (for better performance and smaller download size).
+
+-Adjusted some MAC related settings.
+
+-Fixed a bug to parse teams properly according to the game format.
+
+
+[b]Home page:[/b]
+[url=http://sites.google.com/site/sc2gears/]http://sites.google.com/site/sc2gears/[/url]

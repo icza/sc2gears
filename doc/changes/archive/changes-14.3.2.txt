@@ -1,0 +1,19 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 14.3.2: 
+
+[hr]
+
+[big][b]Sc2gears 14.3.2: [/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 14.3.2:[/b]
+--------------------------------------------------------
+
+-Added a new portrait image.
+
+-Added Season #16 start date.
+
+-Adjusted the profile retriever to the changes made to Battle.net profile pages in season #15 so profile data is retrieved correctly again.
+

@@ -1,0 +1,57 @@
+To translators:
+
+Removed keys:
+-pluginManager.details.pluginDisabled
+-pluginManager.details.pluginEnabled
+-pluginManager.details.pluginError
+
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.2: Plugin API 2.0, Build Orders Table
+Sc2gears 7.2: Plugin API 2.0, Build Orders Table plugin
+
+[b]Changes and new features in 7.2:[/b]
+--------------------------------------------------------
+
+-[b]Plugin API 2.0[/b]
+The Sc2gears Plugin API 2.0 allows to create more powerful plugins which better integrate into Sc2gears.
+The main addition is that plugins can now take advantage of Sc2gears' most advanced SC2Replay parser engine, and they can also access profile info.
+[i]Plugin API 2.0 gives deep insight into replays' structures, advanced info and the actions of the players.[/i] Also provides numerous utilities to parse and process StarCraft II replays.
+The javadoc (also available [b][url=http://sc2gearsdb.appspot.com/sc2gears-plugin-api/index.html]online[/url][/b]) contains invaluable information and many example code snipplets.
+An overview of the Plugin API 2.0 changes and addition:
+ * A new interface to access the Replay parser engine: ReplayFactoryApi
+ * A new interface to access profile info: ProfileApi
+ * A new interface to interact with the Mouse print recorder: MousePrintRecorderApi
+ * A new interface to access icons of different objects: IconsApi
+ * Methods to add/remove diagnostic test factories (in the CallbackApi) to be executed by the Diagnostic tool
+ * Methods to add/remove menu items to the new "Plugins" menu (in the CallbackApi)
+ * Several new methods in many API files (for example InfoApi, LanguageApi and GuiUtilsApi)
+
+-[b]A new Build Orders Table plugin (with source code).[/b]
+A demonstration plugin that adds a new [b]"Show Build Orders Table"[/b] replay operations menu item which opens the Build orders table of the selected replay in a dialog.
+Source code is available on the Sc2gears [url=https://sites.google.com/site/sc2gears/downloads]Downloads[/url] page inside the Sc2gears Plugin API archive.
+
+-The Plugin manager now handles incompatible plugins.
+A new check box has been added to the Plugin manager where you can allow/disallow running incompatible plugins.
+Plugins with version 1.x are now incompatible due to some structural changes, but they can be made compatible very easily (in 2 minutes).
+
+-A new menu: "Plugins"
+Plugins can add/register menu items under this "Plugins" menu to give you access to their functionality.
+
+-The replay operations popup menu now shows the number of selected replays.
+
+-The Season #3 start date has been modified to July 26.
+
+-Changed the Terran Infernal Pre-igniter research icon according to Blizzard's new icon.
+
+-Major refactoring (due to the Plugin API 2.0) and other minor changes, fixes and improvements.
+
+
+
+----------------------------------------
+extend doc:
+plugins classes are only loaded once (so initialize static attributes according to that)

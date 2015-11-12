@@ -1,0 +1,36 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 4.2: New Charts!
+Sc2gears 4.2: New charts: Unit Tiers, Player Selections
+
+
+[b]Changes and new features in 4.2:[/b]
+--------------------------------------------------------
+
+-[b]New chart: Unit Tiers[/b]
+This is a bar chart which shows the trains (and morphings) of the units of different tiers over time.
+The goal of the chart is to visualize what tier of units were made at different times of the game, so you can see what tier combinations have battled.
+Move your mouse over any of the bars to get the details broken down into tiers and units in a tool tip table.
+There is an option to [i]stretch bars[/i]: all charts will be drawn with maximum height giving you a view where you can fast analyze the ratio of different tiers over time.
+
+-[b]New chart: Player Selections[/b]
+This chart shows the current selections of players at any given time. Animate the replay to see how the players change their selections, to see what buildings and units they cycle through.
+Also the current selections always give you a hint of the [i]actual units/buildings[/i] that are in the game (meaning they were truly created and are not yet destroyed).
+
+-[b]New name template symbol: /G[/b]
+This symbol inserts the gateway on which the game was played on. This comes handy if you play on multiple servers (including the Public Test server) and you want to separate replays based on where they were played.
+
+-Added "Average game length" column to the maps tab in the Multi-replay analysis.
+
+-[b]Sc2gears is now available in Japanese too![/b]
+Thanks to Psyko!
+
+-Added option to search for "Unknown" match result.
+
+-Other minor fixes and improvements.

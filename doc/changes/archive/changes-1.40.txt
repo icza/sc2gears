@@ -1,0 +1,29 @@
+To translators:
+
+TITLE:
+Sc2gears 1.40: Official release support
+
+
+[red][b]Edit: Sc2gears 1.40 now supports the replays of the Official release[/b][/red]
+
+Home page:
+[url=http://sites.google.com/site/sc2gears/]http://sites.google.com/site/sc2gears/[/url]
+
+
+[b]Changes since version 1.30:[/b]
+--------------------------------------------
+-[b]Now works with the latest replay version (1.0, Official Release)[/b], does not support beta phase 1 replays anymore. Note that beta phase 2 replays are somewhat supported, but it wasn't my goal (the replay format is flawed).
+-More info is parsed out and displayed on the game info tab: computer difficulty level, player color names. Replay date+time is now displayed on the game info tab too.
+-Fixed a bug which caused some opened replays not to appear in the Recent replays menu.
+-Changed the unit ID representation in the action list (this way they are much shorter and easier to work with). 
+-Updated icons to the new Sc2 icons.
+-Changed the default replay and map folder settings according to the SC2 release.
+-Code optimizations (alternative coordinate arithmetics to avoid floating point arithmetics).
+
+
+[b]Home page:[/b]
+[url=http://sites.google.com/site/sc2gears/]http://sites.google.com/site/sc2gears/[/url]
+
+
+-------------------------------------------------------------------------
+

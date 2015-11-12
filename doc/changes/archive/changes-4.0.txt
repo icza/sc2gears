@@ -1,0 +1,64 @@
+To translators:
+
+Removed keys:
+-module.repAnalyzer.tab.charts.mapView.hotAreasCount
+
+Changed translation:
+
+
+Sc2gears 4.0: 1.2 Support, Mouse print, D&D + more
+Sc2gears 4.0: 1.2 Patch support, Mouse Print Recorder, Improved Replay analyzer, Drag and Drop support
+
+
+[b]Changes and new features in 4.0:[/b]
+--------------------------------------------------------
+
+-[b]1.2 Patch support[/b]
+Replays with version 1.2 are now supported. Also changed some icons according to Patch 1.2.
+
+-[b]Mouse print recorder[/b]
+[i]Mouse print recorder[/i] is both a [i]tool[/i] and a service-feature of Sc2gears.
+The [i]mouse print[/i] is the track of mouse movements. Sc2gears can save both the binary data of the mouse print or the image of it drawn onto a canvas.
+The mouse print can be customized on the Mouse print tab in the Miscellaneous settings dialog. You can select different image output formats (PNG, JPG, GIF), you can customize the mouse print color and the background color, enable/disable anti-aliasing, set the time limit to pour ink when mouse is idle, set the ink flow rate, set the compression algorithm to use to save mouse print binary data. The output folder to save mouse prints can be set on the Folders tab of the Misc settings dialog.
+You can setup Sc2gears to save all your mouse prints from the games. It can be enabled under the APM Alert tab in the Misc settings dialog: "Save mouse prints of all games". It only works if APM Alert is enabled because it requires to detect game starts and ends (and APM Alert does that).
+A new menu item has been added in the Tools menu: [b]Mouse print recorder.[/b] This tool can be used to check the current image of the mouse print.
+Beside the image it also shows you various useful information like the total distance your mouse moved (in pixels, foots, meters), the average mouse speed (in pixel/sec, inch/sec, cm/sec).
+It can also be used to manually start and stop mouse print recording. Note that this window does not need to be opened: once you start the recording you can safely close it. When you reopen it, you will see the mouse print that was recorded (or is being recorded).
+The tool is also able to load previously loaded binary mouse prints, so you can reproduce the mouse print image with new settings (so basically you only need to save binary mouse print data to also have the mouse print images...).
+[i]Please note that the Mouse print auto-saver works only if APM Alert is enabled.[/i] (This is because the APM Alert is the one that detects the start and the end of SC2 games.) This also means that MAC users cannot use the Mouse print auto-saver (APM Alert is not available on MAC), only the manual mouse print recording. If you want only mouse print auto-save but not APM Alert, you can set the APM alert level to 0.
+I've created a new file format called SMPD (Sc2gears Mouse Print Data) for storing mouse print binary data. You can read the format specification on this page: [url=http://sites.google.com/site/sc2gears/features/mouse-print-recorder]Mouse print recorder[/url].
+
+-[b]New option on the APM chart: Show Micro/Macro APM[/b]
+If this enabled, Micro APM will be drawn with a thin line with lighter color. This line shows the Micro APM of the player. The macro APM is between the normal APM and the Micro APM.
+The chart texts display the average Micro APM and Macro APM values of the players.
+[b]Classification of actions:[/b]
+As a [i]general rule[/i] actions that require resources or free resources are considered macro actions, for example unit trains, builds, upgrades, researches, "Upgrade to Greate Spire", Salvage etc.
+Select and Hotkey actions that include only buildings are macro actions, the remaining Select and Hotkey actions are considered micro actions.
+[b]Exceptions/additions:[/b] Cancel commands, resource trading related commands and "Merge Archon" are macro actions.
+"Cancel Warp Gate Upgrade", "Cancel Gateway Mutation", "Cancel Tac Nuclear Strike" are considered micro actions.
+Repair -although requires resources- is considered a micro action.
+[b]Exceptions of selecting/hotkeying units/buildings:[/b] Larva is considered a macro action, Creep Tumor, flying Terran buildings, uprooted Zerg buildings are considered micro actions.
+All actions that were not mentioned (and are not Inactions like "Move Screen") are considered micro actions, for example "Right click".
+
+-[b]New background options on the Map view chart: Camera areas, Map image+Camera areas[/b]
+This background type of the Map view visualizes where the players were looking at on the map weighted by the amount of time spent there.
+[b]A practical use of the Camera areas:[/b] You can see where people look most often on the map. Areas where people look less often are better places/paths for you: [i]you will have a better chance to remain unspotted if you attack/drop from these areas or you build/hide your tech or proxy buildings on these areas[/i]. Note that this only covers the players' cameras and not the visible areas of the minimap.
+
+-[b]Added Drag and Drop support.[/b]
+You can now drag and drop files and folders onto Sc2gears.
+If the dropped file list contains only a single replay (amongst other files), that will be opened in the Replay analyzer.
+If the dropped file list contains multiple replays and/or folders, those will be opened in a replay search (you can open all of them in Multi-replay anlayzer with 1 click). Also the files and folders will be added to the source tab, so you can edit/save it.
+If the dropped file list contains replay sources and/or replay lists, those will be opened respectively in replay searches.
+You can also drag and drop files and folders on the Source list of a replay search, the dropped file list will be added to the source list.
+
+-Tool tips of the buildings on the Map view chart now shows the time and frame when that building was built (after the name of the building and the owner player).
+
+-Hotkey 0 is now displayed below hotkey 9 (instead of above hotkey 1) on the Hotkeys chart in the Replay analyzer.
+
+-Replaced "Sc2gears-os-x.sh" with "Sc2gears-os-x.command" so you can double click on it in MAC OS-X. Also changed the content of "Sc2gears-linux.sh" so it can be double clicked on linux also.
+
+-Fixed a bug which prevented sub-folders in name templates to work on MAC OS-X.
+
+-Added new tips.
+
+-Other minor fixes and optimizations.

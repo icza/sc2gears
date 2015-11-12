@@ -1,0 +1,26 @@
+
+Base character info:
+http://sc2ranks.com/api/base/char/eu/SCIIGears!206154.xml?appKey=test.com
+http://sc2ranks.com/api/base/char/eu/SCIIGears$387.xml?appKey=test.com
+
+Character with base team info:
+http://sc2ranks.com/api/base/teams/eu/SCIIGears!206154.xml?appKey=test.com
+http://sc2ranks.com/api/base/teams/eu/SCIIGears$387.xml?appKey=test.com
+
+Character with team info and team members
+http://sc2ranks.com/api/char/teams/eu/SCIIGears!206154/2/0.xml?appKey=test.com
+http://sc2ranks.com/api/char/teams/eu/SCIIGears$387/2/0.xml?appKey=test.com
+2=bracket, 0=not random, 1=random
+
+
+
+http://sc2ranks.com/images/leagues/diamond.png
+
+
+
+Mass base character
+POST, only json
+
+
+Mass base character + team information
+POST, only json

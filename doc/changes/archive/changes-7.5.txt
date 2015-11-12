@@ -1,0 +1,37 @@
+To translators:
+
+Removed keys:
+
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.5: Improved Replay list, Plugin API 2.2
+
+[b]Sc2gears 7.5: Improved Replays list table, Plugin API 2.2[/b]
+
+[b]Changes and new features in 7.5:[/b]
+--------------------------------------------------------
+
+-[b]Improved Replay list table[/b]
+There is a [b]Column setup[/b] link above the table now where you can [b]rearrange and hide the columns permanently[/b] to your liking. Sc2gears will remember your order and preference when you close the replay search or restart Sc2gears.
+2 new columns have been added to the replays table (the Results tab of the Replay search): Format and Winners.
+You can still drag and reorder the columns with your mouse which will be applied only temporary.
+
+-[b]Plugin API 2.2[/b]
+Overview of the Plugin API 2.2 changes and additions:
+ * A powerful IHttpPost utility to work with HTTP POST requests, even to easily upload / download files from standard HTTP servers. Usage examples can be found on the javadoc page of IHttpPost.
+ * Base64 file encoding utility: GeneralUtilsApi.encodeFileBase64()
+ * Added a new synchronous downloader utility method: GeneralUtilsApi.downloadUrl() (to co-exist with the asynchronous getDownloader() method).
+ * Plugin-specific persistent file cache folder: PluginServices.getPluginFileCacheFolder()
+ * Other minor additions.
+
+-Added a new setting on the "Replay auto-save" tab: 'Play "Replay saved" voice when replays are saved'
+You can disable the "Replay saved" voice after games if you use the "The Sound of Victory" plugin and you don't want both sounds to be played.
+"Failed to save replay" will still be played if it fails to save a replay.
+
+-Fixed a bug in the Build Orders Table plugin which caused incorrect table sorting when clicking on the Time column.
+
+-Other minor changes, improvements and bug fixes.

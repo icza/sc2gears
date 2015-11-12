@@ -1,0 +1,52 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 10.2: Gaming Sessions, Improved editor
+
+[hr]
+
+[b]Sc2gears 10.2: Gaming Sessions, Improved name template editor, Refactored Misc settings dialog[/b]
+
+[b]Changes and new features in 10.2:[/b]
+--------------------------------------------------------
+
+-[b]The Name template editor has been improved.[/b]
+On the template editor dialog there is a new field: [b]"Explained:"[/b]. This field explains the currently entered template, the symbols are expressed with words.
+While you edit the name template, the template is checked in real time and the Explained field is updated continuously.
+In case the template is invalid, the Explained field changes to red background and contains an explanation of what the problem is with the current template.
+The Check button has been removed because the Explained field is automatic and provides much more details. The Test and Preview buttons are still available to test/preview the name template on your last replay or on your selected replays.
+
+-[b]New name template symbol: /w[/b]
+This symbol inserts the comma separated list of the winners.
+
+-[b]The Analyzer tab of the Misc settings dialog has been decomposed into 3 tabs: Replay parser, Replay analyzer, Multi-rep analysis.[/b]
+The Analyzer tab contained too many settings, the list even grew in this version.
+Also some settings were moved from the Internal tab to the Replay parser tab (replay cache and MD5 hash name setting) and to the Replay analyzer tab (profile info validity time).
+With these 3 new categories it will be easier to tell where the proper settings are located and what they have influence on.
+
+-[b]A new tab in the Multi-rep analysis: Gaming Sessions[/b]
+A Gaming Session is a sequence of games where the time break between games is not greater than a specified limit.
+This tab analyzes your gaming sessions, and calculates statistics for the games based on their position in the gaming sessions.
+For example you will see all the stats for each of your first games when you sat down to play, for your 2nd games, for your 3rd games etc.
+The first column is [i]"Game # in session"[/i] tells the position of games in the sessions (e.g. 1st games of sessions, 2nd games of sessions etc.). The second column is [i]"Sessions ending here"[/i] is the number of sessions with this length.
+With this you can analyze things like how well you perform in your first games - if your win rate is low, you might need some warm up before you play serious. Or if your win rate decreases after the 10th game of your sessions, that suggests that you should take a break/rest after playing 10 games.
+The max time break between gaming sessions is 60 minutes by default. You can change this on the Multi-rep analysis tab of the Misc settings dialog: [i]"Max gaming session break in Multi-rep analysis"[/i].
+
+-[b]A new button on the "My shared replays" dialog: Store list[/b]
+With this you can backup your shared replay list in the [url=https://sites.google.com/site/sc2gears/sc2gears-database]Sc2gears Database[/url], you will find it under the "Other files" tab.
+If you store the list multiple times while it is not changed, it will only be stored once.
+If the list grew with new shared replays, it will appear as a new file under the "Other files" tab in the Sc2gears Database.
+
+-[b]A new replay site has implemented the [url=https://sites.google.com/site/sc2gears/features/replay-sharing]replay upload specification[/url] and is available for replay sharing: StarcraftTools.net[/b]
+
+-[b]Improved replay parser: replays where game was saved are now parsed properly.[/b]
+Saving a game appears in the replay which caused the replay parser to fail. This is now handled, replay save appears in the action list as a new action ("Save game") with the file name the game was saved to. This is an inaction, you only see these if you check the Inaction action type.
+
+-Renamed some abilities: "Activate/Deactivate ..." => "Toggle ...".
+
+-Fixed a typo (Zerg Research "Ventral Sacks" => "Ventral Sacs").
+
+-Plugin API 2.7.2
+Updated to the new constants, ISaveGameAction interface has been added.
+
+-Other minor changes and improvements.
+

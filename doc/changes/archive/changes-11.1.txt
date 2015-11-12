@@ -1,0 +1,32 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 11.1: Improved Video Streaming Server
+
+[hr]
+
+[big][b]Sc2gears 11.1: Improved Video Streaming Server[/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh3.googleusercontent.com/-gEwsyaSTF14/UBZ5RwUBMaI/AAAAAAAArPc/oTC97n04Mpg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 11.1:[/b]
+--------------------------------------------------------
+
+-Private Video Streaming improvements:
+
+[b]Streaming server improvements:[/b]
+  * [b]New streaming parameter: Screen capture method[/b]
+    There is a "Standard (Java)" method which was in the previous (1.0) version. This works on all operating systems. This method has been slightly improved compared to the previous version (like +10% higher reachable FPS).
+    On Windows there is another method: "Windows Native". This is the default method on Windows, and this method gives 10..30% higher reachable FPS value compared to the improved standard method. This method also [i]eliminates the mouse cursor blinking effect[/i] experienced in some cases using the standard method.
+  * New streaming statistics added: Average video size (per second), Frames transmitted.
+  * Statistics are now displayed in more user friendly units like Bytes, KB, MB, GB.
+  * Custom area components and custom resize components are now only enabled if applicable.
+
+[b]Client streaming web page improvements:[/b]
+  * On the client streaming web page the "Max Width" and "Max Height" zoom values are replaced with a single [b]"Full Window"[/b] value. If you select this zoom value, the video stream will automatically scale to fill your browser window while keeping the aspect ratio. If you resize your browser window or enter browser Full Screen (F11 key in most browsers), the video stream will automatically adjust to the new size.
+    [i]Tip: If you want to watch the video stream full screen, select "Full Window" zoom value and enter browser full screen mode (F11 key).[/i]
+  * Clicking on the video now scrolls the page so the top of the video will be at the top of the page.
+  * If someone tries to view your stream but with a wrong or missing password, a [b]password form will be presented[/b] where the user can enter the password.
+
+-Fixed a language bug which prevented the "Proxy configuration" dialog to appear (on the Internal tab of the Misc settings dialog).
+
+-Other minor changes and improvements.

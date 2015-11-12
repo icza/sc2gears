@@ -1,0 +1,45 @@
+To translators:
+
+Removed keys:
+-replayListColumnSetup.restoreDefaultsButton
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 7.6: Word Clouds, Game length records
+
+[hr]
+
+[b]Sc2gears 7.6: Word Clouds, Game length records[/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh3.googleusercontent.com/-T6bAiXX7Jiw/TldrIqCtezI/AAAAAAAAgq4/R4CEvvi6xhc/s400/word_cloud_maps.png[/img][/url]
+
+[b]Changes and new features in 7.6:[/b]
+--------------------------------------------------------
+
+-[b]Word Clouds[/b]
+Sc2gears now has a Word Cloud generator engine. This engine is bound to all the tables where a Word Cloud has a meaning.
+A Word Cloud is an image of input words arranged in a cloud formation where the words have different sizes based on their frequencies (or occurrences).
+A [i]"Word Cloud"[/i] link has been added to the top of most tables in the Multi-replay analysis. Clicking on these links will open a new window and generate a Word cloud from the input table. You can customize the generated Word Cloud directly from the opened window.
+You can visualize the players found in the analyzer replays, the maps, chat words (chat cloud), your playmates... everything. The Word cloud will clearly show who played the most games, on what maps you played the most, who did you play with the most etc.
+You can also display All leagues of a player in a Word Cloud: click on the "Word Cloud" link above the All leagues table in the Player profile dialog. The All leagues Word cloud visualizes all the leagues weighted by their division rank (higher rank is displayed in bigger size).
+
+-[b]A new tab in the Multi-replay analysis: Game lengths (player details)[/b]
+This tab will show the distribution of the game lengths of your games, and also statistics for each of them (including win ratio and APM).
+This will show you how many sort and long games you played, and also how well or bad you perform in them.
+You can set the game length granularity in the Analyzer tab of the Misc settings dialog. The default is 5 min, so your replays will be categorized into intervals like "0-5 min", "5-10 min", "10-15 min" etc.
+
+-[b]On-Top dialogs now can be locked![/b]
+You can lock the On-Top APM display and the On-Top Game info dialogs if you right click on them and you choose "Lock". Do the same to unlock them.
+If an On-Top dialog is locked, you can close it by right clicking on it and choosing "Close".
+
+-Plugin API 2.3:
+ * New methods in the GuiUtilsApi to create and show Word Cloud dialogs, and to add a "Word Cloud" link to tables.
+ * Other minor additions.
+
+-Small improvements made to the Updater.
+
+-Other minor changes and improvements.
+

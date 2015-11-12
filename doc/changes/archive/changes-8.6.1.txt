@@ -1,0 +1,19 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 8.6.1: 
+
+
+[hr]
+
+[b]Sc2gears 8.6.1: [/b]
+
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]https://lh4.googleusercontent.com/-DWcwn6dn3Ds/TsDBglspczI/AAAAAAAAg0c/v9qRlwMyUJE/s590/public_comments.png[/img][/url]
+
+[b]Changes and new features in 8.6.1:[/b]
+--------------------------------------------------------
+
+-Updated Chinese and Chinese Traditional translations are included.
+
+-Fixed an issue in the "Public comments" tab which allowed posting even if replay was renamed/deleted before posting (and thus the comment/rate was not bound to the replay).
+
+-Fixed an issue regarding to the Deferred tabs where newly selected tabs were not always rendered immediately.

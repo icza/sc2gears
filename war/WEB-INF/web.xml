@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE web-app PUBLIC 
+  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	
+	<display-name>Sc2gears back-end web application</display-name>
+	
+	<description>
+		This web application is the back-end for the Sc2gears project.
+		Project home page: https://sites.google.com/site/sc2gears/
+		This web application is hosted at: https://sciigears.appspot.com/
+	</description>
+	
+	<!-- ====================== SERVLETS ====================== -->
+	
+	<servlet>
+		<servlet-name>DownloadServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.DownloadServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.admin.server.AdminServiceImpl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.user.server.UserServiceImpl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ApiUserServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.apiuser.server.ApiUserServiceImpl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>FileServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.FileServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>InfoServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.InfoServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>MapImageServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.MapImageServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SmpdImageServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.SmpdImageServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>TopScoresServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.TopScoresServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>TaskServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.TaskServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ParsingServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.ParsingServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Sc2gearsPluginApiServlet</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.UnzipperServlet</servlet-class>
+		<init-param>
+			<param-name>zipFile</param-name>
+			<param-value>/hosted/Sc2gears_Plugin_API_4.2.zip</param-value>
+		</init-param>
+		<init-param>
+			<param-name>baseDir</param-name>
+			<param-value>Sc2gears Plugin API 4.2/java-doc/</param-value>
+		</init-param>
+		<init-param>
+			<param-name>welcomeFile</param-name>
+			<param-value>index.html</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>_ah_warmup</servlet-name>
+		<servlet-class>hu.belicza.andras.sc2gearsdb.PingServlet</servlet-class>
+		<load-on-startup>1</load-on-startup> <!-- Load on startup, we need to minimize API call execution times! -->
+	</servlet>
+	
+	<!-- ================== SERVLET MAPPINGS ================== -->
+	
+	<servlet-mapping>
+		<servlet-name>DownloadServlet</servlet-name>
+		<url-pattern>/download/*</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/admin/adminsrv</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/user/usersrv</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>ApiUserServlet</servlet-name>
+		<url-pattern>/apiuser/apiusersrv</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>FileServlet</servlet-name>
+		<url-pattern>/file</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>FileServlet</servlet-name>
+		<url-pattern>/file/*</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>InfoServlet</servlet-name>
+		<url-pattern>/info</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>MapImageServlet</servlet-name>
+		<url-pattern>/mapimage/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SmpdImageServlet</servlet-name>
+		<url-pattern>/smpdimage/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>TopScoresServlet</servlet-name>
+		<url-pattern>/topScores</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>TaskServlet</servlet-name>
+		<url-pattern>/task</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>ParsingServlet</servlet-name>
+		<url-pattern>/parsing</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>Sc2gearsPluginApiServlet</servlet-name>
+		<url-pattern>/sc2gears-plugin-api/*</url-pattern>
+	</servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>_ah_warmup</servlet-name>
+		<url-pattern>/ping</url-pattern>
+	</servlet-mapping>
+    
+	<!-- =================== OTHER SETTINGS =================== -->
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Admin Area</web-resource-name>
+			<url-pattern>/admin/*</url-pattern>
+			<url-pattern>/task/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+	
+</web-app>

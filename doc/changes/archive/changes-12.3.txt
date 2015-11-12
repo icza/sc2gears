@@ -1,0 +1,23 @@
+
+|----------Allowed thread title length-----------|
+Sc2gears 12.3: 
+
+[hr]
+
+[big][b]Sc2gears 12.3: [/b][/big]
+
+[url=https://picasaweb.google.com/117032417609730418656/Sc2gears][img]https://lh4.googleusercontent.com/-B278CsHHMr8/UCSmJCkTpvI/AAAAAAAAr4s/AT7WhWhxcqg/s730/private_video_streaming.png[/img][/url]
+
+[b]Changes and new features in 12.3:[/b]
+--------------------------------------------------------
+
+-Added Season 9 start date (assumed to be September 12).
+
+-Improved Replay parser engine: replays sent to me in the past causing "Parse error!" are now working properly.
+
+-Word clouds are working again!
+Fixed a bug where the Word cloud dialogs did not appear when clicked on any of the "Word cloud" link in the header of many tables.
+
+-Fixed a bug where the Private Video Streaming window would become too wide if the save stream video folder was too long.
+
+-The "Check Mouse print auto-save" diagnostic test no longer states "APM Alert must be enabled" (because it is no longer required).

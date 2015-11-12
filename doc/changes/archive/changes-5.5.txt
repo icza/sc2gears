@@ -1,0 +1,41 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 5.5: Table filter boxes, Improved search
+Sc2gears 5.5: Table filter boxes, Improved replay search
+
+[b]Changes and new features in 5.5:[/b]
+--------------------------------------------------------
+
+-[b]Table filter boxes[/b]
+ALL TABLES in Sc2gears (including Multi-replay analysis tables, Replay search tables) now have a quick table filter box.
+The filter box has 2 input fields: an include filter and an exclude filter. The include filter is to show only the rows that match the filter, the exclude filter is to hide rows that match the filter.
+This is a really easy way for you to find what you are looking for in big tables. You can enter any text into the filters, and only the rows that match the filters will remain visible. You can also use logical "OR" and "AND" between filter words, the default connection is "AND" if not specified. The filter is not case sensitive, you just have to type what you want to see.
+[i]This is a one-box type filter box:[/i] you enter the filter values of all columns into one field, and the filters are checked in all columns, so you can use this to filter by players, by races, by build orders, by maps, by leagues, by game type... by anything... at the same time.
+CTRL+F and CTRL+T hotkeys are bound to the include and exclude filter fields, so you can start filtering without having to click on the filter fields with your mouse.
+[i]The filtering happens in real time:[/i] the table is updated continuously as you type.
+You can also sort by any column and reorder columns while the table is filtered.
+
+-[b]Improved replay search[/b]
+Until now the player search field was only activated if player name(s) were entered.
+The player name is not required anymore. You can select/fill other fields in the player search field, and it will be applied properly.
+For example leave the player name field empty and you can search for replays where Terran won by choosing the "Terran" race and the "Win" match result. Or you can search for replays where a player had at least 300 APM by entering 300 to the Min APM field. These can also be combined of course.
+Also this can also be combined with the match-up filter. If you want to list replays where Terran won agaist Protoss, simply select the "Terran" race and the "Win" match result, and in the Race match-up filter enter "TvP".
+
+-A horizontal scroll bar is displayed under the players if the players do not fit into the screen.
+
+-Clicking on the portrait or the icons of the best leagues now opens the profile dialog (instead of enabling/disabling the player).
+
+-The recorder time zone is parsed and displayed on the Game info tab in the Replay analyzer.
+You can use this info to determine the local time of the player who recorded the replay.
+For example if the replay date says "8 AM", recorder time zone: +2.00 and you are in +4.00 time zone, then the recorder local time was 8-4+2 = 6 AM.
+
+-In some replays the gateway was not recognized, this is fixed now.
+
+-Other minor changes, fixes and improvements.

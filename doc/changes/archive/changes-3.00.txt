@@ -1,0 +1,81 @@
+To translators:
+Added a new attribute to the root element: "subversion". This should be 1 for all new releases. If the language file gets modified and released before a new Sc2gears release, this should be incremented.
+
+Removed the following keys:
+-module.multiRepAnal.tab.player.tab.charts.chartType.raceDistribution.yAxisLabel (transformed to module.multiRepAnal.tab.player.tab.charts.chartType.raceDistribution.yAxisLabel#2 with a new translation)
+-folderSettings.title
+-menu.settings.folders
+
+
+Sc2gears 3.00: APM alert, Animate, 1.1 Support, improved Map view, new charts and more...
+Sc2gears 3.00: APM alert, Animate, 1.1 Supp. +more
+
+
+[b]Changes and new features in 3.00:[/b]
+--------------------------------------------------------
+-[b]The latest 1.1 replays are now supported[/b] (supported replay versions: 1.0 and all above).
+
+-[b]Sc2gears now has an APM alert feature.[/b]
+You can enable/disable this with the "Enable APM alert" menu item in the Settings menu or in the system tray menu. You can set the APM alert level in the Misc settings dialog.
+It plays you a [i]"Low APM!"[/i] voice if your APM drops below the alert level. It does not display anything nor messes with StarCraft 2, so [b]it remains completely legit[/b] by Blizzard (like everything else in Sc2gears).
+Usually there are less things to do in the beginning of games. If you don't spam (or you don't want to spam) in the beginning of your games, you can set an [b]"APM warm-up time"[/b], and you will hear no alert voice during this time even if your APM drops or stays below the alert level.
+You can enable/disable alert when APM is above the alert level again.
+You can also enable/disable alerts for the [b]Game start[/b] and [b]Game end[/b] events.
+APM alert only works on Windows (therefore it is disabled on linux and OS-X).
+
+-[b]Map view chart has been improved:[/b]
+A new option: [b]Background[/b]. You can choose the following backgrounds: [i]Map image[/i], [i]Hot points[/i], [i]Map image+Hot points[/i], [i]Hot areas[/i], [i]Blank[/i].
+[b]Hot points[/b] are the target of the actions with the colors of the players issuing them. [b]Hot areas[/b] are areas having a transitional color from black to pink depending on the number of hot points inside them compared to other hot areas. The area with the most hot points gets the brightest color. With these new Hot points and Hot areas features you can easily track where the battles, intensive micro operations and other actions of the game take place.
+The size of hot areas (the area granularity) can be changed with the [b]Hot areas count[/b] option.
+The visualization of the hot points and hot areas work like everything else in the Map view chart: they always show the data up to the time of the selected action (or if you haven't selected anything, the whole game).
+This of course (like everything else) can be combined with the filtered action list: you can enable/disable players, you can filter the action list so for example you can check easily to what area a player warped his units. 
+A new option: [b]Show map objects[/b]. With this you can show/hide map objects like minerals fields, geysers, Xel'Naga towers, destructible rocks.
+A new option: [b]Quality[/b]. The chosen quality will decide how the images on the map view are rendered, how the pixels of scaled images are calculated: [i]Low:[/i] from the "nearest neighbor", [i]Medium:[/i] samples of the 4 nearest neighbor are interpolated linearly, [i]High:[/i] samples of 9 nearby pixels are interpolated using a cubic function. The quality is applied to all images in the Map view chart (map background, building images etc.).
+
+-[b]A new Animate feature in the Replay analyzer.[/b]
+With this you can "play" the replay: Sc2gears will iterate over the actions of the replay with a changeable speed, and automatically updates the charts. By selecting the Builds/Tech stat chart or the Map view chart you will see how the game evolved from seconds to seconds.
+You can change the chart refresh rate (FPS) in the misc settings dialog (you can enter your custom value in the range of 1..30), and you can change the play-back speed in a wide range from 1/4x up to 32x.
+[i]During the play-back you can do anything in the analyzer you could normally do:[/i] click on anywhere to position the time, filter actions, zoom, change chart etc.
+You have the following control buttons: Play/Pause, Jump to the beginning, Jump to the end, Jump backward, Jump forward, Slow down, Speed up. You can configure the amount of time to jump for the Jump forward and backward buttons in the Misc settings dialog.
+The current progress is displayed with a progress bar. You can also click on this progress bar to navigate anywhere in the replay.
+The Animate feature is also implemented multi-thread: you can play as many replays simultaneously as many you want. 
+
+-New development charts in the Multi-rep analysis: [b]Game type distribution over time[/b] and [b]Format distribution over time[/b]. Also changed the colors and legend of the Race distribution chart.
+
+-[b]Redesigned the Miscellaneous settings dialog.[/b] Too many settings were available, so I grouped them into tabs: now it's easier to find what you're looking for, and it's easier to understand what they do.
+The Folder settings dialog has also been merged into the Miscellaneous settings dialog.
+The following tabs have been created: [i]Replay auto-save[/i], [i]APM alert[/i], [i]User interface[/i], [i]Analyzer[/i], [i]Internal[/i], [i]Folders[/i]
+
+-[b]A new Start page window.[/b]
+When you start Sc2gears, an internal Start page window will appear which will show you the latest news related to Sc2gears.
+You can disable this with "Show Start page on startup" in the Settings menu. You can open the Start page at any time by clicking on the "Show Start page" in the Help menu.
+
+-[b]You can now set up to 5 SC2 auto-replay folders[/b] and all will be monitored for new replays.
+This is useful for those who play with multiple accounts and/or on multiple gateways, you can set your different SC2 auto-rep folders.
+
+-Added a new [b]Game time - Real time converter[/b] menu item in a new [b]Tools[/b] menu.
+This is a helpful little utility where you can easily convert APM values and time values from game time to real time and vice versa on any game speed.
+You can specify the time you want to convert in different formats (displayed in the tool tip): [i]seconds[/i] or [i]min:sec[/i] or [i]hour:min:sec[/i]
+
+-[b]Releases are no longer delayed by translations.[/b]
+Sc2gears now can be released without the new, updated language files. All old, already translated texts will be displayed in the selected language, new texts appear in the default, English language (it was like this before).
+When a newer language file becomes available, Sc2gears updates the language file automatically in the background (when an update check is performed either automatically on startup or manually from the Help menu).
+After a successful language auto-update you will hear a [i]"Language file updated. Please restart Sc2gears."[/i] voice.
+
+-Added a new Hungarian voice [b]Smuck[/b] by Andrea Smuck.
+
+-Added links to open the relevant settings in several places: links on the Replay analyzer and on the Multi-rep analysis to open the Analyzer settings, link on the error dialog if opening last replay fails link to open Folder settings.
+
+-Replaced the icons that changed in Patch 1.1. Also replaced all other icons with higher resolution ones, and removed the borders to leave more space for the images.
+
+-In the multi-replay analysis removed the hotkeys from the main tabs (Players, Maps, 1v1 build orders), and added hotkeys to the tabs of the details of a player.
+
+-Some advanced replay filters were not working since replay cache was introduced. They are fixed now.
+
+-Changed the icon sizes on the Filters tab of the Replay search to occupy less space.
+
+-Added replay cache version to the About dialog.
+
+-The "Check updates" menu item changes text if a check is in progress: "Check updates (checking...)"
+
+-Major code refactoring; other changes, fixes and improvements.

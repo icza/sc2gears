@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language version="14.1" subversion="1" translatorFirstName="András" translatorLastName="Belicza">
+
+<dateFormat>yyyy-MM-dd</dateFormat>
+<dateTimeFormat>yyyy-MM-dd HH:mm:ss</dateTimeFormat>
+<timeFormat>HH:mm:ss</timeFormat>
+
+<personNameFormat>firstName lastName</personNameFormat>
+
+<g k="welcome" c="Welcome window">
+	<t k="welcome">Welcome</t>
+	<t k="firstRun" c="$0: application name">This is the first run of $0.</t>
+	<t k="selectLanguage">You can select your language below.</t>
+	<t k="thankYou" c="$0: application name">Thank You for choosing $0.</t>
+	<t k="language">Language:</t>
+	<t k="voice">Voice:</t> <!-- 2.00 -->
+</g>
+
+<g k="menu" c="Menu texts">
+	<t k="file">_File</t>
+	<g k="file" c="File menu">
+		<t k="openReplay">_Open replay...</t>
+		<t k="openLastReplay">Open _last replay</t>
+		<t k="shareReplays">S_hare replays...</t> <!-- 8.3 -->
+		<t k="mySharedReplays">_My shared replays</t> <!-- 3.40 -->
+		<t k="importBuildOrders">_Import Build orders...</t> <!-- 3.60 -->
+		<t k="recentReplays">_Recent replays</t> <!-- 1.30 -->
+		<t k="startStarCraft2">_Start StarCraft II</t> <!-- 3.30 -->
+		<t k="startStarCraft2Editor">Start StarCraft II _Editor</t> <!-- 3.30 -->
+		<t k="exit">E_xit</t>
+	</g>
+	<t k="navigation">_Navigation</t>
+	<g k="navigation" c="Navigation menu">
+		<t k="expandAll">_Expand all</t> <!-- 1.30 -->
+		<t k="collapseAll">_Collapse all</t> <!-- 1.30 -->
+		<t k="refreshTree">_Refresh tree</t>
+		<t k="showNavbar">_Show navigation bar</t>
+		<t k="useSmallFont">_Use small font</t>
+		<t k="navbarPosition">Navigation bar _position</t>
+		<t k="navbarPosition.left">_Left</t>
+		<t k="navbarPosition.right">_Right</t>
+	</g>
+	<t k="settings">_Settings</t>
+	<g k="settings" c="Settings menu">
+		<t k="laf">L_ook and Feel</t>
+		<t k="language">_Language (requires restart)</t>
+		<t k="language.leetTranslation">_Leet translation</t> <!-- 5.2 -->
+		<g k="language.leetTranslation.leetnessLevel" c="Leetness translation levels">
+			<t k="disabled">Disabled</t> <!-- 5.2 -->
+			<t k="basic">Basic</t> <!-- 5.2 -->
+			<t k="intermediate">Intermediate</t> <!-- 5.2 -->
+			<t k="advanced">Advanced</t> <!-- 5.2 -->
+			<t k="expert">Expert</t> <!-- 5.2 -->
+			<t k="sampleText">Can you read this?</t> <!-- 5.2 -->
+		</g>
+		<t k="voice">Voic_e</t> <!-- 1.60 -->
+		<t k="miscellaneous">_Miscellaneous settings...</t> <!-- 1.60 -->
+		<t k="enableReplayAutoSave">Enable _replay auto-save</t> <!-- 1.50 -->
+		<t k="enableApmAlert">Enable A_PM alert</t> <!-- 3.00 -->
+		<t k="enableVoiceNotifications">Enable _voice notifications</t> <!-- 1.60 -->
+		<t k="showStartPageOnStartup">Show Start pa_ge on startup</t> <!-- 3.00 -->
+		<t k="enableGlobalHotkeys">Enable global _hotkeys</t> <!-- 6.00 -->
+		<t k="checkUpdatesOnStartup">_Check updates on startup</t>
+		<t k="saveNow">_Save settings now</t>
+		<t k="saveOnExit">Save settings on e_xit</t>
+	</g>
+	<t k="tools">_Tools</t> <!-- 3.00 -->
+	<g k="tools" c="Tools menu">
+		<t k="gameTimeRealTimeConverter">_Game time - Real time converter</t> <!-- 3.00 -->
+		<t k="mousePrintRecorder">_Mouse print recorder</t> <!-- 4.0 -->
+		<t k="privateVideoStreaming">Private Video _Streaming</t> <!-- 11.0 -->
+		<t k="diagnosticTool">_Diagnostic tool</t> <!-- 4.4 -->
+		<t k="pluginManager">_Plugin manager</t> <!-- 7.0 -->
+		<t k="translationTool">_Translation tool</t> <!-- 8.0 -->
+		<t k="onTopLastGameInfo">_On-Top last game info</t> <!-- 7.3 -->
+		<t k="onTopApmDisplay">On-Top _APM display</t> <!-- 7.3 -->
+		<t k="mousePracticeGame">Mo_use practice game</t> <!-- 7.7 -->
+		<t k="sc2earsDatabaseDownloader">Sc2gears Database dow_nloader</t> <!-- 5.0 -->
+	</g>
+	<t k="plugins">_Plugins</t> <!-- 7.2 -->
+	<t k="plugins.info">Items added by plugins:</t> <!-- 7.2 -->
+	<t k="window">_Window</t>
+	<g k="window" c="Window menu">
+		<t k="fullscreen">_Full-screen</t>
+		<t k="startMaximized">Start ma_ximized</t> <!-- 5.2 -->
+		<t k="restoreLastWindowPositionOnStartup">_Restore last window position on startup</t> <!-- 9.0 -->
+		<t k="mimimizeToTray">Mi_nimize to tray</t>
+		<t k="startMinimimizedToTray">_Start minimized to tray</t> <!-- 1.70 -->
+		<t k="minimizeToTrayOnMinimize">Minimi_ze to tray on Minimize</t> <!-- 1.80 -->
+		<t k="minimizeToTrayOnClose">Minimiz_e to tray on Close</t> <!-- 1.80 -->
+		<t k="tileAllWindows">_Tile all windows</t>
+		<t k="cascadeAllWindows">_Cascade all windows</t>
+		<t k="tileVisibleWindows">T_ile visible windows</t>
+		<t k="cascadeVisibleWindows">C_ascade visible windows</t>
+		<t k="minimizeAll">_Minimize all</t>
+		<t k="closeAll">Clos_e all</t>
+		<t k="useVerticalTileStrategy">Use _vertical tile strategy</t> <!-- 0.61 -->
+	</g>
+	<t k="help">_Help</t>
+	<g k="help" c="Help menu">
+		<t k="visitHomePage">Visit _home page</t>
+		<t k="viewVersionHistory">_View version history</t>
+		<t k="viewFaq">View FA_Q</t>
+		<t k="viewGlossary">View _Glossary</t> <!-- 11.0 -->
+		<t k="visitForum">Visit _forum</t>
+		<t k="sc2gearsDatabase">Sc2gears Data_base</t> <!-- 5.0 -->
+		<t k="sc2gearsDatabaseUserPage">Sc2gears Database _User Page</t> <!-- 5.0 -->
+		<t k="donate">_Donate</t> <!-- 1.80 -->
+		<t k="viewSystemMessages">Vie_w system messages</t>
+		<t k="checkUpdates">_Check updates</t>
+		<t k="checkUpdatesChecking">_Check updates (checking...)</t> <!-- 3.00 -->
+		<t k="showStartPage">_Show start page</t> <!-- 3.00 -->
+		<t k="showNewToSc2gearsDialog" c="$0: application name">Sh_ow "New to $0?" dialog</t> <!-- 4.4 -->
+		<t k="showTips">Show _Tips dialog</t> <!-- 4.4 -->
+		<t k="keyboardShortcuts">_Keyboard shortcuts</t> <!-- 5.2 -->
+		<t k="about" c="$0: application name">_About $0</t>
+	</g>
+</g>
+
+<g k="folderSettings" c="Folder settings">
+	<t k="chooseFolder">Choose folder...</t> <!-- 0.80 -->
+	<t k="restoreDefaultFolder">Restore default</t> <!-- 1.50 -->
+	<t k="sc2InstallationFolder">StarCraft 2 installation folder:</t> <!-- 0.80 -->
+	<t k="sc2AutoReplay">SC2 auto replay folder (relative to user home):</t> <!-- 0.80 -->
+	<t k="sc2Maps">SC2 maps folder:</t> <!-- 0.80 -->
+	<t k="defaultFolder">Default folder when opening replays:</t> <!-- 0.82 -->
+	<t k="replayAutoSaveFolder">Sc2gears replay auto-save folder:</t> <!-- 1.50 -->
+	<t k="mousePrintOutputFolder">Mouse print output folder:</t> <!-- 4.0 -->
+</g>
+
+<g k="miscSettings" c="Miscellaneous settings dialog">
+	<t k="title">Miscellaneous settings</t> <!-- 1.60 -->
+	<g k="tab" c="Tabs of the Miscellaneous settings dialog">
+		<t k="replayAutoSave">Replay auto-save</t> <!-- 3.00 -->
+		<t k="apmAlert">APM alert</t> <!-- 3.00 -->
+		<t k="mousePrint">Mouse print</t> <!-- 4.0 -->
+		<t k="userInterface">User interface</t> <!-- 3.00 -->
+		<t k="replayParser">Replay parser</t> <!-- 10.2 -->
+		<t k="replayAnalyzer">Replay analyzer</t> <!-- 10.2 -->
+		<t k="multiRepAnalysis">Multi-rep analysis</t> <!-- 10.2 -->
+		<t k="aliases">Aliases</t> <!-- 3.60 -->
+		<t k="internal">Internal</t> <!-- 3.00 -->
+		<t k="mouseGameRules">Mouse game rules</t> <!-- 8.4 -->
+		<t k="predefinedLists">Pre-defined lists</t> <!-- 4.1 -->
+		<t k="folders">Folders</t> <!-- 3.00 -->
+		<t k="sc2gearsDatabase">Sc2gears Database</t> <!-- 5.0 -->
+		<t k="customReplaySites">Custom replay sites</t> <!-- 4.1 -->
+	</g>
+	<t k="restoreDefault">Restore default</t> <!-- 1.60 -->
+	<t k="validRangeAndDefaultToolTip" c="$0: lowest valid value, $1: highest valid value, $2: default value">Valid range: $0..$1, Default: $2</t> <!-- 11.0 -->
+	<t k="soundVolume">Sound volume:</t> <!-- 1.60 -->
+	<t k="testSoundButton">_Test</t> <!-- 1.60 -->
+	<t k="apmAlertLevel">APM alert level:</t> <!-- 3.00 -->
+	<t k="apm">APM</t> <!-- 3.00 -->
+	<t k="apmWarmupTime">APM warm-up time (no alert during this time):</t> <!-- 3.00 -->
+	<t k="apmCheckIntervalSec">APM check interval:</t> <!-- 3.00 -->
+	<t k="alertWhenApmIsAboveAlertLevelAgain">Alert when APM is above the alert level again:</t> <!-- 3.00 -->
+	<t k="alertWhenApmIsBackToNormal">Alert when APM is back to normal</t> <!-- 3.00 -->
+	<t k="alertRepetitionIntervalIfApmStaysLow">Alert repetition interval if APM stays low:</t> <!-- 3.20 -->
+	<t k="never">Never</t> <!-- 3.20 -->
+	<t k="alertOnGameStartEvents">Alert on game start events:</t> <!-- 3.00 -->
+	<t k="alertWhenGamesStarts">Alert when games start</t> <!-- 3.00 -->
+	<t k="alertOnGameEndEvents">Alert on game end events:</t> <!-- 3.00 -->
+	<t k="alertWhenGamesEnd">Alert when games end</t> <!-- 3.00 -->
+	<t k="autoShowHideApmDisplayDialog">Auto Show/Hide APM display dialog on game start/end:</t> <!-- 7.3 -->
+	<t k="showHideOnTopApmDisplayDialog">Show/Hide On-Top APM display dialog on game start/end</t> <!-- 7.3 -->
+	<t k="saveMousePrintsOfAllGames">Save mouse prints of all games:</t> <!-- 4.0 -->
+	<t k="saveMousePrints#2">Save mouse prints automatically</t> <!-- 11.1 -->
+	<t k="storeMousePrintsOfAllGames">Store mouse prints of all games in Sc2gears Database:</t> <!-- 5.0 -->
+	<t k="storeMousePrints">Store mouse prints (Save mouse prints must be enabled!)</t> <!-- 5.0 -->
+	<t k="mousePrintSamplingTime">Mouse sampling time:</t> <!-- 4.0 -->
+	<t k="mousePrintWhatToSave">What to save:</t> <!-- 4.0 -->
+	<g k="mousePrintWhatToSave" c="What to save for mouse prints">
+		<t k="binaryAndImage">Binary data (*.SMPD) and Image</t> <!-- 4.0 -->
+		<t k="binaryOnly">Binary data only (*.SMPD)</t> <!-- 4.0 -->
+		<t k="imageOnly">Image only</t> <!-- 4.0 -->
+	</g>
+	<t k="smpdFormatSpec">SMPD format spec.</t> <!-- 4.0 -->
+	<t k="binaryDataCompressionAlgorithm">Binary data compression algorithm:</t> <!-- 4.0 -->
+	<g k="binaryDataCompressionAlgorithm" c="Binary data compression algorithms">
+		<t k="noCompression">No compression</t> <!-- 4.0 -->
+		<t k="deflate">Deflate</t> <!-- 4.0 -->
+		<t k="bzip2">BZip2</t> <!-- 4.0 -->
+	</g>
+	<t k="mousePrintImageOutputFormat">Mouse print image output format:</t> <!-- 4.0 -->
+	<t k="useAntialiasingEffect">Use anti-aliasing (nicer image, bigger size):</t> <!-- 4.0 -->
+	<t k="useAntialiasing">Use anti-aliasing</t> <!-- 4.0 -->
+	<t k="mousePrintBackgroundColorRGB">Background color (RGB):</t> <!-- 4.0 -->
+	<t k="mousePrintColorRGB">Mouse print color (RGB):</t> <!-- 4.0 -->
+	<t k="colorFieldToolTip">Comma separated list of the Red, Green and Blue components of the color.</t> <!-- 4.0 -->
+	<t k="chooseColor">Choose color...</t> <!-- 4.0 -->
+	<t k="pourInkWhenMouseIsIdleFor">Pour ink when mouse is idle for:</t> <!-- 4.0 -->
+	<t k="idleInkFlowRate">Ink flow rate when mouse is idle:</t> <!-- 4.0 -->
+	<t k="mouseWarmupTime">Mouse warm-up time (no ink pouring during this time):</t> <!-- 4.1 -->
+	<t k="pixelPersec">pixel/sec.</t> <!-- 4.0 -->
+	<t k="newRepCheckIntervalSec">New replay check interval:</t> <!-- 1.60 -->
+	<t k="seconds">seconds.</t> <!-- 1.60 -->
+	<t k="navBarInitialWidth">Navigation bar initial width:</t> <!-- 1.60 -->
+	<t k="pixels">pixels.</t> <!-- 1.60 -->
+	<t k="toolTipInitialDelay">Tool tip initial delay:</t> <!-- 1.60 -->
+	<t k="ms">ms.</t> <!-- 1.60 -->
+	<t k="toolTipDismissDelay">Tool tip dismiss delay:</t> <!-- 1.60 -->
+	<t k="displayInfoBalloonWhenStartedMinimized">Display info balloon when started minimized:</t> <!-- 8.3 -->
+	<t k="displayInfoBalloonWhenStartedMinimized2">Display info balloon when started minimized</t> <!-- 8.3 -->
+	<t k="timeToKeepLogFiles">Time to keep log files:</t> <!-- 1.60 -->
+	<t k="timeLimitForMultiRepAnalysis">Time limit to be included in Multi-rep analysis:</t> <!-- 1.70 -->
+	<t k="days">days.</t> <!-- 1.60 -->
+	<t k="buildOrderLength">Build order length in Multi-rep analysis:</t> <!-- 2.00 -->
+	<t k="buildings">buildings.</t> <!-- 2.00 -->
+	<t k="chartsActionListPartition">Charts-action list partitioning in replay analyzer:</t> <!-- 2.00 -->
+	<t k="percent">%.</t> <!-- 2.00 -->
+	<t k="initialTimeToExcludeFromApm">Initial time to exclude from APM calculation (in game-time):</t> <!-- 2.00 -->
+	<t k="gameLengthRecordsGranularity">Game length records granularity in Multi-rep analysis:</t> <!-- 7.6 -->
+	<t k="minutes">minutes.</t> <!-- 7.6 -->
+	<t k="maxGamingSessionBreak">Max gaming session break in Multi-rep analysis:</t> <!-- 10.2 -->
+	<t k="repAutoSaveNameTemplate">Replay auto-save name template:</t> <!-- 1.60 -->
+	<t k="repAutoSaveNameTemplateToolTip">You can enter a template with the same format you can use to rename replays.</t> <!-- 1.60 -->
+	<t k="editTemplateButton">_Edit...</t> <!-- 1.70 -->
+	<t k="favoredPlayerList">Favored player list:</t> <!-- 2.00 -->
+	<t k="favoredPlayerListToolTip">A comma separated list of player names to put ahead of other players when applying name templates. Case sensitive!</t> <!-- 2.00 -->
+	<t k="rearrangePlayersInRepAnalyzer">Rearrange players in replay analyzer too:</t> <!-- 2.00 -->
+	<t k="applyFavoredListInRepAnalyzer">Apply favored player list in rep-analyzer too</t> <!-- 2.00 -->
+	<g k="templateDialog" c="Name template dialog">
+		<t k="title">Edit auto-save name template</t> <!-- 1.70 -->
+		<t k="testOnLastReplayButton">_Test on last replay</t> <!-- 1.70 -->
+	</g>
+	<t k="preferredBnetLanguage">Preferred Battle.net language:</t> <!-- 1.80 -->
+	<t k="preferredBnetLanguageToolTip">Character profiles will be opened in this language if available on the player's Battle.net server.</t> <!-- 1.80 -->
+	<t k="showProfileInfo">Show profile info:</t> <!-- 5.3 -->
+	<t k="autoRetrieveExtProfileInfo">Auto retrieve extended profile info:</t> <!-- 7.0 -->
+	<t k="autoRetrieveExtProfileInfo2">Auto retrieve extended profile info</t> <!-- 7.0 -->
+	<t k="maxTableSizeInProfileToolTip">Max table size in profile tool tip (set 0 to disable):</t> <!-- 5.4 -->
+	<t k="rows">rows.</t> <!-- 5.4 -->
+	<t k="useRealTimeMeasurement">Use real-time time measurement:</t> <!-- 1.60 -->
+	<t k="convertGameTimeToRealTime">Convert game-time to real-time</t> <!-- 1.60 -->
+	<t k="showWinners">Show winners in the Replay analyzer:</t> <!-- 1.60 -->
+	<t k="showWinners2">Show winners</t> <!-- 1.70 -->
+	<t k="declareLargestWinner">In team games declare the largest remaining team winner:</t> <!-- 1.70 -->
+	<t k="largestRemainingTeamWins">Largest remaining team wins</t> <!-- 1.70 -->
+	<t k="overrideDetectedFormatBasedOnMatchup">Override detected game format based on match-up:</t> <!-- 8.7 -->
+	<t k="overrideFormatBasedOnMatchup">Override game format based on match-up</t> <!-- 8.7 -->
+	<t k="animateRefreshRate">Animate refresh rate in Replay analyzer:</t> <!-- 3.00 -->
+	<t k="fps">FPS.</t> <!-- 3.00 -->
+	<t k="animatorJumpTime">Time to jump forward and backward in the Animator:</t> <!-- 3.00 -->
+	<t k="newReplayDetectionMethod">New replay detection method:</t> <!-- 6.0 -->
+	<t k="newFileDetectionMethod.polling">Polling (periodically scanning files)</t> <!-- 6.0 -->
+	<t k="newFileDetectionMethod.eventBased">Event based (using File monitor)</t> <!-- 6.0 -->
+	<t k="playReplaySavedVoiceWhenReplaysAreSaved">Play "Replay saved" voice when replays are saved:</t> <!-- 7.5 -->
+	<t k="playReplaySavedVoice">Play "Replay saved" when replays are saved</t> <!-- 7.5 -->
+	<t k="deleteSuccessfullyAutoSavedReplays">Delete successfully auto-saved replays:</t> <!-- 2.00 -->
+	<t k="deleteAutoSavedReplays">Delete auto-saved replays</t> <!-- 2.00 -->
+	<t k="autoOpenNewReplaysInAnalyzer">Auto-open new replays in the analyzer:</t> <!-- 2.00 -->
+	<t k="autoOpenNewReplays">Auto-open new replays</t> <!-- 2.00 -->
+	<t k="showGameInfoDialogWhenNewReplayDetected">Show Game info dialog when new replay is detected:</t> <!-- 7.3 -->
+	<t k="showOnTopGameInfoDialogForNewReplays">Show On-Top Game info dialog for new replays</t> <!-- 7.3 -->
+	<t k="autoStoreNewReplaysInDatabase">Auto-store new replays in the Sc2gears Database:</t> <!-- 5.0 -->
+	<t k="autoStoreNewReplays">Auto-store new replays (Replay auto-save must be enabled!)</t> <!-- 4.50 -->
+	<t k="enableInternalPreprocessedReplayCache">Enable internal preprocessed replay cache:</t> <!-- 2.10 -->
+	<t k="cachePreprocessedReplays">Cache preprocessed replays</t> <!-- 2.10 -->
+	<t k="useMd5HashFromFilename">Use MD5 hash from file name:</t> <!-- 5.6 -->
+	<t k="useMd5HashIfFoundInFileNames">Use MD5 hash if found in file names</t> <!-- 5.6 -->
+	<t k="emptyReplayCacheButton">Empty cache...</t> <!-- 2.10 -->
+	<t k="confirmEmptyReplayCache">Are you sure you want to empty the replay cache?</t> <!-- 2.10 -->
+	<t k="confirmEmptyProfileCache">Are you sure you want to empty the profile cache?</t> <!-- 5.3 -->
+	<t k="clearingProfileCache">Clearing profile cache...</t> <!-- 5.3 -->
+	<t k="profileInfoValidityTime">Profile info validity time:</t> <!-- 5.3 -->
+	<t k="utilizedCpuCores">Utilized CPU Cores (set 0 to use all):</t> <!-- 8.1 -->
+	<t k="detectedCpuCores" c="$0: detected CPU cores">Detected CPU Cores: $0</t> <!-- 8.1 -->
+	<t k="maxReplaysToOpenForOpenInAnalyzer">Max replays to open for "Open in analyzer" menu item:</t> <!-- 7.7 -->
+	<t k="preloadSc2IconsOnStartup">Pre-load SC2 icons on startup:</t> <!-- 3.20 -->
+	<t k="preloadSc2IconsOnStartup2">Pre-load SC2 icons on startup</t> <!-- 3.20 -->
+	<t k="allowOnlyOneInstance">Allow only one instance:</t> <!-- 3.20 -->
+	<t k="enableInstanceMonitor">Enable instance monitor</t> <!-- 3.20 -->
+	<t k="accessTheInternetThroughProxy">Access the internet through Proxy server:</t> <!-- 7.7 -->
+	<t k="enableProxyConfig">Enable Proxy configuration</t> <!-- 7.7 -->
+	<t k="proxyConfigButton">_Proxy config...</t> <!-- 7.7 -->
+	<t k="customDateFormat">Custom date format:</t> <!-- 3.60 -->
+	<t k="customTimeFormat">Custom time format:</t> <!-- 3.60 -->
+	<t k="customDateTimeFormat">Custom date+time format:</t> <!-- 3.60 -->
+	<t k="customDateTimeFormatToolTip"><![CDATA[<html>The format is specified by a pattern. Within the pattern letters have special meaning.<br>Text can be quoted using single quotes ('). All other characters are copied to the output.<br>Use a letter multiple times to specify the field length in the output.<table><tr><td><i>Important letters:</i><table border=1><tr><th>Letter<th>Meaning<tr><td>y<td>Year<tr><td>M<td>Month<tr><td>d<td>Day in month<tr><td>H<td>Hour in day (0-23)<tr><td>m<td>Minute in hour<tr><td>s<td>Second in minute</table><td><i>Pattern examples:</i><table border=1><tr><th>Pattern<th>Result<tr><td>yyyy.MM.dd<td>2010.07.25<tr><td>yy-M-D<td>10-7-25<tr><td>HH:mm:ss<td>14:34:02<tr><td>MM/dd/yy - HH:m:s<td>12/25/10 - 14:34:2<tr><td>MM/dd 'at' HH:m<td>12/25 at 14:34<tr><td>yyMMddHHmmss<td>101225143402</table></table></html>]]></t> <!-- 3.60 -->
+	<t k="testFormatButton">Test</t> <!-- 3.60 -->
+	<t k="dateTimeFormatHelpLinkToolTip">Opens the date and time format specification page.</t> <!-- 3.60 -->
+	<t k="dateTimeFormatValid">The entered date/time format is valid.</t> <!-- 3.60 -->
+	<t k="currentDateTimeWithFormat">The current date/time with the entered format:</t> <!-- 3.60 -->
+	<t k="dateTimeFormatInvalid">The entered date/time format is invalid.</t> <!-- 3.60 -->
+	<t k="gameSpeedRefreshRate">Game speed / Refresh rate:</t> <!-- 8.4 -->
+	<t k="maxDiscRadius">Max disc radius:</t> <!-- 8.4 -->
+	<t k="maxDiscAge">Max disc age:</t> <!-- 8.4 -->
+	<t k="maxDiscScore">Max disc score:</t> <!-- 8.4 -->
+	<t k="points">points.</t> <!-- 8.4 -->
+	<t k="maxDiscsMissed">Max discs missed:</t> <!-- 8.4 -->
+	<t k="discMovementSpeed">Disc movement speed:</t> <!-- 8.4 -->
+	<t k="greenDiscProbability">Green disc probability:</t> <!-- 8.4 -->
+	<t k="initialDelayForNewDisc">Initial delay for new disc:</t> <!-- 8.4 -->
+	<t k="newDiscDelayDecrement">New disc delay decrement:</t> <!-- 8.4 -->
+	<t k="msPerDisc">ms/disc.</t> <!-- 8.4 -->
+	<t k="randomSeed">Random seed:</t> <!-- 8.4 -->
+	<t k="randomSeedToolTip">If you enter a number here, the same game associated with the number will be played each time.</t> <!-- 8.4 -->
+	<t k="paintCrossAtCenterOfDiscs">Paint a cross at the center of discs:</t> <!-- 8.4 -->
+	<t k="paintDiscCenterCross">Paint disc center cross</t> <!-- 8.4 -->
+	<t k="paintCircleAroundDiscs">Paint a circle around discs showing maximum size:</t> <!-- 8.4 -->
+	<t k="paintMaxDiscOutline">Paint max disc outline</t> <!-- 8.4 -->
+	<t k="aliasInfo">Each line is an alias group which contains a comma separated list of player or map aliases. The first alias in each line will be the name of the alias group.</t> <!-- 3.60 -->
+	<t k="aliasInfo2">Map names will be replaced by the alias group name. Players and maps in the same alias group will be summarized in the Multi-replay analysis.</t> <!-- 3.60 -->
+	<t k="aliasInfo3">Player names must be provided in full format: name/gateway/region/bnetId (ex. "SCIIGears/EU/1/206154"). Right click on a player to copy the full format.</t> <!-- 5.6 -->
+	<t k="playerAliases">Player aliases:</t> <!-- 3.60 -->
+	<t k="mapAliases">Map aliases:</t> <!-- 3.60 -->
+	<g k="predefinedList" c="Predefined lists tab">
+		<t k="info">Each line is an element of the selected list. The first line is the initial value so it is recommended to leave it empty.</t> <!-- 4.1 -->
+		<t k="repAutoSaveTemplate">[Replay auto-save] Template</t> <!-- 4.1 -->
+		<t k="repAnalSearch">[Replay analyzer] Search</t> <!-- 4.1 -->
+		<t k="repAnalFilter">[Replay analyzer] Filter</t> <!-- 4.1 -->
+		<t k="repAnalFilterOut">[Replay analyzer] Filter out</t> <!-- 4.1 -->
+		<t k="repRenameTemplate">[Replay rename] Template</t> <!-- 4.1 -->
+		<t k="repSearchPlayerName">[Replay search] Player name</t> <!-- 4.1 -->
+		<t k="repSearchFullPlayerName">[Replay search] Full player name</t> <!-- 10.0 -->
+		<t k="repSearchMapName">[Replay search] Map name</t> <!-- 4.1 -->
+		<t k="repSearchRaceMatchup">[Replay search] Race match-up</t> <!-- 4.1 -->
+		<t k="repSearchLeagueMatchup">[Replay search] League match-up</t> <!-- 14.0 -->
+		<t k="repSearchFileName">[Replay search] File name</t> <!-- 4.1 -->
+		<t k="repSearchChatMessage">[Replay search] Chat message</t> <!-- 4.1 -->
+		<t k="repSearchBuildOrder">[Replay search] Build order</t> <!-- 4.1 -->
+		<t k="repShareUserName">[Replay share] User name</t> <!-- 4.1 -->
+		<t k="customDateFormat">Custom date format</t> <!-- 4.1 -->
+		<t k="customTimeFormat">Custom time format</t> <!-- 4.1 -->
+		<t k="customDateTimeFormat">Custom date+time format</t> <!-- 4.1 -->
+	</g>
+	<t k="selectPredefinedList">Select pre-defined list to edit:</t> <!-- 4.1 -->
+	<t k="predefinedListSortButton">Sor_t lines</t> <!-- 4.1 -->
+	<t k="sc2gearsDatabaseInfo">Sc2gears Database is a secure server to store all your replays and other related files privately.</t> <!-- 5.0 -->
+	<t k="sc2gearsDatabaseReadMore">Read more...</t> <!-- 5.0 -->
+	<t k="sc2gearsDatabaseInfo2">An Authorization key is required to communicate with the server instead of your password.</t> <!-- 5.0 -->
+	<t k="authorizationKey">Authorization key:</t> <!-- 5.0 -->
+	<t k="notSet">not set</t> <!-- 5.0 -->
+	<t k="editKeyButton">_Edit key...</t> <!-- 5.0 -->
+	<t k="deleteKeyButton">_Delete key</t> <!-- 5.0 -->
+	<t k="checkKeyButton">C_heck key</t> <!-- 5.0 -->
+	<t k="checkingKey">Checking key...</t> <!-- 5.0 -->
+	<t k="checkingValid">Key is valid.</t> <!-- 5.0 -->
+	<t k="checkingInvalid">Key is invalid!</t> <!-- 5.0 -->
+	<t k="checkingFailed">Check failed!</t> <!-- 5.0 -->
+	<g k="editKeyDialog" c="Edit key dialog">
+		<t k="title">Edit key</t> <!-- 5.0 -->
+		<t k="info">You can view your key or generate a new one on this page:</t> <!-- 5.0 -->
+		<t k="sc2gearsDatabaseUserPage">Sc2gears Database User Page</t> <!-- 5.0 -->
+	</g>
+	<t k="customReplaySitesInfo">Replay upload will not work for just any replay site! The replay site HAS TO IMPLEMENT the Replay upload specification!</t> <!-- 4.1 -->
+	<t k="customReplaySitesAcknowledge">I understand this, enable custom replay sites</t> <!-- 4.1 -->
+	<t k="customReplaySitesBorderTitle">Custom replay sites:</t> <!-- 4.1 -->
+	<t k="selectCustomReplaySite">Select custom replay site:</t> <!-- 4.1 -->
+	<t k="displayName">Display name:</t> <!-- 4.1 -->
+	<t k="homePage">Home page:</t> <!-- 4.1 -->
+	<t k="testHomePageLink">Test home page link</t> <!-- 4.1 -->
+	<t k="uploadUrl">Upload URL:</t> <!-- 4.1 -->
+	<t k="uploadUrlInfo">(Contact the replay site for the upload URL.)</t> <!-- 4.1 -->
+	<t k="addNewButton">_Add new</t> <!-- 4.1 -->
+	<t k="deleteButton">_Delete</t> <!-- 4.1 -->
+	<t k="customReplaySiteDefaultName" c="$0 custom replay site number">Custom replay site #$0</t> <!-- 4.1 -->
+	<t k="okAndRunDiagnosticTestButton">OK and _Run diagnostic test</t> <!-- 4.4 -->
+	<t k="okAndStoreSettingsButton">OK and _Store settings</t> <!-- 10.0 -->
+	<t k="settingsFileComment">Settings file</t> <!-- 10.0 -->
+	<t k="storingSettings">Storing settings...</t> <!-- 10.0 -->
+</g>
+
+<g k="proxyConfig" c="Proxy configuration dialog">
+	<t k="title">Proxy configuration</t> <!-- 7.7 -->
+	<t k="httpProxy">HTTP Proxy:</t> <!-- 7.7 -->
+	<t k="httpProxyUsage">Used when downloading profile info and maps from the Battle.net server.</t> <!-- 7.7 -->
+	<t k="httpsProxy">HTTPS Proxy:</t> <!-- 7.7 -->
+	<t k="httpsProxyUsage">Used when checking updates, downloading Start page content and when communicating with the Sc2gears Database.</t> <!-- 7.7 -->
+	<t k="socksProxy">SOCKS Proxy:</t> <!-- 7.7 -->
+	<t k="socksProxyUsage">Used when a connection is made which is not covered by the above 2 proxies (TCP/UDP level).</t> <!-- 7.7 -->
+	<t k="moreAboutTheProxies">Read more about the proxies</t> <!-- 7.7 -->
+	<t k="port">Port:</t> <!-- 7.7 -->
+	<t k="httpProxyHost">HTTP Proxy host:</t> <!-- 7.7 -->
+	<t k="httpsProxyHost">HTTPS Proxy host:</t> <!-- 7.7 -->
+	<t k="socksProxyHost">SOCKS Proxy host:</t> <!-- 7.7 -->
+	<t k="useProxyWhenDownloadingUpdates">Also use Proxy when downloading updates</t> <!-- 7.7 -->
+</g>
+
+<g k="gameTimeRealTimeConverter" c="Game time - Real time converter dialog">
+	<t k="title">Game time - Real time converter</t> <!-- 3.00 -->
+	<t k="gameSpeed">Game speed:</t> <!-- 3.00 -->
+	<t k="apmConverter">APM converter:</t> <!-- 3.00 -->
+	<t k="ingameApm">In-game APM:</t> <!-- 3.00 -->
+	<t k="toRealApmButton">To _real APM</t> <!-- 3.00 -->
+	<t k="toGameApmButton">To _game APM</t> <!-- 3.00 -->
+	<t k="realApm">Real APM:</t> <!-- 3.00 -->
+	<t k="timeConverter">Time converter:</t> <!-- 3.00 -->
+	<t k="ingameTime">In-game time:</t> <!-- 3.00 -->
+	<t k="toRealTimeButton">To r_eal time</t> <!-- 3.00 -->
+	<t k="toGameTimeButton">To g_ame time</t> <!-- 3.00 -->
+	<t k="realTime">Real time:</t> <!-- 3.00 -->
+</g>
+
+<g k="mousePrintRecorder" c="Mouse print recorder window">
+	<t k="title" c="$0: application name">Mouse print recorder - $0</t> <!-- 4.0 -->
+	<t k="startRecordingButton">S_tart recording</t> <!-- 4.0 -->
+	<t k="stopRecordingButton">S_top recording</t> <!-- 4.0 -->
+	<t k="saveMousePrintButton">_Save mouse print</t> <!-- 4.0 -->
+	<t k="loadMousePrintButton">_Load mouse print...</t> <!-- 4.0 -->
+	<t k="storeMousePrintButton">Sto_re mouse print</t> <!-- 5.0 -->
+	<t k="selectMousePrintsToStoreButton">S_elect mouse prints to store...</t> <!-- 5.0 -->
+	<t k="loadMousePrintTitle">Select a mouse print to load</t> <!-- 4.0 -->
+	<t k="refreshRate">Refresh rate:</t> <!-- 4.0 -->
+	<t k="fps">FPS</t> <!-- 4.0 -->
+	<t k="noRecordingInProgress">No recording is in progress.</t> <!-- 4.0 -->
+	<t k="recordingInProgress">Recording... You may close this window while recording.</t> <!-- 4.0 -->
+	<t k="recordingStopped">Recording stopped.</t> <!-- 4.0 -->
+	<t k="recordingSaved">Recording saved.</t> <!-- 4.0 -->
+	<t k="recordingSavedFailed">Failed to save Recording!</t> <!-- 4.0 -->
+	<t k="recordingLoaded">Recording loaded.</t> <!-- 4.0 -->
+	<t k="noDisplayableMousePrint">No displayable mouse print.</t> <!-- 4.0 -->
+	<t k="tab.image.title">Image</t> <!-- 4.0 -->
+	<t k="tab.image.zoom">Zoom:</t> <!-- 4.0 -->
+	<g k="tab.info" c="Info tab">
+		<t k="title">Info</t> <!-- 4.0 -->
+		<t k="property">Property</t> <!-- 4.0 -->
+		<t k="value">Value</t> <!-- 4.0 -->
+		<t k="fileName">File name:</t> <!-- 4.0 -->
+		<t k="fileSize">File size:</t> <!-- 10.0 -->
+		<t k="savedWithApp">Saved with application:</t> <!-- 14.1 -->
+		<t k="recordingLength">Recording length:</t> <!-- 4.0 -->
+		<t k="recordingStartTime">Recording start time:</t> <!-- 4.0 -->
+		<t k="recordingEndTime">Recording end time:</t> <!-- 4.0 -->
+		<t k="imageWidth">Image width:</t> <!-- 4.0 -->
+		<t k="imageHeight">Image height:</t> <!-- 4.0 -->
+		<t k="imageResolution">Image resolution:</t> <!-- 4.0 -->
+		<t k="samplingTime">Sampling time:</t> <!-- 4.0 -->
+		<t k="totalMouseDistance">Total mouse distance:</t> <!-- 4.0 -->
+		<t k="averageMouseSpeed">Average mouse speed:</t> <!-- 4.0 -->
+		<t k="numberOfSamples">Number of samples:</t> <!-- 4.0 -->
+		<t k="uncompressedDataSize">Uncompressed data size:</t> <!-- 4.0 -->
+		<t k="savedWithCompression">Saved with compression:</t> <!-- 4.0 -->
+		<t k="fileSizeValue" c="$0: file size">$0 Bytes</t> <!-- 10.0 -->
+		<t k="imageWidthValue" c="$0: image width">$0 pixels</t> <!-- 4.0 -->
+		<t k="imageHeightValue" c="$0: image height">$0 pixels</t> <!-- 4.0 -->
+		<t k="imageResolutionValueInch" c="$0: screen resolution in dots/inch">$0 dots/inch</t> <!-- 4.0 -->
+		<t k="imageResolutionValueCm" c="$0: screen resolution in dots/cm">$0 dots/cm</t> <!-- 4.0 -->
+		<t k="samplingTimeValue" c="$0: sampling time">$0 ms</t> <!-- 4.0 -->
+		<t k="totalMouseDistanceValuePixel" c="$0: total mouse distance in pixels">$0 pixels</t> <!-- 4.0 -->
+		<t k="totalMouseDistanceValueFoot" c="$0: total mouse distance in foots">$0 foots</t> <!-- 4.0 -->
+		<t k="totalMouseDistanceValueMeter" c="$0: total mouse distance in meters">$0 meters</t> <!-- 4.0 -->
+		<t k="avgMouseMovementSpeedValuePixel" c="$0: avg mouse movement speed in pixel/sec">$0 pixel/sec</t> <!-- 4.0 -->
+		<t k="avgMouseMovementSpeedValueInch" c="$0: avg mouse movement speed in inch/sec">$0 inch/sec</t> <!-- 4.0 -->
+		<t k="avgMouseMovementSpeedValueCm" c="$0: avg mouse movement speed in cm/sec">$0 cm/sec</t> <!-- 4.0 -->
+		<t k="uncompressedDataSizeValue" c="$0: uncompressed data size">$0 Bytes</t> <!-- 4.0 -->
+	</g>
+	<t k="failedToLoadMousePrint">Failed to load mouse print!</t> <!-- 4.0 -->
+	<t k="selectMousePrintsToStore">Select mouse prints to store</t> <!-- 5.0 -->
+	<t k="storingMousePrints">Storing mouse prints...</t> <!-- 5.0 -->
+</g>
+
+<g k="privateVideoStreaming" c="Private Video Streaming window">
+	<t k="title" c="$0: application name">Private Video Streaming - $0</t> <!-- 11.0 -->
+	<t k="startStreamingButton">S_tart Streaming</t> <!-- 11.0 -->
+	<t k="stopStreamingButton">S_top Streaming</t> <!-- 11.0 -->
+	<t k="moreAboutPrivateVideoStreaming">Read more about Private Video Streaming</t> <!-- 11.0 -->
+	<t k="noStreamingInProgress">No streaming is in progress.</t> <!-- 11.0 -->
+	<t k="streamingInProgress">Streaming... You may close this window while streaming.</t> <!-- 11.0 -->
+	<t k="streamingStopped">Streaming stopped.</t> <!-- 11.0 -->
+	<t k="privateStreamUrl">Private stream URL:</t> <!-- 11.0 -->
+	<t k="copyUrlButton">_Copy URL</t> <!-- 11.0 -->
+	<t k="openStreamInBrowserButton">_Open stream in browser</t> <!-- 11.0 -->
+	<t k="externalIpNote">&lt;html&gt;Note: if you are behind a router or a proxy server, your external IP address (visible from the internet)&lt;br&gt;might be different and the server port you select might not be open (or may be redirected to a different port).&lt;/html&gt;</t> <!-- 11.0 -->
+	<t k="checkYourExternalIp">Check your external IP address</t> <!-- 11.0 -->
+	<g k="params" c="Streaming Parameters">
+		<t k="title">Streaming Parameters</t> <!-- 11.0 -->
+		<t k="streamName">Stream name:</t> <!-- 11.0 -->
+		<t k="streamPassword">Stream password:</t> <!-- 11.0 -->
+		<t k="streamPasswordDescription">(this will be the end of the stream URL)</t> <!-- 11.0 -->
+		<t k="streamDescription">Stream description:</t> <!-- 11.0 -->
+		<t k="screenCaptureMethod">Screen capture method:</t> <!-- 11.1 -->
+		<g k="screenCaptureMethod" c="Screen capture method">
+			<t k="standardJava">Standard (Java)</t> <!-- 11.1 -->
+			<t k="windowsNative">Windows Native (Recommended)</t> <!-- 11.1 -->
+		</g>
+		<t k="screenAreaToStream">Screen area to stream:</t> <!-- 11.0 -->
+		<g k="screenAreaToStream" c="Screen area to stream">
+			<t k="fullScreen">Full screen</t> <!-- 11.0 -->
+			<t k="customArea">Custom Area -&gt;</t> <!-- 11.0 -->
+		</g>
+		<t k="customAreaLeft">Custom area left:</t> <!-- 11.0 -->
+		<t k="customAreaTop">top:</t> <!-- 11.0 -->
+		<t k="customAreaRight">right:</t> <!-- 11.0 -->
+		<t k="customAreaBottom">bottom:</t> <!-- 11.0 -->
+		<t k="outputVideoSize">Output video size:</t> <!-- 11.0 -->
+		<g k="outputVideoSize" c="Output video size">
+			<t k="originalSize">Original size</t> <!-- 11.0 -->
+			<t k="resizeKeepAspectRatio">Resize (Keep Aspect Ratio) -&gt;</t> <!-- 11.0 -->
+			<t k="resizeDistorted">Resize (Distorted) -&gt;</t> <!-- 11.0 -->
+			<t k="fullHd">Full HD 1080p (1920 x 1080) 16:9</t> <!-- 12.0 -->
+			<t k="hd">HD 720p (1280 x 720) 16:9</t> <!-- 12.0 -->
+			<t k="standard">Standard 480p (854 x 480) 16:9</t> <!-- 12.0 -->
+			<t k="lowd360">LowD 360p (640 x 360) 16:9</t> <!-- 12.0 -->
+			<t k="lowd240">LowD 240p (320 x 240) 4:3</t> <!-- 12.0 -->
+			<t k="dvd">DVD (720 x 576) 5:4</t> <!-- 12.0 -->
+			<t k="sxga">SXGA (1280 x 1024) 5:4</t> <!-- 12.0 -->
+			<t k="xga">XGA (1024 x 768) 4:3</t> <!-- 12.0 -->
+			<t k="vga">VGA (640 x 480) 4:3</t> <!-- 12.0 -->
+			<t k="cga">CGA (320 x 200) 8:5</t> <!-- 12.0 -->
+		</g>
+		<t k="customResizeWidth">Custom resize width:</t> <!-- 11.0 -->
+		<t k="customResizeHeight">height:</t> <!-- 11.0 -->
+		<t k="refreshRateFps">Refresh rate (FPS):</t> <!-- 11.0 -->
+		<t k="serverPort">Server port:</t> <!-- 11.0 -->
+		<t k="imageQuality">Image quality:</t> <!-- 11.0 -->
+		<t k="imageQualityToolTip">Higher value means better video quality, but it results in bigger outgoing bandwidth.</t> <!-- 11.0 -->
+		<t k="saveStreamVideoAsAviFolder">Save stream video as AVI file in folder:</t> <!-- 12.0 -->
+		<t k="fixAviFps">Fix AVI FPS:</t> <!-- 12.0 -->
+		<t k="streamingFpsIsVarying">(streaming FPS is varying)</t> <!-- 12.0 -->
+	</g>
+	<g k="stats" c="Streaming Statistics">
+		<t k="title">Streaming Statistics</t> <!-- 11.0 -->
+		<t k="streamingTime">Streaming time:</t> <!-- 11.0 -->
+		<t k="framesCaptured">Frames captured:</t> <!-- 11.0 -->
+		<t k="avgRefreshRate">Average refresh rate:</t> <!-- 11.0 -->
+		<t k="avgFrameSize">Average frame size:</t> <!-- 11.0 -->
+		<t k="avgVideoSize">Average video size:</t> <!-- 11.1 -->
+		<t k="totalFrameSize">Total frame size:</t> <!-- 11.0 -->
+		<t k="framesTransmitted">Frames transmitted:</t> <!-- 11.1 -->
+		<t k="totalOutgoingBandwidth">Total outgoing bandwidth:</t> <!-- 11.0 -->
+		<t k="savedAviFileSize">Saved AVI file size:</t> <!-- 12.0 -->
+		<t k="sizeValue" c="$0: size in bytes">$0 Bytes</t> <!-- 11.0 -->
+		<t k="sizeValueKB" c="$0: size in KB">$0 KB</t> <!-- 11.1 -->
+		<t k="sizeValueMB" c="$0: size in MB">$0 MB</t> <!-- 11.1 -->
+		<t k="sizeValueGB" c="$0: size in GB">$0 GB</t> <!-- 11.1 -->
+		<t k="speedValue" c="$0: speed in bytes/sec">$0 Bytes/sec</t> <!-- 11.1 -->
+		<t k="speedValueKB" c="$0: speed in KB/sec">$0 KB/sec</t> <!-- 11.1 -->
+		<t k="speedValueMB" c="$0: speed in MB/sec">$0 MB/sec</t> <!-- 11.1 -->
+		<t k="speedValueGB" c="$0: speed in GB/sec">$0 GB/sec</t> <!-- 11.1 -->
+		<t k="fps" c="$0: fps value">$0 FPS</t> <!-- 11.0 -->
+		<g k="viewers" c="Viewers table">
+			<t k="viewerIp">Viewer IP</t> <!-- 12.0 -->
+			<t k="framesSent">Frames sent</t> <!-- 12.0 -->
+			<t k="bandwidth">Bandwidth</t> <!-- 12.0 -->
+			<t k="badPassword">Bad password</t> <!-- 12.0 -->
+		</g>
+	</g>
+	<g k="errors" c="Streaming errors">
+		<t k="general">Failed to start private streaming.</t> <!-- 11.0 -->
+		<t k="robotCreation">Could not create Robot!.</t> <!-- 11.0 -->
+		<t k="missingImageHandler" c="$0: image format">Could not find $0 handler!</t> <!-- 11.0 -->
+		<t k="invalidCustomArea">Custom screen area to stream is invalid!</t> <!-- 11.0 -->
+		<t k="invalidResizeDimension">Custom resize dimension is invalid!</t> <!-- 11.0 -->
+		<t k="invalidStreamPassword">Invaild stream password! Use only English letters and numbers!</t> <!-- 11.0 -->
+		<t k="httpServerStartFailed">Could not start HTTP server! (Server port in use?)</t> <!-- 11.0 -->
+		<t k="saveVideoFolderIsAFile" c="$0: save video folder">Save video folder is a file: $0 (you must specify a folder)</t> <!-- 12.0 -->
+		<t k="couldNotCreateSaveVideoFolder" c="$0: save video folder">Could not create save video folder: $0</t> <!-- 12.0 -->
+		<t k="cannotWriteAviFile" c="$0: AVI file">Cannot write AVI file: $0</t> <!-- 12.0 -->
+	</g>
+</g>
+
+<g k="about" c="About dialog">
+	<t k="title" c="$0: application name">About $0</t>
+	<t k="author">Author:</t>
+	<t k="email">E-mail:</t>
+	<t k="version">Version:</t>
+	<t k="releasedOn">Released on:</t>
+	<t k="currentLanguage">Current language:</t> <!-- 1.60 -->
+	<t k="currentTranslator">Translator of current language:</t>
+	<t k="languageFileVersion">Current language file version:</t>
+	<t k="currentVoice">Current voice:</t> <!-- 1.60 -->
+	<t k="authorOfCurrentVoice">Author of current voice:</t> <!-- 1.60 -->
+	<t k="updaterVersion" c="$0: Sc2gears Updater name">$0 version:</t> <!-- 10.0 -->
+	<t k="replayParserVersion">Replay parser version:</t> <!-- 1.60 -->
+	<t k="replayCacheVersion">Replay cache version:</t> <!-- 3.00 -->
+	<t k="profileCacheVersion">Profile cache version:</t> <!-- 5.3 -->
+	<t k="nameTemplateEngineVersion">Name template engine version:</t> <!-- 10.2 -->
+	<t k="pluginApiVersion">Plugin API version:</t> <!-- 7.0 -->
+	<t k="pluginServicesImplVersion">Plugin services implementation version:</t> <!-- 7.0 -->
+	<t k="generalServicesImplVersion">General services implementation version:</t> <!-- 7.0 -->
+	<t k="eapmAlgorithmVersion">EAPM algorithm version:</t> <!-- 8.2 -->
+	<t k="mousePracticeGameVersion">Mouse practice game version:</t> <!-- 10.0 -->
+	<t k="smpdFormatVersion">SMPD format version:</t> <!-- 10.0 -->
+	<t k="privateVideoStreamingVersion">Private Video Streaming version:</t> <!-- 11.0 -->
+	<t k="usedIcons" c="$0: application name">$0 uses the Fugue and the FamFamFam icons.</t>
+	<t k="sc2ImagesCopyrightCompany" c="$0: copyright company name">StarCraft II images are $0</t> <!-- 10.0 -->
+	<t k="elapsedTimeSinceStart" c="$0: application name, $1: elapsed time since start">Elapsed time since $0 start: $1</t> <!-- 10.0 -->
+</g>
+
+<g k="pluginManager" c="Plugin manager dialog">
+	<t k="title">Plugin manager</t> <!-- 7.0 -->
+	<t k="enableAllPluginsButton">Enable all plugins</t> <!-- 7.0 -->
+	<t k="disableAllPluginsButton">Disable all plugins</t> <!-- 7.0 -->
+	<t k="allowIncompatiblePlugins">Allow incompatible plugins</t> <!-- 7.2 -->
+	<t k="moreAboutPluginInterface">More about the plugin interface</t> <!-- 7.2 -->
+	<t k="installedPlugins">Installed plugins</t> <!-- 7.0 -->
+	<t k="pluginDetails">Plugin details</t> <!-- 7.0 -->
+	<t k="pluginDescription">Plugin description</t> <!-- 7.0 -->
+	<g k="details" c="Plugin details">
+		<t k="name">Name:</t> <!-- 7.0 -->
+		<t k="author">Author:</t> <!-- 7.0 -->
+		<t k="email">Email:</t> <!-- 7.0 -->
+		<t k="version">Version:</t> <!-- 7.0 -->
+		<t k="releaseDate">Release date:</t> <!-- 7.0 -->
+		<t k="apiVersion">API version:</t> <!-- 7.0 -->
+		<t k="homePage">Home page:</t> <!-- 7.0 -->
+		<t k="visitPluginHomePageToolTip">Visit plugin's home page</t> <!-- 7.4 -->
+		<t k="pluginIsCompatible">Plugin is compatible.</t> <!-- 7.2 -->
+		<t k="pluginIsIncompatible">Plugin is incompatible!</t> <!-- 7.2 -->
+		<t k="enablePluginButton">Enable plugin</t> <!-- 7.0 -->
+		<t k="disablePluginButton">Disable plugin</t> <!-- 7.0 -->
+		<t k="configurePluginButton">Configure plugin</t> <!-- 7.4 -->
+		<t k="configurePluginButtonActionRequiredToolTip">Your action is required!</t> <!-- 7.4 -->
+		<t k="selectPlugin">&lt;select a plugin&gt;</t> <!-- 7.0 -->
+	</g>
+	<g k="status" c="Plugin status">
+		<t k="disabled">Plugin is disabled.</t> <!-- 7.2 -->
+		<t k="enabledStopped">Plugin is stopped.</t> <!-- 7.2 -->
+		<t k="enabledDeniedIncompatible">Denied to start incompatible plugin!</t> <!-- 7.2 -->
+		<t k="enabledFailedToStart">Failed to start plugin!</t> <!-- 7.2 -->
+		<t k="enabledFailedDuringExecution">Plugin failed during execution!</t> <!-- 7.2 -->
+		<t k="enabledRunning">Plugin is running.</t> <!-- 7.2 -->
+	</g>
+</g>
+
+<g k="pluginSettings" c="Plugin settings dialog">
+	<t k="title" c="$0: name of the plugin">Settings of "$0"</t> <!-- 7.4 -->
+</g>
+
+<g k="translationTool" c="Translation tool dialog">
+	<t k="title">Translation tool</t> <!-- 8.0 -->
+	<t k="chooseLanguageToEdit">Choose a language to edit:</t> <!-- 8.0 -->
+	<t k="orCreateNewTranslationWithName">Or create a new translation with name:</t> <!-- 8.0 -->
+	<t k="createButton">C_reate</t> <!-- 8.0 -->
+	<t k="saveChangesButton">_Save changes</t> <!-- 8.0 -->
+	<t k="failedToLoadLanguage" c="$0: language name">Failed to load language: $0</t> <!-- 8.0 -->
+	<g k="tab.generalInfo" c="General info tab">
+		<t k="title">General info</t> <!-- 8.0 -->
+		<t k="languageFileVersion">Language file version:</t> <!-- 8.0 -->
+		<t k="setCurrentVersionButton">Set current _version</t> <!-- 8.0 -->
+		<t k="languageFileSubversion">Language file subversion:</t> <!-- 8.0 -->
+		<t k="translatorFirstName">Translator first name:</t> <!-- 8.0 -->
+		<t k="translatorLastName">Translator last name:</t> <!-- 8.0 -->
+		<t k="dateFormat">Date format:</t> <!-- 8.0 -->
+		<t k="dateTimeFormat">Date+time format:</t> <!-- 8.0 -->
+		<t k="timeFormat">Time format:</t> <!-- 8.0 -->
+		<t k="personNameFormat">Person name format:</t> <!-- 8.0 -->
+		<t k="personNameFormat.firstNameLastName">firstName lastName</t> <!-- 8.0 -->
+		<t k="personNameFormat.lastNameFirstName">lastName firstName</t> <!-- 8.0 -->
+	</g>
+	<g k="tab.texts" c="Texts tab">
+		<t k="title">Texts</t> <!-- 8.0 -->
+		<t k="translationProgress" c="$0: number of translated texts, $1: number of all texts, $2: completion percent">Translated $0 / $1 ($2%)</t> <!-- 8.0 -->
+		<t k="showOnlyUntranslated">Show only untranslated</t> <!-- 8.0 -->
+		<t k="previousButton">_Previous</t> <!-- 8.0 -->
+		<t k="nextButton">_Next</t> <!-- 8.0 -->
+		<t k="previousButtonToolTip">Jump to the previous untranslated text.</t> <!-- 8.0 -->
+		<t k="nextButtonToolTip">Jump to the next untranslated text.</t> <!-- 8.0 -->
+		<t k="allDisplayedTextsAreTranslated">All displayed texts are translated.</t> <!-- 8.0 -->
+		<g k="table.header" c="Table headers">
+			<t k="textKeyContext">Text key / Context</t> <!-- 8.0 -->
+			<t k="originalText">Original text</t> <!-- 8.0 -->
+			<t k="translation">Translation</t> <!-- 8.0 -->
+		</g>
+		<t k="table.toolTip">Click or start typing to edit the translation.</t> <!-- 8.0 -->
+		<t k="originalTextPreview">Original text preview:</t> <!-- 8.0 -->
+		<t k="translationPreview">Translation preview:</t> <!-- 8.0 -->
+		<t k="comments">Comments:</t> <!-- 8.0 -->
+	</g>
+	<t k="changesSavedSuccessfully">Changes have been saved successfully.</t> <!-- 8.0 -->
+	<t k="failedToSaveTranslation">Failed to save translation!</t> <!-- 8.0 -->
+	<t k="languageAlreadyExists" c="$0: language name">Language already exists: $0</t> <!-- 8.0 -->
+	<t k="doNotUseSpacesInLanguageName">Please do not use spaces in language name!</t> <!-- 8.0 -->
+</g>
+
+<g k="botplugin" c="Build Orders Table plugin">
+	<t k="repOpsMenuItem">Show Build Orders Table</t> <!-- 7.2 -->
+	<t k="title">Build Orders Table</t> <!-- 7.2 -->
+	<t k="time">Time</t> <!-- 7.2 -->
+</g>
+
+<g k="tsovplugin" c="The Sound of Victory plugin">
+	<g k="diagnosticTest" c="Diagnostic test">
+		<t k="name">Check The Sound of Victory plugin pre-conditions</t> <!-- 7.4 -->
+		<t k="warning.missingSettings">Required plugin settings are not set.</t> <!-- 7.4 -->
+		<t k="warning.autoSaveDisabled">"Replay auto-save" is disabled! The Sound of Victory plugin requires "Replay auto-save" to be enabled.</t> <!-- 7.4 -->
+	</g>
+	<t k="supportedAudioFormats"><![CDATA[<html>Supported Audio file formats include: <b>MP3</b>, WAV, AIFF, AU</html>]]></t> <!-- This is HTML! --> <!-- 7.4 -->
+	<t k="watchedPlayerList">List of watched players:</t> <!-- 7.4 -->
+	<t k="watchedPlayerListToolTip">A comma separated list of the full names of watched players.</t> <!-- 7.4 -->
+	<t k="victoryAudioFile">Victory Audio file:</t> <!-- 7.4 -->
+	<t k="defeatAudioFile">Defeat Audio file:</t> <!-- 7.4 -->
+	<t k="selectFileButton">Select file...</t> <!-- 7.4 -->
+	<t k="testButton">Test</t> <!-- 7.4 -->
+	<t k="selectAudioFile">Select an Audio file</t> <!-- 7.4 -->
+</g>
+
+<g k="playerProfile" c="Player profile dialog">
+	<t k="title">Player profile</t> <!-- 5.4 -->
+	<t k="gateway">Gateway:</t> <!-- 5.4 -->
+	<t k="region">Region:</t> <!-- 5.4 -->
+	<t k="customPortraits">Custom portraits</t> <!-- 5.4 -->
+	<t k="updatedAt">Updated at:</t> <!-- 5.4 -->
+	<t k="updateNow">Update now</t> <!-- 7.3 -->
+	<t k="updating">Updating...</t> <!-- 7.3 -->
+	<t k="currentBestLeagues">Current best leagues</t> <!-- 12.0 -->
+	<t k="currentBestLeagueIconToolTip" c="$0: team members">Team: $0</t> <!-- 12.0 -->
+	<t k="gamesThisSeason">Games This Season</t> <!-- 12.0 -->
+	<t k="allGames">All Games</t> <!-- 12.0 -->
+	<t k="terranWins">Terran Wins</t> <!-- 12.5 -->
+	<t k="zergWins">Zerg Wins</t> <!-- 12.5 -->
+	<t k="protossWins">Protoss Wins</t> <!-- 12.5 -->
+	<t k="highestSoloFinish">Highest Solo Finish</t> <!-- 12.0 -->
+	<t k="highestTeamFinish">Highest Team Finish</t> <!-- 12.0 -->
+	<t k="allLeagues">All leagues</t> <!-- 5.4 -->
+</g>
+
+<g k="newToSc2gears" c="New to Sc2gears dialog">
+	<t k="title" c="$0: application name">New to $0?</t> <!-- 4.4 -->
+	<t k="info" c="$0: application name">Tips and things you should know about $0</t> <!-- 4.4 -->
+	<t k="ensureCorrectFolders"><![CDATA[<html>In order to auto-save replays, display Map view chart, launch StarCraft II etc. ensure folders are set correctly:</html>]]></t> <!-- 4.4 -->
+	<t k="autoSaveNameTemplate"><![CDATA[<html>Yes, you can change how auto-saved replays are named. Edit the <i>Replay auto-save name template</i>:</html>]]></t> <!-- 4.4 -->
+	<t k="favoredPlayerList"><![CDATA[<html>By default players are listed as they appear in the replays.<br>You can put your name to the first place if you add your name to the <i>Favored player list</i>:</html>]]></t> <!-- 4.4 -->
+	<t k="realTimeGameTime"><![CDATA[<html>By default <b>real time</b> and <b>real APM</b> values are displayed and used which differ from values displayed in StarCraft II.<br>You can switch back to <b>game time</b> and <b>game APM</b> if you wish here:</html>]]></t> <!-- 4.4 -->
+	<t k="autoStoreReplays" c="$0: application name"><![CDATA[<html>$0 can automatically store ALL your replays securely online if you have an Sc2gears Database account:</html>]]></t> <!-- 5.0 -->
+	<t k="runDiagnostic">You can run a diagnostic test to see if your settings are correct:</t> <!-- 4.4 -->
+	<t k="openTipsDialog">For advanced users: you should check out the Tips dialog:</t> <!-- 4.4 -->
+	<t k="limitation"><![CDATA[<html>Limitation: $0 operates on replays. Replays contain limited amount of information<br>which sometimes may differ from the actual game (for example more train actions than units actually created).</html>]]></t> <!-- 4.4 -->
+	<t k="legit" c="$0: application name">Yes, $0 and all of its features are legit by Blizzard's terms of use.</t> <!-- 4.4 -->
+	<t k="runDiagnosticTestLink">Run diagnostic test</t> <!-- 4.4 -->
+	<t k="openTipsDialogLink">Open Tips dialog</t> <!-- 4.4 -->
+	<t k="remindMeNextTimeButton">_Remind me next time</t> <!-- 4.4 -->
+</g>
+
+<g k="tips" c="Tips dialog">
+	<t k="title">Tips</t> <!-- 4.4 -->
+</g>
+
+<g k="keyboardShortcuts" c="Keyboard shortcuts dialog">
+	<t k="title">Keyboard shortcuts</t> <!-- 5.2 -->
+	<g k="table.header" c="Table headers">
+		<t k="context">Context</t> <!-- 5.2 -->
+		<t k="function">Function</t> <!-- 5.2 -->
+		<t k="shortcut">Shortcut</t> <!-- 5.2 -->
+	</g>
+	<g k="context" c="Contexts">
+		<t k="global">Global (System-wide)</t> <!-- 6.0 -->
+		<t k="general">General</t> <!-- 5.2 -->
+		<t k="startPage">Start page</t> <!-- 5.2 -->
+		<t k="replayAnalyzer">Replay analyzer</t> <!-- 5.2 -->
+		<t k="multiRepAnalysis">Multi-replay analysis</t> <!-- 5.2 -->
+		<t k="onTopApmDisplay">On-Top APM display</t> <!-- 7.3 -->
+	</g>
+	<g k="key" c="Keys">
+		<t k="ctrl">CTRL</t> <!-- 5.2 -->
+		<t k="shift">SHIFT</t> <!-- 5.2 -->
+		<t k="alt">ALT</t> <!-- 5.2 -->
+		<t k="number">number</t> <!-- 5.2 -->
+		<t k="functionKey">Function key</t> <!-- 5.2 -->
+	</g>
+	<g k="function" c="Functions">
+		<t k="enableDisableReplayAutoSave">Enable/Disable replay auto-save</t> <!-- 6.0 -->
+		<t k="enableDisableApmAlert">Enable/Disable APM Alert</t> <!-- 6.0 -->
+		<t k="startStopMousePrintRecording">Start/Stop mouse print recording</t> <!-- 6.0 -->
+		<t k="switchToSc2gears">Switch to Sc2gears</t> <!-- 6.0 -->
+		<t k="showHideLastGameInfoDialog">Show/Hide On-Top last game info dialog</t> <!-- 7.3 -->
+		<t k="showHideApmDisplayDialog">Show/Hide On-Top APM display dialog</t> <!-- 7.3 -->
+		<t k="openReplay">Open replay</t> <!-- 5.2 -->
+		<t k="openLastReplay">Open last replay</t> <!-- 5.2 -->
+		<t k="exit">Exit</t> <!-- 5.2 -->
+		<t k="miscSettings">Miscellaneous settings</t> <!-- 5.2 -->
+		<t k="openTool">Open tool</t> <!-- 5.2 -->
+		<t k="filterTableRows">Filter table rows</t> <!-- 5.5 -->
+		<t k="filterOutTableRows">Filter out table rows</t> <!-- 5.5 -->
+		<t k="fullScreen">Enter/Exit Full screen</t> <!-- 5.2 -->
+		<t k="minimieToTray">Minimize to tray</t> <!-- 5.2 -->
+		<t k="tileAllWindows">Tile all windows</t> <!-- 5.2 -->
+		<t k="cascadeAllWindows">Cascade all windows</t> <!-- 5.2 -->
+		<t k="tileVisibleWindows">Tile visible windows</t> <!-- 5.2 -->
+		<t k="cascadeVisibleWindows">Cascade visible windows</t> <!-- 5.2 -->
+		<t k="visitHomePage">Visit home page</t> <!-- 5.2 -->
+		<t k="showStartPage">Show start page</t> <!-- 5.2 -->
+		<t k="closeInternalWindow">Close window</t> <!-- 5.2 -->
+		<t k="restoreInternalWindowSize">Restore internal window size</t> <!-- 5.2 -->
+		<t k="cycleThroughTabs">Cycle through tabs</t> <!-- 5.2 -->
+		<t k="cycleThroughInternalWindows">Cycle through internal windows</t> <!-- 5.2 -->
+		<t k="switchNavTreeIntWindows">Switch between navigation tree and internal windows</t> <!-- 5.2 -->
+		<t k="focusNavTreeIntWindowsSplitter">Focus the splitter between the navigation tree and the internal windows</t> <!-- 5.2 -->
+		<t k="windowContextMenu">Window context menu</t> <!-- 5.2 -->
+		<t k="mainMenu">Main menu</t> <!-- 5.2 -->
+		<t k="closeTab">Close tab</t> <!-- 5.2 -->
+		<t k="refreshContent">Refresh content</t> <!-- 5.2 -->
+		<t k="selectChart">Select chart</t> <!-- 5.2 -->
+		<t k="openCloseOverlayChart">Open/close overlay chart</t> <!-- 5.2 -->
+		<t k="zoomIn">Zoom in</t> <!-- 5.2 -->
+		<t k="zoomOut">Zoom out</t> <!-- 5.2 -->
+		<t k="gridOnOff">Turn grid on/off</t> <!-- 5.2 -->
+		<t k="openGridSettings">Open grid settings</t> <!-- 5.2 -->
+		<t k="playPause">Play/pause</t> <!-- 5.2 -->
+		<t k="jumpBackward">Jump backward</t> <!-- 5.2 -->
+		<t k="jumpForward">Jump forward</t> <!-- 5.2 -->
+		<t k="jumpToBeginning">Jump to the beginning</t> <!-- 5.2 -->
+		<t k="jumpToEnd">Jump to the end</t> <!-- 5.2 -->
+		<t k="slowDown">Slow down</t> <!-- 5.2 -->
+		<t k="speedUp">Speed up</t> <!-- 5.2 -->
+		<t k="jumpToFrame">Jump to frame</t> <!-- 5.2 -->
+		<t k="searchText">Search text</t> <!-- 5.2 -->
+		<t k="filterActions">Filter actions</t> <!-- 5.2 -->
+		<t k="filterOutActions">Filter out actions</t> <!-- 5.2 -->
+		<t k="increaseFontSize">Increase font size</t> <!-- 7.3 -->
+		<t k="decreaseFontSize">Decrease font size</t> <!-- 7.3 -->
+	</g>
+</g>
+
+<g k="diagnosticTool" c="Diagnostic tool dialog">
+	<t k="title">Diagnostic tool</t> <!-- 4.4 -->
+	<t k="testsAreRunning">Diagnostic tests are running, please wait...</t> <!-- 9.0 -->
+	<t k="summary">Summary:</t> <!-- 4.4 -->
+	<g k="header" c="Table headers">
+		<t k="testName">Test Name</t> <!-- 4.4 -->
+		<t k="result">Result</t> <!-- 4.4 -->
+		<t k="details">Details</t> <!-- 4.4 -->
+	</g>
+	<g k="result" c="Results">
+		<t k="error">ERROR</t> <!-- 4.4 -->
+		<t k="fail">FAIL</t> <!-- 4.4 -->
+		<t k="warning">WARNING</t> <!-- 4.4 -->
+		<t k="ok">OK</t> <!-- 4.4 -->
+	</g>
+	<t k="enabled">Enabled.</t> <!-- 4.4 -->
+	<t k="disabled">Disabled.</t> <!-- 5.0 -->
+	<t k="wasNotFound" c="$0: file name">"$0" was not found!</t> <!-- 5.2 -->
+	<t k="noPermissionInFolder" c="$0: folder name">User has no permission to write in folder "$0"!</t> <!-- 5.2 -->
+	<t k="testExecutionError">An error occurred while running the test!</t> <!-- 7.2 -->
+	<t k="freeSpaceWarning" c="$0: free space in MB">Less than $0 MB free space available!</t> <!-- 5.2 -->
+	<g k="test" c="Tests">
+		<g k="checkMemory" c="Check memory test">
+			<t k="name" c="$0: application name">Check memory for $0</t> <!-- 4.4 -->
+			<t k="memoryValues" c="$0: allocated memory in MB, $1: free memory in MB, $2: max memory in MB, $3: total free memory in MB">Allocated: $0 MB, Free: $1 MB, Max: $2 MB, Total free: $3 MB</t> <!-- 4.4 -->
+			<t k="warning" c="$0: warning total free memory limit in MB, $1: application name">Total free memory is less than $0 MB for $1!</t> <!-- 4.4 -->
+			<t k="fail" c="$0: fail total free memory limit in MB, $1: application name">Total free memory is less than $0 MB for $1!</t> <!-- 4.4 -->
+		</g>
+		<g k="checkJavaVersion" c="Check Java version test">
+			<t k="name">Check Java version</t> <!-- 4.4 -->
+			<t k="error">Could not determine Java version!</t> <!-- 4.4 -->
+			<t k="fail2" c="$0: required Java version, $1: detected Java version">Required Java version: $0 or newer; found: $1</t> <!-- 13.0 -->
+		</g>
+		<t k="checkAutoCheckUpdatesSetting.name">Check "Auto-check updates" setting</t> <!-- 4.4 -->
+		<t k="checkAutoCheckUpdatesSetting.warning" c="$0: application name">Disabled, your $0 might be out-dated.</t> <!-- 4.4 -->
+		<t k="checkUserContentFolders.name" c="$0: application name">Check $0 "User Content" folders</t> <!-- 4.4 -->
+		<t k="checkSc2InstallFolder.name">Check StarCraft II installation folder</t> <!-- 4.4 -->
+		<g k="checkSc2AutoRepFolder" c="Check SC2 auto-replay folder test">
+			<t k="name">Check SC2 auto-replay folder</t> <!-- 4.4 -->
+			<t k="warning">Some of the auto-replay folders do not exist!</t> <!-- 4.4 -->
+			<t k="fail">None of the auto-replay folders exist!</t> <!-- 4.4 -->
+		</g>
+		<t k="checkSc2MapsFolder.name">Check SC2 maps folder</t> <!-- 4.4 -->
+		<t k="checkReplayAutoSaveFolder.name">Check replay auto-save folder</t> <!-- 4.4 -->
+		<t k="checkMousePrintOutputFolder.name">Check mouse print output folder</t> <!-- 4.4 -->
+		<t k="checkReplayAutoSaveNameTemplate.name">Check replay auto-save name template</t> <!-- 4.4 -->
+		<t k="checkReplayAutoSaveNameTemplate.warning">The template is invalid.</t> <!-- 4.4 -->
+		<t k="checkInternalReplayCacheSetting.name">Check "Internal replay cache" setting</t> <!-- 4.4 -->
+		<t k="checkInternalReplayCacheSetting.warning">Disabled, it is recommended to enable the internal replay cache.</t> <!-- 4.4 -->
+		<t k="checkReplayAutoSaveSetting.name">Check "Replay auto-save" setting</t> <!-- 4.4 -->
+		<t k="checkReplayAutoSaveSetting.warning">Disabled, your replays are not being saved automatically.</t> <!-- 4.4 -->
+		<g k="checkMousePrintAutoSave" c="Check &quot;Mouse print auto-save&quot; setting test">
+			<t k="name">Check "Mouse print auto-save" setting</t> <!-- 4.4 -->
+			<t k="warning#2">Enabled, but Game status monitor is not supported on your operating system.</t> <!-- 12.3 -->
+			<t k="disabled">Disabled, your mouse prints are not saved automatically.</t> <!-- 12.3 -->
+		</g>
+		<g k="checkReplayAutoStoreSetting" c="Check &quot;Replay auto-store&quot; setting test">
+			<t k="name">Check "Replay auto-store" setting</t> <!-- 5.0 -->
+			<t k="ok">It is properly enabled along with replay auto-save.</t> <!-- 5.0 -->
+			<t k="fail">Enabled, but Replay auto-save is disabled! Replay auto-save must be enabled for replay auto-store!</t> <!-- 5.0 -->
+			<t k="warning">Disabled, your replays are not stored automatically in the Sc2gears Database.</t> <!-- 5.0 -->
+		</g>
+		<g k="checkMousePrintAutoStoreSetting" c="Check &quot;Mouse print auto-store&quot; setting test">
+			<t k="name">Check "Mouse print auto-store" setting</t> <!-- 5.0 -->
+			<t k="ok">It is properly enabled along with mouse print auto-save.</t> <!-- 5.0 -->
+			<t k="fail">Enabled, but Mouse print auto-save is disabled! Mouse print auto-save must be enabled for mouse print auto-store!</t> <!-- 5.0 -->
+			<t k="warning">Disabled, your mouse prints are not stored automatically in the Sc2gears Database.</t> <!-- 5.0 -->
+		</g>
+		<g k="checkAuthorizationKey" c="Check Authorization key test">
+			<t k="name">Check Authorization key</t> <!-- 5.0 -->
+			<t k="notSet">Not set.</t> <!-- 5.0 -->
+			<t k="ok">The Authorization key is valid.</t> <!-- 5.0 -->
+			<t k="fail">The Authorization key is invalid!</t> <!-- 5.0 -->
+			<t k="warning">Failed to check the Authorization key.</t> <!-- 5.0 -->
+		</g>
+		<g k="checkPlugins" c="Check Plugins test">
+			<t k="name">Check Plugins</t> <!-- 7.0 -->
+			<t k="noEnabledPlugins">There are no enabled plugins.</t> <!-- 7.0 -->
+			<t k="ok" c="$0: number of enabled plugins">All enabled plugins ($0) have been started successfully.</t> <!-- 7.0 -->
+			<t k="fail" c="$0: number of failed plugins, $1: number of enabled plugins">Failed to start $0 plugin(s) out of $1 enabled plugin(s)!</t> <!-- 7.0 -->
+		</g>
+	</g>
+	<t k="detailsTitle">Details (select a test in the table above):</t> <!-- 4.4 -->
+</g>
+
+<g k="mousePracticeGame" c="Mouse practice game window">
+	<t k="title">Mouse practice game</t> <!-- 7.7 -->
+	<t k="startButton">_Start</t> <!-- 7.7 -->
+	<t k="stopButton">_Stop</t> <!-- 8.4 -->
+	<t k="startButtonCheckingScore">Checking score...</t> <!-- 7.7 -->
+	<t k="viewTopScores">View Top Scores</t> <!-- 7.7 -->
+	<t k="checkUserScore">Check your score after games</t> <!-- 7.7 -->
+	<t k="enableCustomRules">Enable custom rules</t> <!-- 8.4 -->
+	<t k="customRulesWarning">Warning! Games with custom rules are not qualified for the Top Scores table!</t> <!-- 8.4 -->
+	<t k="gameAndCustomRulesDescription">Game and custom rules description</t> <!-- 8.4 -->
+	<t k="colorBlind">Color blind</t> <!-- 8.4 -->
+	<t k="colorBlindToolTip">If enabled, red discs will not be filled (for color blinds).</t> <!-- 8.4 -->
+	<t k="topScoresTitle">Top Scores</t> <!-- 7.7 -->
+	<t k="score">Score:</t> <!-- 7.7 -->
+	<t k="accuracy">Accuracy:</t> <!-- 7.7 -->
+	<t k="hits">Hits:</t> <!-- 7.7 -->
+	<t k="missed">Missed:</t> <!-- 7.7 -->
+	<t k="info1">This game tests your mouse speed and accuracy.</t> <!-- 7.7 -->
+	<t k="info2">Your goal is to click on the discs as they appear.</t> <!-- 7.7 -->
+	<t k="info3">Use the LEFT button for Green discs and the RIGHT button for Red discs.</t> <!-- 7.7 -->
+	<t k="info4">The closer you click to their center point the more points you get.</t> <!-- 7.7 -->
+	<t k="info5">Game is over when 10 times you miss a disc or click on the background.</t> <!-- 7.7 -->
+	<t k="missed2">MISSED!</t> <!-- 7.7 -->
+	<t k="gameOver">Game Over!</t> <!-- 7.7 -->
+	<t k="topScoreInfo1">Congratulations!</t> <!-- 7.7 -->
+	<t k="topScoreInfo2" c="$0: rank">You've made it to #$0 in the Top Scores table!</t> <!-- 7.7 -->
+	<t k="topScoreInfo3">Unfortunately you can't submit your score because you have no Authorization key set.</t> <!-- 7.7 -->
+	<t k="topScoreInfo4">Top Score table is restricted to Sc2gears Database users.</t> <!-- 7.7 -->
+	<t k="topScoreInfo5">Please enter your name to submit your score:</t> <!-- 7.7 -->
+</g>
+
+<g k="sc2gearsDatabaseDownloader" c="Sc2gears Database downloader dialog">
+	<t k="title">Sc2gears Database downloader</t> <!-- 5.0 -->
+	<t k="selectFileType">Select file type:</t> <!-- 5.0 -->
+	<t k="onlyAfterDate">Only files after date:</t> <!-- 5.0 -->
+	<t k="onlyBeforeDate">Only files before date:</t> <!-- 8.8.2 -->
+	<t k="targetFolder">Target folder:</t> <!-- 5.0 -->
+	<t k="chooseFolderButton">Choose _folder...</t> <!-- 5.0 -->
+	<t k="selectTargetFolder">Select target folder</t> <!-- 5.0 -->
+	<t k="downloadFilesButton">_Download files</t> <!-- 5.0 -->
+	<t k="invalidDate">You entered an invalid date!</t> <!-- 5.0 -->
+	<t k="missingTargetFolder">You have to specify the target folder to download files to!</t> <!-- 5.0 -->
+	<t k="failedToCreateTargetFolder">Could not create target folder!</t> <!-- 5.0 -->
+	<t k="retrievingFileList">Retrieving file list...</t> <!-- 5.0 -->
+	<t k="failedToRetrieveFileList">Failed to retrieve file list!</t> <!-- 5.0 -->
+	<t k="downloadingFiles">Downloading files...</t> <!-- 5.0 -->
+</g>
+
+<g k="gridSettings" c="Grid settings dialog">
+	<t k="title">Grid settings</t> <!-- 4.4 -->
+	<g k="autoConfigure" c="Auto-configure options">
+		<t k="spawnLarva">Auto-configure for Spawn Larva</t> <!-- 4.4 -->
+		<t k="calldownMule">Auto-configure for Calldown MULE</t> <!-- 4.4 -->
+		<t k="chronoBoost">Auto-configure for Chrono Boost</t> <!-- 4.4 -->
+		<t k="custom">Custom:</t> <!-- 4.4 -->
+	</g>
+	<t k="firstMarker">First marker:</t> <!-- 4.4 -->
+	<t k="insertCurrentPositionButton">_Insert current position</t> <!-- 4.4 -->
+	<t k="repeatMarker">Repeat marker:</t> <!-- 4.4 -->
+</g>
+
+<g k="overlayCharts" c="Overlay charts dialog">
+	<t k="title">Overlay charts</t> <!-- 5.2 -->
+	<t k="selectOverlayCharts">Select overlay charts to display:</t> <!-- 5.2 -->
+</g>
+
+<g k="replayListColumnSetup" c="Replay list column setup dialog">
+	<t k="title">Replay list column setup</t> <!-- 7.5 -->
+	<t k="visible">Visible</t> <!-- 7.5 -->
+</g>
+
+<g k="wordCloud" c="Word cloud dialog">
+	<t k="title">Word cloud</t> <!-- 7.6 -->
+	<t k="font">Font:</t> <!-- 7.6 -->
+	<t k="minFontSize">Min font size:</t> <!-- 7.6 -->
+	<t k="maxFontSize">Max font size:</t> <!-- 7.6 -->
+	<t k="maxWords">Max words:</t> <!-- 7.6 -->
+	<t k="useColors">Use colors</t> <!-- 7.6 -->
+	<t k="regenerateCloudButton">Re-_generate cloud</t> <!-- 7.6 -->
+	<t k="generatingWordCloud">Generating word cloud...</t> <!-- 7.6 -->
+	<t k="aborted">Aborted!</t> <!-- 7.6 -->
+</g>
+
+<g k="updatesAvailable" c="Updates available dialog">
+	<t k="title">Updates available</t>
+	<t k="newVersionAvailable" c="$0: version number">A newer version is available: $0</t>
+	<t k="viewVersionHistory">View version history</t>
+	<t k="whatToDo">What would you like to do?</t>
+	<t k="updateButton">Update</t>
+	<t k="dontUpdateButton">Don't update</t>
+	<t k="updaterCannotBeStarted" c="$0: Updater name">The $0 cannot be started because previous post-update failed!</t>
+	<t k="restart" c="$0: application name">Restart $0 and try again.</t>
+</g>
+
+<g k="trayIcon" c="Tray icon">
+	<t k="running" c="$0: application name">$0 is running.</t>
+	<t k="startedMinimized" c="$0: application name">$0 has been started minimized.</t> <!-- 1.70 -->
+</g>
+
+<g k="tray" c="Tray icon menu. These cannot have hotkeys.">
+	<t k="hide">Hide main window</t>
+	<t k="restore">Restore main window</t>
+	<t k="enableReplayAutoSave">Enable replay auto-save</t> <!-- 1.80 -->
+	<t k="enableApmAlert">Enable APM alert</t> <!-- 3.00 -->
+	<t k="openLastReplay">Open last replay</t> <!-- 1.80 -->
+	<t k="startStarCraft2">Start StarCraft II</t> <!-- 3.30 -->
+	<t k="startStarCraft2Editor">Start StarCraft II Editor</t> <!-- 3.30 -->
+	<t k="exit">Exit</t>
+</g>
+
+<g k="sc2" c="StarCraft 2 texts">
+	<g k="expansion" c="Expansion level">
+		<t k="hots">HotS</t> <!-- 13.1 -->
+		<t k="wol">WoL</t> <!-- 13.1 -->
+		<t k="hots.full">Heart of the Swarm</t> <!-- 13.1 -->
+		<t k="wol.full">Wings of Liberty</t> <!-- 13.1 -->
+	</g>
+	<g k="gateway" c="Gateways">
+		<t k="america">America</t>
+		<t k="asia">Asia</t>
+		<t k="china">China</t> <!-- 5.0 -->
+		<t k="europe">Europe</t>
+		<t k="southeastAsia">South-East Asia</t> <!-- 1.50 -->
+		<t k="publicTest">Public Test</t> <!-- 3.60 -->
+	</g>
+	<g k="region" c="Regions">
+		<t k="northAmerica">North America</t> <!-- 5.4 -->
+		<t k="latinAmerica">Latin America</t> <!-- 5.4 -->
+		<t k="china">China</t> <!-- 5.4 -->
+		<t k="europe">Europe</t> <!-- 5.4 -->
+		<t k="russia">Russia</t> <!-- 5.4 -->
+		<t k="korea">Korea</t> <!-- 5.4 -->
+		<t k="taiwan">Taiwan</t> <!-- 5.4 -->
+		<t k="southeastAsia">South-East Asia</t> <!-- 5.4 -->
+	</g>
+	<g k="gameSpeed" c="Game speeds">
+		<t k="slower">Slower</t>
+		<t k="slow">Slow</t>
+		<t k="normal">Normal</t>
+		<t k="fast">Fast</t>
+		<t k="faster">Faster</t>
+	</g>
+	<g k="gameType" c="Game types">
+		<t k="private">Private</t> <!-- 1.00  -->
+		<t k="public">Public</t> <!-- 1.00  -->
+		<t k="amm">AutoMM</t> <!-- 1.00  -->
+		<t k="singlePlayer">Single player</t>
+	</g>
+	<g k="playerType" c="Player types">
+		<t k="human">Human</t> <!-- 0.80 -->
+		<t k="computer">Computer</t> <!-- 0.80 -->
+	</g>
+	<g k="difficulty" c="Difficulties">
+		<t k="veryEasy">Very easy</t> <!-- 1.40 -->
+		<t k="easy">Easy</t> <!-- 1.40 -->
+		<t k="medium">Medium</t> <!-- 1.40 -->
+		<t k="hard">Hard</t> <!-- 1.40 -->
+		<t k="veryHard">Very hard</t> <!-- 1.40 -->
+		<t k="insane">Insane</t> <!-- 1.40 -->
+	</g>
+	<g k="color" c="Player colors">
+		<t k="red">Red</t> <!-- 1.40 -->
+		<t k="blue">Blue</t> <!-- 1.40 -->
+		<t k="teal">Teal</t> <!-- 1.40 -->
+		<t k="purple">Purple</t> <!-- 1.40 -->
+		<t k="yellow">Yellow</t> <!-- 1.40 -->
+		<t k="orange">Orange</t> <!-- 1.40 -->
+		<t k="green">Green</t> <!-- 1.40 -->
+		<t k="lightPink">Light pink</t> <!-- 2.00 -->
+		<t k="violet">Violet</t> <!-- 2.00 -->
+		<t k="lightGray">Light gray</t> <!-- 2.00 -->
+		<t k="darkGreen">Dark green</t> <!-- 2.00 -->
+		<t k="brown">Brown</t> <!-- 2.00 -->
+		<t k="lightGreen">Light green</t> <!-- 2.00 -->
+		<t k="darkGray">Dark gray</t> <!-- 2.00 -->
+		<t k="pink">Pink</t> <!-- 1.40 -->
+	</g>
+	<g k="race" c="Races">
+		<t k="protoss">Protoss</t> <!-- 0.80 -->
+		<t k="terran">Terran</t> <!-- 0.80 -->
+		<t k="zerg">Zerg</t> <!-- 0.80 -->
+		<t k="random">Random</t> <!-- 0.80 -->
+		<t k="protoss.letter">P</t> <!-- 0.90 -->
+		<t k="terran.letter">T</t> <!-- 0.90 -->
+		<t k="zerg.letter">Z</t> <!-- 0.90 -->
+		<t k="random.letter">R</t> <!-- 0.90 -->
+		<t k="any.letter">*</t> <!-- 0.90 -->
+		<t k="unknown.letter">U</t> <!-- 2.00 -->
+	</g>
+	<g k="unitTier" c="Unit tiers">
+		<t k="tier1">Tier 1</t> <!-- 4.2 -->
+		<t k="tier1.5">Tier 1.5</t> <!-- 4.2 -->
+		<t k="tier2">Tier 2</t> <!-- 4.2 -->
+		<t k="tier2.5">Tier 2.5</t> <!-- 4.2 -->
+		<t k="tier3">Tier 3</t> <!-- 4.2 -->
+	</g>
+	<g k="actionType" c="Action types">
+		<t k="select">Select</t> <!-- 0.80 -->
+		<t k="build">Build</t> <!-- 0.80 -->
+		<t k="train">Train</t> <!-- 0.80 -->
+		<t k="research">Research</t> <!-- 0.80 -->
+		<t k="upgrade">Upgrade</t> <!-- 0.80 -->
+		<t k="other">Other</t> <!-- 0.80 -->
+		<t k="inaction">Inaction</t> <!-- 0.80 -->
+	</g>
+	<g k="matchResult" c="Match results">
+		<t k="win">Win</t> <!-- 3.30 -->
+		<t k="win.letter">W</t> <!-- 3.30 -->
+		<t k="loss">Loss</t> <!-- 3.30 -->
+		<t k="loss.letter">L</t> <!-- 3.30 -->
+		<t k="unknown.letter">U</t> <!-- 3.30 -->
+	</g>
+</g>
+
+<g k="general" c="General texts">
+	<t k="yes">yes</t>
+	<t k="no">no</t>
+	<t k="errorTitle">Error!</t>
+	<t k="errorDetails">Details...</t>
+	<t k="infoTitle">Info</t>
+	<t k="confirmationTitle">Confirmation</t>
+	<t k="okButton">OK</t>
+	<t k="yesButton">Yes</t>
+	<t k="noButton">No</t>
+	<t k="cancelButton">Cancel</t>
+	<t k="unknown">Unknown</t> <!-- 0.80 -->
+	<g k="day" c="Days of week">
+		<t k="monday">Monday</t> <!-- 1.70 -->
+		<t k="tuesday">Tuesday</t> <!-- 1.70 -->
+		<t k="wednesday">Wednesday</t> <!-- 1.70 -->
+		<t k="thursday">Thursday</t> <!-- 1.70 -->
+		<t k="friday">Friday</t> <!-- 1.70 -->
+		<t k="saturday">Saturday</t> <!-- 1.70 -->
+		<t k="sunday">Sunday</t> <!-- 1.70 -->
+	</g>
+	<g k="month" c="Months of the year">
+		<t k="january">January</t> <!-- 1.70 -->
+		<t k="february">February</t> <!-- 1.70 -->
+		<t k="march">March</t> <!-- 1.70 -->
+		<t k="april">April</t> <!-- 1.70 -->
+		<t k="may">May</t> <!-- 1.70 -->
+		<t k="june">June</t> <!-- 1.70 -->
+		<t k="july">July</t> <!-- 1.70 -->
+		<t k="august">August</t> <!-- 1.70 -->
+		<t k="september">September</t> <!-- 1.70 -->
+		<t k="october">October</t> <!-- 1.70 -->
+		<t k="november">November</t> <!-- 1.70 -->
+		<t k="december">December</t> <!-- 1.70 -->
+	</g>
+	<g k="language" c="Languages">
+		<t k="english">English</t> <!-- 1.80 -->
+		<t k="chineseTw">ChineseTraditional</t> <!-- 1.80 -->
+		<t k="french">French</t> <!-- 1.80 -->
+		<t k="german">German</t> <!-- 1.80 -->
+		<t k="italian">Italian</t> <!-- 1.80 -->
+		<t k="korean">Korean</t> <!-- 1.80 -->
+		<t k="polish">Polish</t> <!-- 1.80 -->
+		<t k="portugueseBr">Portuguese-BR</t> <!-- 1.80 -->
+		<t k="russian">Russian</t> <!-- 1.80 -->
+		<t k="spanishMx">Spanish-MX</t> <!-- 1.80 -->
+	</g>
+	<t k="activeJobsExitConfirmation" c="$0: active background jobs">There are $0 active background job(s). Are you sure you want to exit?</t> <!-- 3.60 -->
+	<t k="colorChooser.title">Choose a color</t> <!-- 4.0 -->
+	<t k="editList">Edit list...</t> <!-- 4.1 -->
+	<t k="memoryUsage">Memory usage:</t> <!-- 4.4 -->
+	<t k="downloadingSizeUnknown">Downloading... (size unknown)</t> <!-- 5.4 -->
+	<g k="tableFilter" c="Table filter">
+		<t k="filterRows">Filter rows:</t> <!-- 5.5 -->
+		<t k="filterOutRows">Filter out rows:</t> <!-- 5.5 -->
+		<t k="filterRowsToolTip">Enter words to filter rows. You can use OR between words. (CTRL+F)</t> <!-- 5.5 -->
+		<t k="filterOutRowsToolTip">Enter words to filter OUT rows. You can use OR between words. (CTRL+T)</t> <!-- 5.5 -->
+		<t k="clearFiltersButton">C_lear filters</t> <!-- 5.5 -->
+		<t k="rows">Rows:</t> <!-- 5.5 -->
+		<t k="wordCloud">Word cloud</t> <!-- 7.6 -->
+		<t k="selectDeselectAllRowsToolTip">Select / Deselect all rows</t> <!-- 12.4 -->
+	</g>
+	<t k="lock">Lock</t> <!-- 7.6 -->
+	<t k="close">Close</t> <!-- 7.6 -->
+	<t k="custom">Custom</t> <!-- 8.7 -->
+	<t k="replayCacheInitError">Failed to initialize the internal replay cache! Replay cache service is disabled!</t> <!-- 8.7 -->
+	<g k="statusIndicator" c="Status indicators">
+		<t k="sc2NoGame">SC2: no game</t> <!-- 11.0 -->
+		<t k="sc2GameStarted">SC2: game STARTED</t> <!-- 11.0 -->
+		<t k="sc2GameEnded">SC2: game ENDED</t> <!-- 11.0 -->
+		<t k="mousePrintRecorderOn">Mouse print recorder ON</t> <!-- 11.0 -->
+		<t k="mousePrintRecorderOff">Mouse print recorder OFF</t> <!-- 11.0 -->
+		<t k="privateVideoStreamingOn">Private video streaming ON</t> <!-- 11.0 -->
+		<t k="privateVideoStreamingOff">Private video streaming OFF</t> <!-- 11.0 -->
+	</g>
+</g>
+
+<g k="progressDialog" c="Progress dialog">
+	<t k="elapsedTime">Elapsed time:</t> <!-- 3.60 -->
+	<t k="estRemainingTime">Estimated remaining time:</t> <!-- 3.60 -->
+	<t k="estTotalTime">Estimated total time:</t> <!-- 3.60 -->
+	<t k="avgProcessingSpeed">Average processing speed:</t> <!-- 12.4 -->
+	<t k="perSec" c="$0: avg processing speed value in 1/sec">$0 / sec</t> <!-- 12.4 -->
+	<t k="alertWhenDone">Alert when done</t> <!-- 3.60 -->
+	<g k="progressBar" c="Progress bar">
+		<t k="status" c="$0: processed, $1: failed, $2: total, $4: percent">Processed: $0, failed: $1, total: $2 ($3%)</t> <!-- 3.60 -->
+		<t k="aborted">Aborted!</t> <!-- 3.60 -->
+		<t k="done">Done!</t> <!-- 3.60 -->
+		<t k="failed" c="$0: failed">Failed: $0</t><!-- 3.60 -->
+	</g>
+</g>
+
+<g k="button" c="General buttons">
+	<t k="ok">_OK</t>
+	<t k="cancel">_Cancel</t>
+	<t k="yes">_Yes</t>
+	<t k="no">_No</t>
+	<t k="close">_Close</t>
+	<t k="abort">_Abort</t> <!-- 3.60 -->
+	<t k="restoreDefaults">_Restore defaults</t> <!-- 7.6 -->
+</g>
+<t k="tab.close.toolTip">Close tab (CTRL+W)</t> <!-- 0.80 -->
+<t k="icon.close.toolTip">Close</t> <!-- 7.3 -->
+
+<g k="dialog.systemMessages" c="System messages dialog">
+	<t k="title">System messages</t>
+</g>
+
+<g k="navigationTree" c="Navigation tree">
+	<t k="new">new</t>
+	<t k="empty">empty</t>
+	<g k="repSources" c="Replay sources">
+		<t k="name">Replay sources</t>
+		<t k="sc2AutoReps.name">SC2 auto reps</t> <!-- 2.10 -->
+		<t k="autoSavedReps.name">Auto-saved reps</t> <!-- 2.10 -->
+	</g>
+	<t k="repLists.name">Replay lists</t>
+	<t k="plugins.name">Plugins</t>
+	<t k="plugins.info.name">Items added by plugins:</t>
+	<g k="popup" c="Popups">
+		<t k="openInMultiRepAnalysis">Open in Multi-replay analysis</t> <!-- 2.10 -->
+		<t k="applyFilter">Apply filter</t> <!-- 4.1 -->
+		<t k="listAllReplays">List all replays</t> <!-- 2.10 -->
+		<t k="openInRepSearchForFiltering">Open in Replay search for further filtering</t> <!-- 2.10 -->
+		<t k="renameItem">Rename item...</t> <!-- 2.10 -->
+		<t k="renameDialog.title">Rename item</t> <!-- 2.10 -->
+		<t k="renameDialog.enterNewNameFor" c="$0: name of the item">Enter new name for "$0":</t> <!-- 2.10 -->
+		<t k="renameDialog.renameButton">_Rename</t> <!-- 2.10 -->
+		<t k="renameDialog.failedToRename" c="$0: old name, $1: new name">Failed to rename "$0" to "$1"!</t> <!-- 2.10 -->
+		<t k="deleteItem">Delete item...</t>
+		<t k="areYouSureToDelete" c="$0: name of item">Are you sure you want to delete "$0"?</t> <!-- 2.10 -->
+		<t k="storeItem">Store item</t> <!-- 10.0 -->
+		<t k="replaySourceComment">Replay source</t> <!-- 10.0 -->
+		<t k="replayListComment">Replay list</t> <!-- 10.0 -->
+		<t k="storingItem">Storing item...</t> <!-- 10.0 -->
+	</g>
+	<t k="info.newRepSource">You can create and save replay sources on the "Search source" tab of replay searches.</t>
+	<t k="info.newRepList">You can save replay lists on the "Results" tab of replay searches.</t>
+</g>
+
+<g k="replayops" c="Replay operations popup menu">
+	<t k="selectedReplays" c="$0: number of selected replays">$0 replay(s) selected</t> <!-- 7.2 -->
+	<t k="openInAnalyzer">Open in analyzer</t>
+	<t k="openInMultiRepAnal">Open in Multi-replay analysis</t> <!-- 1.30 -->
+	<t k="watchReplay">Watch replay</t> <!-- 0.80 -->
+	<t k="copyReplays">Copy replays...</t>
+	<t k="moveReplays">Move replays...</t>
+	<t k="packReplays">Pack replays (ZIP)...</t>
+	<t k="renameReplays">Rename replays...</t>
+	<t k="deleteReplays">Delete replays...</t>
+	<t k="storeReplays">Store replays</t> <!-- 5.0 -->
+	<t k="shareReplays">Share replays...</t> <!-- 8.3 -->
+	<t k="openReplaysFolder">Open replay's folder</t>
+	<t k="exportActions">Export actions</t> <!-- 3.60 -->
+	<t k="selectCopyTargetFolder">Select target folder for copying</t>
+	<t k="selectMoveTargetFolder">Select target folder for moving</t>
+	<t k="deleteConfirmation" c="$0: number of replays">Are you sure you want to delete $0 replay(s)?</t>
+	<t k="copyingReplays">Copying replays...</t> <!-- 3.60 -->
+	<t k="movingReplays">Moving replays...</t> <!-- 3.60 -->
+	<t k="deletingReplays">Deleting replays...</t> <!-- 3.60 -->
+	<t k="moveReplaysResult" c="$0: number of copied replays, $1 number of replays failed to delete">Successfully copied $0 replay(s) but failed to delete $1 replay(s).</t> <!-- 3.60 -->
+	<t k="selectFileToPackTo">Select file to pack to</t>
+	<t k="includePathInZip">Include paths in Zip</t>
+	<g k="renameDialog" c="Rename dialog">
+		<t k="title">Rename replays</t>
+		<t k="description1">Enter a template for renaming replays.</t>
+		<t k="description2">You can insert any text and you can use symbols for dynamic values.</t>
+		<t k="description3">Symbols will be replaced with the proper values for all replays.</t>
+		<t k="description4">The following symbols can be used:</t>
+		<g k="tab" c="Tabs">
+			<t k="replayInfo">Replay info</t> <!-- 3.30 -->
+			<t k="players">Players</t> <!-- 3.30 -->
+			<t k="map">Map</t> <!-- 3.30 -->
+			<t k="counters">Counters</t> <!-- 3.30 -->
+			<t k="general">General</t> <!-- 3.30 -->
+		</g>
+		<g k="symbol" c="Symbols">
+			<t k="name">the original name</t>
+			<t k="extension">extension ('SC2Replay')</t>
+			<t k="md5">MD5 hash of the replay (EXTREMELY speeds up analysis and search if added to the name!)</t> <!-- 5.6 -->
+			<t k="date">date of the replay</t> <!-- 2.10 -->
+			<t k="dateTime">date and time of the replay</t> <!-- 2.10 -->
+			<t k="gameLength">game length, short format (example: 6-30)</t> <!-- 3.30 -->
+			<t k="gameLengthLong">game length, long format (example: 00-06-30)</t> <!-- 3.30 -->
+			<t k="ladderSeason">ladder season number</t> <!-- 10.3 -->
+			<t k="replayVersion">short replay version (example: 2.0.4)</t> <!-- 12.5 -->
+			<t k="buildNumber">replay version build number (example: 24944)</t> <!-- 12.5 -->
+			<t k="counter">counter which starts from 1 and will be incremented by 1 on each use</t>
+			<t k="counter2">counter with fixed x digits which starts from 1 and will be incremented by 1 on each use</t> <!-- 1.70 -->
+			<t k="replayCounter">replay counter with fixed x digits, its value is always the number of replays in the target folder +1</t> <!-- 1.70 -->
+			<t k="mapName">map name</t>
+			<t k="firstWordsOfMapName">first x words of map name</t> <!-- 1.70 -->
+			<t k="firstLettersOfMapName">first xy letters of map name (2 digits!)</t> <!-- 1.80 -->
+			<t k="mapNameAcronym">map name acronym (first letters of the words of the map)</t> <!-- 3.60 -->
+			<t k="playerInfoBlock" c="$0 symbols that can be used inside this">Player info block. Use the $0 symbols inside this without indices, and all players grouped by teams will be substituted. Example: &lt;/p(/r)&gt;</t> <!-- 2.10 -->
+			<t k="playerName">name of player x (x is the player number starting from 1)</t>
+			<t k="allPlayerNames">comma separated list of all player names</t>
+			<t k="allPlayerNamesGrouped">comma separated list of all player names grouped by teams</t> <!-- 1.80 -->
+			<t k="winners">comma separated list of the winners</t> <!-- 10.2 -->
+			<t k="playerRace">race of player x (x is the player number starting from 1)</t>
+			<t k="playerRaceFirstLetter">first letter of race of player x (x is the player number starting from 1)</t>
+			<t k="league">1v1 Battle.net league (first letter) of player x (x is the player number starting from 1)</t> <!-- 14.0 -->
+			<t k="format">format (for example 2v2)</t> <!-- 0.80 -->
+			<t k="raceMatchup">race match-up (for example TZvPP)</t> <!-- 0.80 -->
+			<t k="subfolderSeparator">sub-folder separator</t> <!-- 3.30 -->
+			<t k="playerApm">APM of player x (x is the player number starting from 1)</t> <!-- 3.30 -->
+			<t k="playerEapm">EAPM of player x (x is the player number starting from 1)</t> <!-- 8.2 -->
+			<t k="playerResult" c="$0: description of the result letters">tells if player x is winner (x is the player number starting from 1); one letter: $0</t> <!-- 3.30 -->
+			<t k="gameType">game type</t> <!-- 3.60 -->
+			<t k="gateway">gateway</t> <!-- 4.2 -->
+		</g>
+		<t k="template">Template:</t> <!-- 10.2 -->
+		<t k="explained">Explained:</t> <!-- 10.2 -->
+		<t k="invalidTemplate" c="$0: error message">Invalid template: $0</t> <!-- 10.2 -->
+		<g k="templateEngineError" c="Template engine errors">
+			<t k="templateCannotBeEmpty">Template cannot be an empty string!</t> <!-- 10.2 -->
+			<t k="missingSymbolCharAtEnd">Missing symbol char at the end!</t> <!-- 10.2 -->
+			<t k="invalidSymbol" c="$0: symbol char">Invaild symbol: $0</t> <!-- 10.2 -->
+			<t k="incompleteSymbolAtEnd">Incomplete symbol at end!</t> <!-- 10.2 -->
+			<t k="invalidPlayerNumber" c="$0: player number">Invaild player number: $0</t> <!-- 10.2 -->
+			<t k="invalidWordCount" c="$0: word count">Invaild word count: $0</t> <!-- 10.2 -->
+			<t k="invalidDigitCount" c="$0: digit count">Invaild digit count: $0</t> <!-- 10.2 -->
+			<t k="invalidLetterCount" c="$0: letter count">Invaild letter count: $0</t> <!-- 10.2 -->
+			<t k="invalidPlayerInfoBlockClosing">Invalid Player info block closing tag!</t> <!-- 10.2 -->
+			<t k="playerInfoBlockNotClosedProperly">Player info block is not closed properly!</t> <!-- 10.2 -->
+			<t k="playerInfoBlockCannotBeEmbedded">Player info block cannot be embedded in another block!</t> <!-- 10.2 -->
+			<t k="notAllowedCharInFileName"  c="$0: not allowed character">Not allowed character in file name: '$0'</t> <!-- 12.4 -->
+		</g>
+		<g k="symbolExplained" c="Symbols explained">
+			<t k="name">{originalName}</t> <!-- 10.2 -->
+			<t k="extension">{extension}</t> <!-- 10.2 -->
+			<t k="md5">{md5Hash}</t> <!-- 10.2 -->
+			<t k="date">{date}</t> <!-- 10.2 -->
+			<t k="dateTime">{dateTime}</t> <!-- 10.2 -->
+			<t k="gameLength">{gameLength}</t> <!-- 10.2 -->
+			<t k="gameLengthLong">{gameLengthLong}</t> <!-- 10.2 -->
+			<t k="ladderSeason">{ladderSeason}</t> <!-- 10.3 -->
+			<t k="replayVersion">{replayVersion}</t> <!-- 12.5 -->
+			<t k="buildNumber">{buildNumber}</t> <!-- 12.5 -->
+			<t k="counter">{counter}</t> <!-- 10.2 -->
+			<t k="counter2" c="$0: number of digits">{counter$0digits}</t> <!-- 10.2 -->
+			<t k="replayCounter" c="$0: number of digits">{repCounter$0digits}</t> <!-- 10.2 -->
+			<t k="mapName">{map}</t> <!-- 10.2 -->
+			<t k="firstWordsOfMapName" c="$0: number of first map words">{first$0mapWords}</t> <!-- 10.2 -->
+			<t k="firstLettersOfMapName" c="$0: number of first map letters">{first$0mapLetters}</t> <!-- 10.2 -->
+			<t k="mapNameAcronym">{mapAcronym}</t> <!-- 10.2 -->
+			<t k="playerName" c="$0: player number">{player$0}</t> <!-- 10.2 -->
+			<t k="allPlayerNames">{player1}, {player2}</t> <!-- 10.2 -->
+			<t k="allPlayerNamesGrouped">{player1} vs {player2}</t> <!-- 10.2 -->
+			<t k="winners">{winners}</t> <!-- 10.2 -->
+			<t k="playerRace" c="$0: player number">{race$0}</t> <!-- 10.2 -->
+			<t k="playerRaceFirstLetter" c="$0: player number">{raceLetter$0}</t> <!-- 10.2 -->
+			<t k="league" c="$0: player number">{league$0}</t> <!-- 14.0 -->
+			<t k="format">{format}</t> <!-- 10.2 -->
+			<t k="raceMatchup">{matchup}</t> <!-- 10.2 -->
+			<t k="subfolderSeparator">\</t> <!-- 10.2 -->
+			<t k="playerApm" c="$0: player number">{apm$0}</t> <!-- 10.2 -->
+			<t k="playerEapm" c="$0: player number">{eamp$0}</t> <!-- 10.2 -->
+			<t k="playerResult" c="$0: player number">{winner$0?}</t> <!-- 10.2 -->
+			<t k="gameType">{gameType}</t> <!-- 10.2 -->
+			<t k="gateway">{gateway}</t> <!-- 10.2 -->
+		</g>
+		<t k="previewButton">_Preview new names</t>
+		<t k="renameButton">_Rename replays</t>
+		<t k="successfullyRenamed" c="$0: number of replays">Successfully renamed $0 replay(s).</t>
+		<t k="failedToRename" c="$0: number of replays">Failed to rename $0 replay(s).</t>
+	</g>
+	<t k="packingReplays">Packing replays...</t> <!-- 3.60 -->
+	<t k="exportingActions">Exporting actions...</t> <!-- 3.60 -->
+	<t k="missingAuthKey">You did not provide an Authorization key!</t> <!-- 5.0 -->
+	<t k="invalidAuthKey">The Authorization key is invalid!</t> <!-- 5.0 -->
+	<t k="failedAuthKeyCheck">Failed to check Authorization key!</t> <!-- 5.0 -->
+	<t k="authKeyRequired">You need a valid Authorization key to store or download files from the Sc2gears Database!</t> <!-- 5.0 -->
+	<t k="storingReplays">Storing replays...</t> <!-- 5.0 -->
+</g>
+
+<g k="shareReplay" c="Share replays dialog">
+	<t k="title">Share replays</t> <!-- 3.40 -->
+	<t k="openTitle">Select replays to share</t> <!-- 3.40 -->
+	<t k="info1" c="$0: application name">$0 is not affiliated with the replay sites listed below.</t> <!-- 3.40 -->
+	<t k="info2">It is up to the replay sites whether they require or use the information you provide below.</t> <!-- 3.40 -->
+	<t k="replayToShare">Replay to share:</t> <!-- 3.40 -->
+	<t k="replayNameToReport">Replay name to report:</t> <!-- 3.40 -->
+	<t k="replayDescription">Replay description:</t> <!-- 3.40 -->
+	<t k="chooseReplaySite">Choose a replay site to upload to:</t> <!-- 3.40 -->
+	<t k="visitThisReplaySite">Visit this replay site</t> <!-- 3.40 -->
+	<t k="wantYourSiteListed">(Want your replay site listed here?)</t> <!-- 3.40 -->
+	<t k="userName">User name:</t> <!-- 3.40 -->
+	<t k="password">Password:</t> <!-- 3.40 -->
+	<t k="info3">If account info is not provided, the replay will be uploaded anonymously.</t> <!-- 3.40 -->
+	<t k="info4">Some replay sites may not support anonymous upload.</t> <!-- 3.40 -->
+	<t k="uploadButton">_Upload</t> <!-- 3.40 -->
+	<t k="uploadButton2" c="$0: sequential number of replay">_Upload (replay #$0)</t> <!-- 8.3 -->
+	<t k="uploadAllRemainingButton" c="$0: number of remaining replays">Uplo_ad all remaining - $0 replay(s)</t> <!-- 8.3 -->
+	<t k="uploadingReplays">Uploading replays...</t> <!-- 8.3 -->
+	<t k="uploadProgressTitle">Upload progress:</t> <!-- 3.40 -->
+	<t k="replayLink">Replay link:</t> <!-- 3.40 -->
+	<t k="copyUrlButton">Copy _URL</t> <!-- 3.40 -->
+	<t k="copyForumLinkButton">Copy _Forum link</t> <!-- 3.40 -->
+	<t k="copyHtmlLinkButton">Copy _HTML link</t> <!-- 3.40 -->
+	<t k="visitReplayLinkButton">_Visit replay link</t> <!-- 3.40 -->
+	<g k="uploadProcess" c="Upload process">
+		<t k="preparingForUpload">Preparing for replay upload...</t> <!-- 3.40 -->
+		<t k="preparationFailed">Preparation failed (replay not available?)!</t> <!-- 3.40 -->
+		<t k="connecting" c="$0: name of the replay site">Connecting to $0...</t> <!-- 3.40 -->
+		<t k="failedToConnect">Connection failed!</t> <!-- 3.40 -->
+		<t k="connectionEstabilished">Connection established.</t> <!-- 3.40 -->
+		<t k="sendingReplay">Sending replay...</t> <!-- 3.40 -->
+		<t k="replaySentSuccessfully">Replay sent successfully.</t> <!-- 3.40 -->
+		<t k="failedToSendReplay">Failed to send replay!</t> <!-- 3.40 -->
+		<t k="waitingServerResponse">Waiting for server response...</t> <!-- 3.40 -->
+		<t k="failedToParseServerResponse">Failed to parse server response!</t> <!-- 3.40 -->
+		<t k="uploadSucceeded">Upload succeeded.</t> <!-- 3.40 -->
+		<t k="uploadFailed">Upload failed!</t> <!-- 3.40 -->
+		<t k="errorCode" c="$0: error code">Error code: $0</t> <!-- 3.40 -->
+		<t k="errorMessage" c="$0: error message">Error message: $0</t> <!-- 3.40 -->
+		<t k="batchUploading" c="$0: number of replays uploading">Batch uploading $0 replay(s)...</t> <!-- 8.3 -->
+		<t k="batchUploadingAborted">Batch uploading aborted!</t> <!-- 8.3 -->
+		<t k="batchUploadingFinished" c="$0: number of replays uploading">Batch uploading $0 replay(s) finished.</t> <!-- 8.3 -->
+	</g>
+</g>
+
+<g k="mySharedReplays" c="My shared replays dialog">
+	<t k="title">My shared replays</t> <!-- 3.40 -->
+	<t k="failedToLoadSharedReplayList">Failed to load shared replay list!</t> <!-- 3.40 -->
+	<t k="numberOfSharedReplays" c="$0: number of shared replays">You have $0 shared replay(s).</t> <!-- 3.40 -->
+	<t k="storeListButton">_Store list</t> <!-- 10.2 -->
+	<t k="mySharedReplaysFileComment">My shared replay list</t> <!-- 10.2 -->
+	<t k="storingMySharedReplayList">Storing my shared replay list...</t> <!-- 10.2 -->
+	<g k="header" c="Table headers">
+		<t k="uploadedAt">Uploaded at</t> <!-- 3.40 -->
+		<t k="replaySite">Replay site</t> <!-- 3.40 -->
+		<t k="userName">User name</t> <!-- 3.40 -->
+		<t k="reportedName">Reported name</t> <!-- 3.40 -->
+		<t k="description">Description</t> <!-- 3.40 -->
+		<t k="replayUrl">Replay URL</t> <!-- 3.40 -->
+	</g>
+</g>
+
+<g k="importBuildOrders" c="Import Build Orders dialog">
+	<t k="title">Import Build orders...</t> <!-- 3.60 -->
+	<t k="info" c="$0: application name">You can load or copy/paste Build orders here, and $0 will simulate a replay creating a player from each provided Build order.</t> <!-- 3.60 -->
+	<t k="info2">The format of the Build order text can be found here:</t> <!-- 3.60 -->
+	<t k="boTextFormatSpecification">Build order text format specification</t> <!-- 3.60 -->
+	<t k="replayVersionToSimulate">Replay version to simulate:</t> <!-- 3.60 -->
+	<t k="gameSpeed">Game speed:</t> <!-- 3.60 -->
+	<t k="importPanelTitle" c="$0 number (id) of the build order">Build order #$0:</t> <!-- 3.60 -->
+	<t k="loadFromFileButton">Load from file...</t> <!-- 3.60 -->
+	<t k="clearButton">Clear</t> <!-- 3.60 -->
+	<t k="team">Team:</t> <!-- 3.60 -->
+	<t k="loadFromFileTitle">Select a file containing a Build order</t> <!-- 3.60 -->
+	<t k="openBuildOrdersButton">_Open Build orders</t> <!-- 3.60 -->
+</g>
+
+<g k="charts" c="General chart texts">
+	<t k="chartType">Chart type:</t> <!-- 0.80 -->
+	<t k="chartTypeToolTip">Select the chart type you want to see. Use CTRL+number to fast switch between them.</t> <!-- 0.80 -->
+	<t k="granularity">Granularity:</t> <!-- 0.80 -->
+	<t k="graphApproximation">Approximation:</t> <!-- 0.80 -->
+	<t k="graphApproximation.linear">linear</t> <!-- 0.80 -->
+	<t k="graphApproximation.cubic">cubic</t> <!-- 0.80 -->
+</g>
+
+<g k="module" c="Sc2gears modules">
+	
+	<g k="startPage" c="Start page module">
+		<t k="title">Start page</t> <!-- 3.00 -->
+		<t k="channel">Channel:</t> <!-- 5.0 -->
+		<g k="channel" c="Channels">
+			<t k="latestSc2gearsNews" c="$0: application name">Latest $0 news</t> <!-- 5.0 -->
+			<t k="sc2gearsDatabaseUserQuota">Sc2gears Database User quota</t> <!-- 5.0 -->
+			<t k="allSc2gearsNews" c="$0: application name">All $0 news</t> <!-- 5.0 -->
+		</g>
+		<t k="refresh">Refresh</t> <!-- 3.00 -->
+		<t k="refreshToolTip">Refresh the Start page (F5)</t> <!-- 3.00 -->
+		<t k="visitHomePage">Visit home page</t> <!-- 3.00 -->
+		<t k="startStarCraft2">Start StarCraft II</t> <!-- 3.30 -->
+		<t k="startStarCraft2Editor">Start StarCraft II Editor</t> <!-- 3.30 -->
+		<t k="openUserPage">Open User Page</t> <!-- 5.0 -->
+		<t k="openUserPageToolTip">Opens the Sc2gears Database User Page</t> <!-- 5.0 -->
+		<t k="openLastReplay">Open last replay</t> <!-- 3.40 -->
+		<t k="previousTipToolTip">Previous tip</t> <!-- 3.20 -->
+		<t k="tips">Tips</t> <!-- 3.20 -->
+		<t k="nextTipToolTip">Next tip</t> <!-- 3.20 -->
+		<g k="tip" c="Tips">
+			<t k="1">If you associate *.SC2Replay files with Sc2gears.exe, they will be opened in Sc2gears if you double click on them.</t> <!-- 3.20 -->
+			<t k="2">Use CTRL+number hotkeys to fast switch between charts.</t> <!-- 3.20 -->
+			<t k="3">Tables are sorted by up to 3 columns. 2nd and 3rd sort columns will be the previous sort columns.</t> <!-- 3.20 -->
+			<t k="4">You can add a shortcut to Sc2gears.exe in your Startup menu and set Sc2gears to start minimized to tray.</t> <!-- 3.20 -->
+			<t k="5">You can export the data of any table in Sc2gears, just press CTRL+C to copy the selected table rows to clipboard.</t> <!-- 3.20 -->
+			<t k="6">You can pass any SC2 replays, Sc2gears replay lists and Sc2gears replay sources to Sc2gears.exe, and all will be opened.</t> <!-- 3.20 -->
+			<t k="7">Sc2gears replay lists are standard CVS files so you can open them with Excel for example for further processing.</t> <!-- 3.20 -->
+			<t k="8">You can set the start folder when opening replays in the Folder settings.</t> <!-- 3.20 -->
+			<t k="9">You can narrow a search result by refining the search terms and perform the search again or set the results as source and define new filters.</t> <!-- 3.20 -->
+			<t k="10">You can restrict the Multi-rep analysis to any subset of the replays if you pre-filter them in the Replay search.</t> <!-- 3.20 -->
+			<t k="11">Use the "Filter actions" and "Filter out actions" fields in the Replay analyzer to display only the actions you're interested in.</t> <!-- 3.20 -->
+			<t k="12">You can customize the data displayed on the charts in the Replay analyzer if you select the "Use listed actions..." check box and you filter the actions.</t> <!-- 3.20 -->
+			<t k="13">Add your StarCraft 2 account name to the favored player list, and you will always be displayed as the first player.</t> <!-- 3.20 -->
+			<t k="14">Use the Full-screen mode (F11) to view charts and everything in big.</t> <!-- 3.20 -->
+			<t k="15">Most of the commands and actions have hotkeys. Memorize those to use Sc2gears more efficiently.</t> <!-- 3.20 -->
+			<t k="16">If a drop-down list is focused, you can start typing to jump to the element that you're looking for.</t> <!-- 3.20 -->
+			<t k="17">Use the "Group by teams" function in the Replay analyzer to easily compare overall team performances.</t> <!-- 3.20 -->
+			<t k="18">Use the "Group by teams" function on the Map view chart to display buildings of team members with the same color.</t> <!-- 3.20 -->
+			<t k="19">Enable "Minimize to tray on Close" in the Window menu to prevent accidental close of Sc2gears.</t> <!-- 3.20 -->
+			<t k="20">In the Results tab of Replay searches you can press ENTER or SHIFT+ENTER to open the selected replays for analysis.</t> <!-- 3.20 -->
+			<t k="21">In the Hotkeys chart of Replay analyzer move your mouse over the assigned hotkey numbers to see what units the player assigned to that group.</t> <!-- 3.20 -->
+			<t k="22">Every chart can be zoomed in the Replay analyzer. If a chart is zoomed, you can simply drag it to scroll (or traditionally use the scroll bar).</t> <!-- 3.20 -->
+			<t k="23">You can disable the "Preload SC2 icons on startup" function for slightly faster startup and smaller initial memory usage.</t> <!-- 3.20 -->
+			<t k="24">Press F6 to switch between the navigation tree and the active window.</t> <!-- 3.20 -->
+			<t k="25">Press F8 and use the cursor keys to resize the navigation bar.</t> <!-- 3.20 -->
+			<t k="26">In the Replay analyzer right click on the charts shows the Replay Operations menu, right click on the player check boxes shows the Player menu.</t> <!-- 3.20 -->
+			<t k="27">Saved replay sources and replay lists automatically appear in the navigation tree if (and only if) you save them in the default folder that comes up when saving.</t> <!-- 3.20 -->
+			<t k="28">Middle click (net scroll) on the charts in the Replay analyzer enlarges the charts! Middle click again restores the original.</t> <!-- 3.20 -->
+			<t k="29">Manual replay rename and the replay auto-save can group your files into sub-folders if you use backslash ("\") for specifying folders in the name template.</t> <!-- 3.30 -->
+			<t k="30">You can enter a comma separated list of player names in the search filter to find replays that include all the listed players.</t> <!-- 3.30 -->
+			<t k="31">You can export the actions of a replay as text. Simply select the actions you want to export and press CTRL+C to copy them to the clipboard.</t> <!-- 3.30 -->
+			<t k="32">You can zoom the charts with CTRL+wheel scroll in the Replay analyzer.</t> <!-- 3.60 -->
+			<t k="33">If you have multiple accounts or you used the name change feature of SC2, you can list your names as aliases and statistics will be summarized.</t> <!-- 3.60 -->
+			<t k="34">You can list map name aliases to display the name you wish and to summarize statistics for them (for example localized map names).</t> <!-- 3.60 -->
+			<t k="35">You can define custom date and time formats on the Internal tab of the Miscellaneous settings dialog.</t> <!-- 3.60 -->
+			<t k="36">You can drag and drop replays, folders, replay sources and replay lists onto Sc2gears, and all will be opened respectively.</t> <!-- 4.0 -->
+			<t k="37">You can drag and drop replays and folders onto the source list of the Source tab of Replay searches.</t> <!-- 4.0 -->
+			<t k="38">Most input text fields can have a pre-defined value list. Add the terms you use often to the pre-defined list.</t> <!-- 4.1 -->
+			<t k="39">You can easily apply saved search filters: right click on the replay source or replay list in the navigation tree and choose "Apply filter".</t> <!-- 4.1 -->
+			<t k="40">You can run a diagnostic test from the Tools menu if you think something is broken or not working.</t> <!-- 4.4 -->
+			<t k="41">You can activate a grid on the charts in the Replay analyzer to see how well you perform periodic tasks like Spawn Larva or Chrono Boost.</t> <!-- 4.4 -->
+			<t k="42">Sc2gears can automatically store ALL your files securely online if you have an Sc2gears Database account.</t> <!-- 5.0 -->
+			<t k="43">You can change your portrait picture to anything you like, and everyone who opens a replay in Sc2gears with you in it will see that as your portrait.</t> <!-- 5.5 -->
+			<t k="44">Rename your replays by adding the MD5 hash of the replays ('/h' symbol) to EXTREMELY speed up search and analysis.</t> <!-- 5.6 -->
+			<t k="45">Enable Global hotkeys in the Settings menu and you can control Sc2gears while you're in StarCraft II.</t> <!-- 6.0 -->
+			<t k="46">The Game info dialog shows you info about the players you just played without having to ALT+TAB out of StarCraft II.</t> <!-- 7.3 -->
+			<t k="47">You can change the size of the On-Top APM display with the + and - keys.</t> <!-- 7.3 -->
+			<t k="48">Clicking on the Game info dialog will stop its auto-closing timer.</t> <!-- 7.4 -->
+			<t k="49">You can rearrange and hide columns permanently in the Replay list table to your liking if you click on the "Column setup" link above the table.</t> <!-- 7.5 -->
+			<t k="50">You can lock On-Top dialogs by right clicking on them and choosing "Lock" to prevent accidental move or close. You can unlock them the same way.</t> <!-- 7.6 -->
+			<t k="51">You can enable Proxy configuration if you use Sc2gears from a network which has internet access only through a proxy server, or you use Sc2gears from China.</t> <!-- 7.7 -->
+			<t k="52">Record columns in the Multi-rep analysis sort by (wins-losses). You can use this to see which maps to vote down (the bottom of the list).</t> <!-- 8.3 -->
+			<t k="53">The replay list table can color wins to green and losses to red if you add your name to the favored player list.</t> <!-- 8.3 -->
+			<t k="54">Share/upload multiple replays at once: pass multiple replays to the Share replays dialog, and you can upload all at once or one-by-one with different description.</t> <!-- 8.3 -->
+			<t k="55">You can view and edit private replay data directly from Sc2gears on the "Private data" tab of the Replay Analyzer if you have a valid Authorization key.</t> <!-- 8.6 -->
+			<t k="56">You can rate and discuss replays on the "Public comments" tab of the Replay analyzer. Your comments remain private if you don't share your replay.</t> <!-- 8.6 -->
+			<t k="57">There is a Free Sc2gears Database package for Everyone. You just have to ask. Details are on the home page.</t> <!-- 9.0 -->
+			<t k="58">You can share your Sc2gears Database account with your friends, ideal for teams to share their replays with the team. Details are on the home page.</t> <!-- 10.4 -->
+		</g>
+	</g>
+	
+	<g k="repAnalyzer" c="Replay analyzer module">
+		<t k="name">Replay analyzer</t>
+		<t k="opening">Opening...</t>
+		<t k="openTitle">Select replay to open</t>
+		<t k="openError">Could not open replay!</t>
+		<t k="buildOrderAnalysisTitle" c="$0: Build order analysis number">Build order analysis #$0</t> <!-- 3.60 -->
+		<g k="tab" c="Tabs">
+			<g k="charts" c="Charts tab">
+				<t k="title">Charts</t>
+				<t k="showProfileInfo.portraitAndLeagues">Portrait and Leagues</t> <!-- 5.3 -->
+				<t k="showProfileInfo.leaguesOnly">Leagues only</t> <!-- 5.3 -->
+				<t k="showProfileInfo.none">None</t> <!-- 5.3 -->
+				<g k="chartType" c="Chart types">
+					<t k="apm">APM</t> <!-- 0.80 -->
+					<t k="hotkeys">Hotkeys</t> <!-- 0.80 -->
+					<t k="buildsTech">Builds/Tech</t> <!-- 0.80 -->
+					<t k="buildsTechStat">Builds/Tech Stat</t> <!-- 0.90 -->
+					<t k="mapView">Map view</t> <!-- 1.20 -->
+					<t k="actionDistribution">Action distribution</t> <!-- 8.8 -->
+					<t k="mainBuildingControl">Main building control</t> <!-- 5.2 -->
+					<t k="unitTiers">Unit Tiers</t> <!-- 4.2 -->
+					<t k="resourceSpendingRate">Resource Spending Rate</t> <!-- 9.2 -->
+					<t k="resourcesSpent">Resources spent</t> <!-- 3.20 -->
+					<t k="producedArmySupply">Produced Army/Supply</t> <!-- 3.20 -->
+					<t k="apmRedundancyDistribution">APM redundancy distribution</t> <!-- 10.4 -->
+					<t k="actionSequences">Action sequences</t> <!-- 9.2 -->
+					<t k="productions">Productions</t> <!-- 4.4 -->
+					<t k="playerSelections">Player Selections</t> <!-- 4.2 -->
+				</g>
+				<t k="groupByTeams">Group by teams</t> <!-- 1.20 -->
+				<t k="groupByTeamToolTip">Shows 1 chart for each team with summarized values of the team members.</t> <!-- 1.20 -->
+				<t k="allPlayersOn1Chart">All on 1 chart</t> <!-- 0.80 -->
+				<t k="allPlayersOn1ChartToolTip">Displays all players on the same chart.</t> <!-- 0.80 -->
+				<t k="usePlayersColors">Use players' colors</t> <!-- 0.80 -->
+				<t k="usePlayersColorsToolTip">Use the players' in-game colors for chart drawing.</t> <!-- 0.80 -->
+				<t k="displayInSeconds">In seconds</t> <!-- 0.80 -->
+				<t k="displayInSecondsToolTip">Display time information in seconds rather than frames.</t> <!-- 0.80 -->
+				<t k="zoom">Zoom:</t> <!-- 0.80 -->
+				<t k="zoomToolTip">Select the zoom level. Use CTRL+I to zoom in, CTRL+U to zoom out.</t> <!-- 0.80 -->
+				<t k="overlayCharts">Overlay charts</t> <!-- 5.2 -->
+				<t k="players">Players:</t> <!-- 0.80 -->
+				<g k="players" c="Player texts">
+					<t k="winnerToolTip">This player is a winner in this game.</t> <!-- 1.30 -->
+					<t k="loserToolTip">This player is a loser in this game.</t> <!-- 7.4 -->
+					<t k="handicapToolTip" c="$0 handicap value">This player played with handicap=$0.</t> <!-- 1.50 -->
+					<g k="league" c="Leagues">
+						<t k="grandmaster">GRANDMASTER</t> <!-- 5.3 -->
+						<t k="master">MASTER</t> <!-- 5.3 -->
+						<t k="diamond">DIAMOND</t> <!-- 5.3 -->
+						<t k="platinum">PLATINUM</t> <!-- 5.3 -->
+						<t k="gold">GOLD</t> <!-- 5.3 -->
+						<t k="silver">SILVER</t> <!-- 5.3 -->
+						<t k="bronze">BRONZE</t> <!-- 5.3 -->
+						<t k="unranked">UNRANKED</t> <!-- 5.3 -->
+						<t k="grandmaster.letter">R</t> <!-- 14.0 -->
+						<t k="master.letter">M</t> <!-- 14.0 -->
+						<t k="diamond.letter">D</t> <!-- 14.0 -->
+						<t k="platinum.letter">P</t> <!-- 14.0 -->
+						<t k="gold.letter">G</t> <!-- 14.0 -->
+						<t k="silver.letter">S</t> <!-- 14.0 -->
+						<t k="bronze.letter">B</t> <!-- 14.0 -->
+						<t k="unranked.letter">U</t> <!-- 14.0 -->
+					</g>
+					<t k="difficulty" c="$0 difficulty level">Difficulty: $0</t> <!-- 5.3 -->
+					<g k="portraitToolTip" c="Portrait tool tip">
+						<t k="achievementPoints" c="$0: achievement points">Achievement points: $0</t> <!-- 5.3 -->
+						<t k="gamesThisSeason" c="$0: games played this season">Games this season: $0</t> <!-- 12.0 -->
+						<t k="allGames" c="$0: all games">All games: $0</t> <!-- 12.0 -->
+						<t k="terranWins" c="$0: Terran wins">Terran wins: $0</t> <!-- 12.5 -->
+						<t k="zergWins" c="$0: Zerg wins">Zerg wins: $0</t> <!-- 12.5 -->
+						<t k="protossWins" c="$0: Protoss wins">Protoss wins: $0</t> <!-- 12.5 -->
+						<t k="highestFinishLeague">Highest finish league:</t> <!-- 12.0 -->
+						<t k="team">Team</t> <!-- 12.0 -->
+						<t k="format">Format</t> <!-- 7.0 -->
+						<t k="league">League</t> <!-- 5.3 -->
+						<t k="rank">Rank</t> <!-- 5.3 -->
+						<t k="games">Games</t> <!-- 12.5 -->
+						<t k="wins">Wins</t> <!-- 12.5 -->
+						<t k="teamMembers">Team members</t> <!-- 7.0 -->
+						<t k="thereAreMoreRows" c="$0: number of hidden rows">There are $0 more row(s). Open the profile dialog to view them.</t> <!-- 5.4 -->
+					</g>
+				</g>
+				<g k="playerMenu" c="Player menu">
+					<t k="showProfileInfoInPopup">Show profile info in pop-up</t> <!-- 5.4 -->
+					<t k="viewSc2ranksProfile">View Sc2ranks.com profile</t> <!-- 4.1 -->
+					<t k="viewCharacterProfile">View character profile</t> <!-- 1.80 -->
+					<t k="viewCharacterProfileInLanguage">View character profile in language</t> <!-- 1.80 -->
+					<t k="addToFavoredPlayerList">Add to the favored player list</t> <!-- 2.00 -->
+					<t k="insertToFavoredPlayerList">Insert to the favored player list before player</t> <!-- 2.00 -->
+					<t k="removeFromFavoredPlayerList">Remove from the favored player list</t> <!-- 2.00 -->
+					<t k="copyFullName" c="$0: full name of player to be copied">Copy full name "$0"</t> <!-- 5.6 -->
+					<t k="showOnlyThisPlayer">Show only this player</t> <!-- 2.00 -->
+					<t k="showAllPlayers">Show all players</t> <!-- 3.20 -->
+				</g>
+				<t k="grid">Grid</t> <!-- 4.4 -->
+				<t k="gridToolTip">Display a grid on the charts (CTRL+G)</t> <!-- 4.4 -->
+				<t k="gridSettingsToolTip">Grid settings (CTRL+SHIFT+G)</t> <!-- 4.4 -->
+				<g k="timeUnit" c="Time units">
+					<t k="seconds">Seconds</t> <!-- 4.4 -->
+					<t k="frames">Frames</t> <!-- 4.4 -->
+					<t k="energyRegeneration">Energy (regeneration)</t> <!-- 4.4 -->
+				</g>
+				<t k="chartMenu.enlargeChart">Enlarge chart</t> <!-- 3.20 -->
+				<g k="apm" c="APM chart">
+					<t k="pixels">pixels.</t> <!-- 0.80 -->
+					<t k="showEapm">Show EAPM</t> <!-- 8.1 -->
+					<t k="showMicroMacroApm">Show Micro/Macro APM</t> <!-- 4.0 -->
+					<t k="showXapm">Show XAPM</t> <!-- 12.2 -->
+					<t k="apmTypesHelpToolTip">Opens the APM Types help page.</t> <!-- 8.2 -->
+				</g>
+				<t k="hotkeys.showSelectHotkeys">Show select hotkeys</t> <!-- 0.80 -->
+				<g k="buildsTech" c="Builds/Tech chart">
+					<t k="showBuilds">Builds</t> <!-- 0.80 -->
+					<t k="showTrains">Trains</t> <!-- 0.80 -->
+					<t k="showWorkers">Workers</t> <!-- 0.80 -->
+					<t k="showResearches">Researches</t> <!-- 0.80 -->
+					<t k="showUpgrades">Upgrades</t> <!-- 0.80 -->
+					<t k="showAbilityGroups">Ability groups</t> <!-- 3.20 -->
+					<t k="showDuration">Show duration:</t> <!-- 3.20 -->
+					<t k="showDuration.none">None</t> <!-- 3.20 -->
+					<t k="showDuration.lines">Lines</t> <!-- 3.20 -->
+					<t k="showDuration.bars">Bars</t> <!-- 3.20 -->
+					<t k="iconSizes">Icon sizes:</t> <!-- 3.20 -->
+				</g>
+				<g k="buildsTechStat" c="Builds/Tech Stat chart">
+					<t k="showUnits">Units</t> <!-- 0.90 -->
+					<t k="showBuildings">Buildings</t> <!-- 0.90 -->
+					<t k="showResearches">Researches</t> <!-- 0.90 -->
+					<t k="showUpgrades">Upgrades</t> <!-- 0.90 -->
+					<t k="showAbilityGroups">Ability groups</t> <!-- 0.90 -->
+					<t k="barSize">Bar size:</t> <!-- 0.90 -->
+				</g>
+				<g k="mapView" c="Map view chart">
+					<t k="background">Background:</t> <!-- 3.00 -->
+					<g k="background" c="Backgrounds">
+						<t k="mapImage">Map image</t> <!-- 3.00 -->
+						<t k="hotPoints">Hot points</t> <!-- 3.00 -->
+						<t k="mapImageAndHotPoints">Map image+Hot points</t> <!-- 3.00 -->
+						<t k="hotAreas">Hot areas</t> <!-- 3.00 -->
+						<t k="mapImageAndHotAreas">Map image+Hot areas</t> <!-- 3.20 -->
+						<t k="cameraAreas">Camera areas</t> <!-- 4.0 -->
+						<t k="mapImageAndCameraAreas">Map image+Camera areas</t> <!-- 4.0 -->
+						<t k="blank">Blank</t> <!-- 3.00 -->
+					</g>
+					<t k="quality">Quality:</t> <!-- 3.00 -->
+					<t k="quality.low">Low</t> <!-- 3.00 -->
+					<t k="quality.medium">Medium</t> <!-- 3.00 -->
+					<t k="quality.high">High</t> <!-- 3.00 -->
+					<t k="areaGranularity">Area granularity:</t> <!-- 4.0 -->
+					<t k="hideOverlappedBuildings">Hide overlapped buildings</t> <!-- 1.20 -->
+					<t k="fillBuildingIcons">Fill building icons</t> <!-- 1.20 -->
+					<t k="showMapObjects">Show map objects</t> <!-- 3.00 -->
+				</g>
+				<g k="apmRedundancyDistribution" c="APM redundancy distribution chart">
+					<g k="ineffectiveReason" c="Action ineffective reason">
+						<t k="abilityFailed">Ability failed</t> <!-- 12.0 -->
+						<t k="fastCancel">Fast Cancel</t> <!-- 10.4 -->
+						<t k="fastRepeatUnitAbility">Fast repeat unit ability</t> <!-- 10.4 -->
+						<t k="fastRepeatBuildingAbility">Fast repeat building ability</t> <!-- 10.4 -->
+						<t k="fastRepeatOtherAbility">Fast repeat other ability</t> <!-- 10.4 -->
+						<t k="fastRepeatSameHotkey">Fast repeat same hotkey</t> <!-- 10.4 -->
+						<t k="fastSelectionChange">Fast selection change</t> <!-- 10.4 -->
+						<t k="repeatHotkeyAssign">Repeat hotkey assign</t> <!-- 10.4 -->
+						<t k="repeatUnitAbility">Repeat unit ability</t> <!-- 10.4 -->
+						<t k="repeatBuildingAbility">Repeat building ability</t> <!-- 10.4 -->
+						<t k="repeatOtherAbility">Repeat other ability</t> <!-- 10.4 -->
+						<t k="repeatResearch">Repeat research</t> <!-- 10.4 -->
+						<t k="repeatUpgrade">Repeat upgrade</t> <!-- 10.4 -->
+						<t k="repeatBuilding">Repeat building</t> <!-- 10.4 -->
+					</g>
+				</g>
+				<t k="actionDistribution.showPercent">Show percent (%)</t> <!-- 8.8 -->
+				<g k="mainBuildingControl" c="Main building control chart">
+					<t k="calculateUntilTimeMarker">Calculate until time marker</t> <!-- 8.1 -->
+					<t k="mainBuildingControlHelpToolTip">Opens the Main Building Control Chart help page.</t> <!-- 11.0 -->
+				</g>
+				<t k="unitTiers.stretchBars">Stretch bars</t> <!-- 4.2 -->
+				<t k="actionSequences.maxSequenceTimeBreak">Max sequence time break:</t> <!-- 9.2 -->
+				<t k="resourcesSpent.cumulative">Cumulative</t> <!-- 10.0 -->
+				<t k="actionSequences.frames">frames.</t> <!-- 9.2 -->
+				<t k="productions.groupSameProductions">Group the same productions</t> <!-- 4.4 -->
+				<t k="productions.iconSizes">Icon sizes:</t> <!-- 4.4 -->
+				<t k="playerSelections.iconSizes">Icon sizes:</t> <!-- 4.2 -->
+				<t k="producedArmySupply.includeInitialUnits">Include initial units</t> <!-- 3.20 -->
+				<t k="showAfterCompleted">Show after completed</t> <!-- 3.20 -->
+				<t k="showAfterCompletedToolTip">Only show the result of actions after they are completed.</t> <!-- 3.20 -->
+				<g k="chartText" c="Chart texts">
+					<t k="marker" c="$0 marker time">Marker: $0</t> <!-- 8.8 -->
+					<t k="team" c="$0 team">TEAM $0</t> <!-- 1.20 -->
+					<t k="actions" c="$0: actions count">actions: $0</t> <!-- 0.80 -->
+					<t k="apm" c="$0: APM">APM: $0</t> <!-- 0.80 -->
+					<t k="eapm" c="$0: EAPM">EAPM: $0</t> <!-- 8.1 -->
+					<t k="xapm" c="$0: XAPM">XAPM: $0</t> <!-- 12.2 -->
+					<t k="redundancy" c="$0: redundancy">Redundancy: $0</t> <!-- 8.1 -->
+					<t k="microApm" c="$0: Micro APM">Micro APM: $0</t> <!-- 4.0 -->
+					<t k="macroApm" c="$0: Macro APM">Macro APM: $0</t> <!-- 4.0 -->
+					<t k="hotkeysAssign" c="$0: hotkeys assign count">hotkeys assign: $0</t> <!-- 0.80 -->
+					<t k="hotkeys" c="$0: hotkeys count">hotkeys: $0</t> <!-- 0.80 -->
+					<t k="assign" c="$0: assign count">assign: $0</t> <!-- 0.80 -->
+					<t k="select" c="$0: select count">select: $0</t> <!-- 0.80 -->
+					<t k="builds" c="$0: builds count">builds: $0</t> <!-- 0.80 -->
+					<t k="trains" c="$0: trains count">trains: $0</t> <!-- 0.80 -->
+					<t k="workers" c="$0: workers count">workers: $0</t> <!-- 0.80 -->
+					<t k="researches" c="$0: researches count">researches: $0</t> <!-- 0.80 -->
+					<t k="upgrades" c="$0: upgrades count">upgrades: $0</t> <!-- 0.80 -->
+					<t k="abilityGroups" c="$0: ability groups count">ability groups: $0</t> <!-- 3.20 -->
+					<t k="mapViewChartNotAvailable1">The Map view chart requires the map file of the replay which is not present.</t> <!-- 1.20 -->
+					<t k="mapViewChartNotAvailable2">Go to the Map preview tab and download the map first.</t> <!-- 1.20 -->
+					<t k="mapViewZoomTip">Tip: zoom this chart and drag with mouse!</t> <!-- 1.20 -->
+					<t k="sequences" c="$0: sequences count">Sequences: $0</t> <!-- 9.2 -->
+					<t k="pairs" c="$0: pairs count">Pairs: $0</t> <!-- 9.2 -->
+					<t k="avgSpeed" c="$0: average speed in pairs/sec">Avg speed: $0 pairs/sec</t> <!-- 9.2 -->
+					<t k="mineralRsr">mineral spending per min</t> <!-- 9.2 -->
+					<t k="gasRsr">gas spending per min</t> <!-- 9.2 -->
+					<t k="selection" c="$0: selection string">Selection: $0</t> <!-- 4.2 -->
+					<t k="mineralsSpent" c="$0: minerals spent">minerals spent: $0</t> <!-- 3.20 -->
+					<t k="gasSpent" c="$0: gas spent">gas spent: $0</t> <!-- 3.20 -->
+					<t k="producedArmySize" c="$0: produced army size">produced army size: $0</t> <!-- 3.20 -->
+					<t k="producedSupply" c="$0: produced supply">produced supply: $0</t> <!-- 3.20 -->
+					<t k="minerals">minerals</t> <!-- 3.20 -->
+					<t k="gas">gas</t> <!-- 3.20 -->
+					<t k="army">army</t> <!-- 3.20 -->
+					<t k="supply">supply</t> <!-- 3.20 -->
+					<t k="supply">supply</t> <!-- 3.20 -->
+					<t k="nonHotkey">Non-hotkey sequence</t> <!-- 9.2 -->
+					<t k="hotkey">Hotkey sequence</t> <!-- 9.2 -->
+					<t k="avgSpawningRatio" c="$0: average spawning ratio">Avg spawning ratio: $0</t> <!-- 5.2 -->
+					<t k="avgInjectionGap" c="$0: average injection gap">Avg injection gap: $0</t> <!-- 5.2 -->
+					<t k="injectionCount" c="$0: injection count">Injection count: $0</t> <!-- 10.4 -->
+					<t k="chronoBoostCount" c="$0: Chrono Boost count">Chrono Boost count: $0</t> <!-- 10.5 -->
+					<t k="sec">sec</t> <!-- 5.2 -->
+				</g>
+				<t k="chartTooltip.frameTime" c="$0: frame, $1: time">Frame: $0, Time: $1</t> <!-- 1.10 -->
+				<t k="parsingError">Parsing error!</t> <!-- 8.9 -->
+				<t k="parsingErrorToolTip">There were some errors parsing the game events! The action list might be incomplete or incorrect!</t> <!-- 8.9 -->
+				<t k="displayActionTypes">Display action types:</t> <!-- 0.80 -->
+				<g k="animate" c="Chart Animator">
+					<t k="animate">Animate:</t> <!-- 3.00 -->
+					<t k="speed">Speed:</t> <!-- 3.00 -->
+					<t k="playToolTip">Play (CTRL+W)</t> <!-- 3.00 -->
+					<t k="pauseToolTip">Pause (CTRL+W)</t> <!-- 3.00 -->
+					<t k="jumpToBeginningToolTip">Jump to the beginning (CTRL+SHIFT+Q)</t> <!-- 3.00 -->
+					<t k="jumpToEndToolTip">Jump to the end (CTRL+SHIFT+E)</t> <!-- 3.00 -->
+					<t k="jumpBackwardToolTip">Jump backward (CTRL+Q)</t> <!-- 3.00 -->
+					<t k="jumpForwardToolTip">Jump forward (CTRL+E)</t> <!-- 3.00 -->
+					<t k="slowDownToolTip">Slow down (CTRL+R)</t> <!-- 3.00 -->
+					<t k="speedUpToolTip">Speed up (CTRL+SHIFT+R)</t> <!-- 3.00 -->
+				</g>
+				<g k="actionOps" c="Action list operations">
+					<t k="jumpToFrame">Jump to frame:</t> <!-- 0.80 -->
+					<t k="searchText">Search text:</t> <!-- 0.80 -->
+					<t k="filterActions">Filter actions:</t> <!-- 0.80 -->
+					<t k="filterOutActions">Filter out actions:</t> <!-- 1.20 -->
+					<t k="jumpToFrameToolTip">CTRL+J</t> <!-- 0.80 -->
+					<t k="searchTextToolTip">CTRL+S</t> <!-- 0.80 -->
+					<t k="filterActionsToolTip">Enter words to filter actions. You can use OR between words. (CTRL+F)</t> <!-- 0.80 -->
+					<t k="filterOutActionsToolTip">Enter words to filter OUT actions. You can use OR between words. (CTRL+T)</t> <!-- 1.20 -->
+					<t k="clearFiltersButton">_Clear filters</t> <!-- 1.20 -->
+				</g>
+				<g k="actions" c="Action list">
+					<t k="listedActionsCount" c="$0: listed actions count">Listed actions count: $0</t><!-- 1.20 -->
+					<t k="invertColors">Invert colors</t> <!-- 0.80 -->
+					<t k="useListedActionsAsInput">Use listed actions as chart input data</t> <!-- 0.90 -->
+					<t k="iconSizes">Icon sizes:</t> <!-- 0.80 -->
+					<g k="iconSize" c="Icon sizes">
+						<t k="hidden">Hidden</t> <!-- 0.80 -->
+						<t k="small">Small</t> <!-- 0.80 -->
+						<t k="medium">Medium</t> <!-- 0.80 -->
+						<t k="big">Big</t> <!-- 0.80 -->
+					</g>
+				</g>
+			</g>
+			<g k="gameInfo" c="Game info tab">
+				<t k="title">Game info</t>
+				<t k="fileName" c="$0: file name">File name: $0</t> <!-- 1.30 -->
+				<t k="fileSize" c="$0: file size">File size: $0 Bytes</t> <!-- 8.4 -->
+				<t k="expansion" c="$0: expansion level">Expansion level: $0</t> <!-- 13.1 -->
+				<t k="version" c="$0: version">Version: $0</t>
+				<t k="date" c="$0: date">Date: $0</t> <!-- 1.40 -->
+				<t k="recorderTimeZone" c="$0: recorder time zone">Recorder time zone: $0</t> <!-- 5.5 -->
+				<t k="gameLength" c="$0: game length">Game length: $0</t>
+				<t k="gameSpeed" c="$0: game speed">Game speed: $0</t>
+				<t k="gameType" c="$0: game type">Game type: $0</t>
+				<t k="isCompetitive" c="$0: is competitive">Is competitive: $0</t>
+				<t k="ladderSeason" c="$0: ladder season">Ladder season: $0</t>
+				<t k="format" c="$0: format">Format: $0</t> <!-- 0.80 -->
+				<t k="clients" c="$0: list of clients">Clients: $0</t>
+				<t k="gateway" c="$0: gateway">Gateway: $0</t>
+				<t k="mapName" c="$0: map name">Map name: $0</t>
+				<t k="mapFile" c="$0: map file name">Map file: $0</t>
+				<t k="mapSize" c="$0: map size">Map size: $0</t> <!-- 0.80 -->
+				<t k="mapPlayableSize" c="$0: map playable size">Map playable size: $0</t> <!-- 1.30 -->
+				<t k="players">Players:</t>
+				<t k="team" c="$0 team">Team $0:</t>
+				<t k="levels" c="$0 levels">Levels: $0</t> <!-- 14.0 -->
+				<t k="handicap" c="$0 handicap value">Handicap: $0</t> <!-- 1.50 -->
+				<t k="winners" c="$0 winners">Winners: $0</t> <!-- 1.30 -->
+			</g>
+			<g k="inGameChat" c="In-game chat tab">
+				<t k="title">In-game chat</t>
+				<t k="hideMessageTarget">Hide message target</t>
+				<t k="showBlinks">Show map blinks</t>
+				<t k="formatIntoParagraphs">Format into paragraphs</t>
+				<t k="restoreOriginalButton">_Restore original</t> <!-- 3.20 -->
+				<t k="translateButton">Tr_anslate</t> <!-- 3.20 -->
+				<t k="targetLanguage">Target language:</t> <!-- 3.20 -->
+				<t k="sourceLanguage">Source language:</t> <!-- 3.20 -->
+				<t k="messageTargetAll">ALL</t>
+				<t k="messageTargetAllies">ALLIES</t>
+				<t k="messageTargetObservers">OBSERVERS</t> <!-- 12.0 -->
+				<t k="messageTargetUnknown">UNKNOWN</t> <!-- 12.0 -->
+				<t k="chatMessageFull" c="$0: message time, $1: player name, $2: message target, $3: the message">$0 - $1 to $2: $3</t>
+				<t k="chatMessageNoTarget" c="$0: message time, $1: player name, $2: the message">$0 - $1: $2</t>
+				<t k="blinkMessage" c="$0: message time, $1: player name, $2: x coordinate of ping position, $3: y coordinate of ping position">$0 - $1 pinged position: x=$2,y=$3</t>
+			</g>
+			<g k="mapPreview" c="Map preview tab">
+				<t k="title">Map preview</t>
+				<t k="mapFileNotExists">The map file does not exist.</t> <!-- 1.00 -->
+				<t k="downloadMapButton">_Download the map</t> <!-- 1.00 -->
+				<t k="downloadFromGateway">Download from gateway:</t> <!-- 1.00 -->
+				<t k="downloadingMap">Downloading map...</t> <!-- 1.00 -->
+				<t k="mapDownloaded">Map downloaded!</t> <!-- 1.00 -->
+				<t k="mapDownloadFailed">Map download failed!</t> <!-- 1.00 -->
+				<t k="reopenReplayButton">_Reopen replay</t> <!-- 1.00 -->
+				<t k="zoom">Zoom:</t>
+				<t k="previewNotAvailable">A map preview is not available.</t> <!-- 0.80 -->
+				<g k="attributes" c="Map attributes">
+					<t k="title">Map attributes</t> <!-- 8.9 -->
+					<t k="chooseLocale">Choose a locale:</t> <!-- 8.9 -->
+					<t k="name">Name:</t> <!-- 8.9 -->
+					<t k="author">Author:</t> <!-- 8.9 -->
+					<t k="shortDesc">Short description:</t> <!-- 8.9 -->
+					<t k="longDesc">Long description:</t> <!-- 8.9 -->
+				</g>
+			</g>
+			<g k="publicComments" c="Public comments">
+				<t k="title">Public comments</t> <!-- 8.6 -->
+				<t k="viewTermsAndNotes">View Terms and Notes</t> <!-- 8.6 -->
+				<t k="profileComments" c="$0: number of comments">Comments: $0</t> <!-- 8.6 -->
+				<t k="profileGgs" c="$0: number of GG's">GG's: $0</t> <!-- 8.6 -->
+				<t k="profileBgs" c="$0: number of BG's">BG's: $0</t> <!-- 8.6 -->
+				<t k="refresh">Refresh</t> <!-- 8.6 -->
+				<t k="rateBarNoRateInfoAvailableToolTip">No rate info available.</t> <!-- 8.6 -->
+				<t k="rateBarToolTip" c="$0: number of GG's, $1: percent of GG's, $2: number of BG's, $3: percent of BG's">$0 users GG'd ($1%) and $2 users BG'd ($3%) this replay.</t> <!-- 8.6 -->
+				<t k="rateBarNoOneRatedToolTip">No one rated this replay yet.</t> <!-- 8.6 -->
+				<t k="newComment">New comment</t> <!-- 8.6 -->
+				<t k="userName">User name:</t> <!-- 8.6 -->
+				<t k="rate">Rate:</t> <!-- 8.6 -->
+				<t k="goodGame">Good Game</t> <!-- 8.6 -->
+				<t k="badGame">Bad Game</t> <!-- 8.6 -->
+				<t k="comment">Comment:</t> <!-- 8.6 -->
+				<t k="postButton">P_ost</t> <!-- 8.6 -->
+				<t k="userNameRequired">User name is required!</t> <!-- 8.6 -->
+				<t k="commentOrRatingRequired">You have to enter a comment OR give a rating before posting!</t> <!-- 8.6 -->
+				<t k="postingComment">Posting comment...</t> <!-- 8.6 -->
+				<t k="postedSuccessfully">Comment posted successfully.</t> <!-- 8.6 -->
+				<t k="failedToPost">Failed to post comment!</t> <!-- 8.6 -->
+				<t k="comments">Comments</t> <!-- 8.6 -->
+				<t k="firstPageButton">F_irst page</t> <!-- 8.6 -->
+				<t k="newerCommentsButton">N_ewer comments</t> <!-- 8.6 -->
+				<t k="page" c="$0: page number">Page: $0</t> <!-- 8.6 -->
+				<t k="olderCommentsButton">Ol_der comments</t> <!-- 8.6 -->
+				<t k="retrievingInProgress">Retrieving public replay profile...</t> <!-- 8.6 -->
+			</g>
+			<g k="privateData" c="Private data">
+				<t k="title">Private data</t> <!-- 8.6 -->
+				<t k="missingKey">You need a valid Authorization key to view or edit your private replay data!</t> <!-- 8.6 -->
+				<t k="retrievingInProgress">Retrieving private replay data...</t> <!-- 8.6 -->
+				<t k="saveButton">S_ave</t> <!-- 8.6 -->
+				<t k="labels">Labels</t> <!-- 8.6 -->
+				<t k="maxAndRemainingChars" c="$0: max characters, $1: remaining characters">Max $0 characters. Remaining: $1</t> <!-- 8.7 -->
+				<t k="comment">Comment</t> <!-- 8.6 -->
+				<t k="saving">Saving private replay data...</t> <!-- 8.6 -->
+				<t k="savedSuccessfully">Private replay data saved successfully.</t> <!-- 8.6 -->
+				<t k="failedToSave">Failed to save private replay data!</t> <!-- 8.6 -->
+				<g k="errors" c="Errors">
+				</g>
+			</g>
+		</g>
+		<g k="dbaseErrors" c="Sc2gears Database errors">
+			<t k="replayNotAvailableError">Error: Replay file is not available (renamed or deleted?)!</t> <!-- 8.6.1 -->
+			<t k="failedToRetrieve">Failed to retrieve data!</t> <!-- 8.6 -->
+			<t k="failedToConnect">Failed to connect to the Sc2gears Database!</t> <!-- 8.6 -->
+			<t k="failedToSend">Failed to send request to the Sc2gears Database!</t> <!-- 8.6 -->
+			<t k="failedToParse">Failed to parse the Sc2gears Database response!</t> <!-- 8.6 -->
+			<t k="invalidAuthKey">Invalid Authorization key!</t> <!-- 8.6 -->
+			<t k="replayNotStored">This replay is not stored in the Sc2gears Database.</t> <!-- 8.6 -->
+		</g>
+	</g>
+	
+	<g k="multiRepAnal" c="Multi-replay analysis module">
+		<t k="name">Multi-replay analysis</t> <!-- 1.30 -->
+		<t k="opening">Opening...</t> <!-- 1.30 -->
+		<t k="openTitle">Select files and folders to analyze</t> <!-- 1.30 -->
+		<t k="title" c="$0: Multi-replay analysis counter">Multi-replay analysis #$0</t> <!-- 1.30 -->
+		<t k="abortAnalysisButton">_Abort analysis</t> <!-- 1.30 -->
+		<t k="autoOpenFirstPlayer">Auto-open first player</t> <!-- 1.70 -->
+		<t k="autoOpenFirstPlayerToolTip">Automatically opens the player with the most games when analysis is done.</t> <!-- 1.70 -->
+		<t k="stretchToWindow">Stretch to window</t> <!-- 1.30 -->
+		<t k="countingReplays">Counting replays...</t> <!-- 1.30 -->
+		<t k="analysisAborted">Analysis aborted!</t> <!-- 1.30 -->
+		<t k="analysisStatus" c="$0: analyzed, $1: skipped, $2: total, $4: percent">Analyzed: $0, skipped: $1, total: $2 ($3%)</t> <!-- 1.30 -->
+		<t k="playerMenu.openPlayer">Open player</t> <!-- 2.00 -->
+		<g k="tab" c="Tabs">
+			<g k="players" c="Players tab">
+				<t k="title">Players</t> <!-- 1.30 -->
+				<t k="info" c="$0: total players count">Total players: $0. Tip: double click on a player to see detailed statistics and development charts over time; right click to access player menu.</t> <!-- 2.00 -->
+				<g k="header" c="Table headers">
+					<t k="playerName">Player name</t> <!-- 1.30 -->
+					<t k="replays">Replays</t> <!-- 1.30 -->
+					<t k="avgApm">Avg APM</t> <!-- 1.30 -->
+					<t k="avgEapm">Avg EAPM</t> <!-- 8.2 -->
+					<t k="avgApmRedundancy">Avg APM redundancy</t> <!-- 8.2 -->
+					<t k="record">Record W-L-U</t> <!-- 1.30 -->
+					<t k="winRatio">Win %</t> <!-- 1.30 -->
+					<t k="raceDistribution">Races %</t> <!-- 1.30 -->
+					<t k="totalTimeInGames">Total time in games</t> <!-- 1.30 -->
+					<t k="avgGameLength">Avg game length</t> <!-- 1.30 -->
+					<t k="presence">Presence (days)</t> <!-- 1.30 -->
+					<t k="avgGamesPerDay">Avg games/day</t> <!-- 1.30 -->
+					<t k="firstGame">First game</t> <!-- 1.30 -->
+					<t k="lastGame">Last game</t> <!-- 1.30 -->
+				</g>
+			</g>
+			<t k="globalStats.title">Global Stats</t> <!-- 10.6 -->
+			<g k="maps" c="Maps tab">
+				<t k="title">Maps</t> <!-- 1.30 -->
+				<t k="info" c="$0: total maps count">Total maps: $0</t> <!-- 1.30 -->
+				<g k="header" c="Table headers">
+					<t k="mapName">Map name</t> <!-- 1.30 -->
+					<t k="replays">Replays</t> <!-- 1.30 -->
+					<t k="record">Record W-L-U</t> <!-- 1.80 -->
+					<t k="winRatio">Win %</t> <!-- 1.80 -->
+					<t k="replaysRatio">Replays %</t> <!-- 1.30 -->
+					<t k="1v1PWinRatio">1v1 P win %</t> <!-- 1.30 -->
+					<t k="1v1TWinRatio">1v1 T win %</t> <!-- 1.30 -->
+					<t k="1v1ZWinRatio">1v1 Z win %</t> <!-- 1.30 -->
+					<t k="avgGameLength">Avg game length</t> <!-- 4.2 -->
+					<t k="firstPlayed">First played</t> <!-- 1.30 -->
+					<t k="lastPlayed">Last played</t> <!-- 1.30 -->
+				</g>
+			</g>
+			<g k="buildOrders" c="Build orders tab">
+				<t k="title">Build orders</t> <!-- 4.4 -->
+				<t k="info" c="$0: total build orders count">Total build orders: $0</t> <!-- 4.4 -->
+			</g>
+			<g k="1v1BuildOrders.header" c="1v1 Build Orders table headers">
+				<t k="race">Race</t> <!-- 1.30 -->
+				<t k="buildOrder">Build order</t> <!-- 1.30 -->
+				<t k="occurrences">Occurrences</t> <!-- 1.30 -->
+				<t k="record">Record W-L-U</t> <!-- 1.30 -->
+				<t k="winRatio">Win %</t> <!-- 1.30 -->
+				<t k="recordVsP">Record vs P</t> <!-- 2.00 -->
+				<t k="recordVsT">Record vs T</t> <!-- 2.00 -->
+				<t k="recordVsZ">Record vs Z</t> <!-- 2.00 -->
+				<t k="firstUsed">First used</t> <!-- 1.30 -->
+				<t k="lastUsed">Last used</t> <!-- 1.30 -->
+			</g>
+			<g k="chatWords" c="Chat words tab">
+				<t k="title">Chat words</t> <!-- 7.0 -->
+				<t k="info" c="$0: total words count">Total words: $0</t> <!-- 7.0 -->
+				<t k="header.word">Word</t> <!-- 7.0 -->
+			</g>
+			<g k="player" c="Player details tab">
+				<t k="info" c="$0: total name of the player, $1: number of replays">Analysis of player $0 based on $1 replays:</t> <!-- 1.30 -->
+				<g k="tab" c="Tabs">
+					<g k="charts" c="Development charts tab">
+						<t k="title">Development charts</t> <!-- 1.30 -->
+						<t k="averageMarker" c="$0: average value">Avg: $0</t> <!-- 1.30 -->
+						<t k="notEnoughSpace">Not enough space to draw bars!</t> <!-- 4.50 -->
+						<t k="notEnoughSpaceTip">Tip: Increase the window size or change the granularity.</t> <!-- 8.2 -->
+						<g k="chartType" c="Chart types">
+							<t k="activity">Activity</t> <!-- 1.30 -->
+							<t k="activity.yAxisLabel" c="$0: granularity">Games/$0</t> <!-- 1.30 -->
+							<t k="apmDevelopment">APM development</t> <!-- 1.30 -->
+							<g k="apmDevelopment" c="APM Development chart">
+								<t k="yAxisLabel">Weighted Avg APM</t> <!-- 1.30 -->
+								<t k="apm">APM</t> <!-- 8.2 -->
+								<t k="eapm">EAPM</t> <!-- 8.2 -->
+							</g>
+							<t k="raceDistribution">Race distribution over time</t> <!-- 1.30 -->
+							<t k="raceDistribution.yAxisLabel#2">Races %</t> <!-- 3.00 -->
+							<t k="gameTypeDistribution">Game type distribution over time</t> <!-- 3.00 -->
+							<t k="gameTypeDistribution.yAxisLabel">Game types %</t> <!-- 3.00 -->
+							<t k="formatDistribution">Format distribution over time</t> <!-- 1.20 -->
+							<t k="formatDistribution.yAxisLabel">Formats %</t> <!-- 3.00 -->
+							<t k="winRatioDevelopment">Win ratio development</t> <!-- 1.30 -->
+							<t k="winRatioDevelopment.yAxisLabel">Win %</t> <!-- 1.30 -->
+							<t k="spawnLarvaDevelopment">Spawn Larva development</t> <!-- 8.8 -->
+							<g k="spawnLarvaDevelopment" c="Spawn Larva Development chart">
+								<t k="yAxisLabel">Weighted Avg Spawning Ratio (%) / Weighted Avg Injection Gap (sec)</t> <!-- 8.8 -->
+								<t k="avgSpawningRatio">Avg Spawning Ratio</t> <!-- 8.8 -->
+								<t k="avgInjectionGap">Avg Injection Gap</t> <!-- 8.8 -->
+							</g>
+						</g>
+						<t k="granularity">Granularity:</t> <!-- 1.30 -->
+						<g k="granularity" c="Chart granularities">
+							<t k="day">Day</t> <!-- 1.30 -->
+							<t k="week">Week</t> <!-- 1.30 -->
+							<t k="month">Month</t> <!-- 1.30 -->
+							<t k="year">Year</t> <!-- 1.30 -->
+							<t k="ladderSeason">Ladder season</t> <!-- 5.0 -->
+							<t k="ladderSeason.beta">Beta</t> <!-- 5.0 -->
+							<t k="ladderSeason.season" c="$0: season number">Season #$0</t> <!-- 5.0 -->
+						</g>
+					</g>
+					<g k="trends" c="Trend charts">
+						<t k="title">Activity trend charts</t> <!-- 1.70 -->
+						<t k="type">Trend type:</t> <!-- 1.70 -->
+						<t k="hourly">Hourly</t> <!-- 1.70 -->
+						<t k="daily">Daily</t> <!-- 1.70 -->
+						<t k="monthly">Monthly</t> <!-- 1.70 -->
+					</g>
+					<t k="typeRecords.title">Game types</t> <!-- 2.10 -->
+					<t k="typeRecords.header.type">Type</t> <!-- 2.10 -->
+					<t k="formatRecords.title">Game formats</t> <!-- 1.30 -->
+					<t k="formatRecords.header.format">Format</t> <!-- 1.30 -->
+					<t k="leagueMatchupRecords.title">League match-ups</t> <!-- 14.0 -->
+					<t k="leagueMatchupRecords.header.leagues">Leagues</t> <!-- 14.0 -->
+					<t k="matchupRecords.title">Match-ups</t> <!-- 2.00 -->
+					<t k="matchupByMapsRecords.title">Match-ups by Maps</t> <!-- 7.7 -->
+					<t k="matchupRecords.header.matchup">Match-up</t> <!-- 2.00 -->
+					<g k="gameLengthRecords" c="Game length records tab">
+						<t k="title">Game lengths</t> <!-- 7.6 -->
+						<t k="header.gameLength">Game length</t> <!-- 7.6 -->
+						<t k="gameLengthIntervalMin" c="$0: game length interval">$0 min</t> <!-- 7.6 -->
+					</g>
+					<t k="dayRecords.title">Days</t> <!-- 8.2 -->
+					<t k="dayRecords.header.day">Day</t> <!-- 8.2 -->
+					<t k="hourRecords.title">Hours</t> <!-- 8.2 -->
+					<t k="hourRecords.header.hour">Hour</t> <!-- 8.2 -->
+					<t k="gameLengthRecords.header.gameLength">Game length</t> <!-- 7.6 -->
+					<g k="playmates" c="Playmates tab">
+						<t k="title">Playmates</t> <!-- 1.50 -->
+						<g k="header" c="Table headers">
+							<t k="playmate">Playmate</t> <!-- 1.50 -->
+							<t k="commonGames">Common games</t> <!-- 1.50 -->
+							<t k="gamesAsAllies">Games With</t> <!-- 1.50 -->
+							<t k="gamesAsOpponents">Games VS</t> <!-- 1.50 -->
+							<t k="recordAsAllies">Record With</t> <!-- 1.50 -->
+							<t k="winRatioAsAllies">Win % With</t> <!-- 1.50 -->
+							<t k="recordAsOpponents">Record VS</t> <!-- 1.50 -->
+							<t k="winRatioAsOpponents">Win % VS</t> <!-- 1.50 -->
+							<t k="totalTimeTogether">Total time together</t> <!-- 1.50 -->
+							<t k="firstCommonGame">First common game</t> <!-- 1.50 -->
+							<t k="lastCommonGame">Last common game</t> <!-- 1.50 -->
+						</g>
+					</g>
+					<t k="gamingSessions.title">Gaming Sessions</t> <!-- 10.2 -->
+					<t k="gamingSessions.header.gameInSessions">Game # in Sessions</t> <!-- 10.2 -->
+					<t k="gamingSessions.header.sessionsEndingHere">Sessions ending here</t> <!-- 10.2 -->
+				</g>
+			</g>
+		</g>
+	</g>
+	
+	<g k="repSearch" c="Replay search module">
+		<t k="name">Replay search</t>
+		<t k="title" c="$0: replay search counter">Replay search #$0</t>
+		<g k="tab" c="Tabs">
+			<g k="source" c="Search source tab">
+				<t k="title">Search source</t>
+				<t k="loadReplaySourceButton">Load replay source...</t>
+				<t k="saveReplaySourceButton">Save replay source...</t>
+				<t k="addFoldersButton">Add fol_ders...</t>
+				<t k="addFilesButton">Add fi_les...</t>
+				<t k="listAllReplays">Lis_t all replays of this source</t> <!-- 0.80 -->
+				<t k="autoSort">Sort automatically</t>
+				<t k="sortButton">Sort</t>
+				<t k="removeSelectedButton">_Remove selected</t>
+				<t k="purgeButton">_Purge</t>
+				<t k="purgeButtonToopTip">Removes duplicate and non-existing sources, and sources that are inside other sources.</t>
+				<t k="selectLoadReplaySource">Select replay source to load</t>
+				<t k="selectSaveReplaySource">Select replay source to save</t>
+				<t k="selectFoldersToAdd">Select folders to add</t>
+				<t k="selectReplaysToAdd">Select replays to add</t>
+				<t k="failedToLoadRepSource">Failed to load replay source!</t>
+				<t k="failedToSaveRepSource">Failed to save replay source!</t>
+				<t k="repSourceSaved">Replay source saved successfully.</t>
+			</g>
+			<g k="filters" c="Search filters tab">
+				<t k="title">Search filters</t>
+				<t k="performSearchButton">_Perform search</t>
+				<t k="resetFieldsButton">_Reset fields</t>
+				<t k="loadFiltersButton">Load filters...</t> <!-- 4.1 -->
+				<t k="saveFiltersButton">Save filters...</t> <!-- 4.1 -->
+				<t k="selectLoadFiltersFile">Select filters file to load</t> <!-- 4.1 -->
+				<t k="selectSaveFiltersFile">Select filters file to save</t> <!-- 4.1 -->
+				<t k="failedToLoadFilters">Failed to load filters!</t> <!-- 4.1 -->
+				<t k="failedToSaveFilters">Failed to save filters!</t> <!-- 4.1 -->
+				<t k="filtersSaved">Filters saved successfully.</t> <!-- 4.1 -->
+				<t k="invert">Not:</t> <!-- 3.30 -->
+				<t k="invertToolTip">Replays NOT matching this criteria will be listed.</t> <!-- 3.30 -->
+				<t k="addNewFieldToolTip">Add new field</t>
+				<t k="removeFieldToolTip">Remove field</t>
+				<t k="invalidFieldsError">The marked fields contain invalid values!</t>
+				<t k="exactMatch">Exact match</t>
+				<t k="includeAliases">Include aliases</t>
+				<t k="min">Min:</t>
+				<t k="max">Max:</t>
+				<t k="timeFormatToolTip">Format: seconds or min:sec or hour:min:sec</t>
+				<g k="name" c="Filter names">
+					<t k="fileName">File name:</t>
+					<t k="mapName">Map name:</t>
+					<t k="playerName">Player name:</t>
+					<t k="playerNameToolTip">You can enter a comma separated list where all names must be in the replay.</t> <!-- 1.10 -->
+					<t k="fullPlayerName">Full player name:</t> <!-- 10.0 -->
+					<t k="race">Race:</t> <!-- 3.30 -->
+					<t k="league">League:</t> <!-- 14.0 -->
+					<t k="result">Result:</t> <!-- 3.30 -->
+					<t k="apm">APM:</t> <!-- 3.30 -->
+					<t k="chatMessage">Chat message:</t>
+					<t k="raceMatchup">Race match-up:</t> <!-- 0.82 -->
+					<t k="matchupToolTip" c="$0: Protoss letter, $1: Protoss translation, $2: Terran letter, $3: Terran translation, $4: Zerg letter, $5: Zerg translation, $6: Random letter, $7: Random translation, $8: examples">Enter first letters of races you're looking for. Symbols: $0 - $1, $2 - $3, $4 - $5, $6 - $7, * to match any race, v - to separate teams. Examples: $8</t> <!-- 0.82 -->
+					<t k="leagueMatchup">League match-up:</t> <!-- 14.0 -->
+					<t k="leagueMatchupToolTip" c="$0: examples, $1: league letter table HTML"><![CDATA[<html>Enter letters of leagues you're looking for. Use * to match any league, v - to separate teams.<br>Examples: $0 $1</html>]]></t> <!-- 14.0 -->
+					<t k="expansion">Expansion:</t> <!-- 13.1 -->
+					<t k="format">Format:</t> <!-- 0.80 -->
+					<t k="gameType">Game type:</t> <!-- 1.00 -->
+					<t k="gateway">Gateway:</t> <!-- 1.00 -->
+					<t k="ladderSeason">Ladder season:</t> <!-- 10.3 -->
+					<t k="date">Date:</t> <!-- 1.30 -->
+					<t k="dateToolTip">Enter either a date or a full date+time. Example: $0 or $1</t> <!-- $0 current date, $1 current date+time --> <!-- 1.30 -->
+					<t k="gameLength">Game length:</t>
+					<t k="version">Version:</t>
+					<t k="building">Building:</t> <!-- 0.80 -->
+					<t k="minOccurrenceText">Min. occurrence:</t> <!-- 0.80 -->
+					<t k="unit">Unit:</t> <!-- 0.80 -->
+					<t k="research">Research:</t> <!-- 0.80 -->
+					<t k="upgrade">Upgrade:</t> <!-- 0.80 -->
+					<t k="unitAbility">Unit ability:</t> <!-- 0.80 -->
+					<t k="buildingAbility">Building ability:</t> <!-- 0.80 -->
+					<t k="buildOrder">Build order:</t> <!-- 0.80 -->
+					<t k="buildOrderAnyBuilding">any building</t> <!-- 0.80 -->
+					<t k="buildOrderTextToolTip">Enter a comma separated building list here (case in-sensitive). Use asterisk (*) to match any building.</t> <!-- 0.80 -->
+					<t k="buildOrderAddToolTip">Add selected building to build order.</t> <!-- 0.80 -->
+				</g>
+			</g>
+			<g k="results" c="Results tab">
+				<t k="title" c="$0: results tab counter">Results #$0</t>
+				<t k="abortButton">_Abort search</t>
+				<t k="saveButton">Sa_ve list...</t>
+				<t k="loadButton">_Load list...</t>
+				<t k="setAsSourceButton">Set as source</t>
+				<t k="setAsSourceToolTip">Sets all replays as source for further search.</t>
+				<t k="multiRepAnalysisButton">_Multi-rep analysis</t> <!-- 1.30 -->
+				<t k="multiRepAnalysisToolTip">Opens all replays in multi-replay analysis.</t> <!-- 1.30 -->
+				<t k="selectLoadReplayList">Select replay list to load</t>
+				<t k="selectSaveReplayList">Select replay list to save</t>
+				<t k="failedToLoadRepList">Failed to load replay list!</t>
+				<t k="failedToSaveRepList">Failed to save replay list!</t>
+				<t k="repListSaved">Replay list saved successfully.</t>
+				<t k="stretchToWindow">Stretch to window</t>
+				<t k="colorWinLoss">Color Win-Loss</t> <!-- 8.3 -->
+				<t k="colorWinLossToolTip">Color wins to green and losses to red of players added to the favored player list.</t> <!-- 8.3 -->
+				<t k="columnSetup">Column setup</t> <!-- 7.5 -->
+				<g k="header" c="Table headers">
+					<t k="version">Version</t>
+					<t k="fileDate">Game date</t> <!-- 2.10 -->
+					<t k="map">Map</t>
+					<t k="races">Races</t> <!-- 14.0 -->
+					<t k="leagues">Leagues</t> <!-- 14.0 -->
+					<t k="apms">APMs</t> <!-- 2.10 -->
+					<t k="length">Length</t>
+					<t k="type">Type</t>
+					<t k="gateway">Gateway</t>
+					<t k="players">Players</t>
+					<t k="format">Format</t> <!-- 7.5 -->
+					<t k="winners">Winners</t> <!-- 7.5 -->
+					<t k="eapms">EAPMs</t> <!-- 8.2 -->
+					<t k="file">File</t>
+					<t k="comment">Comment</t>
+				</g>
+				<t k="countingReplays">Counting replays...</t>
+				<t k="loadingReplayList" c="$0: replay list">Loading replay list: $0</t>
+				<t k="loadResult" c="$0: replays count">Loaded $0 replay(s).</t>
+				<t k="searchStatus" c="$0: found, $1: searched, $2: skipped, $3: total, $4: percent">Found: $0, searched: $1, skipped: $2, total: $3 ($4%)</t>
+				<t k="searchAborted">Search aborted!</t>
+				<t k="removeSelectedMenuItem">Remove selected from table</t>
+				<t k="setSelectedAsSourceMenuItem">Set selected as source</t>
+				<t k="findDuplicatesMenuItem">Find duplicates...</t> <!-- 3.30 -->
+			</g>
+		</g>
+	</g>
+
+</g>
+
+<g k="findDuplicates" c="Find duplicates dialog">
+	<t k="title">Find duplicates</t> <!-- 3.30 -->
+	<t k="foundDuplicateReplays" c="$0: number of different files that have duplicates">Found $0 different replay(s) that have duplicates.</t> <!-- 3.30 -->
+	<t k="markAllButton">M_ark all</t> <!-- 3.30 -->
+	<t k="markAllButFirstsButton">Mark all but _firsts</t> <!-- 3.30 -->
+	<t k="clearMarks">C_lear marks</t> <!-- 3.30 -->
+	<t k="duplicatesOfReplay" c="$0: number of duplicates, $1 name of replay">$0 duplicates of replay "$1":</t> <!-- 3.30 -->
+	<t k="selectMarkedReplaysButton">_Select marked replays in the table</t> <!-- 3.30 -->
+</g>
+
+<g k="onTopGameInfo" c="Always On Top Game info dialog">
+	<t k="title" c="$0: application name">Game info - $0</t> <!-- 7.3 -->
+	<t k="noReplay">No replay to display info about!</t> <!-- 7.5 -->
+	<t k="openInAnalyzerButton">Open in Analyzer</t> <!-- 7.3 -->
+	<t k="closingIn" c="$0: seconds to be closed after">Closing in $0 sec...</t> <!-- 7.3 -->
+	<t k="apm" c="$0: APM value">APM: $0</t> <!-- 7.3 -->
+	<t k="eapm" c="$0: EAPM value">EAPM: $0</t> <!-- 8.2 -->
+	<t k="allGames" c="$0: all games">AG: $0</t> <!-- 12.0 -->
+	<t k="popup.decreaseFontSize">Decrease font size (-)</t> <!-- 7.6 -->
+	<t k="popup.increaseFontSize">Increase font size (+)</t> <!-- 7.6 -->
+</g>
+
+<g k="misc" c="Miscellaneous texts">
+	<t k="autorepFolderNotExists">Auto-replay folder does not exist.</t>
+	<t k="autorepFolderEmpty">The auto-replay folder does not contain any replays.</t>
+	<t k="applicationDoesNotExist">Application does not exist:</t> <!-- 3.30 -->
+	<t k="isStarCraft2FolderConfiguredProperly">Is your StarCraft II folder configured properly?</t> <!-- 3.30 -->
+	<t k="settingsOf" c="$0: name of the settings, for example 'Folders'">$0 settings...</t> <!-- 3.00 -->
+</g>
+
+<g k="internalFrame" c="Internal frame texts. Shortcut cannot be defined here.">
+	<g k="menu" c="Internal frame menu">
+		<t k="close" c="Shortcut is C">Close</t>
+		<t k="minimize" c="Shortcut is N ">Minimize</t>
+		<t k="restore" c="Shortcut is R">Restore</t>
+		<t k="maximize" c="Shortcut is X">Maximize</t>
+		<t k="move" c="Shortcut is M">Move</t>
+		<t k="size" c="Shortcut is S ">Size</t>
+	</g>
+	<g k="toolTip" c="Tool tips">
+		<t k="close">Close</t>
+		<t k="minimize">Minimize</t>
+		<t k="maximize">Maximize</t>
+		<t k="restore">Restore</t>
+	</g>
+</g>
+
+<g k="fileChooser" c="File chooser texts">
+	<t k="failedToParseRepaly">Failed to parse replay!</t>
+	<t k="sc2ReplayFiles">SC2 Replay files (*.SC2Replay)</t>
+	<t k="sc2ReplaySources">SC2 Replay sources (*.sc2repsrc)</t>
+	<t k="sc2ReplayLists">SC2 Replay lists (*.csv)</t>
+	<t k="zipFiles">Zip files (*.zip)</t>
+	<t k="textFiles">Text files (*.txt)</t>
+	<t k="mousePrintDataFiles">Mouse print data files (*.smpd)</t> <!-- 4.0 -->
+	<t k="searchFilterFiles">Search filter files (*.filters)</t> <!-- 4.1 -->
+	<t k="audioFiles">Audio files (*.mp3, *.wav, *.aiff, *.aif, *.au)</t> <!-- 7.4 -->
+	<t k="openDialogTitle">Open</t>
+	<t k="saveDialogTitle">Save</t>
+	<t k="lookInLabel">Look in:</t>
+	<t k="filesOfTypeLabel">Files of type:</t>
+	<t k="fileNameLabel">File Name:</t>
+	<t k="upFolderToolTip">Up One Level</t>
+	<t k="homeFolderToolTip">Desktop</t>
+	<t k="newFolderToolTip">Create New Folder</t>
+	<t k="listViewButtonToolTip">List</t>
+	<t k="detailsViewButtonToolTip">Details</t>
+	<t k="saveButton">Save</t>
+	<t k="openButton">Open</t>
+	<t k="cancelButton">Cancel</t>
+	<t k="updateButton">Update</t>
+	<t k="helpButton">Help</t>
+	<t k="saveButtonToolTip">Save selected file</t>
+	<t k="openButtonToolTip">Open selected file</t>
+	<t k="cancelButtonToolTip">Abort file chooser dialog</t>
+	<t k="updateButtonToolTip">Update directory listing</t>
+	<t k="helpButtonToolTip">File chooser help</t>
+	<t k="acceptAllFileFilter">All files (*.*)</t>
+</g>
+
+<g k="colorChooser" c="Color chooser texts">
+	<t k="preview">Preview</t> <!-- 4.0 -->
+	<t k="recent">Recent:</t> <!-- 4.0 -->
+	<t k="sampleText">Sample Text Sample Text</t> <!-- 4.0 -->
+</g>
+
+</language>

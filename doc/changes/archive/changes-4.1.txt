@@ -1,0 +1,68 @@
+To translators:
+
+Removed keys:
+
+Changed translation:
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 4.1: Pre-defined lists, Save/load filters
+Sc2gears 4.1: Pre-defined, editable lists, Save/load search filters, Custom Replay upload sites, Link to Sc2ranks.com profiles
+
+
+[b]Changes and new features in 4.1:[/b]
+--------------------------------------------------------
+
+-[b]Pre-defined, editable lists![/b]
+There are numerous places in Sc2gears where you can enter a text into a text field. For example when you want to search replays for a specific map, a match-up or a player, when you want to filter the action list or when you provide a name template for renaming replays.
+This is where pre-defined lists come in to the picture: pre-defined lists provide you a default option list for you to choose from. You can input your custom text, or you can select one from the offered list. After you select, you can edit/modify it of course.
+These pre-defined lists are fully customizable: you can add new values, remove/edit existing ones or reorder the items.
+[i]What does this mean to you?[/i] When you want to enter search terms to filter replays, when you want to provide a name template, when you want to filter the action list etc. you can choose from default, meaningful values and you can also customize the list that are offered to you. You can also edit/modify any of the offered options.
+The pre-defined lists can be viewed/edited on the [b]Pre-defined lists[/b] tab of the miscellaneous settings dialog. There is also a direct edit link at the bottom of all drop-down lists.
+
+-[b]Finally Search filters can now be saved/loaded![/b]
+You can now save and load filters with the [i]"Save filters"[/i] and [i]"Load filters"[/i] buttons on the Filters tab of a Replay search.
+Saved filters are not bound to a replay source or replay list, they are universal: you can use any saved filters with any replay source or replay list.
+Also when you right click on a replay source or replay list in the navigation tree, there is a new menu item: [b]"Apply filter"[/b]. This sub-menu lists all your saved filters, and you can open a replay source or replay list pre-filtered by one of your saved filters.
+
+-[b]Custom replay upload sites[/b]
+You can now specify your custom replay upload sites. They will be available for replay sharing.
+This is good if you want a private replay site which is not for the public but rather for a clan or a small group. Your site has to implement the replay upload specification, and after that you and your users/members can add your private replay site to Sc2gears.
+This is also good for testing purposes for those who are implementing the replay upload specification.
+
+-[b]Link to Sc2ranks.com player profiles[/b]
+Player profiles now can be opened from Sc2ranks.com too (besides the official battle.net character profile). Right click on the player name either in the Replay analyzer or in the Multi-replay analysis, then choose "View Sc2ranks.com profile".
+
+-[b]Mouse warm-up time[/b]
+When a game starts, players usually wait for several seconds while the game and map is loaded. During this time people rarely do anything or move their mouses.
+This results in unreasonable ink spots.
+[i]Mouse warm-up time[/i] specifies a time limit so ink will not be poured during this time.
+
+-[b]Changed the "ink pouring" policy in the Mouse print recorder.[/b]
+Previously ink was poured when mouse was idle for a specific amount of time. After that the amount of ink poured was calculated based on the total idle time.
+From now on the amount of ink poured is calculated with the idle time elapsed after this ink pouring idle time limit.
+If you reopen a saved binary mouse print file, the image will be calculated and drawn using this new algorithm.
+[i]Example:[/i] idle time limit is 3 seconds, mouse is idle for 5 seconds.
+Before: ink is poured for 5 seconds.
+Now: ink is poured for (5 sec - 3 sec) = 2 seconds.
+
+-Match-up record tables of team games (for example 2v2, 3v3, 4v4) in the Multi-replay analysis now contain new rows for summarized statistics for your different races.
+For example "P+* vs *", "T+* vs *", "Z+* vs *". These new lines show you statistics how you do in team games independent of your team mates and opponent races.
+
+-Request resources actions are now parsed and listed.
+
+-The Miscellaneous settings dialog now contains too many tabs therefore they are now arranged vertically on the left.
+
+-Slightly changed the chart text on the APM chart so APM values are easily readable.
+
+-Minor GUI/layout changes.
+
+-The /Fx counter symbol was not working properly if sub-folders were used in the auto-save name template. This is fixed now!
+
+-With some Look and Feels (e.g. Windows) certain combo boxes displayed the focused element with background color in the drop down list therefore they were invisible. This is fixed now.
+
+-Changed the linux and OS-X starter scripts to get rid of an initial error message.
+
+-Added new tips.
+
+-Other small changes, bug fixes and optimizations.

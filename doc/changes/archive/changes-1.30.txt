@@ -1,0 +1,84 @@
+To translators:
+The following text keys have been renamed and moved to the "General charts text" section. Please change these keys and move them as you can see in the English.xml file:
+module.repAnalyzer.tab.charts.chartType => charts.chartType
+module.repAnalyzer.tab.charts.chartTypeToolTip => charts.chartTypeToolTip
+module.repAnalyzer.tab.charts.apm.granularity => charts.granularity
+module.repAnalyzer.tab.charts.graphApproximation => charts.graphApproximation
+module.repAnalyzer.tab.charts.graphApproximation.linear => charts.graphApproximation.linear
+module.repAnalyzer.tab.charts.graphApproximation.cubic => charts.graphApproximation.cubic
+
+TITLE:
+Sc2gears 1.30: Multi-replay analysis
+
+
+[red][b]Edit: Sc2gears 1.30 with Multi-replay analysis has been released[/b][/red]
+
+Home page:
+[url=http://sites.google.com/site/sc2gears/]http://sites.google.com/site/sc2gears/[/url]
+
+
+Some screenshots (scroll down for details):
+Activity chart:
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh5.ggpht.com/_jDMClHrENz8/TCyGWjtuLHI/AAAAAAAAUcE/S6PDeSCt2mo/s400/mra_activity.png.jpg[/img][/url]
+1v1 match-up records:
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh4.ggpht.com/_jDMClHrENz8/TCyGYslRE3I/AAAAAAAAUcs/2onrIFf2GCc/s400/mra_1v1_matchup_rec.png.jpg[/img][/url]
+Players' statistics:
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh6.ggpht.com/_jDMClHrENz8/TCyGUofHVHI/AAAAAAAAUbo/JSTB7gZD3BU/s400/mra_players.png.jpg[/img][/url]
+Race distribution over time:
+[url=http://picasaweb.google.com/iczaaa/Sc2gears][img]http://lh3.ggpht.com/_jDMClHrENz8/TCyGX7dfibI/AAAAAAAAUcc/Rcowq-SLuds/s400/mra_race_distro.png.jpg[/img][/url]
+(click on an image to see more)
+
+
+[b]Changes since version 1.20:[/b]
+--------------------------------------------
+-[b]A new module: Multi-rep analysis[/b]
+This module provides statistics across multiple replays and visualizes improvements and changes over time. It shows the following statistics of all the replays:
+
+[b]Players:[/b] a list of all players found in the replays. Statistics provided: Replays count, Average APM, Record (W-L-U), Win ratio, Race distribution, Total time in games, Average game length, First game date, Last game date, Presence (in days).
+[b]Maps:[/b] a list of all maps the replays were played on. Statistics provided: Replays count, Replays %, 1v1 P win ratio, 1v1 T win ratio, 1v1 Z win ratio, 1v1 R win ratio, First played, Last played.
+[b]1v1 Build orders:[/b] a list of all different build orders found in the replays. Statistics provided: Race, Build order (list of buildings), Occurrences, Record (W-L-U), Win ratio, First used, Last used.
+
+Double clicking on a player will open detailed statistics and development charts for the player. It shows the following statistics of a player (of all his/her replays):
+
+[b]Development charts:[/b] On this tab you can see various charts that show the development of a player over time. You can set the granularity of charts in the following time units: day, week, month, year. You can set the approximation (linear or cubic).
+    Chart types:
+    [i][u]Activity:[/u][/i] this chart visualizes the activity of a player over time. Shows the amount of games played over time (non-accumulative).
+    [i][u]APM development:[/u][/i] this chart visualizes the APM development of a player over time. The calculated average APMs are game length weighted. For example if a player in a time unit played 2 games, one with 10-minutes long and 100 APM, and another with 20-minutes long and 200 APM, the average weighted APM for this period will be 166.
+    [i][u]Race distribution over time:[/u][/i] this chart shows which races were used by the player over time (race distribution bars for each time period). 
+    [i][u]Win ratio development:[/u][/i] visualizes the changes of win ratio over time. 
+[b]Game format records:[/b] statistics for all different game formats. Statistics provided: all data as listed at the Players.  
+[b]1v1 match-up records:[/b] statistics for all different match-ups, plus summarized by the player race (for example PvP, PvT, PvZ, PvR plus Pv*). Statistics provided: all data as listed at the Players.
+[b]Maps:[/b] statistics of maps of the player. Statistics provided: all data as listed at the Maps.
+[b]1v1 Build orders:[/b] statistics of the 1v1 build orders of the player. Statistics provided: all data as listed at 1v1 Build orders.
+
+Tips: the statistics table are sorted by multiple columns. For example if you want to sort by Win ratio AND replays count, first click on the replays count column and then the win ratio.
+
+-Integration of the new Multi-rep analysis module:
+A new Multi-replay analysis node in the navigation tree. Double clicking on the <new> item will show a file/folder chooser dialog where you can select files/folders for the analysis.
+New replay operation: Open in multi-replay statistics. This will open all selected replays in the Multi-replay analysis.
+New button on the search results tab: Open all in multi-rep analysis. This will open all replays in the search result in the Multi-replay analysis.
+
+-New menu item in File: Recent replays. This sub menu lists the last 15 opened replays.
+
+-New menu items in Navigation: Expand all, Collapse all
+
+-[b]The winner is parsed now.[/b] On the Charts tab a [i]trophy[/i] icon is displayed next to the winners. 
+
+-More info on the "Game info" tab: replay file name, map playable size, winners.
+
+-A new search field: Date.
+
+-Copying, moving and packing (ZIP) replays now preserves the file date.
+
+-Other minor fixes and improvements.
+
+
+-------------------------------------------------------------------------
+
+
+[b]Previous changes and features:[/b]
+[url=http://sites.google.com/site/sc2gears/version-history]http://sites.google.com/site/sc2gears/version-history[/url]
+
+
+[b]Home page:[/b]
+[url=http://sites.google.com/site/sc2gears/]http://sites.google.com/site/sc2gears/[/url]

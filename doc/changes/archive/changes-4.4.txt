@@ -1,0 +1,62 @@
+To translators:
+
+Removed keys:
+-module.multiRepAnal.tab.1v1BuildOrders.title
+-module.multiRepAnal.tab.1v1BuildOrders.info
+
+Changed translation:
+
+
+|----------Allowed thread title length-----------|
+Sc2gears 4.4: Diagnostics, Grid, Prod. chart +more
+Sc2gears 4.4: Diagnostic tool, Grid on charts, New to Sc2gears dialog, Tips dialog, New Productions chart, BO stats for all formats, Command line interface
+
+
+[b]Changes and new features in 4.4:[/b]
+--------------------------------------------------------
+
+-[b]Grid on the charts[/b]
+In the Replay analyzer there is a new check box above the charts on the right: [b]"Grid"[/b]. This check box enables/disables painting a grid (time markers) on the chart.
+A grid icon next to it opens the [b]"Grid settings"[/b] dialog where you can set when and how often you want to see markers.
+There are radio buttons to auto-configure the grid for various causes: "Spawn Larva", "Calldown MULE", "Chrono Boost". If you select one of these, Sc2gears will automatically detect the first Queen/Orbital Command and repeat the marker as their energy is enough for Larva injection or for calldown MULE; or for Chrono Boost in case of Nexus.
+If you choose to auto-configure for Spawn Larva for example and there are more Zergs in the game, the Queen that is built first will be picked for reference. If you want to analyze the 2nd Zerg, simply disable the first Zerg player (the first Queen is picked from the listed actions).
+Also you can choose "Custom grid" where you can specify the time of the first marker and the repeat interval. You can use either frames, seconds or energy regeneration (the time that needs to regenerate X amount of energy).
+
+-[b]Build orders statistics for all game formats![/b]
+The "1v1 Build orders" tabs in the Multi-replay analysis transformed into tabbed panes, where each game format has its own tab now.
+What does this mean? The multi-replay analysis now gathers and displays the build orders statistics of all game formats not just the 1v1 games.
+
+-[b]New chart type: Productions[/b]
+This chart basically does what SC2 can during a replay: displays what units, buildings, upgrades, researches are in progress, and a bar indicates their completion status.
+You can also select to either group the same productions (with a counter), or paint them differently.
+
+-[b]"New to Sc2gears?" dialog.[/b]
+This dialog outlines some important things to know and to configure.
+It is also available from the Help menu.
+
+-[b]A new Diagnostic tool.[/b]
+A new diagnostic tool which performs certain tasks to test if your configuration and settings are correct.
+It is available from the Tools menu.
+
+-[b]Command Line Interface[/b]
+Now you can use Sc2gears from the command line to extract info from replays.
+It supports extracting general info (that is displayed on the Game info tab), the complete action list and in-game chat.
+Type [i]"Sc2gears-win.cmd --help"[/i] in the command line to print usage info (on other platforms type [i]"<script_name> --help"[/i]).
+This new Command Line Interface will allow other programs and web sites of any technology/programming language to use Sc2gears as a replay parser and build on top of it.
+Note: On windows you have to use the batch file (Sc2gears-win.cmd) if you want to use the command line interface because the exe does not create a console.
+More about the command line interface [url=http://sites.google.com/site/sc2gears/features/command-line-interface]here[/url].
+
+-[b]A new "Tips" dialog[/b]
+This dialog displays all the tips in a text area.
+The Tips label at the top of the Start page window now also opens the Tips dialog.
+
+-New button on the Miscellaneous settings dialog: "OK and Run diagnostic test".
+This button applies the current settings and then runs a diagnostic test.
+
+-A new "Memory status bar" at the bottom of the navigation bar. This bar indicates the memory usage of Sc2gears. Tool tip shows exact values. 
+
+-The Yellow and Orange colors in the Unit tiers chart have been swapped so that the colors of tiers honor the colors of the Color Wheel.
+
+-Added new tips.
+
+-Other minor changes, bug fixes and improvements.
