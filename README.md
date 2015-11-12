@@ -18,8 +18,8 @@ The complete source code of Sc2gears is more than a hundred thousands lines of c
 	<tr><td colspan=3>/src-util</td><td>Source of some utility/test application, not part of Sc2gears.</td>
 	<tr><td colspan=3>/src-common</td><td>Common source for both Sc2gears and Sc2gears Database.</td>
 	<tr><td colspan=3>/src-sc2gearsdb</td><td>Source folder of the web application of the back-end server for Sc2gears.</td>
-	<tr><td colspan=3 class="rname">/src-plugins</td><td>Source folder of some of my plugins. They provide extra functionality for Sc2geras, implemented as plugins for educational purposes.</td>
-	<tr><td colspan=3 class="rname">/src-sc2gearspluginapi</td><td>Source folder of the Sc2gears plugin interface and the APIs and services that are provided for the plugins.</td>
+	<tr><td colspan=3>/src-plugins</td><td>Source folder of some of my plugins. They provide extra functionality for Sc2gears; implemented as plugins for educational purposes.</td>
+	<tr><td colspan=3>/src-sc2gearspluginapi</td><td>Source folder of the Sc2gears plugin interface and the APIs and services that are provided for the plugins.</td>
 	<tr><td colspan=3>/app-folder</td><td>Contains the off-line files and static files/folders required to run Sc2gears (including the language files).</td>
 	<tr><td colspan=3>/release-files</td><td>Static resource files needed to create a release.</td>
 	<tr><td colspan=3>/release</td><td>Target folder for creating a release</td>
