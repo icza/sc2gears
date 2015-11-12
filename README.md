@@ -6,7 +6,7 @@ Sc2gears home page: https://sites.google.com/site/sc2gears/
 
 The complete source code of Sc2gears is more than a hundred thousands lines of code. Enjoy :)
 
-## Directory structure
+## Directory Structure
 
 [directory-info.html](https://github.com/icza/sc2gears/blob/master/directory-info.html) in the root explains / details the main folders / files:
 
@@ -35,3 +35,9 @@ The complete source code of Sc2gears is more than a hundred thousands lines of c
 	<tr><td colspan=3><a href="https://github.com/icza/sc2gears/blob/master/directory-info.html">/directory-info.html</a></td><td>This document.</td>
 	<tr><td colspan=3><a href="https://github.com/icza/sc2gears/blob/master/Sc2gears.launch">/Sc2gears.launch</a></td><td>Eclipse launch configuration to run Sc2gears.</td>
 </table>
+
+## Project Status
+
+Active development of Sc2gears took place between 2010 - 2013 (about 3 and a half years). The project is no longer maintained, no further updates will be released for Sc2gears. It is open-sourced for educational purposes - and for the curious eyes.
+
+As of October 7, 2015, Sc2gears can no longer parse replays (since StarCraft II patch 3.0). Sc2gears lived 5 years, 6 months and 5 days! (April 2, 2010 - October 7, 2015)
