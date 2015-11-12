@@ -1,0 +1,25 @@
+Using Java 6 because the following error occurs in production environment if using Java 7:
+
+Uncaught exception from servlet
+java.lang.VerifyError: Bad local variable type in method hu.belicza.andras.sc2gears.sc2replay.ReplayUtils.loadAbilityCodes(Ljava/lang/String;)Lhu/belicza/andras/sc2gears/sc2replay/AbilityCodes; at offset 37
+	at com.google.appengine.runtime.Request.process-becf3900d87ba3ce(Request.java)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:110)
+	at hu.belicza.andras.sc2gearsdb.ParsingServlet.init(ParsingServlet.java:150)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:212)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:685)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at com.google.tracing.TraceContext$TraceContextRunnable.runInContext(TraceContext.java:454)
+	at com.google.tracing.TraceContext$TraceContextRunnable$1.run(TraceContext.java:461)
+	at com.google.tracing.TraceContext.runInContext(TraceContext.java:703)
+	at com.google.tracing.TraceContext$AbstractTraceContextCallback.runInInheritedContextNoUnref(TraceContext.java:338)
+	at com.google.tracing.TraceContext$AbstractTraceContextCallback.runInInheritedContext(TraceContext.java:330)
+	at com.google.tracing.TraceContext$TraceContextRunnable.run(TraceContext.java:458)
+	at java.lang.Thread.run(Thread.java:722)

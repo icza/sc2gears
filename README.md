@@ -34,6 +34,7 @@ The complete source code of Sc2gears is more than a hundred thousands lines of c
 	<tr><td colspan=3><a href="https://github.com/icza/sc2gears/blob/master/create-release.cmd">/create-release.cmd</a></td><td>Windows script to create a release.</td>
 	<tr><td colspan=3><a href="https://github.com/icza/sc2gears/blob/master/directory-info.html">/directory-info.html</a></td><td>This document.</td>
 	<tr><td colspan=3><a href="https://github.com/icza/sc2gears/blob/master/Sc2gears.launch">/Sc2gears.launch</a></td><td>Eclipse launch configuration to run Sc2gears.</td>
+	<tr><td colspan=3><a href="https://github.com/icza/sc2gears/blob/master/zprj-Sc2gears-parsing-engine">/zprj-Sc2gears-parsing-engine</a></td><td>This is an embedded Eclipse project (originally it was a separate project). It is a stripped / altered version of the Sc2gears replay parsing engine, tailored for running in web apps. This is the parsing engine used in the Parsing Service of the Sc2gears Database. This project produces the sc2gears-parsing-engine.jar lib to be placed under /war/WEB-INF/lib.</td>
 </table>
 
 ## Project Status

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language version="13.1" subversion="1">
+
+<g k="module.repAnalyzer.tab.charts.players.league">
+	<t k="grandmaster">GRANDMASTER</t> <!-- 5.3 -->
+	<t k="master">MASTER</t> <!-- 5.3 -->
+	<t k="diamond">DIAMOND</t> <!-- 5.3 -->
+	<t k="platinum">PLATINUM</t> <!-- 5.3 -->
+	<t k="gold">GOLD</t> <!-- 5.3 -->
+	<t k="silver">SILVER</t> <!-- 5.3 -->
+	<t k="bronze">BRONZE</t> <!-- 5.3 -->
+	<t k="unranked">UNRANKED</t> <!-- 5.3 -->
+</g>
+
+<g k="sc2" c="StarCraft 2 texts">
+	<g k="expansion" c="Expansion level">
+		<t k="hots">HotS</t> <!-- 13.1 -->
+		<t k="wol">WoL</t> <!-- 13.1 -->
+		<t k="hots.full">Heart of the Swarm</t> <!-- 13.1 -->
+		<t k="wol.full">Wings of Liberty</t> <!-- 13.1 -->
+	</g>
+	<g k="gateway" c="Gateways">
+		<t k="america">America</t>
+		<t k="asia">Asia</t>
+		<t k="china">China</t> <!-- 5.0 -->
+		<t k="europe">Europe</t>
+		<t k="southeastAsia">South-East Asia</t> <!-- 1.50 -->
+		<t k="publicTest">Public Test</t> <!-- 3.60 -->
+	</g>
+	<g k="region" c="Regions">
+		<t k="northAmerica">North America</t> <!-- 5.4 -->
+		<t k="latinAmerica">Latin America</t> <!-- 5.4 -->
+		<t k="china">China</t> <!-- 5.4 -->
+		<t k="europe">Europe</t> <!-- 5.4 -->
+		<t k="russia">Russia</t> <!-- 5.4 -->
+		<t k="korea">Korea</t> <!-- 5.4 -->
+		<t k="taiwan">Taiwan</t> <!-- 5.4 -->
+		<t k="southeastAsia">South-East Asia</t> <!-- 5.4 -->
+	</g>
+	<g k="gameSpeed" c="Game speeds">
+		<t k="slower">Slower</t>
+		<t k="slow">Slow</t>
+		<t k="normal">Normal</t>
+		<t k="fast">Fast</t>
+		<t k="faster">Faster</t>
+	</g>
+	<g k="gameType" c="Game types">
+		<t k="private">Private</t> <!-- 1.00  -->
+		<t k="public">Public</t> <!-- 1.00  -->
+		<t k="amm">AutoMM</t> <!-- 1.00  -->
+		<t k="singlePlayer">Single player</t>
+	</g>
+	<g k="playerType" c="Player types">
+		<t k="human">Human</t> <!-- 0.80 -->
+		<t k="computer">Computer</t> <!-- 0.80 -->
+	</g>
+	<g k="difficulty" c="Difficulties">
+		<t k="veryEasy">Very easy</t> <!-- 1.40 -->
+		<t k="easy">Easy</t> <!-- 1.40 -->
+		<t k="medium">Medium</t> <!-- 1.40 -->
+		<t k="hard">Hard</t> <!-- 1.40 -->
+		<t k="veryHard">Very hard</t> <!-- 1.40 -->
+		<t k="insane">Insane</t> <!-- 1.40 -->
+	</g>
+	<g k="color" c="Player colors">
+		<t k="red">Red</t> <!-- 1.40 -->
+		<t k="blue">Blue</t> <!-- 1.40 -->
+		<t k="teal">Teal</t> <!-- 1.40 -->
+		<t k="purple">Purple</t> <!-- 1.40 -->
+		<t k="yellow">Yellow</t> <!-- 1.40 -->
+		<t k="orange">Orange</t> <!-- 1.40 -->
+		<t k="green">Green</t> <!-- 1.40 -->
+		<t k="lightPink">Light pink</t> <!-- 2.00 -->
+		<t k="violet">Violet</t> <!-- 2.00 -->
+		<t k="lightGray">Light gray</t> <!-- 2.00 -->
+		<t k="darkGreen">Dark green</t> <!-- 2.00 -->
+		<t k="brown">Brown</t> <!-- 2.00 -->
+		<t k="lightGreen">Light green</t> <!-- 2.00 -->
+		<t k="darkGray">Dark gray</t> <!-- 2.00 -->
+		<t k="pink">Pink</t> <!-- 1.40 -->
+	</g>
+	<g k="race" c="Races">
+		<t k="protoss">Protoss</t> <!-- 0.80 -->
+		<t k="terran">Terran</t> <!-- 0.80 -->
+		<t k="zerg">Zerg</t> <!-- 0.80 -->
+		<t k="random">Random</t> <!-- 0.80 -->
+		<t k="protoss.letter">P</t> <!-- 0.90 -->
+		<t k="terran.letter">T</t> <!-- 0.90 -->
+		<t k="zerg.letter">Z</t> <!-- 0.90 -->
+		<t k="random.letter">R</t> <!-- 0.90 -->
+		<t k="any.letter">*</t> <!-- 0.90 -->
+		<t k="unknown.letter">U</t> <!-- 2.00 -->
+	</g>
+	<g k="unitTier" c="Unit tiers">
+		<t k="tier1">Tier 1</t> <!-- 4.2 -->
+		<t k="tier1.5">Tier 1.5</t> <!-- 4.2 -->
+		<t k="tier2">Tier 2</t> <!-- 4.2 -->
+		<t k="tier2.5">Tier 2.5</t> <!-- 4.2 -->
+		<t k="tier3">Tier 3</t> <!-- 4.2 -->
+	</g>
+	<g k="actionType" c="Action types">
+		<t k="select">Select</t> <!-- 0.80 -->
+		<t k="build">Build</t> <!-- 0.80 -->
+		<t k="train">Train</t> <!-- 0.80 -->
+		<t k="research">Research</t> <!-- 0.80 -->
+		<t k="upgrade">Upgrade</t> <!-- 0.80 -->
+		<t k="other">Other</t> <!-- 0.80 -->
+		<t k="inaction">Inaction</t> <!-- 0.80 -->
+	</g>
+	<g k="matchResult" c="Match results">
+		<t k="win">Win</t> <!-- 3.30 -->
+		<t k="win.letter">W</t> <!-- 3.30 -->
+		<t k="loss">Loss</t> <!-- 3.30 -->
+		<t k="loss.letter">L</t> <!-- 3.30 -->
+		<t k="unknown.letter">U</t> <!-- 3.30 -->
+	</g>
+</g>
+
+<g k="general" c="General texts">
+	<t k="unknown">Unknown</t> <!-- 0.80 -->
+	<t k="custom">Custom</t> <!-- 8.7 -->
+</g>
+
+</language>
