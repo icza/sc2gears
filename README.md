@@ -6,6 +6,8 @@ Sc2gears home page: https://sites.google.com/site/sc2gears/
 
 The complete source code of Sc2gears is more than a hundred thousands lines of code. Enjoy :)
 
+(The Github project counts 183,000 lines. And this is without development history, just  the snapshot of the current state of the project.)
+
 ## Directory Structure
 
 [directory-info.html](https://github.com/icza/sc2gears/blob/master/directory-info.html) in the root explains / details the main folders / files:
