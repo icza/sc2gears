@@ -1,7 +1,5 @@
 # Sc2gears
 
-![Sc2gears animated logo](https://raw.githubusercontent.com/icza/sc2gears/master/src-shared/hu/belicza/andras/sc2gears/shared/sc2gears_logo_anim_fire.gif "Sc2gears animated logo")
-
 The COMPLETE (!) source code of the Sc2gears universe (Sc2gears app + Sc2gears Database + web-based parsing engine - bundled in an Eclipse project). 
 
 Sc2gears home page: https://sites.google.com/site/sc2gears/
