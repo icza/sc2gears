@@ -44,3 +44,7 @@ The complete source code of Sc2gears is more than a hundred thousands lines of c
 Active development of Sc2gears took place between 2010 - 2013 (about 3 and a half years). The project is no longer maintained, no further updates will be released for Sc2gears. It is open-sourced for educational purposes - and for the curious eyes.
 
 As of October 7, 2015, Sc2gears can no longer parse replays (since StarCraft II patch 3.0). Sc2gears lived 5 years, 6 months and 5 days! (April 2, 2010 - October 7, 2015)
+
+## License
+
+Open-sourced under the [Apache License 2.0](https://github.com/icza/sc2gears/blob/master/LICENSE).
